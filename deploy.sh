@@ -15,6 +15,7 @@ echo 'eryajf.net' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:eryajf/eryajf.github.io.git
+  echo ${msg}
 else
   msg='来自github actions的自动部署'
   githubUrl=https://eryajf:${GITHUB_TOKEN}@github.com/eryajf/eryajf.github.io.git

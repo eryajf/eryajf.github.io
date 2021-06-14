@@ -26,17 +26,17 @@ jobs:
         uses: actions/setup-node@v1 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
-      # - name: run deploy.sh # 步骤3
-      #   env: # 设置环境变量
-      #     GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-      #     CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
-      #   run: npm install && npm run deploy
-
-      - name: Build and Deploy # 步骤3 （只提交到github可以使用这个步骤）
-        uses: JamesIves/github-pages-deploy-action@main # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
+      - name: run deploy.sh # 步骤3
         env: # 设置环境变量
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-          BASE_BRANCH: main # 要部署的文件夹所在的分支.
-          BRANCH: gh-pages # 部署到的分支
-          FOLDER: docs/.vuepress/dist # 要部署的文件夹.
-          BUILD_SCRIPT: npm install && npm run build && cd docs/.vuepress/dist && echo 'eryajf.net' > CNAME && cd - # 部署前要执行的命令（记得cd进入某个目录后，后面要cd -退回开始的目录）
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
+          CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
+        run: npm install && npm run deploy
+
+      # - name: Build and Deploy # 步骤3 （只提交到github可以使用这个步骤）
+      #   uses: JamesIves/github-pages-deploy-action@main # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
+      #   env: # 设置环境变量
+      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
+      #     BASE_BRANCH: main # 要部署的文件夹所在的分支.
+      #     BRANCH: gh-pages # 部署到的分支
+      #     FOLDER: docs/.vuepress/dist # 要部署的文件夹.
+      #     BUILD_SCRIPT: npm install && npm run build && cd docs/.vuepress/dist && echo 'eryajf.net' > CNAME && cd - # 部署前要执行的命令（记得cd进入某个目录后，后面要cd -退回开始的目录）
