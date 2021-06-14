@@ -10,9 +10,9 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'eryajf.net' > CNAME
+# echo 'eryajf.net' > CNAME
 
-cat CNAME
+# cat CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
@@ -30,6 +30,7 @@ git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
+
 # deploy to coding pages
 # echo 'www.eryajf.com\neryajf.com' > CNAME  # 自定义域名
 # echo 'google.com, pub-7828333725993554, DIRECT, f08c47fec0942fa0' > ads.txt # 谷歌广告相关文件
@@ -42,6 +43,3 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 # git add -A
 # git commit -m "${msg}"
 # git push -f $codingUrl master # 推送到coding
-
-cd -
-rm -rf docs/.vuepress/dist
