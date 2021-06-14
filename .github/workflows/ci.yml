@@ -26,11 +26,11 @@ jobs:
         uses: actions/setup-node@v1 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
-      - name: run deploy.sh # 步骤3
-        env: # 设置环境变量
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-          CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
-        run: npm install && npm run deploy
+      # - name: run deploy.sh # 步骤3
+      #   env: # 设置环境变量
+      #     GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
+      #     CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
+      #   run: npm install && npm run deploy
 
       - name: Build and Deploy # 步骤3 （只提交到github可以使用这个步骤）
         uses: JamesIves/github-pages-deploy-action@main # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
