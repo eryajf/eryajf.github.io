@@ -12,6 +12,8 @@ cd docs/.vuepress/dist
 # deploy to github pages
 echo 'eryajf.net' > CNAME
 
+cat CNAME
+
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:eryajf/eryajf.github.io.git
