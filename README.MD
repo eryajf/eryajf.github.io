@@ -1,100 +1,83 @@
-<p align="center"><a href="https://xugaoyi.com/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></a></p>
+## 关于博主
 
-<p align="center">
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/actions?query=workflow%3ACI"><img src="https://github.com/xugaoyi/vuepress-theme-vdoing/workflows/CI/badge.svg" alt="CI"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/actions?query=workflow%3AbaiduPush"><img src="https://github.com/xugaoyi/vuepress-theme-vdoing/workflows/baiduPush/badge.svg" alt="baiduPush"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/xugaoyi/vuepress-theme-vdoing
-" alt="License"></a>
-  <a href="https://www.npmjs.com/package/vuepress-theme-vdoing"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-theme-vdoing"></a>
-  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/stargazers"><img src="https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing?logo=ReverbNation&logoColor=rgba(255,255,255,.6)" alt="GitHub stars"></a>
+李启龙，一名九零后中年人，运维界的小学生。
 
+并没有想好写些什么样的话来介绍自己，可能每个人都是最了解自己的，但是更重要的是是否敢于真正的直面真实的自己。
 
+有时候想象自己并不是一个IT男，尽管身处IT工作之中，但是更多时候却又喜欢是一种跳出去回望这个群体的样子。常常别有一番滋味。究竟有多少滋味，兴许以后会在某个栏目下述说出来。
 
-</p>
+曾经在高中的时候，酷爱读书，读《论语》的时候看到这样一则故事：司马牛忧曰：“人皆有兄弟，我独亡！”子夏曰：“商闻之矣：死生有命，富贵在天。君子敬而无失，与人恭而有礼，四海之内，皆兄弟也。君子何患乎无兄弟也？”（司马牛担忧地说：“别人都有兄弟，只有我没有。”子夏说：“我听说过：‘死生有命，富贵在天’君子只要严肃认真地对待所做的事情，不出过失，对人恭敬而合乎于礼的规定，那`天下人就都是自家兄弟`。君子何愁没有兄弟呢？”）
 
-<h2 align="center">vuepress-theme-vdoing</h2>
+而我，在这样一个伟大的时代中，与司马牛是一样的，在没看到四海皆兄弟这个概念之前也与司马牛一样有过类似忧虑。但是彼时就是这么一句话，瞬间点醒一个人，让我的心境进入到另外一种天地之中。
 
-* [文档 (国内源)](https://doc.xugaoyi.com/)
-* [文档 (github源)](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
-* [效果：Evan's blog](https://xugaoyi.com/)
+讲个小故事，大概简单想表达几个简单意思：
 
+- 1，古代朱子有云：“`天不生仲尼，万古如长夜`”，虽然现在距离孔子时代过去两千多年，但是对圣人的敬仰，感恩之心情，永不更易。这是对自己的要求，信而好古，永远秉持发扬优良传统文化，不亦快哉！
+- 2，人的痛苦很大部分来源于“迷”（愚痴），而真心谛听的往往阅经猛醒，以致破迷开悟，离苦得乐。希望自己认真做一个传承者，学到的，内化的，分享的，与人有益，幸甚！
+- 3，我也是一个喜欢交友的人，对待任何一个熟悉的陌生的，都“恭而有礼”，也希望借此能够结交更多的朋友。
 
-## 介绍
-1. 这个主题的初衷是打造一个好用的、面向程序员的`知识管理工具`
-2. 轻松构建一个`结构化`的知识库，让你的知识海洋像一本本书一样清晰易读。
-3. 博客功能提供一种知识的`碎片化`形态，并支持个性化博客配置。
-4. `简洁高效`，以 Markdown 为中心的项目结构。内置自动化工具，以更少的配置完成更多的事。配合多维索引快速定位每个知识点。
+## 关于本站
 
-[**更新日志**](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
+没有想好说些什么，结果一下子没刹住车就写了大半篇了。
 
-## 这个主题可以做什么？
-* 案例1：[知识库兼博客站](https://xugaoyi.com/)
-* 案例2：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
-* 案例3：[仅知识库](https://xugaoyi.github.io/vdoing-demo-repository/)
-* 案例4：[文档站](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
+那就用简短的话，介绍下本站：本站托管于阿里云服务器，域名eryajf.net，是取`二丫讲梵`其中的字母而来，关于二丫讲梵的由来，或许以后可另外再叙。日常主要还是更新一些与`运维技术`相关的文章，其他的没什么说的，保证所发是所用，绝对不会无脑复制，希望来到此小站的朋友，能够真正受益。平时也会发一些其他的随笔，如果不懒的话。
 
+## 开源赞歌
 
-## 快速上手
+这是今天想到的一个小题目，原本打算有时间专门写一篇文章来着，今儿做关于面板了，干脆将此单拎出来，好好表上一表。
 
-```bash
-# clone the project
-git clone https://github.com/xugaoyi/vuepress-theme-vdoing.git
+可能在不少人的认知当中，开源是一个西方的玩意儿，也都会想起Linux之父`林纳斯•托瓦兹`的伟大开源精神。这些难得的精神，在重视以版权为大的西方法律体系当中，显得尤为可贵。但是在我心里，在我还未真正成为一个IT男之前，就早已认识开源这回事儿了。
 
-# enter the project directory
-cd vuepress-theme-vdoing
+很久之前各种看书的时候，曾遇到明朝的一位学士编纂的《幼童教学法》，里边多讲作为家长父母在教子上的一些规则约束，但是在前言里边的一句话，却实实在在的深深地触动了我，“`此书不禁人之翻刻`”，是的，与教育相关的，与教孩子相关的，古往今来，自上而下，都是极其重视的，而就是这样一个不禁人之翻刻，恻隐之心，仁爱之心淋漓展现，我想，再没有比这更开源的精神了罢。
 
-# install dependency
-npm install # or yarn install
+每一个学习的人，都知道有老师与没老师的区别有多大，而某种程度上，别人的新想法，别人的好技术，都是可以成为自己的老师的。每个人在这世上活着，与其怀宝迷邦，把一些小成绩都扣押在自己的密码箱里，不如分享出来，与大众共享，与大众共讨论，才是正道之所在。
 
-# develop
-npm run dev # or yarn dev
-```
-## ⚡️未来...
+我的文章里边技术，哪一个不是来自于这个网络，哪一个不是来自于别人，当我学会，弄通，又有什么理由不还之于网络，还之于大众呢！
 
-### [VuePress-next (VuePress v2.0)](https://github.com/vuepress/vuepress-next)
-> VuePress-next with the power of Vue 3.0 and TypeScript
+最后，感谢所有来到我的小站的朋友，既然能来到这里，就是莫大的缘分。欢迎各位评论，点赞，分享，其中文章不免有错漏的地方，欢迎与我联系指正。最后，容我附上网站改版之前的一段介绍做结尾吧：
 
-### [VitePress](https://github.com/vuejs/vitepress)
-
-> * Uses Vue 3.
-> * Uses vite under the hood:
-> * Vue 3 tree-shaking + Rollup code splitting
+> 一个热爱文艺偏感性的，走了技术纯逻辑的路。
 >
-> VuePress' little brother, built on top of vite. It's currently under a different name so that we don't over commit to the compatibility with the current VuePress ecosystem (mostly themes and plugins). We'll see how close we can get without compromising the design goals listed above. But the overall idea is that VitePress will have a drastically more minimal theming API (preferring JavaScript APIs instead of file layout conventions) and likely no plugins (all customization is done in themes).
+> 感恩父母培育，让自己得有一些好的习惯，以及不惮以最大的善意来看世界的心，于是，做人做事儿都踏实，最后走的也并不差！
+>
+> 技术的路是一条学习的路，也是一条不断突破自己，奋进成长的路，前人栽树后人乘凉。每个人都会在前行的路上，遇到一些可爱的问题，如果你看到了这里，不用客气，随便坐，兄弟，等你很久了！
 
-期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
+三句话共勉：
 
-届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress，也可能两个都升级。目前(2020.10.29)来看还需要一段时间才能让大家使用上基于它们的新版本，还希望大家多多 [:sparkling_heart:支持](https://doc.xugaoyi.com/pages/1b12ed/) 哟，持续关注吧~
+- ` 活到老，学到老！`
+- `行者常至，为者常成！!`
+- ` 说自己做过的（诚实），做自己说过的（守信）！！！`
 
-## :sparkling_heart:支持这个项目
+## 写作感怀
 
-如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下*任意* 方式支持我：
+有的人渴望发布一些东西，有些人一定要发布一些东西。
 
-1. *Star* 并 分享这个项目 :rocket:
-2. 保留主题 footer(页脚) 的主题链接 :D
-3. 购买前端学习类 [电子书](https://github.com/xugaoyi/blog-gitalk-comment/wiki/Front-end-Study) Ⓤⓟ 💯
-4. 轻轻点击一次页面广告 ✨
-5. 通过以下二维码 一次性捐款。 我多半会买一杯 ~~咖啡~~ 茶。:tea:
+余杰在他的《心灵独白》中第一句话便说：“世界上最不能容忍的垃圾——文字垃圾。所以我每次提起笔时，不禁心凉胆战。”事实上我在动手写博客里这些文章的时候，无不抱有这种心情。
 
-谢谢！ :heart:
+很开心，自己也一直能够秉持这么一股信念，就算不发文章，也绝不直接在网上复制粘贴或者转载一些并不好用的文章到自己的博客里来。可能我们每个人都有过被网上那些复制粘贴的文章误导或者伤害的经历，每念及此，我就宁肯不发文章，也不愿意像那样弄一些无关痛痒的文章来。
 
-| 微信赞赏 | 微信 | 支付宝 |
-| :---: | :---: | :---: |
-| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200523131533.jpg" alt="赞赏码" width=150> | <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113708.jpg" alt="Wechat QRcode" width=150>| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113707.jpg" alt="Alipay QRcode" width=150> |
+很多时候，我们在工作生活中，浏览着大量的内容，也许就在这些浏览当中蹉跎了时光，消磨了学习的精神头。
 
-二维码没有正常显示？点 [这里😎](https://doc.xugaoyi.com/pages/1b12ed/)
+我们学不会一个东西，不是因为资料少或者没有资料，而是因为资料太多，或者怀抱着资料而迟迟没有出发。
 
-## 致谢
-:heart:感谢支持这个项目的朋友
+放慢你的心情吧，投入你的精力吧，像写文章的人那样用心的去体会文章，或许你会收获比写文章人更多的东西也说不定，我个人就经常时不时回头来看看这里写的文章，当然，除了自恋（边看边叹：咦，写的真不赖呀！）之外，更多时候也是回头对自己的一种审视与二次学习。
 
-:heart:感谢为这个项目贡献代码的朋友 → [Contributors](https://github.com/xugaoyi/vuepress-theme-vdoing/graphs/contributors)
+还是那句话，学习，记录，分享。啊，我多快乐！！！
 
-## Vdoing官方交流群
-群号：694387113
+## 十年之约
 
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号：694387113" width="200">
+在2019年2月15日，本站加入了[十年之约](https://www.foreverblog.cn/)，加入当天，我写下了这样的话：
 
-## 许可证
-[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
+与十年之约有一个十年之约。
 
-Copyright (c) 2019-present Evan Xu
+十年伊始，一见倾心，
+
+十年之中，各有成长，
+
+十年之后，相视一笑。
+
+期待此刻看到这里的朋友，十年之后还能再见！
+
+
+
+![<https://ae01.alicdn.com/kf/HTB10WWHaO_1gK0jSZFq763paXXap.png>” /></p> </div> <div id=](https://ae01.alicdn.com/kf/HTB10WWHaO_1gK0jSZFq763paXXap.png)
