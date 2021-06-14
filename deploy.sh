@@ -17,11 +17,10 @@ cd docs/.vuepress/dist
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:eryajf/eryajf.github.io.git
-  echo ${msg}
 else
-  msg='来自github actions的自动部署'
+  Date=`date '+%Y%m%d%H%M%S'`
+  msg='GitHub Actions Deploy ${Date}'
   githubUrl=https://eryajf:${GITHUB_TOKEN}@github.com/eryajf/eryajf.github.io.git
-  echo ${GITHUB_TOKEN}
   git config --global user.name "eryajf"
   git config --global user.email "Linuxlql@163.com"
 fi
