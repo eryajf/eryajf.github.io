@@ -52,8 +52,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    // avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    avatar: 'https://ae01.alicdn.com/kf/HTB1yM4gd21H3KVjSZFBq6zSMXXa5.jpg',
+    avatar: 'https://tva2.sinaimg.cn/large/008k1Yt0ly1gri6ownwg9j306o08wglu.jpg',
     name: '二丫讲梵',
     slogan: '行者常至，为者常成',
   },
