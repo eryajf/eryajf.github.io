@@ -72,6 +72,7 @@ module.exports = [
       hm: 'f8fd5c4e21ca384b4785396a87bcc468',
     },
   ],
+  'vuepress-plugin-mermaidjs',
   // 添加 RSS 订阅功能
   [
     'vuepress-plugin-rss',
