@@ -72,6 +72,20 @@ module.exports = [
       hm: 'f8fd5c4e21ca384b4785396a87bcc468',
     },
   ],
+  // 添加 RSS 订阅功能
+  [
+    'vuepress-plugin-rss-support',
+    {
+      // 网站地址
+      site_url: 'http://wiki.eryajf.net',
+      // 版权信息
+      copyright: '二丫讲梵',
+      // 目录过滤
+      filter: (page) => { return /^\/201.+/.test(page.path) },
+      // 显示条数
+      count: 60,
+    }
+  ],
   [
     'vuepress-plugin-comment', // 评论
     {
