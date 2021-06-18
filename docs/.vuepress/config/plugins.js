@@ -74,16 +74,15 @@ module.exports = [
   ],
   // 添加 RSS 订阅功能
   [
-    'vuepress-plugin-rss-support',
+    'vuepress-plugin-rss',
     {
-      // 网站地址
-      site_url: 'http://wiki.eryajf.net',
-      // 版权信息
-      copyright: '二丫讲梵',
-      // 目录过滤
-      filter: (page) => { return /^\/201.+/.test(page.path) },
-      // 显示条数
-      count: 60,
+      base_url: '/', // required
+      site_url: 'http://wiki.eryajf.net', // required
+      copyright: '二丫讲梵', // optional
+      // filter some post
+      filter: (frontmatter) => { return [true|false] },
+      // How much articles
+      count: 30
     }
   ],
   [

@@ -23,7 +23,7 @@
     "vuepress-plugin-cursor-effects": "^1.0.2",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-rss-support": "^1.1.1",
+    "vuepress-plugin-rss": "^2.0.0",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.8.3",
