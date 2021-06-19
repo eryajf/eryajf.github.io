@@ -78,7 +78,7 @@ module.exports = [
     'vuepress-plugin-rss',
     {
       base_url: '/', // required
-      site_url: 'http://wiki.eryajf.net', // required
+      site_url: 'https://wiki.eryajf.net', // required
       copyright: '二丫讲梵', // optional
       // filter some post
       filter: (frontmatter) => { return [true|false] },
@@ -92,7 +92,7 @@ module.exports = [
       choosen: 'gitalk',
       options: {
         clientID: 'fb7da8986eeef58a7bdf',
-        clientSecret: 'd4a9b46984f77d937ff0720338fe8ea47d3bceab',
+        clientSecret: '9bf3f6d604fa86275b546c0d04654ec362c2a864',
         repo: 'eryajf.github.io', // GitHub 仓库
         owner: 'eryajf', // GitHub仓库所有者
         admin: ['eryajf'], // 对仓库有写权限的人
