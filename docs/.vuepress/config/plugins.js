@@ -27,7 +27,7 @@ module.exports = [
         },
         {
           title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+          frontUrl: 'https://www.baidu.com/s?wd=site%3Awiki.eryajf.net%20',
         },
       ],
     },

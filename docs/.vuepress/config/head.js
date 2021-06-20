@@ -9,7 +9,7 @@ module.exports = [
       content: '二丫讲梵,Linux,运维,yum,运维艺术,eryajf,jenkins,nexus,golang,vue',
     },
   ],
-  ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
+  ['meta', { name: 'baidu-site-verification', content: 'code-LTKHwOecxI' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   // [
   //   'script',
