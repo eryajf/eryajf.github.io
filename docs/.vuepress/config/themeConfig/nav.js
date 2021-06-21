@@ -87,4 +87,11 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
+  {
+    text: '页面',
+    link: '/pages/ba90ae/',
+    items: [
+      { text: '友链', link: '/pages/ba90ae/' },
+    ],
+  },
 ]
