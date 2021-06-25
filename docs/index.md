@@ -4,22 +4,22 @@ home: true
 heroText: 二丫讲梵
 tagline: 坐而言不如起而行
 # actionText: 立刻进入 →
-# actionLink: /web/
-bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+# actionLink: /ops/
+bannerBg: /img/bg.jpeg # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
   - title: 运维
     details: 运维观止,奇技淫巧,迎刃而解
     link: /ops/ # 可选
-    imgUrl: /img/ops.png # 可选
+    # imgUrl: /img/ops.png # 可选
   - title: 生活
     details: 日常随思,家人物语,生活感悟
     link: /life/
-    imgUrl: /img/life.png
+    # imgUrl: /img/life.png
   - title: 编程
     details: 编程世界,运维开发,全沾艺人
     link: /code/
-    imgUrl: /img/other.png
+    # imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
