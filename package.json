@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "busuanzi.pure.js": "^1.0.3",
+    "leancloud-storage": "^4.11.1",
     "vuepress-plugin-comment": "^0.7.3"
   }
 }
