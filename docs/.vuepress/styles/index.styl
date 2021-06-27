@@ -57,3 +57,30 @@ body .vuepress-plugin-demo-block__wrapper
       border-bottom-color: $accentColor !important;
     svg
       fill: $accentColor !important;
+
+// 评论框占位图
+#veditor {
+	background-image: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: rgba(255, 255, 255, 0);
+	resize: vertical
+}
+// 鼠标点击评论框之后隐藏占位图
+#veditor:focus{
+	background-position-y: 200px;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+// 头像旋转
+img.vimg {
+     transition: all 1s   /* 旋转时间为 1s */
+}
+img.vimg:hover {
+     transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+}

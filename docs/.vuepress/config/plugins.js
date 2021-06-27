@@ -99,10 +99,7 @@ module.exports = [
         placeholder: "评论支持Markdown语法",
         // 评论者头像
         avatar: "monsterid",
-        // 是否启用昵称框自动获取QQ昵称和QQ头像
-        // enableQQ: true,
-        // 访问量统计
-        visitor: true,
+        // 重要：评论内容绑定的文章地址
         path: '<%- frontmatter.commentid || frontmatter.permalink %>',
         // 设置Bilibili表情包地址
         emojiCDN: '//i0.hdslb.com/bfs/emote/', 
