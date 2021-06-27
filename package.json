@@ -31,6 +31,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "busuanzi.pure.js": "^1.0.3",
     "vuepress-plugin-comment": "^0.7.3"
   }
 }
