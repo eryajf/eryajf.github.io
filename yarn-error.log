@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn add leancloud-storage -S
+  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn add -D vuepress-plugin-fulltext-search -D
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/liqilong/eryajf/letsgo/project/bin:/Users/liqilong/.fzf/bin:/Users/liqilong/eryajf/letsgo/project/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: http://nexus.wpt.la/repository/npm/leancloud-storage: Request "http://nexus.wpt.la/repository/npm/leancloud-storage" returned a 403
+  Error: http://nexus.wpt.la/repository/npm/vuepress-plugin-fulltext-search: Request "http://nexus.wpt.la/repository/npm/vuepress-plugin-fulltext-search" returned a 403
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66996:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:315:20)
@@ -61,6 +61,7 @@ npm manifest:
     },
     "dependencies": {
       "busuanzi.pure.js": "^1.0.3",
+      "leancloud-storage": "^4.11.1",
       "vuepress-plugin-comment": "^0.7.3"
     }
   }
@@ -1060,7 +1061,7 @@ Lockfile:
       "@types/superagent" "^4.1.7"
       superagent "^5.2.2"
   
-  "@leancloud/platform-adapters-browser@^1.1.0":
+  "@leancloud/platform-adapters-browser@^1.1.0", "@leancloud/platform-adapters-browser@^1.5.2":
     version "1.5.2"
     resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-browser/-/platform-adapters-browser-1.5.2.tgz#5c5220479ea4801b3db0e0184599e4339bb1ee46"
     integrity sha512-O7FRG4KvH20tiIP+dUbb7FE7kgkwEZifu7XmSRdPB5yO/+wR61BKykVQggQUdqJE6T9HZVSrqqbWWNqcMdJK6g==
@@ -1068,7 +1069,7 @@ Lockfile:
       "@leancloud/adapter-types" "^5.0.0"
       "@leancloud/adapters-superagent" "^1.4.2"
   
-  "@leancloud/platform-adapters-node@^1.1.0":
+  "@leancloud/platform-adapters-node@^1.1.0", "@leancloud/platform-adapters-node@^1.5.2":
     version "1.5.2"
     resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-node/-/platform-adapters-node-1.5.2.tgz#0b4f47bb73da0a063f24c970b6b6dda95d54edb0"
     integrity sha512-FhvL6u0CXG33M5UCla2Rfja6Rrv8Sj1mrRWCZvI6m5sW4A7RyWFICW8akBL++uHUNP8WDc7szfrBz8TJHQWDcg==
@@ -1079,7 +1080,7 @@ Lockfile:
       localstorage-memory "^1.0.2"
       ws "^5.2.2"
   
-  "@leancloud/platform-adapters-weapp@^1.2.0":
+  "@leancloud/platform-adapters-weapp@^1.2.0", "@leancloud/platform-adapters-weapp@^1.6.1":
     version "1.6.1"
     resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-weapp/-/platform-adapters-weapp-1.6.1.tgz#20f8927769357491c19043396c0da14391c8260b"
     integrity sha512-/Pxj0Zk9829OTQdt1KdfglqVBiOteber8gUzw5Kgjws1+hlPJ7x8x5VZcdPM3lnTh6UsP4f6CkOtS/QOeLu6JA==
@@ -2072,6 +2073,14 @@ Lockfile:
       "@babel/runtime" "^7.7.2"
       babel-plugin-macros "^2.6.1"
       require-from-string "^2.0.2"
+  
+  babel-runtime@^6.26.0:
+    version "6.26.0"
+    resolved "http://nexus.wpt.la/repository/npm/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+    integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+    dependencies:
+      core-js "^2.4.0"
+      regenerator-runtime "^0.11.0"
   
   balajs@^1.0.7:
     version "1.0.10"
@@ -3093,6 +3102,11 @@ Lockfile:
     dependencies:
       browserslist "^4.16.6"
       semver "7.0.0"
+  
+  core-js@^2.4.0:
+    version "2.6.12"
+    resolved "http://nexus.wpt.la/repository/npm/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+    integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
   
   core-js@^3.6.4, core-js@^3.6.5:
     version "3.13.1"
@@ -6234,7 +6248,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/leancloud-realtime-plugin-live-query/-/leancloud-realtime-plugin-live-query-1.2.0.tgz#1e07da1b5b99e44cddbc3b052234422f278c4ab9"
     integrity sha512-eJooIH8/FyUoozr3Eeby2DpDnmX39m1bfxfxlYPuojkio+i/DLwPD+aTHnRDH6QXJcT6tNTt85RcxVR/Txg98Q==
   
-  leancloud-realtime@^5.0.0-alpha.3:
+  leancloud-realtime@^5.0.0-alpha.3, leancloud-realtime@^5.0.0-rc.4:
     version "5.0.0-rc.6"
     resolved "https://registry.yarnpkg.com/leancloud-realtime/-/leancloud-realtime-5.0.0-rc.6.tgz#63bdff9e710185fa37a321c52c14ef5ee76acb00"
     integrity sha512-WJExh9oY+KoGgUyBZ348AuPG34pvxnNgJD3W054ERJos0DjJsxwpeG+flcBMXuSYGxt5huQ+Pxko3zefJFiLQQ==
@@ -6266,6 +6280,25 @@ Lockfile:
       localstorage-memory "^1.0.1"
       md5 "^2.0.0"
       superagent "^3.3.1"
+      underscore "^1.8.3"
+      uuid "^3.3.2"
+  
+  leancloud-storage@^4.11.1:
+    version "4.11.1"
+    resolved "http://nexus.wpt.la/repository/npm/leancloud-storage/-/leancloud-storage-4.11.1.tgz#9ba7ecf2b083aeabafc92acd6bbafc31426aec74"
+    integrity sha1-m6fs8rCDrquvySrNa7r8MUJq7HQ=
+    dependencies:
+      "@leancloud/adapter-types" "^5.0.0"
+      "@leancloud/platform-adapters-browser" "^1.5.2"
+      "@leancloud/platform-adapters-node" "^1.5.2"
+      "@leancloud/platform-adapters-weapp" "^1.6.1"
+      babel-runtime "^6.26.0"
+      debug "^3.1.0"
+      eventemitter3 "^2.0.3"
+      leancloud-realtime "^5.0.0-rc.4"
+      leancloud-realtime-plugin-live-query "^1.2.0"
+      md5 "^2.0.0"
+      promise-timeout "^1.3.0"
       underscore "^1.8.3"
       uuid "^3.3.2"
   
@@ -8860,6 +8893,11 @@ Lockfile:
     version "1.4.2"
     resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
     integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
+  
+  regenerator-runtime@^0.11.0:
+    version "0.11.1"
+    resolved "http://nexus.wpt.la/repository/npm/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+    integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
   
   regenerator-runtime@^0.13.4:
     version "0.13.7"

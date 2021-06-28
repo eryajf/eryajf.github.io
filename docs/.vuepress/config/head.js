@@ -20,4 +20,6 @@ module.exports = [
   //   },
   // ], // 网站关联Google AdSense 与 html格式广告支持
   ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
+  // 搜索框添加快捷键
+  ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
 ]
