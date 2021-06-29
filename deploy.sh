@@ -19,7 +19,8 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:eryajf/eryajf.github.io.git
 else
   Date=`date '+%Y%m%d%H%M%S'`
-  msg='GitHub Actions Deploy ${Date}'
+  echo $Date
+  msg='GitHub Actions Deploy'
   githubUrl=https://eryajf:${GITHUB_TOKEN}@github.com/eryajf/eryajf.github.io.git
   git config --global user.name "eryajf"
   git config --global user.email "Linuxlql@163.com"
