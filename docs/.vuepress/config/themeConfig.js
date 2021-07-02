@@ -80,6 +80,6 @@ module.exports = {
     // 页脚信息
     createYear: 2017, // 博客创建年份
     copyrightInfo:
-      'eryajf | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'Eryajf | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   }
 }
