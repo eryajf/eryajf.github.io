@@ -1,4 +1,5 @@
 const nav = require('./themeConfig/nav.js');
+const htmlModules = require('./htmlModules.js');
 // const sidebar = require('./themeConfig/sidebar.js');
 
 // 主题配置
@@ -76,10 +77,12 @@ module.exports = {
       },
     ],
   },
+  // 此处定义了访问地球功能
+  htmlModules,
   footer: {
     // 页脚信息
     createYear: 2017, // 博客创建年份
     copyrightInfo:
       'Eryajf | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
-  }
+  },
 }
