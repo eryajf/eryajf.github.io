@@ -25,7 +25,6 @@
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-mermaidjs": "^1.8.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-rss": "^2.0.0",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.8.3",
@@ -34,6 +33,8 @@
   "dependencies": {
     "busuanzi.pure.js": "^1.0.3",
     "leancloud-storage": "^4.11.1",
-    "vuepress-plugin-comment": "^0.7.3"
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-robots": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

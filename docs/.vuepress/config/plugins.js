@@ -75,19 +75,27 @@ module.exports = [
     },
   ],
   'vuepress-plugin-mermaidjs',
-  // 添加 RSS 订阅功能
-  [
-    'vuepress-plugin-rss',
-    {
-      base_url: '/', // required
-      site_url: 'https://wiki.eryajf.net', // required
-      copyright: '二丫讲梵', // optional
-      // filter some post
-      filter: (frontmatter) => { return [true|false] },
-      // How much articles
-      count: 30
-    }
-  ],
+  'sitemap', {
+    hostname: 'https://wiki.eryajf.net/',
+    exclude: '/404.html',
+  },
+  'robots', {
+    host: "https://wiki.eryajf.net",
+    disallowAll: false,
+    allowAll: true,      
+    sitemap: "/sitemap.xml",
+    // policies: [
+    //     {
+    //         userAgent: '*',
+    //         disallow: [
+    //             '/admin','/login'
+    //         ],
+    //         allow: [    // Optional: Allowed paths. 
+    //             'products','blog'
+    //         ]
+    //     }
+    // ]
+  },
   [
     'vuepress-plugin-comment', // 评论
     {
