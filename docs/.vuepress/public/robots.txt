@@ -1,0 +1,3 @@
+Sitemap: https://wiki.eryajf.net/sitemap.xml
+
+User-agent: *

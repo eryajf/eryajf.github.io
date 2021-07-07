@@ -18,6 +18,7 @@
     "json2yaml": "^1.1.0",
     "segmentit": "^2.0.3",
     "vuepress": "1.8.0",
+    "vuepress-plugin-autometa": "^0.1.13",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-cursor-effects": "^1.0.2",

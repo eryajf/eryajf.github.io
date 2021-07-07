@@ -1,9 +1,18 @@
+const autometa_options = {
+  site: {
+    name: 'Eryajf',
+  },
+  canonical_base: 'https://wiki.eryajf.net',
+};
+
 // 插件配置
 module.exports = [
   'vuepress-plugin-baidu-autopush', // 百度自动推送
   'cursor-effects',
   // 全文搜索插件
   'fulltext-search',
+  // meta优化 https://github.com/webmasterish/vuepress-plugin-autometa
+  ['autometa',autometa_options],
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   // [
   //   'thirdparty-search',
@@ -75,10 +84,12 @@ module.exports = [
     },
   ],
   'vuepress-plugin-mermaidjs',
-  'sitemap', {
-    hostname: 'https://wiki.eryajf.net/',
-    exclude: '/404.html',
-  },
+  [
+    'sitemap', {
+      hostname: 'https://wiki.eryajf.net',
+      exclude: ["/404.html"],
+    },
+  ],
   'robots', {
     host: "https://wiki.eryajf.net",
     disallowAll: false,
