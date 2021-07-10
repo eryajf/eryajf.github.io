@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn add -D vuepress-plugin-photo-swipe
+  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn add busuanzi.pure.js
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/liqilong/eryajf/letsgo/project/bin:/Users/liqilong/.fzf/bin:/Users/liqilong/eryajf/letsgo/project/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: http://nexus.wpt.la/repository/npm/vuepress-plugin-photo-swipe: Request "http://nexus.wpt.la/repository/npm/vuepress-plugin-photo-swipe" returned a 403
+  Error: http://nexus.wpt.la/repository/npm/busuanzi.pure.js: Request "http://nexus.wpt.la/repository/npm/busuanzi.pure.js" returned a 403
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66996:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:315:20)
