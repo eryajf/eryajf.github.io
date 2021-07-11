@@ -4,15 +4,15 @@
     "reportVersion": 2,
     "event": "Allocation failed - JavaScript heap out of memory",
     "trigger": "FatalError",
-    "filename": "report.20210710.224410.75556.0.001.json",
-    "dumpEventTime": "2021-07-10T22:44:10Z",
-    "dumpEventTimeStamp": "1625928250898",
-    "processId": 75556,
+    "filename": "report.20210711.125620.11734.0.001.json",
+    "dumpEventTime": "2021-07-11T12:56:20Z",
+    "dumpEventTimeStamp": "1625979380439",
+    "processId": 11734,
     "threadId": null,
     "cwd": "/Users/liqilong/eryajf/github/eryajf.github.io",
     "commandLine": [
-      "/usr/local/Cellar/node/13.11.0/bin/node",
-      "/Users/liqilong/eryajf/github/eryajf.github.io/node_modules/.bin/vuepress",
+      "node",
+      "/usr/local/bin/vuepress",
       "build",
       "docs"
     ],
@@ -50,37 +50,37 @@
       {
         "model": "Intel(R) Core(TM) i7-7660U CPU @ 2.50GHz",
         "speed": 2500,
-        "user": 67936150,
+        "user": 72826900,
         "nice": 0,
-        "sys": 43333530,
-        "idle": 238792830,
+        "sys": 46153050,
+        "idle": 258577620,
         "irq": 0
       },
       {
         "model": "Intel(R) Core(TM) i7-7660U CPU @ 2.50GHz",
         "speed": 2500,
-        "user": 22181980,
+        "user": 23851060,
         "nice": 0,
-        "sys": 14929930,
-        "idle": 312930520,
+        "sys": 15883150,
+        "idle": 337799650,
         "irq": 0
       },
       {
         "model": "Intel(R) Core(TM) i7-7660U CPU @ 2.50GHz",
         "speed": 2500,
-        "user": 66859080,
+        "user": 71835070,
         "nice": 0,
-        "sys": 36835900,
-        "idle": 246347870,
+        "sys": 39193930,
+        "idle": 266505290,
         "irq": 0
       },
       {
         "model": "Intel(R) Core(TM) i7-7660U CPU @ 2.50GHz",
         "speed": 2500,
-        "user": 20196350,
+        "user": 21638590,
         "nice": 0,
-        "sys": 12851900,
-        "idle": 316994140,
+        "sys": 13651940,
+        "idle": 342243280,
         "irq": 0
       }
     ],
@@ -183,62 +183,62 @@
   "nativeStack": [
     {
       "pc": "0x00000001001678e7",
-      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001000898d4",
-      "symbol": "node::OnFatalError(char const*, char const*) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/local/bin/node]"
     },
     {
       "pc": "0x000000010018be55",
-      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
     },
     {
       "pc": "0x000000010018bdff",
-      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001002a5773",
-      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001002a6b10",
-      "symbol": "v8::internal::Heap::MarkCompactPrologue() [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Heap::MarkCompactPrologue() [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001002a46c8",
-      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001002a316f",
-      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001002aabbc",
-      "symbol": "v8::internal::Heap::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Heap::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001002aac12",
-      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/bin/node]"
     },
     {
       "pc": "0x0000000100288783",
-      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/usr/local/bin/node]"
     },
     {
       "pc": "0x00000001004ed6bb",
-      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]"
     },
     {
       "pc": "0x000000010075fa19",
-      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/Cellar/node/13.11.0/bin/node]"
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]"
     }
   ],
   "javascriptHeap": {
-    "totalMemory": 2099953664,
-    "totalCommittedMemory": 2095294288,
-    "usedMemory": 1991060720,
-    "availableMemory": 114882656,
+    "totalMemory": 2153779200,
+    "totalCommittedMemory": 2150430248,
+    "usedMemory": 2134992568,
+    "availableMemory": 47979016,
     "memoryLimit": 2197815296,
     "heapSpaces": {
       "read_only_space": {
@@ -249,38 +249,38 @@
         "available": 0
       },
       "new_space": {
-        "memorySize": 16777216,
-        "committedMemory": 12587120,
-        "capacity": 8379392,
-        "used": 592,
-        "available": 8378800
+        "memorySize": 4194304,
+        "committedMemory": 1263536,
+        "capacity": 2094848,
+        "used": 309032,
+        "available": 1785816
       },
       "old_space": {
-        "memorySize": 1895444480,
-        "committedMemory": 1895399712,
-        "capacity": 1806178376,
-        "used": 1805915544,
-        "available": 262832
+        "memorySize": 1944465408,
+        "committedMemory": 1944417336,
+        "capacity": 1934588456,
+        "used": 1934526200,
+        "available": 62256
       },
       "code_space": {
-        "memorySize": 7245824,
-        "committedMemory": 7050560,
-        "capacity": 6391840,
-        "used": 6391840,
+        "memorySize": 7507968,
+        "committedMemory": 7367136,
+        "capacity": 6751808,
+        "used": 6751808,
         "available": 0
       },
       "map_space": {
-        "memorySize": 6295552,
-        "committedMemory": 6295120,
-        "capacity": 5764720,
-        "used": 5764720,
+        "memorySize": 6819840,
+        "committedMemory": 6819376,
+        "capacity": 3846240,
+        "used": 3846240,
         "available": 0
       },
       "large_object_space": {
-        "memorySize": 170942464,
-        "committedMemory": 170942464,
-        "capacity": 170203112,
-        "used": 170203112,
+        "memorySize": 187543552,
+        "committedMemory": 187543552,
+        "capacity": 186774376,
+        "used": 186774376,
         "available": 0
       },
       "code_large_object_space": {
@@ -293,20 +293,20 @@
       "new_large_object_space": {
         "memorySize": 0,
         "committedMemory": 0,
-        "capacity": 8379392,
+        "capacity": 2094848,
         "used": 0,
-        "available": 8379392
+        "available": 2094848
       }
     }
   },
   "resourceUsage": {
-    "userCpuSeconds": 241.038,
-    "kernelCpuSeconds": 12.7354,
-    "cpuConsumptionPercent": 95.7635,
-    "maxRss": 2228458881024,
+    "userCpuSeconds": 176.282,
+    "kernelCpuSeconds": 9.16997,
+    "cpuConsumptionPercent": 109.735,
+    "maxRss": 2328534974464,
     "pageFaults": {
-      "IORequired": 202,
-      "IONotRequired": 3072605
+      "IORequired": 45,
+      "IONotRequired": 2685970
     },
     "fsActivity": {
       "reads": 0,
@@ -318,102 +318,45 @@
   "workers": [
   ],
   "environmentVariables": {
-    "npm_package_devDependencies_yamljs": "^0.3.0",
-    "npm_package_dependencies_busuanzi_pure_js": "^1.0.3",
-    "npm_package_devDependencies_vuepress_theme_vdoing": "^1.8.3",
-    "npm_package_devDependencies_vuepress_plugin_fulltext_search": "^2.2.1",
-    "TERM_PROGRAM": "vscode",
-    "NODE": "/usr/local/Cellar/node/13.11.0/bin/node",
-    "INIT_CWD": "/Users/liqilong/eryajf/github/eryajf.github.io",
-    "npm_package_devDependencies_html_to_text": "^5.1.1",
-    "npm_config_version_git_tag": "true",
-    "TERM": "xterm-256color",
-    "SHELL": "/bin/zsh",
-    "HOMEBREW_BOTTLE_DOMAIN": "https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles",
-    "TMPDIR": "/var/folders/qc/d1fwqztx3dn8wv_rxkzf57mm0000gn/T/",
-    "npm_package_devDependencies_vuepress_plugin_mermaidjs": "^1.8.1",
-    "GOBIN": "/Users/liqilong/eryajf/letsgo/project/bin",
-    "npm_package_devDependencies_vuepress_plugin_cursor_effects": "^1.0.2",
-    "npm_package_devDependencies__vuepress_plugin_pwa": "^1.8.2",
-    "npm_config_init_license": "MIT",
-    "TERM_PROGRAM_VERSION": "1.57.1",
-    "npm_package_scripts_dev": "vuepress dev docs",
-    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
-    "npm_config_registry": "https://registry.yarnpkg.com",
-    "ZSH": "/Users/liqilong/.oh-my-zsh",
-    "npm_package_readmeFilename": "README.MD",
     "USER": "liqilong",
-    "npm_package_description": "李启龙，一名九零后中年人，运维界的小学生。",
-    "npm_package_devDependencies_json2yaml": "^1.1.0",
-    "npm_package_license": "MIT",
-    "COMMAND_MODE": "unix2003",
-    "npm_package_scripts_deploy": "bash deploy.sh",
-    "npm_package_scripts_updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D",
-    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.ul6OZq9QAO/Listeners",
-    "__CF_USER_TEXT_ENCODING": "0x1F5:0x19:0x34",
-    "npm_package_devDependencies_dayjs": "^1.9.7",
-    "npm_execpath": "/usr/local/lib/node_modules/yarn/bin/yarn.js",
-    "PAGER": "less",
-    "npm_package_dependencies_vuepress_plugin_sitemap": "^2.3.1",
-    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
-    "PATH": "/var/folders/qc/d1fwqztx3dn8wv_rxkzf57mm0000gn/T/yarn--1625927985595-0.20643718287383872:/Users/liqilong/eryajf/github/eryajf.github.io/node_modules/.bin:/Users/liqilong/.config/yarn/link/node_modules/.bin:/usr/local/Cellar/node/13.11.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/Cellar/node/13.11.0/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/Cellar/node/13.11.0/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/liqilong/eryajf/letsgo/project/bin:/Users/liqilong/.fzf/bin:/Users/liqilong/eryajf/letsgo/project/bin",
-    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"build\"],\"original\":[\"build\"]}",
-    "GOPROXY": "http://nexus.wpt.la/repository/wpt-go-group/",
-    "LaunchInstanceID": "27356065-C782-4A68-B6C3-39FB51975523",
-    "_": "/Users/liqilong/eryajf/github/eryajf.github.io/node_modules/.bin/vuepress",
-    "__CFBundleIdentifier": "com.microsoft.VSCode",
-    "npm_package_devDependencies_segmentit": "^2.0.3",
-    "PWD": "/Users/liqilong/eryajf/github/eryajf.github.io",
-    "npm_package_devDependencies_vuepress": "1.8.0",
-    "npm_package_dependencies_leancloud_storage": "^4.11.1",
-    "npm_lifecycle_event": "build",
-    "npm_package_devDependencies_vuepress_plugin_one_click_copy": "^1.0.2",
-    "npm_package_scripts_baiduPush": "node utils/baiduPush.js https://wiki.eryajf.net && bash baiduPush.sh",
-    "LANG": "zh_CN.UTF-8",
-    "npm_package_name": "theme-vdoing-blog",
-    "npm_package_devDependencies_vuepress_plugin_autometa": "^0.1.13",
-    "npm_package_scripts_build": "vuepress build docs",
-    "npm_config_version_commit_hooks": "true",
-    "XPC_FLAGS": "0x0",
-    "npm_config_bin_links": "true",
-    "npm_package_devDependencies_vuepress_plugin_baidu_autopush": "^1.0.1",
-    "npm_package_dependencies_vuepress_plugin_robots": "^1.0.1",
-    "XPC_SERVICE_NAME": "0",
-    "npm_package_devDependencies_inquirer": "^7.1.0",
-    "npm_package_version": "1.0.0",
-    "SHLVL": "5",
-    "GOSUMDB": "sum.golang.google.cn",
-    "HOME": "/Users/liqilong",
-    "npm_package_scripts_editFm": "node utils/editFrontmatter.js",
-    "VSCODE_GIT_ASKPASS_MAIN": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js",
-    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
-    "npm_config_save_prefix": "^",
-    "npm_config_strict_ssl": "true",
-    "npm_config_version_git_message": "v%s",
-    "LESS": "-R",
-    "LOGNAME": "liqilong",
-    "YARN_WRAP_OUTPUT": "false",
-    "npm_lifecycle_script": "vuepress build docs",
-    "VSCODE_GIT_IPC_HANDLE": "/var/folders/qc/d1fwqztx3dn8wv_rxkzf57mm0000gn/T/vscode-git-e7c17680ec.sock",
-    "npm_package_devDependencies_vuepress_plugin_baidu_tongji": "^1.0.1",
-    "GOPATH": "/Users/liqilong/eryajf/letsgo/project",
-    "npm_package_devDependencies_vuepress_plugin_zooming": "^1.1.7",
-    "npm_package_devDependencies_vuepress_plugin_thirdparty_search": "^1.0.2",
-    "npm_config_version_git_sign": "",
-    "npm_config_ignore_scripts": "",
-    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v13.11.0 darwin x64",
-    "VSCODE_GIT_ASKPASS_NODE": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)",
-    "GIT_ASKPASS": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh",
-    "npm_package_devDependencies_vuepress_plugin_demo_block": "^0.7.2",
-    "npm_package_scripts_publish": "cd ./theme-vdoing && npm publish && cd ../ && npm run updateTheme",
-    "npm_package_dependencies_vuepress_plugin_comment": "^0.7.3",
-    "npm_config_init_version": "1.0.0",
-    "npm_config_ignore_optional": "",
     "SECURITYSESSIONID": "186a6",
+    "COMMAND_MODE": "unix2003",
+    "__CFBundleIdentifier": "com.microsoft.VSCode",
+    "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/liqilong/eryajf/letsgo/project/bin:/Users/liqilong/.fzf/bin:/Users/liqilong/eryajf/letsgo/project/bin",
+    "HOME": "/Users/liqilong",
+    "SHELL": "/bin/zsh",
+    "LaunchInstanceID": "27356065-C782-4A68-B6C3-39FB51975523",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x19:0x34",
+    "XPC_SERVICE_NAME": "0",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.ul6OZq9QAO/Listeners",
+    "XPC_FLAGS": "0x0",
+    "LOGNAME": "liqilong",
+    "TMPDIR": "/var/folders/qc/d1fwqztx3dn8wv_rxkzf57mm0000gn/T/",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "TERM_PROGRAM": "vscode",
+    "TERM": "xterm-256color",
+    "HOMEBREW_BOTTLE_DOMAIN": "https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles",
+    "GOBIN": "/Users/liqilong/eryajf/letsgo/project/bin",
+    "TERM_PROGRAM_VERSION": "1.57.1",
+    "ZSH": "/Users/liqilong/.oh-my-zsh",
+    "PAGER": "less",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "GOPROXY": "http://nexus.wpt.la/repository/wpt-go-group/",
+    "PWD": "/Users/liqilong/eryajf/github/eryajf.github.io",
+    "LANG": "zh_CN.UTF-8",
+    "GOSUMDB": "sum.golang.google.cn",
+    "SHLVL": "3",
+    "LESS": "-R",
+    "GOPATH": "/Users/liqilong/eryajf/letsgo/project",
+    "GIT_ASKPASS": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh",
     "GONOSUMDB": "gitlab.weipaitang.com",
     "COLORTERM": "truecolor",
-    "npm_node_execpath": "/usr/local/Cellar/node/13.11.0/bin/node",
-    "npm_config_version_tag_prefix": "v",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "VSCODE_GIT_IPC_HANDLE": "/var/folders/qc/d1fwqztx3dn8wv_rxkzf57mm0000gn/T/vscode-git-e7c17680ec.sock",
+    "VSCODE_GIT_ASKPASS_NODE": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)",
+    "VSCODE_GIT_ASKPASS_MAIN": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js",
+    "OLDPWD": "/Users/liqilong/eryajf/github/eryajf.github.io",
+    "_": "/usr/local/bin/vuepress",
     "WEBPACK_DEV_SERVER": "true",
     "VUE_ENV": "server",
     "NODE_ENV": "production",
@@ -462,7 +405,7 @@
     }
   },
   "sharedObjects": [
-    "/usr/local/Cellar/node/13.11.0/bin/node",
+    "/usr/local/bin/node",
     "/usr/local/opt/icu4c/lib/libicui18n.64.dylib",
     "/usr/local/opt/icu4c/lib/libicuuc.64.dylib",
     "/usr/local/opt/icu4c/lib/libicudata.64.dylib",
@@ -513,7 +456,7 @@
     "/usr/lib/libicucore.A.dylib",
     "/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking",
     "/System/Library/CoreServices/Encodings/libSimplifiedChineseConverter.dylib",
-    "/Users/liqilong/eryajf/github/eryajf.github.io/node_modules/fsevents/build/Release/fse.node",
+    "/Users/liqilong/.config/yarn/global/node_modules/fsevents/build/Release/fse.node",
     "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
     "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
     "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/FSEvents",
