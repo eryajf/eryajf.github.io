@@ -51,18 +51,19 @@ module.exports = [
   },
   { text: '关于', link: '/about/' },
   { text: '索引', link: '/categories/',
-    items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
-    ],
-  },
-  {
-    text: '页面',
-    link: '/friends/',
-    items: [
-      { text: '友链', link: '/friends/' },
-      { text: '导航', link: '/nav/' },
-    ],
-  },
+  items: [
+    { text: '分类', link: '/categories/' },
+    { text: '标签', link: '/tags/' },
+    { text: '归档', link: '/archives/' },
+  ],
+},
+{
+  text: '页面',
+  link: '/friends/',
+  items: [
+    { text: '友链', link: '/friends/' },
+    { text: '导航', link: '/nav/' },
+  ],
+},
+{ text: '开往', link: 'https://travellings.link' },
 ]
