@@ -31,11 +31,11 @@ features: # 可选的
 大千世界，何其茫茫。谨此笔记，记录过往。凭君阅览，小站洛荒。如能收益，莫大奢望
 :::
 
-<!-- ::: center
+::: center
 ## 🌎访问地球🌎
 :::
 
-<html><body><script type="text/javascript" src="//ra.revolvermaps.com/0/0/6.js?i=04kc3rr6zqv&m=0&c=ff0000&cr1=ffffff&f=times_new_roman&l=0&lx=300&ly=180&he=4" async="async"></script></body></html> -->
+<html><body><script type="text/javascript" src="//ra.revolvermaps.com/0/0/6.js?i=04kc3rr6zqv&m=0&c=ff0000&cr1=ffffff&f=times_new_roman&l=0&lx=300&ly=180&he=4" async="async"></script></body></html>
 
 <!-- 小熊猫 -->
 <!-- <img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;"> -->
