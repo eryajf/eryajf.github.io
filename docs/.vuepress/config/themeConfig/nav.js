@@ -25,7 +25,7 @@ module.exports = [
       { text: 'ELK', link: '/pages/2351.html'},
       { text: 'K8S', link: '/pages/1742.html'},
       { text: 'Nexus', link: '/pages/45c5da/'},
-      { text: 'Jenkins', link: '/pages/56.html'},
+      { text: 'Jenkins', link: '/pages/2415.html'},
     ]
   },
   { text: '生活',link: '/life/',
