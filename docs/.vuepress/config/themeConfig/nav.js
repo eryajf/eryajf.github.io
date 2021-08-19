@@ -64,6 +64,7 @@ module.exports = [
   items: [
     { text: '友链', link: '/friends/' },
     { text: '导航', link: '/nav/' },
+    { text: '镜像', link: 'http://m.eryajf.net' },
   ],
 },
 { text: '开往', link: 'https://travellings.link' },
