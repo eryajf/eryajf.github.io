@@ -1,3 +1,6 @@
+![wiki](https://img.shields.io/website?url=https://wiki.eryajf.net/)
+![learning-weekly](https://img.shields.io/website?url=https://eryajf.gitee.io/learning-weekly/)
+
 ## 关于博主
 
 李启龙，一名九零后中年人，运维界的小学生。
