@@ -52,7 +52,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://tvax4.sinaimg.cn/large/008k1Yt0ly1gt9gyvldv8g30fk0bo4qr.gif',
+    avatar: '/img/dengxia.gif',
     name: '二丫讲梵',
     slogan: '行者常至，为者常成',
   },
