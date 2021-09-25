@@ -78,7 +78,7 @@ module.exports = {
     ],
   },
   // 此处定义了访问地球功能,注释掉了,使用首页3D的展示方式
-  // htmlModules,
+  htmlModules,
   footer: {
     // 页脚信息
     createYear: 2017, // 博客创建年份
