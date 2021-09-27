@@ -24,6 +24,14 @@ module.exports = [
       count: 60,
     }
   ],
+  // 访问统计插件
+  [
+    'umami',
+     {
+       trackerUrl: 'http://f.eryajf.net',
+       siteId: '360ec71a-d5d6-45d7-8aed-471ebe51a812'
+      }
+  ],
   // meta优化 https://github.com/webmasterish/vuepress-plugin-autometa
   ['autometa',autometa_options],
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
