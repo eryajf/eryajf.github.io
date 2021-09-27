@@ -349,7 +349,7 @@
     "LESS": "-R",
     "GOPATH": "/Users/liqilong/eryajf/letsgo/project",
     "GIT_ASKPASS": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh",
-    "GONOSUMDB": "gitlab.weipaitang.com",
+    "GONOSUMDB": "gitlab.eryajf.net",
     "COLORTERM": "truecolor",
     "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
     "VSCODE_GIT_IPC_HANDLE": "/var/folders/qc/d1fwqztx3dn8wv_rxkzf57mm0000gn/T/vscode-git-e7c17680ec.sock",
