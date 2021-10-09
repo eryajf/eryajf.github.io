@@ -84,3 +84,7 @@
 
 
 ![<https://ae01.alicdn.com/kf/HTB10WWHaO_1gK0jSZFq763paXXap.png>” /></p> </div> <div id=](https://ae01.alicdn.com/kf/HTB10WWHaO_1gK0jSZFq763paXXap.png)
+
+## 星路历程
+
+[![Stargazers over time](https://starchart.cc/eryajf/eryajf.github.io.svg)](https://starchart.cc/eryajf/eryajf.github.io)
