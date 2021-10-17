@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn add busuanzi.pure.js
+  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn add vuepress-plugin-rss -D
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/liqilong/eryajf/letsgo/project/bin:/Users/liqilong/.fzf/bin:/Users/liqilong/eryajf/letsgo/project/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/liqilong/eryajf/letsgo/project/bin:/Users/liqilong/.fzf/bin:/Users/liqilong/eryajf/letsgo/project/bin
 
 Yarn version: 
   1.22.4
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: http://nexus.wpt.la/repository/npm/busuanzi.pure.js: Request "http://nexus.wpt.la/repository/npm/busuanzi.pure.js" returned a 403
+  Error: http://nexus.wpt.la/repository/npm/vuepress-plugin-rss: Request "http://nexus.wpt.la/repository/npm/vuepress-plugin-rss" returned a 403
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66996:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:315:20)
@@ -31,8 +31,8 @@ npm manifest:
     "name": "theme-vdoing-blog",
     "version": "1.0.0",
     "scripts": {
-      "dev": "vuepress dev docs",
-      "build": "vuepress build docs",
+      "dev": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs --open",
+      "build": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
       "deploy": "bash deploy.sh",
       "editFm": "node utils/editFrontmatter.js",
       "baiduPush": "node utils/baiduPush.js https://wiki.eryajf.net && bash baiduPush.sh",
@@ -56,17 +56,18 @@ npm manifest:
       "vuepress-plugin-fulltext-search": "^2.2.1",
       "vuepress-plugin-mermaidjs": "^1.8.1",
       "vuepress-plugin-one-click-copy": "^1.0.2",
+      "vuepress-plugin-rss-support": "^1.1.1",
       "vuepress-plugin-thirdparty-search": "^1.0.2",
       "vuepress-plugin-zooming": "^1.1.7",
       "vuepress-theme-vdoing": "^1.8.3",
       "yamljs": "^0.3.0"
     },
     "dependencies": {
-      "busuanzi.pure.js": "^1.0.3",
       "leancloud-storage": "^4.11.1",
       "vuepress-plugin-comment": "^0.7.3",
       "vuepress-plugin-robots": "^1.0.1",
-      "vuepress-plugin-sitemap": "^2.3.1"
+      "vuepress-plugin-sitemap": "^2.3.1",
+      "vuepress-plugin-umami": "^0.0.4"
     }
   }
 
@@ -2473,11 +2474,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/builtins/-/builtins-1.0.3.tgz#cb94faeb61c8696451db36534e1422f94f0aee88"
     integrity sha1-y5T662HIaWRR2zZTThQi+U8K7og=
   
-  busuanzi.pure.js@^1.0.3:
-    version "1.0.3"
-    resolved "http://nexus.wpt.la/repository/npm/busuanzi.pure.js/-/busuanzi.pure.js-1.0.3.tgz#a03784db9e5b2c42a059b16551d2511933a46f5c"
-    integrity sha1-oDeE255bLEKgWbFlUdJRGTOkb1w=
-  
   byline@^5.0.0:
     version "5.0.0"
     resolved "https://registry.yarnpkg.com/byline/-/byline-5.0.0.tgz#741c5216468eadc457b03410118ad77de8c1ddb1"
@@ -4861,6 +4857,15 @@ Lockfile:
       jsonfile "^4.0.0"
       universalify "^0.1.0"
   
+  fs-extra@^5.0.0:
+    version "5.0.0"
+    resolved "http://nexus.wpt.la/repository/npm/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
+    integrity sha1-QU0BEM3QZwVzTQVWUsVBEmDDGr0=
+    dependencies:
+      graceful-fs "^4.1.2"
+      jsonfile "^4.0.0"
+      universalify "^0.1.0"
+  
   fs-extra@^7.0.1:
     version "7.0.1"
     resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
@@ -7014,7 +7019,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.4.tgz#3dc7ce8b8fc17e5981c77cc398d1782319f37fbc"
     integrity sha512-TAIHTHPwa9+ltKvKPWulm/beozQU41Ab+FIefRaQV1NRnpzwcV9QOe6wXQS5WLivm5Q/nlo0rl6laGkMDZE7Gw==
   
-  markdown-it@^8.4.1:
+  markdown-it@^8.4.1, markdown-it@^8.4.2:
     version "8.4.2"
     resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"
     integrity sha512-GcRz3AWTqSUphY3vsUqQSFMbgR38a4Lh3GWlHRh/7MRwz8mcu9n2IO7HOh+bXHrR9kOPDl5RNCaEsrneb+xhHQ==
@@ -7181,6 +7186,18 @@ Lockfile:
     version "1.48.0"
     resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.48.0.tgz#e35b31045dd7eada3aaad537ed88a33afbef2d1d"
     integrity sha512-FM3QwxV+TnZYQ2aRqhlKBMHxk10lTbMt3bBkMAp54ddrNeVSfcQYOOKuGuy3Ddrm38I04If834fOUSq1yzslJQ==
+  
+  mime-db@~1.25.0:
+    version "1.25.0"
+    resolved "http://nexus.wpt.la/repository/npm/mime-db/-/mime-db-1.25.0.tgz#c18dbd7c73a5dbf6f44a024dc0d165a1e7b1c392"
+    integrity sha1-wY29fHOl2/b0SgJNwNFloeexw5I=
+  
+  mime-types@2.1.13:
+    version "2.1.13"
+    resolved "http://nexus.wpt.la/repository/npm/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
+    integrity sha1-4HqqnGxrmnyjASxpADrSWjnpKog=
+    dependencies:
+      mime-db "~1.25.0"
   
   mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
     version "2.1.30"
@@ -9486,6 +9503,14 @@ Lockfile:
       hash-base "^3.0.0"
       inherits "^2.0.1"
   
+  rss@^1.2.2:
+    version "1.2.2"
+    resolved "http://nexus.wpt.la/repository/npm/rss/-/rss-1.2.2.tgz#50a1698876138133a74f9a05d2bdc8db8d27a921"
+    integrity sha1-UKFpiHYTgTOnT5oF0r3I240nqSE=
+    dependencies:
+      mime-types "2.1.13"
+      xml "1.0.1"
+  
   run-async@^2.4.0:
     version "2.4.1"
     resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
@@ -11160,6 +11185,16 @@ Lockfile:
     dependencies:
       generate-robotstxt "^7.1.0"
   
+  vuepress-plugin-rss-support@^1.1.1:
+    version "1.1.1"
+    resolved "http://nexus.wpt.la/repository/npm/vuepress-plugin-rss-support/-/vuepress-plugin-rss-support-1.1.1.tgz#d5fe346ba4304071651cedda0063355d034689a1"
+    integrity sha1-1f40a6QwQHFlHO3aAGM1XQNGiaE=
+    dependencies:
+      chalk "^2.4.1"
+      fs-extra "^5.0.0"
+      markdown-it "^8.4.2"
+      rss "^1.2.2"
+  
   vuepress-plugin-sitemap@^2.3.1:
     version "2.3.1"
     resolved "http://nexus.wpt.la/repository/npm/vuepress-plugin-sitemap/-/vuepress-plugin-sitemap-2.3.1.tgz#51298aca77a5de96396fdbd1103e1637dd61ae6a"
@@ -11178,6 +11213,11 @@ Lockfile:
     version "1.0.2"
     resolved "https://registry.yarnpkg.com/vuepress-plugin-thirdparty-search/-/vuepress-plugin-thirdparty-search-1.0.2.tgz#1cb9307ae9e3b7925afa5b1f1e78b867bcdef588"
     integrity sha512-qXAzHCsbe7fKdqZyI7cax6qtVZpqbW5TEp+NOwCzgN6IIrHc8vOkz+shCTvc+qzDgqE31+geT1lPFFX6LvbOFQ==
+  
+  vuepress-plugin-umami@^0.0.4:
+    version "0.0.4"
+    resolved "http://nexus.wpt.la/repository/npm/vuepress-plugin-umami/-/vuepress-plugin-umami-0.0.4.tgz#16c53e280316668f4eea35851635e3339eb72f04"
+    integrity sha1-FsU+KAMWZo9O6jWFFjXjM563LwQ=
   
   vuepress-plugin-zooming@^1.1.7:
     version "1.1.8"
@@ -11671,6 +11711,11 @@ Lockfile:
     version "4.0.0"
     resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13"
     integrity sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==
+  
+  xml@1.0.1:
+    version "1.0.1"
+    resolved "http://nexus.wpt.la/repository/npm/xml/-/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
+    integrity sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=
   
   xmlbuilder@^13.0.0:
     version "13.0.2"

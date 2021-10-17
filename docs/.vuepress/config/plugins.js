@@ -12,16 +12,25 @@ module.exports = [
   // 全文搜索插件
   'fulltext-search',
   [
-    'vuepress-plugin-rss-support',
-    {
-      // 网站地址
-      site_url: 'https://wiki.eryajf.net',
-      // 版权信息
-      copyright: '二丫讲梵',
-      // 目录过滤
-      filter: (page) => { return /^\/201.+/.test(page.path) },
-      // 显示条数
-      count: 60,
+    // 'vuepress-plugin-rss-support',
+    // {
+    //   // 网站地址
+    //   site_url: 'https://wiki.eryajf.net',
+    //   // 版权信息
+    //   copyright: '二丫讲梵',
+    //   // 目录过滤
+    //   filter: (page) => { return /.+/.test(page.path) },
+    //   // 显示条数
+    //   count: 60,
+    'vuepress-plugin-rss',
+        {
+          base_url: '/', // required
+          site_url: 'https://wiki.eryajf.net', // required
+          copyright: '二丫讲梵', // optional
+          // filter some post
+          filter: (frontmatter) => { return [true] },
+          // How much articles
+          count: 20,
     }
   ],
   // 访问统计插件
