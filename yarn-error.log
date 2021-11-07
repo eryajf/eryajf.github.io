@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn add vuepress-plugin-rss -D
+  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/bin/yarn
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/liqilong/eryajf/letsgo/project/bin:/Users/liqilong/.fzf/bin:/Users/liqilong/eryajf/letsgo/project/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: http://nexus.wpt.la/repository/npm/vuepress-plugin-rss: Request "http://nexus.wpt.la/repository/npm/vuepress-plugin-rss" returned a 403
+  Error: http://nexus.wpt.la/repository/npm/vuepress-theme-vdoing: Request "http://nexus.wpt.la/repository/npm/vuepress-theme-vdoing" returned a 403
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66996:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:315:20)
@@ -56,10 +56,11 @@ npm manifest:
       "vuepress-plugin-fulltext-search": "^2.2.1",
       "vuepress-plugin-mermaidjs": "^1.8.1",
       "vuepress-plugin-one-click-copy": "^1.0.2",
+      "vuepress-plugin-rss": "^2.0.0",
       "vuepress-plugin-rss-support": "^1.1.1",
       "vuepress-plugin-thirdparty-search": "^1.0.2",
       "vuepress-plugin-zooming": "^1.1.7",
-      "vuepress-theme-vdoing": "^1.8.3",
+      "vuepress-theme-vdoing": "^1.8.5",
       "yamljs": "^0.3.0"
     },
     "dependencies": {
@@ -11193,6 +11194,15 @@ Lockfile:
       chalk "^2.4.1"
       fs-extra "^5.0.0"
       markdown-it "^8.4.2"
+      rss "^1.2.2"
+  
+  vuepress-plugin-rss@^2.0.0:
+    version "2.0.0"
+    resolved "http://nexus.wpt.la/repository/npm/vuepress-plugin-rss/-/vuepress-plugin-rss-2.0.0.tgz#9e08479703f5d426305ae4e686d65ba7de562255"
+    integrity sha1-nghHlwP11CYwWuTmhtZbp95WIlU=
+    dependencies:
+      chalk "^2.4.1"
+      fs-extra "^5.0.0"
       rss "^1.2.2"
   
   vuepress-plugin-sitemap@^2.3.1:
