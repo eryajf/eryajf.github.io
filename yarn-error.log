@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: http://nexus.wpt.la/repository/npm/vuepress-theme-vdoing: Request "http://nexus.wpt.la/repository/npm/vuepress-theme-vdoing" returned a 403
+  Error: http://nexus.wpt.la/repository/npm/@vuepress-yard%2fvuepress-plugin-window: Request "http://nexus.wpt.la/repository/npm/@vuepress-yard%2fvuepress-plugin-window" returned a 403
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66996:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:315:20)
@@ -41,7 +41,6 @@ npm manifest:
     },
     "license": "MIT",
     "devDependencies": {
-      "@vuepress/plugin-pwa": "^1.8.2",
       "dayjs": "^1.9.7",
       "html-to-text": "^5.1.1",
       "inquirer": "^7.1.0",
@@ -64,6 +63,7 @@ npm manifest:
       "yamljs": "^0.3.0"
     },
     "dependencies": {
+      "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
       "leancloud-storage": "^4.11.1",
       "vuepress-plugin-comment": "^0.7.3",
       "vuepress-plugin-robots": "^1.0.1",
@@ -11236,10 +11236,10 @@ Lockfile:
     dependencies:
       zooming "^2.1.1"
   
-  vuepress-theme-vdoing@^1.8.3:
-    version "1.8.3"
-    resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.8.3.tgz#9d4745007ee777fa01ff16adf45ec4f586d95557"
-    integrity sha512-P9wvbo29JIJcMIVPqNhAbLdyZMTb8/5UcQPw3qz45/k1PxGqLjB2iHGG3cd5G4daNqaEUbSs2jl3RMgsalXCYA==
+  vuepress-theme-vdoing@^1.8.5:
+    version "1.8.5"
+    resolved "http://nexus.wpt.la/repository/npm/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.8.5.tgz#407ca7ec02d66ed2fccd5c3c64bd6d8fa4586779"
+    integrity sha512-VrMKc41WqGDEpzcwpCESfPauMxhFF8e7MuoUWuqu4uFPKrxGVAbvj30E87kZ3o7l6phr8gf42Xrm1mywu+AEMw==
     dependencies:
       "@better-scroll/core" "^2.0.0-beta.6"
       "@better-scroll/slide" "^2.0.0-beta.6"
