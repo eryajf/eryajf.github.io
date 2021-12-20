@@ -47,7 +47,8 @@ module.exports = [
   },
   { text: '周刊', link: '/pages/11c668/',
     items: [
-      { text: '2021', link: '/pages/11c668/'},
+      { text: '学习周刊', link: '/pages/11c668/'},
+      { text: 'Obsidian插件周刊', link: '/pages/bcc523/'},
     ]
   },
   { text: '关于', link: '/about/' },
