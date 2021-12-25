@@ -17,6 +17,7 @@ module.exports = [
       { text: 'Gitlab', link: '/pages/243.html'},
       { text: 'Kafka', link: '/pages/2951.html'},
       { text: 'Etcd', link: '/pages/4050.html'},
+      { text: 'Consul', link: '/pages/f61d95/'},
       { text: 'Other', link: '/pages/285.html'},
     ]
   },
