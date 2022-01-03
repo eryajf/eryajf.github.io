@@ -6,6 +6,7 @@ module.exports = [
   ['meta', { name: 'baidu-site-verification', content: 'code-LTKHwOecxI' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
+  ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_wawne43ztng.css' }], // 阿里云在线矢量库,字数和访客数图标使用
   // 搜索框添加快捷键
   ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
 
