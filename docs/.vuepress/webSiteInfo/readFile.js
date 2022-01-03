@@ -14,7 +14,7 @@ function readFileList(excludeFiles = [''], dir = docsRoot, filesList = []) {
   files.forEach((item, index) => {
     let filePath = path.join(dir, item);
     const stat = fs.statSync(filePath);
-    if(!(excludeFiles instanceof Array)){
+    if (!(excludeFiles instanceof Array)) {
       log(chalk.yellow(`error: 传入的参数不是一个数组。`))
     }
     excludeFiles.forEach((excludeFile) => {
@@ -68,23 +68,48 @@ function readTotalFileWords(excludeFiles = ['']) {
  * 获取每一个文章的字数
  * 可以排除某个目录下的 md 文档字数
  */
-function readEachFileWords(excludeFiles = ['']) {
-    const filesListWords = [];
-    const filesList = readFileList(excludeFiles);
-    filesList.forEach((item) => {
-      const content = getContent(item.filePath);
-      var len = counter(content);
-      var wordsCount = 0;
-      wordsCount = len[0] + len[1];
-      if (wordsCount >= 1000) {
-        wordsCount = Math.round(wordsCount / 100) / 10 + 'k';
-      }
-      // fileMatterObj => {content:'剔除frontmatter后的文件内容字符串', data:{<frontmatter对象>}, ...}
-      const fileMatterObj = matter(content, {});
-      const matterData = fileMatterObj.data;
-      filesListWords.push({...item, wordsCount, ...matterData});
-    });
-    return filesListWords;
+function readEachFileWords(excludeFiles = [''], cn, en) {
+  const filesListWords = [];
+  const filesList = readFileList(excludeFiles);
+  filesList.forEach((item) => {
+    const content = getContent(item.filePath);
+    var len = counter(content);
+    // 计算预计的阅读时间
+    var readingTime = readTime(len, cn, en);
+    var wordsCount = 0;
+    wordsCount = len[0] + len[1];
+    if (wordsCount >= 1000) {
+      wordsCount = Math.round(wordsCount / 100) / 10 + 'k';
+    }
+    // fileMatterObj => {content:'剔除frontmatter后的文件内容字符串', data:{<frontmatter对象>}, ...}
+    const fileMatterObj = matter(content, {});
+    const matterData = fileMatterObj.data;
+    filesListWords.push({ ...item, wordsCount, readingTime, ...matterData });
+  });
+  return filesListWords;
+}
+
+/**
+ * 计算预计的阅读时间
+ */
+function readTime(len, cn = 300, en = 160) {
+  var readingTime = len[0] / cn + len[1] / en;
+  if (readingTime > 60 && readingTime < 60 * 24) {   // 大于一个小时，小于一天
+    let hour = parseInt(readingTime / 60);
+    let minute = parseInt((readingTime - hour * 60));
+    if (minute === 0) {
+      return hour + ' h';
+    }
+    return hour + ' h ' + minute + ' m';
+  } else if (readingTime > 60 * 24) {      // 大于一天
+    let day = parseInt(readingTime / (60 * 24));
+    let hour = parseInt((readingTime - day * 24 * 60) / 60);
+    if (hour === 0) {
+      return day + ' d';
+    }
+    return day + ' d ' + hour + ' h';
+  }
+  return readingTime < 1 ? '1' : parseInt((readingTime * 10)) / 10 + ' m';   // 取一位小数
 }
 
 /**

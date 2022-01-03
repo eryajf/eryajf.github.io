@@ -1,14 +1,14 @@
 // 日期格式化(只获取年月日)
 export function dateFormat(date) {
   if (!(date instanceof Date)) {
-    date = new Date(date)
+    date = new Date(date);
   }
-  return `${date.getUTCFullYear()}-${zero(date.getUTCMonth() + 1)}-${zero(date.getUTCDate())}`
+  return `${date.getUTCFullYear()}-${zero(date.getUTCMonth() + 1)}-${zero(date.getUTCDate())}`;
 }
 
 // 小于10补0
 export function zero(d) {
-  return d.toString().padStart(2, '0')
+  return d.toString().padStart(2, '0');
 }
 
 /**
@@ -23,17 +23,17 @@ export function lastUpdatePosts(posts) {
 
 // 获取时间的时间戳
 export function getTimeNum(post) {
-  let dateStr = post.lastUpdated || new Date()
-  let date = new Date(dateStr)
+  let dateStr = post.lastUpdated || post.frontmatter.date;
+  let date = new Date(dateStr);
   if (date == "Invalid Date" && dateStr) { // 修复new Date()在Safari下出现Invalid Date的问题
-    date = new Date(dateStr.replace(/-/g, '/'))
+    date = new Date(dateStr.replace(/-/g, '/'));
   }
-  return date.getTime()
+  return date.getTime();
 }
 
 // 比对时间
 export function compareDate(a, b) {
-  return getTimeNum(b) - getTimeNum(a)
+  return getTimeNum(b) - getTimeNum(a);
 }
 
 /**
@@ -87,14 +87,14 @@ export function timeDiff(startDate, endDate) {
  * 判断当前月的天数（28、29、30、31）
  */
 export function getDays(mouth, year) {
-  let days = 30
+  let days = 30;
   if (mouth === 2) {
-    days = year % 4 === 0 ? 29 : 28
+    days = year % 4 === 0 ? 29 : 28;
   } else if (mouth === 1 || mouth === 3 || mouth === 5 || mouth === 7 || mouth === 8 || mouth === 10 || mouth === 12) {
     // 月份为：1,3,5,7,8,10,12 时，为大月.则天数为 31；
-    days = 31
+    days = 31;
   }
-  return days
+  return days;
 }
 
 /**

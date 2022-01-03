@@ -26,15 +26,19 @@ export default ({
           removeElement('.page-view-js');
           removeElement('.page-view');
           removeElement('.book-words');
+          removeElement('.reading-time');
           siteData.pages.forEach((itemPage) => {
             if (itemPage.path == to.path) {
               if (itemPage.frontmatter.article == undefined || itemPage.frontmatter.article) {  // 排除掉 article 为 false 的文章
-                const { eachFileWords, pageView, pageIteration } = siteData.themeConfig.blogInfo;
+                const { eachFileWords, pageView, pageIteration, readingTime } = siteData.themeConfig.blogInfo;
                 // 下面两个 if 可以调换位置，从而让文章的浏览量和字数内容交换
                 if (eachFileWords) {
                   eachFileWords.forEach((itemFile) => {
                     if (itemFile.permalink == itemPage.frontmatter.permalink) {
                       addPageWordsCount(itemFile.wordsCount);
+                      if (readingTime || readingTime == undefined) {
+                        addReadTimeCount(itemFile.readingTime);
+                      }
                     }
                   });
                 }
@@ -55,8 +59,8 @@ export default ({
     })
     // 目前用不到
     router.afterEach((to, from) => {
-      if(from.path === '/' && from.matched && from.matched.length === 0){    // 如果页面是刷新或者第一次进入
-       
+      if (from.path === '/' && from.matched && from.matched.length === 0) {    // 如果页面是刷新或者第一次进入
+
       }
     })
   }
@@ -74,9 +78,9 @@ function removeElement(selector) {
  * 首页的统计量
  */
 function getIndexViewCouter(iterationTime = 3000) {
-  if(busuanzi){
+  if (busuanzi) {
     busuanzi.fetch();
-  }else {
+  } else {
     busuanzi = require("busuanzi.pure.js");
   }
   var i = 0;
@@ -111,9 +115,9 @@ function getIndexViewCouter(iterationTime = 3000) {
  * 文章页的访问量
  */
 function getPageViewCouter(iterationTime = 3000) {
-  if(busuanzi){
+  if (busuanzi) {
     busuanzi.fetch();
-  }else {
+  } else {
     busuanzi = require("busuanzi.pure.js");
   }
   var i = 0;
@@ -133,7 +137,6 @@ function getPageViewCouter(iterationTime = 3000) {
         if (pageView.innerText == "") {
           // 手动获取访问量
           busuanzi.fetch();
-          console.log("aa");
         } else {
           clearInterval(interval);
         }
@@ -172,6 +175,20 @@ function addPageWordsCount(wordsCount) {
     template.innerHTML = `<a href="javascript:;" style="margin-left: 3px; color: #888">${wordsCount}</a>`;
     mountedView(template);
   }
+}
+
+/**
+ * 添加预计的阅读时间
+ */
+function addReadTimeCount(readTimeCount) {
+  let template = document.createElement('div');
+  template.title = '预阅读时长';
+  template.className = 'reading-time iconfont icon-shijian';
+  template.style.float = 'left';
+  template.style.marginLeft = '20px';
+  template.style.fontSize = '0.8rem';
+  template.innerHTML = `<a href="javascript:;" style="margin-left: 3px; color: #888">${readTimeCount}</a>`;
+  mountedView(template);
 }
 
 /**
