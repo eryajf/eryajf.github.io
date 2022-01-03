@@ -2,13 +2,17 @@
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+
+  ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_wawne43ztng.css' }], // 阿里云在线矢量库
+  ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],  // 解决 Chrome 网站统计不准确问题
+
   ['meta',{name: 'keywords',content: '二丫讲梵,Linux,运维,yum,运维艺术,eryajf,jenkins,nexus,golang,vue'}],
   ['meta', { name: 'baidu-site-verification', content: 'code-LTKHwOecxI' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
   // 搜索框添加快捷键
   ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
-  
+
   // [
   //   'script',
   //   {

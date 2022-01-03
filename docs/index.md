@@ -93,3 +93,8 @@ features: # 可选的
 - **GitHub**: <https://github.com/eryajf>
 
 </br>  -->
+
+
+<ClientOnly>
+  <WebInfo/>
+</ClientOnly>
