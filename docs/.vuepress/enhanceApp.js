@@ -1,3 +1,5 @@
+let busuanzi;
+
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
   options, // 附加到根实例的一些选项
@@ -14,12 +16,12 @@ export default ({
         }
       }
       next();
-
       setTimeout(() => {
-        // 首页或者文章页的访问量
-        if (to.path == '/') {
-          getIndexViewCouter();
-        } else if (to.path != '/' && to.path != from.path) { // # 号也会触发路由变化，排除掉
+        if (to.path == '/') {       // 如果页面是首页
+          const { indexIteration } = siteData.themeConfig.blogInfo;
+          getIndexViewCouter(indexIteration);
+        }
+        else if (to.path !== '/' && to.path !== from.path) { // // 如果页面是非首页，# 号也会触发路由变化，这里已经排除掉
           // 刷新页面或进入新的页面后，如果原来位置的内容还存在，则删除掉，最后重新插入渲染
           removeElement('.page-view-js');
           removeElement('.page-view');
@@ -27,7 +29,7 @@ export default ({
           siteData.pages.forEach((itemPage) => {
             if (itemPage.path == to.path) {
               if (itemPage.frontmatter.article == undefined || itemPage.frontmatter.article) {  // 排除掉 article 为 false 的文章
-                const { eachFileWords, pageView } = siteData.themeConfig.blogInfo;
+                const { eachFileWords, pageView, pageIteration } = siteData.themeConfig.blogInfo;
                 // 下面两个 if 可以调换位置，从而让文章的浏览量和字数内容交换
                 if (eachFileWords) {
                   eachFileWords.forEach((itemFile) => {
@@ -40,8 +42,8 @@ export default ({
                   addPageView();
                   // 挂载成功需要一点时间
                   setTimeout(() => {
-                    getPageViewCouter();
-                  }, 1000);
+                    getPageViewCouter(pageIteration);
+                  }, 1500);
                 }
 
                 return;
@@ -49,7 +51,13 @@ export default ({
             }
           })
         }
-      }, 200);
+      }, 1);
+    })
+    // 目前用不到
+    router.afterEach((to, from) => {
+      if(from.path === '/' && from.matched && from.matched.length === 0){    // 如果页面是刷新或者第一次进入
+       
+      }
     })
   }
 }
@@ -65,9 +73,12 @@ function removeElement(selector) {
 /**
  * 首页的统计量
  */
-function getIndexViewCouter() {
-  // require 会获取一次访问量
-  const busuanzi = require("busuanzi.pure.js");
+function getIndexViewCouter(iterationTime = 3000) {
+  if(busuanzi){
+    busuanzi.fetch();
+  }else {
+    busuanzi = require("busuanzi.pure.js");
+  }
   var i = 0;
   var defaultCouter = '9999';
   // 如果 require 没有获取成功，则手动获取
@@ -78,8 +89,8 @@ function getIndexViewCouter() {
       const indexUv = document.querySelector(".web-site-pv");
       const indexPv = document.querySelector(".web-site-uv");
       if (indexPv || indexUv) {
-        i++;
-        if (i > 1 * 10) {
+        i += iterationTime;
+        if (i > iterationTime * 10) {
           indexPv.innerText = defaultCouter;
           indexUv.innerText = defaultCouter;
           clearInterval(interval);  // 10 秒后无法获取，则取消获取
@@ -93,15 +104,18 @@ function getIndexViewCouter() {
       } else {
         clearInterval(interval);
       }
-    }, 3000);
-  }, 3000);
+    }, iterationTime);
+  }, iterationTime);
 }
 /**
  * 文章页的访问量
  */
-function getPageViewCouter() {
-  // require 会获取一次访问量
-  const busuanzi = require("busuanzi.pure.js");
+function getPageViewCouter(iterationTime = 3000) {
+  if(busuanzi){
+    busuanzi.fetch();
+  }else {
+    busuanzi = require("busuanzi.pure.js");
+  }
   var i = 0;
   var defaultCouter = '9999';
   // 如果 require 没有获取成功，则手动获取
@@ -111,22 +125,23 @@ function getPageViewCouter() {
     let interval = setInterval(() => {
       const pageView = document.querySelector('.view-data');
       if (pageView) {
-        i++;
-        if (i > 1 * 10) {
+        i += iterationTime;
+        if (i > iterationTime * 10) {
           pageView.innerText = defaultCouter;
           clearInterval(interval);  // 10 秒后无法获取，则取消获取
         }
         if (pageView.innerText == "") {
           // 手动获取访问量
           busuanzi.fetch();
+          console.log("aa");
         } else {
           clearInterval(interval);
         }
       } else {
         clearInterval(interval);
       }
-    }, 3000);
-  }, 3000);
+    }, iterationTime);
+  }, iterationTime);
 }
 /**
  * 添加浏览量元素
@@ -157,7 +172,6 @@ function addPageWordsCount(wordsCount) {
     template.innerHTML = `<a href="javascript:;" style="margin-left: 3px; color: #888">${wordsCount}</a>`;
     mountedView(template);
   }
-
 }
 
 /**
@@ -192,6 +206,7 @@ function isMountedView(element, parentElement) {
 
 /**
  * 加载 js 到 head 标签里
+ * 目前没有用到
  */
 // function loadJs(jsFileSrc, className, callBack) {
 //   var script = document.createElement("script");
@@ -207,5 +222,3 @@ function isMountedView(element, parentElement) {
 //     }, 100);
 //   }
 // }
-
-
