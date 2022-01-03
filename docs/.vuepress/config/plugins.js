@@ -53,6 +53,8 @@ module.exports = [
     },
     closeOnce: true
   }],
+  // 阅读顶部进度条
+  'reading-progress',
   // 访问统计插件
   [
     'umami',
