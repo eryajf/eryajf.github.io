@@ -30,11 +30,12 @@
     "vuepress-plugin-rss-support": "^1.1.1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.8.5",
+    "vuepress-theme-vdoing": "^1.9.0",
     "yamljs": "^0.3.0"
   },
   "dependencies": {
     "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "busuanzi.pure.js": "^1.0.3",
     "leancloud-storage": "^4.11.1",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-robots": "^1.0.1",
