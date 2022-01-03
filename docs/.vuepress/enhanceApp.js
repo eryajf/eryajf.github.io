@@ -1,3 +1,4 @@
+import LastReadingPopup from './components/LastReadingPopup.vue'
 let busuanzi;
 
 export default ({
@@ -7,6 +8,26 @@ export default ({
   siteData, // 站点元数据
   isServer // 当前应用配置是处于 服务端渲染 或 客户端
 }) => {
+  // 最后一次阅读位置跳转
+  Vue.component(LastReadingPopup.name, LastReadingPopup);
+  Vue.mixin({
+    mounted() {
+      window.addEventListener('unload', this.saveLastReading)
+    },
+
+    methods: {
+      saveLastReading() {
+        localStorage.setItem('lastReading', JSON.stringify({
+          path: this.$route.path,
+          scrollTop: document.documentElement.scrollTop,
+          timestamp: new Date().getTime(),
+        }))
+      }
+    }
+  });
+
+
+  // 站点和文章页信息
   if (!isServer) {
     router.beforeEach((to, from, next) => {
       // 路由切换，触发百度的 pv 统计
@@ -55,7 +76,7 @@ export default ({
             }
           })
         }
-      }, 1);
+      }, 10);
     })
     // 目前用不到
     router.afterEach((to, from) => {

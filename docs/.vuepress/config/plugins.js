@@ -15,6 +15,13 @@ module.exports = [
   'fulltext-search',
   // 阅读顶部进度条
   'reading-progress',
+  // 自定义插件
+  [
+    {
+      name: 'custom-plugins',
+      globalUIComponents: ["LastReadingPopup"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    }
+  ],
   // rss 配置
   [
     'vuepress-plugin-rss',
@@ -101,15 +108,15 @@ module.exports = [
     },
   ],
   // last-reading 插件
-  [
-    'last-reading',
-    {
-      popupConfig: {
-        message: '检测到您上一次阅读的位置，是否移至该位置？',
-        buttonText: '确定'
-      },
-    }
-  ],
+  // [
+  //   'last-reading',
+  //   {
+  //     popupConfig: {
+  //       message: '检测到您上一次阅读的位置，是否移至该位置？',
+  //       buttonText: '确定'
+  //     },
+  //   }
+  // ],
   'vuepress-plugin-mermaidjs',
   [
     'sitemap', {
