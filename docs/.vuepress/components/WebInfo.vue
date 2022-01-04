@@ -16,7 +16,7 @@
     <div class="webinfo-item">
       <div class="webinfo-item-title">已运行时间：</div>
       <div class="webinfo-content">
-        {{ createToNowDay != 0 ? createToNowDay + ' 天' : "不到一天" }}
+        {{ createToNowDay != 0 ? createToNowDay + " 天" : "不到一天" }}
       </div>
     </div>
 
@@ -36,7 +36,13 @@
       <div class="webinfo-item-title">本站被访问了：</div>
       <div class="webinfo-content">
         <span id="busuanzi_container_site_pv">
-          <span id="busuanzi_value_site_pv" class="web-site-pv"></span> 次
+          <span id="busuanzi_value_site_pv" class="web-site-pv"
+            ><i
+              title="正在获取..."
+              class="loading iconfont icon-loading"
+            ></i>
+          </span>
+          次
         </span>
       </div>
     </div>
@@ -45,7 +51,13 @@
       <div class="webinfo-item-title">您的访问排名：</div>
       <div class="webinfo-content busuanzi">
         <span id="busuanzi_container_site_uv">
-          <span id="busuanzi_value_site_uv" class="web-site-uv"></span> 名
+          <span id="busuanzi_value_site_uv" class="web-site-uv"
+            ><i
+              title="正在获取..."
+              class="loading iconfont icon-loading"
+            ></i>
+          </span>
+          名
         </span>
       </div>
     </div>
@@ -63,6 +75,11 @@ export default {
       lastActiveDate: "", // 最后活动时间
       totalWords: 0, // 本站总字数
     };
+  },
+  computed: {
+    $lastUpdatePosts() {
+      return lastUpdatePosts(this.$filterPosts);
+    },
   },
   mounted() {
     // Young Kbt
@@ -94,14 +111,14 @@ export default {
           }
         });
         this.totalWords = Math.round(archivesWords / 100) / 10 + "k";
-      } else if(totalWords == "archives"){
+      } else if (totalWords == "archives") {
         this.totalWords = 0;
         console.log("如果 totalWords 使用 archives，必须传入 eachFileWords");
-      }else{
+      } else {
         this.totalWords = totalWords;
       }
       // 最后一次活动时间
-      this.lastActiveDate = timeDiff(lastUpdatePosts(this.$site.pages)[0].lastUpdated);
+      this.lastActiveDate = timeDiff(this.$lastUpdatePosts[0].lastUpdated);
       mountedWebInfo(moutedEvent);
     }
   },
@@ -187,5 +204,19 @@ function getIndexViewCouter() {
 .webinfo-content {
   display: inline-block;
   float: right;
+}
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  display: inline-block;
+  animation: turn 1s linear infinite;
+  -webkit-animation: turn 1s linear infinite;
 }
 </style>

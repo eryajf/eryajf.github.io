@@ -8,13 +8,18 @@ export default ({
   siteData, // 站点元数据
   isServer // 当前应用配置是处于 服务端渲染 或 客户端
 }) => {
+  // 判断是否绑定时间是否绑定成功
+  let isMounted = false;
   // 最后一次阅读位置跳转
   Vue.component(LastReadingPopup.name, LastReadingPopup);
   Vue.mixin({
+    // 有多少个 Vue 组件（md 文档），就执行多少次 mounted()，所以利用 if 判断只允许执行一次
     mounted() {
-      window.addEventListener('unload', this.saveLastReading)
+      if (!isMounted) {
+        window.addEventListener('unload', this.saveLastReading);  // 卸载窗口前，将数据存储，方便下次可以直接跳转位置
+        isMounted = true;
+      }
     },
-
     methods: {
       saveLastReading() {
         localStorage.setItem('lastReading', JSON.stringify({
@@ -26,7 +31,6 @@ export default ({
     }
   });
 
-
   // 站点和文章页信息
   if (!isServer) {
     router.beforeEach((to, from, next) => {
@@ -37,51 +41,48 @@ export default ({
         }
       }
       next();
-      setTimeout(() => {
-        if (to.path == '/') {       // 如果页面是首页
-          const { indexIteration } = siteData.themeConfig.blogInfo;
-          getIndexViewCouter(indexIteration);
-        }
-        else if (to.path !== '/' && to.path !== from.path) { // // 如果页面是非首页，# 号也会触发路由变化，这里已经排除掉
-          // 刷新页面或进入新的页面后，如果原来位置的内容还存在，则删除掉，最后重新插入渲染
-          removeElement('.page-view-js');
-          removeElement('.page-view');
-          removeElement('.book-words');
-          removeElement('.reading-time');
-          siteData.pages.forEach((itemPage) => {
-            if (itemPage.path == to.path) {
-              if (itemPage.frontmatter.article == undefined || itemPage.frontmatter.article) {  // 排除掉 article 为 false 的文章
-                const { eachFileWords, pageView, pageIteration, readingTime } = siteData.themeConfig.blogInfo;
-                // 下面两个 if 可以调换位置，从而让文章的浏览量和字数内容交换
-                if (eachFileWords) {
-                  eachFileWords.forEach((itemFile) => {
-                    if (itemFile.permalink == itemPage.frontmatter.permalink) {
-                      addPageWordsCount(itemFile.wordsCount);
-                      if (readingTime || readingTime == undefined) {
-                        addReadTimeCount(itemFile.readingTime);
-                      }
+      if (to.path == '/') {       // 如果页面是首页
+        const { indexIteration } = siteData.themeConfig.blogInfo;
+        getIndexViewCouter(indexIteration);
+      }
+      else if (to.path !== '/' && to.path !== from.path) { // // 如果页面是非首页，# 号也会触发路由变化，这里已经排除掉
+        // 刷新页面或进入新的页面后，如果原来位置的内容还存在，则删除掉，最后重新插入渲染
+        removeElement('.page-view-js');
+        removeElement('.page-view');
+        removeElement('.book-words');
+        removeElement('.reading-time');
+        siteData.pages.forEach((itemPage) => {
+          if (itemPage.path == to.path) {
+            if (itemPage.frontmatter.article == undefined || itemPage.frontmatter.article) {  // 排除掉 article 为 false 的文章
+              const { eachFileWords, pageView, pageIteration, readingTime } = siteData.themeConfig.blogInfo;
+              // 下面两个 if 可以调换位置，从而让文章的浏览量和字数内容交换
+              if (eachFileWords) {
+                eachFileWords.forEach((itemFile) => {
+                  if (itemFile.permalink == itemPage.frontmatter.permalink) {
+                    addPageWordsCount(itemFile.wordsCount);
+                    if (readingTime || readingTime == undefined) {
+                      addReadTimeCount(itemFile.readingTime);
                     }
-                  });
-                }
-                if (pageView || pageView == undefined) {
-                  addPageView();
-                  // 挂载成功需要一点时间
-                  setTimeout(() => {
-                    getPageViewCouter(pageIteration);
-                  }, 1500);
-                }
-
-                return;
+                  }
+                });
               }
+              if (pageView || pageView == undefined) {
+                addPageView();
+                // 挂载成功需要一点时间
+                setTimeout(() => {
+                  getPageViewCouter(pageIteration);
+                }, 1500);
+              }
+
+              return;
             }
-          })
-        }
-      }, 10);
+          }
+        })
+      }
     })
     // 目前用不到
     router.afterEach((to, from) => {
       if (from.path === '/' && from.matched && from.matched.length === 0) {    // 如果页面是刷新或者第一次进入
-
       }
     })
   }
@@ -178,9 +179,25 @@ function addPageView() {
   template.style.float = 'left';
   template.style.marginLeft = '20px';
   template.style.fontSize = '0.8rem';
-  template.innerHTML = '<span id="busuanzi_container_page_pv" style="display: none; margin-left: 3px"><a style="color: #888" href="javascript:;" id="busuanzi_value_page_pv" class="view-data"></a></span>';
-
+  // template.innerHTML = '<span id="busuanzi_container_page_pv" style="display: none; margin-left: 3px"><a style="color: #888" href="javascript:;" id="busuanzi_value_page_pv" class="view-data"></a></span>';
+  template.innerHTML = '<a style="color: #888; margin-left: 3px" href="javascript:;" id="busuanzi_value_page_pv" class="view-data"><i title="正在获取ing" class="loading iconfont icon-loading"></i></a>';
   mountedView(template);
+  // 添加 loading 效果
+  let style = document.createElement("style");
+  style.innerHTML = `@keyframes turn {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading {
+    display: inline-block;
+    animation: turn 1s linear infinite;
+    -webkit-animation: turn 1s linear infinite;
+  }`;
+  document.head.appendChild(style);
 }
 /**
  * 添加当前文章页的字数元素
@@ -193,6 +210,7 @@ function addPageWordsCount(wordsCount) {
     template.style.float = 'left';
     template.style.marginLeft = '20px';
     template.style.fontSize = '0.8rem';
+
     template.innerHTML = `<a href="javascript:;" style="margin-left: 3px; color: #888">${wordsCount}</a>`;
     mountedView(template);
   }
