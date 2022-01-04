@@ -19,7 +19,7 @@ module.exports = [
   [
     {
       name: 'custom-plugins',
-      globalUIComponents: ["LastReadingPopup"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        globalUIComponents: ["LastReadingPopup"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }
   ],
   // rss 配置
@@ -27,7 +27,6 @@ module.exports = [
     'vuepress-plugin-rss',
         {
           base_url: '/', // required
-          site_url: 'https://wiki.eryajf.net', // required
           copyright: '二丫讲梵', // optional
           // filter some post
           filter: (frontmatter) => { return [true] },
@@ -35,27 +34,27 @@ module.exports = [
           count: 20,
     }
   ],
-  // 首页公告提示
-  ["@vuepress-yard/vuepress-plugin-window",{
-    title: "公告",  //vuepress公告插件 先安装在配置 npm install @vuepress-yard/vuepress-plugin-window --save
-    contentInfo: {
-      title: "",
-      needImg: false, // 不展示图片，展示如下的content
-      imgUrl: "https://reinness.com/avatar.png",
-      content: "世事细探看，我辈赛仙神。形胜痴迷中，自成画中人。",
-      contentStyle: ""
-    },
-    windowStyle: {
-      right: '20px',
-      top: '70px',
-      width: '130px'
-    },
-    bottomInfo: {
-      btnText: '当赏',
-      linkTo: 'https://wiki.eryajf.net/reward/'
-    },
-    closeOnce: true
-  }],
+  // 首页公告提示--暂时去掉了
+  // ["@vuepress-yard/vuepress-plugin-window",{
+  //   title: "欢迎",  //vuepress公告插件 先安装在配置 npm install @vuepress-yard/vuepress-plugin-window --save
+  //   contentInfo: {
+  //     title: "",
+  //     needImg: false, // 不展示图片，展示如下的content
+  //     imgUrl: "https://reinness.com/avatar.png",
+  //     content: "世事细探看，我辈赛仙神。形胜痴迷中，自成画中人。",
+  //     contentStyle: ""
+  //   },
+  //   windowStyle: {
+  //     right: '20px',
+  //     top: '72px',
+  //     width: '135px'
+  //   },
+  //   bottomInfo: {
+  //     btnText: '当赏',
+  //     linkTo: 'https://wiki.eryajf.net/reward/'
+  //   },
+  //   closeOnce: true
+  // }],
   // 访问统计插件
   [
     'umami',
