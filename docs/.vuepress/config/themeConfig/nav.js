@@ -33,6 +33,7 @@ module.exports = [
     items: [
       { text: '随写编年', link: '/pages/2714.html'},
       { text: '家人物语', link: '/pages/2442.html'},
+      { text: '追忆青春', link: '/pages/fdb9f6/'},
       { text: '父亲的朋友圈', link: '/pages/3993f9/'},
       { text: '电影音乐', link: '/pages/184.html'},
       { text: '效率工具', link: '/pages/136.html'},
