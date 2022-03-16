@@ -87,9 +87,9 @@ module.exports = {
         link: 'https://github.com/eryajf',
       },
       {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: 'https://music.163.com/#/user/home?id=316286554',
+        iconClass: 'icon-rss',
+        title: '订阅',
+        link: 'https://wiki.eryajf.net/rss.xml',
       },
     ],
   },
