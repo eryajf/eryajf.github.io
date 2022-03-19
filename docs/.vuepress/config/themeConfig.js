@@ -15,9 +15,6 @@ module.exports = {
   // docsDir: 'docs', // 编辑的文件夹
   // editLinkText: '编辑',
   sidebarHoverTriggerOpen: true, // 侧边栏自动隐藏
-  markdown: {
-    extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ]
-  },
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
   // category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
