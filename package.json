@@ -23,6 +23,7 @@
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-cursor-effects": "^1.0.2",
     "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-feed": "^0.1.9",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-mermaidjs": "^1.8.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
@@ -30,7 +31,7 @@
     "vuepress-plugin-rss-support": "^1.1.1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.9.0",
+    "vuepress-theme-vdoing": "^1.10.0",
     "yamljs": "^0.3.0"
   },
   "dependencies": {

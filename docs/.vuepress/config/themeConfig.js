@@ -77,19 +77,19 @@ module.exports = {
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
-        iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:Linuxlql@163.com',
-      },
-      {
         iconClass: 'icon-github',
         title: 'GitHub',
         link: 'https://github.com/eryajf',
       },
       {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: 'https://music.163.com/#/user/home?id=316286554',
+        iconClass: 'icon-youjian',
+        title: '发邮件',
+        link: 'mailto:Linuxlql@163.com',
+      },
+      {
+        iconClass: 'icon-rss',
+        title: '订阅',
+        link: 'https://wiki.eryajf.net/rss.xml',
       },
     ],
   },
