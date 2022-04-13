@@ -17,6 +17,14 @@ module.exports = {
   sidebarHoverTriggerOpen: true, // 侧边栏自动隐藏
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
+  // 当.md文件的front matter不存在extendFrontmatter内相应的字段时，将在运行开发服务dev或打包build时自动添加，但不会覆盖已有的数据。
+  // https://doc.xugaoyi.com/pages/a20ce8/#extendfrontmatter
+  extendFrontmatter: {
+    titleTag: '原创',
+    feed:{ enable: true },
+    description:'',
+  },
+
   // category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
   // tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
   // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
