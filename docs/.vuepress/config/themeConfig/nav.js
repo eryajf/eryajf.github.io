@@ -11,13 +11,21 @@ module.exports = [
       { text: 'Prometheus', link: '/pages/2468.html'},
       { text: 'Grafana', link: '/pages/5380.html'},
       { text: 'CentOS', link: '/pages/5279.html'},
+      { text: 'Systemd', link: '/pages/2501.html'},
       { text: 'Docker', link: '/pages/1847.html'},
+      { text: 'Rnacher', link: '/pages/2671.html'},
       { text: 'Ansible', link: '/pages/5173.html'},
       { text: 'Ldap', link: '/pages/3410.html'},
       { text: 'Gitlab', link: '/pages/243.html'},
-      { text: 'Kafka', link: '/pages/2951.html'},
       { text: 'Etcd', link: '/pages/4050.html'},
       { text: 'Consul', link: '/pages/f61d95/'},
+      { text: 'RabbitMQ', link: '/pages/2930.html'},
+      { text: 'Kafka', link: '/pages/2951.html'},
+      { text: 'MySql', link: '/pages/1497.html'},
+      { text: 'MongoDB', link: '/pages/2972.html'},
+      { text: 'OpenVPN', link: '/pages/3807.html'},
+      { text: 'KVM', link: '/pages/114.html'},
+      { text: 'VMware', link: '/pages/1248.html'},
       { text: 'Other', link: '/pages/285.html'},
     ]
   },
@@ -44,7 +52,8 @@ module.exports = [
     items: [
       { text: 'Vue', link: '/pages/5164.html'},
       { text: 'Shell', link: '/pages/531.html'},
-      { text: 'Golang', link: '/pages/aeab08/'},
+      { text: 'Golang学习笔记', link: '/pages/aeab08/'},
+      { text: 'Golang编程技巧', link: '/pages/c13b45/'},
     ]
   },
   { text: '周刊', link: '/pages/11c668/',
@@ -65,10 +74,20 @@ module.exports = [
   text: '页面',
   link: '/friends/',
   items: [
-    { text: '友链', link: '/friends/' },
-    { text: '导航', link: '/nav/' },
-    { text: '打赏', link: '/reward/' },
-    { text: '镜像', link: 'http://m.eryajf.net' },
+    {
+      items: [
+        { text: '友链', link: '/friends/' },
+        { text: '导航', link: '/nav/' },
+        { text: '打赏', link: '/reward/' },
+      ]
+    },
+    {
+      items: [
+        { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
+        { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
+        { text: '出口IP查询', link: 'http://ip.eryajf.net' },
+      ]
+    }
   ],
 },
 { text: '开往', link: 'https://travellings.link' },
