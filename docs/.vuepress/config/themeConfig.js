@@ -21,8 +21,8 @@ module.exports = {
   // https://doc.xugaoyi.com/pages/a20ce8/#extendfrontmatter
   extendFrontmatter: {
     titleTag: '原创',
-    feed:{ enable: true },
-    description:'',
+    // feed:{  enable: true },
+    // description: '',
   },
 
   // category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
