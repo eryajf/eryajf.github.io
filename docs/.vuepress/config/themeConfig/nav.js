@@ -17,7 +17,7 @@ module.exports = [
       { text: 'Ansible', link: '/pages/5173.html'},
       { text: 'Ldap', link: '/pages/3410.html'},
       { text: 'Gitlab', link: '/pages/243.html'},
-      { text: 'GitHub', link: '/pages/d38cd9/'},
+      { text: 'GitHub', link: '/pages/226388/'},
       { text: 'Etcd', link: '/pages/4050.html'},
       { text: 'Consul', link: '/pages/f61d95/'},
       { text: 'RabbitMQ', link: '/pages/2930.html'},
