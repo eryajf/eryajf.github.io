@@ -32,33 +32,23 @@
       </div>
     </div>
 
-    <div class="webinfo-item">
+    <div v-if="indexView" class="webinfo-item">
       <div class="webinfo-item-title">本站被访问了：</div>
       <div class="webinfo-content">
-        <span id="busuanzi_container_site_pv">
-          <span id="busuanzi_value_site_pv" class="web-site-pv"
-            ><i
-              title="正在获取..."
-              class="loading iconfont icon-loading"
-            ></i>
-          </span>
-          次
+        <span id="busuanzi_value_site_pv" class="web-site-pv"
+          ><i title="正在获取..." class="loading iconfont icon-loading"></i>
         </span>
+        次
       </div>
     </div>
 
-    <div class="webinfo-item">
+    <div v-if="indexView" class="webinfo-item">
       <div class="webinfo-item-title">您的访问排名：</div>
       <div class="webinfo-content busuanzi">
-        <span id="busuanzi_container_site_uv">
-          <span id="busuanzi_value_site_uv" class="web-site-uv"
-            ><i
-              title="正在获取..."
-              class="loading iconfont icon-loading"
-            ></i>
-          </span>
-          名
+        <span id="busuanzi_value_site_uv" class="web-site-uv"
+          ><i title="正在获取..." class="loading iconfont icon-loading"></i>
         </span>
+        名
       </div>
     </div>
   </div>
@@ -66,6 +56,7 @@
 
 <script>
 import { dayDiff, timeDiff, lastUpdatePosts } from "../webSiteInfo/utils";
+import fetch from "../webSiteInfo/busuanzi"; // 统计量
 export default {
   data() {
     return {
@@ -74,6 +65,7 @@ export default {
       createToNowDay: 0, // 博客创建时间距今多少天
       lastActiveDate: "", // 最后活动时间
       totalWords: 0, // 本站总字数
+      indexView: true, // 开启访问量和排名统计
     };
   },
   computed: {
@@ -90,6 +82,8 @@ export default {
         totalWords,
         moutedEvent,
         eachFileWords,
+        indexIteration,
+        indexView,
       } = this.$themeConfig.blogInfo;
       this.createToNowDay = dayDiff(blogCreate);
       if (mdFileCountType != "archives") {
@@ -113,77 +107,110 @@ export default {
         this.totalWords = Math.round(archivesWords / 100) / 10 + "k";
       } else if (totalWords == "archives") {
         this.totalWords = 0;
-        console.log("如果 totalWords 使用 archives，必须传入 eachFileWords");
+        console.log(
+          "如果 totalWords = 'archives'，必须传入 eachFileWords，显然您并没有传入！"
+        );
       } else {
         this.totalWords = totalWords;
       }
       // 最后一次活动时间
       this.lastActiveDate = timeDiff(this.$lastUpdatePosts[0].lastUpdated);
-      mountedWebInfo(moutedEvent);
+      this.mountedWebInfo(moutedEvent);
+      // 获取访问量和排名
+      this.indexView = indexView == undefined ? true : indexView;
+      if (this.indexView) {
+        this.getIndexViewCouter(indexIteration);
+      }
     }
   },
-};
-/**
- * 挂载站点信息模块
- */
-function mountedWebInfo(moutedEvent = ".tags-wrapper") {
-  let interval = setInterval(() => {
-    const tagsWrapper = document.querySelector(moutedEvent);
-    const webInfo = document.querySelector(".web-info");
-    if (tagsWrapper && webInfo) {
-      if (!isSiblilngNode(tagsWrapper, webInfo)) {
-        tagsWrapper.parentNode.insertBefore(webInfo, tagsWrapper.nextSibling);
-        clearInterval(interval);
-      }
-    }
-  }, 200);
-}
-/**
- * 挂载在兄弟元素后面
- */
-function isSiblilngNode(element, siblingNode) {
-  if (element.parentNode == siblingNode.parentNode) {
-    return true;
-  } else {
-    return false;
-  }
-}
-/**
- * 首页的统计量
- * 该方法移到了 enhanceApp.js 文件
- */
-function getIndexViewCouter() {
-  // require 会获取一次访问量
-  //const busuanzi = require("busuanzi.pure.js");
-  var i = 0;
-  var defaultCouter = "9999";
-  // 如果 require 没有获取成功，则手动获取
-  setTimeout(() => {
-    let interval = setInterval(() => {
-      const indexUv = document.querySelector(".web-site-pv");
-      const indexPv = document.querySelector(".web-site-uv");
-      if (indexPv || indexUv) {
-        i++;
-        if (i > 1 * 10) {
-          indexPv.innerText = defaultCouter;
-          indexUv.innerText = defaultCouter;
-          clearInterval(interval); // 10 秒后无法获取，则取消获取
+  methods: {
+    /**
+     * 挂载站点信息模块
+     */
+    mountedWebInfo(moutedEvent = ".tags-wrapper") {
+      let interval = setInterval(() => {
+        const tagsWrapper = document.querySelector(moutedEvent);
+        const webInfo = document.querySelector(".web-info");
+        if (tagsWrapper && webInfo) {
+          if (!this.isSiblilngNode(tagsWrapper, webInfo)) {
+            tagsWrapper.parentNode.insertBefore(
+              webInfo,
+              tagsWrapper.nextSibling
+            );
+            clearInterval(interval);
+          }
         }
-        if (indexPv.innerText == "" && indexUv.innerText == "") {
-          // 手动获取访问量
-          //busuanzi.fetch();
-        } else {
-          clearInterval(interval);
-        }
+      }, 200);
+    },
+    /**
+     * 挂载在兄弟元素后面，说明当前组件是 siblingNode 变量
+     */
+    isSiblilngNode(element, siblingNode) {
+      if (element.siblingNode == siblingNode) {
+        return true;
       } else {
-        clearInterval(interval);
+        return false;
       }
-    }, 2000);
-  }, 2000);
-}
+    },
+    /**
+     * 首页的统计量
+     */
+    getIndexViewCouter(iterationTime = 3000) {
+      fetch();
+      var i = 0;
+      var defaultCouter = "9999";
+      // 如果只需要第一次获取数据（可能获取失败），可注释掉 setTimeout 内容，此内容是第一次获取失败后，重新获取访问量
+      // 可能会导致访问量再次 + 1 原因：取决于 setTimeout 的时间（需求调节），setTimeout 太快导致第一个获取的数据没返回，就第二次获取，导致结果返回 + 2 的数据
+      setTimeout(() => {
+        let indexUv = document.querySelector(".web-site-pv");
+        let indexPv = document.querySelector(".web-site-uv");
+        if (
+          indexPv &&
+          indexUv &&
+          indexPv.innerText == "" &&
+          indexUv.innerText == ""
+        ) {
+          let interval = setInterval(() => {
+            // 再次判断原因：防止进入 setInterval 的瞬间，访问量获取成功
+            if (
+              indexPv &&
+              indexUv &&
+              indexPv.innerText == "" &&
+              indexUv.innerText == ""
+            ) {
+              i += iterationTime;
+              if (i > iterationTime * 5) {
+                indexPv.innerText = defaultCouter;
+                indexUv.innerText = defaultCouter;
+                clearInterval(interval); // 5 次后无法获取，则取消获取
+              }
+              if (indexPv.innerText == "" && indexUv.innerText == "") {
+                // 手动获取访问量
+                fetch();
+              } else {
+                clearInterval(interval);
+              }
+            } else {
+              clearInterval(interval);
+            }
+          }, iterationTime);
+          // 绑定 beforeDestroy 生命钩子，清除定时器
+          this.$once("hook:beforeDestroy", () => {
+            clearInterval(interval);
+            interval = null;
+          });
+        }
+      }, iterationTime);
+    },
+    beforeMount() {
+      let webInfo = document.querySelector(".web-info");
+      webInfo && webInfo.parentNode.removeChild(webInfo);
+    },
+  },
+};
 </script>
 
-<style>
+<style scoped>
 .web-info {
   font-size: 0.875rem;
   padding: 0.95rem;
@@ -213,7 +240,6 @@ function getIndexViewCouter() {
     transform: rotate(360deg);
   }
 }
-
 .loading {
   display: inline-block;
   animation: turn 1s linear infinite;

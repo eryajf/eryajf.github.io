@@ -96,38 +96,3 @@ export function getDays(mouth, year) {
   }
   return days;
 }
-
-/**
- * 已运行时间低于一天显示时分秒
- * 目前该函数没有使用，低于一天直接显示不到一天
- */
-export function getTime(startDate, endDate) {
-  if (day < 0) {
-    let hour = parseInt(Math.abs(new Date(startDate) - new Date(endDate)) / (1000 * 60 * 60));
-    if (hour > 0) {
-      let minute = parseInt(Math.abs(new Date(startDate) - new Date(endDate) - hour * 60 * 60 * 1000) / (1000 * 60));
-      if (minute > 0) {
-        let second = parseInt(Math.abs(new Date(startDate) - new Date(endDate) - hour * 60 * 60 * 1000 - minute * 60 * 1000) / (1000));
-        if (second != 0) {
-          return hour + ' 小时 ' + minute + ' 分钟 ' + second + ' 秒';
-        } else {
-          return hour + ' 小时 ' + minute + ' 分钟 ';
-        }
-      } else {
-        return hour + ' 小时 ';
-      }
-    } else {
-      let minute = parseInt(Math.abs(new Date(startDate) - new Date(endDate) - hour * 60 * 60 * 1000) / (1000 * 60));
-      if (minute > 0) {
-        let second = parseInt(Math.abs(new Date(startDate) - new Date(endDate) - hour * 60 * 60 * 1000 - minute * 60 * 1000) / (1000));
-        if (second != 0) {
-          return + minute + ' 分钟 ' + second + ' 秒';
-        } else {
-          return minute + ' 分钟 ';
-        }
-      } else {
-        return parseInt(Math.abs(new Date(startDate) - new Date(endDate) - hour * 60 * 60 * 1000 - minute * 60 * 1000) / (1000)) + ' 秒 ';
-      }
-    }
-  }
-}

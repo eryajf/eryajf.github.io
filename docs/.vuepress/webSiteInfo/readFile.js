@@ -98,18 +98,18 @@ function readTime(len, cn = 300, en = 160) {
     let hour = parseInt(readingTime / 60);
     let minute = parseInt((readingTime - hour * 60));
     if (minute === 0) {
-      return hour + ' h';
+      return hour + 'h';
     }
-    return hour + ' h ' + minute + ' m';
+    return hour + 'h' + minute + 'm';
   } else if (readingTime > 60 * 24) {      // 大于一天
     let day = parseInt(readingTime / (60 * 24));
     let hour = parseInt((readingTime - day * 24 * 60) / 60);
     if (hour === 0) {
-      return day + ' d';
+      return day + 'd';
     }
-    return day + ' d ' + hour + ' h';
+    return day + 'd' + hour + 'h';
   }
-  return readingTime < 1 ? '1' : parseInt((readingTime * 10)) / 10 + ' m';   // 取一位小数
+  return readingTime < 1 ? '1' : parseInt((readingTime * 10)) / 10 + 'm';   // 取一位小数
 }
 
 /**
