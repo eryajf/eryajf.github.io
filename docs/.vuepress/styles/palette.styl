@@ -74,3 +74,43 @@
  $readingSize = 3px
  $readingProgressColor = #b160ea
  $readingProgressImage = none
+
+
+// 代码块样式
+.theme-mode-light
+  --bodyBg: #f4f4f4
+  --mainBg: rgba(255,255,255,1)
+  --sidebarBg: rgba(255,255,255,.8)
+  --blurBg: rgba(255,255,255,.9)
+  --customBlockBg: rgba(255,255,255,.9)
+  --textColor: #00323c
+  --textLightenColor: #0085AD
+  --borderColor: rgba(0,0,0,.15)
+  // 代码块浅色主题
+  //--codeBg: #f6f8fa
+  //--codeColor: #24292e
+  //codeThemeLight()
+  // 行高亮颜色，和代码块浅色主题一起使用，一起注释
+  //div[class*="language-"]
+  //  .highlight-lines
+  //    .highlighted
+  //      background-color rgba(200,200,200,.4)
+  //  &.line-numbers-mode
+  //    .highlight-lines .highlighted
+  //      &:before
+  //        background-color rgba(200,200,200,.4)
+  // 代码块深色主题
+  --codeBg: #282C34
+  --codeColor: #D4D4D4
+  codeThemeDark()
+  // 行高亮颜色，和代码块深色主题一起使用，一起注释
+  div[class*="language-"]
+    .highlight-lines
+      .highlighted
+        background-color rgba(0,0,0,.66)
+    &.line-numbers-mode
+      .highlight-lines .highlighted
+        &:before
+          background-color rgba(0,0,0,.66)
+  div[class*="language-"].line-numbers-mode::after  // 代码块的行数和内容分割线颜色
+    border-right 1px solid rgba(0, 0, 0, 0.66)
