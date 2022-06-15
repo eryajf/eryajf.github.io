@@ -33,40 +33,6 @@ module.exports = [
   // rss 配置
   [ 'feed', feed_options ],
 
-  // [
-  //   'vuepress-plugin-rss',
-  //       {
-  //         base_url: '/', // required
-  //         copyright: '二丫讲梵', // optional
-  //         // filter some post
-  //         filter: (frontmatter) => { return [true] },
-  //         // How much articles
-  //         count: 20,
-  //   }
-  // ],
-
-  // 首页公告提示--暂时去掉了
-  // ["@vuepress-yard/vuepress-plugin-window",{
-  //   title: "欢迎",  //vuepress公告插件 先安装在配置 npm install @vuepress-yard/vuepress-plugin-window --save
-  //   contentInfo: {
-  //     title: "",
-  //     needImg: false, // 不展示图片，展示如下的content
-  //     imgUrl: "https://reinness.com/avatar.png",
-  //     content: "世事细探看，我辈赛仙神。形胜痴迷中，自成画中人。",
-  //     contentStyle: ""
-  //   },
-  //   windowStyle: {
-  //     right: '20px',
-  //     top: '72px',
-  //     width: '135px'
-  //   },
-  //   bottomInfo: {
-  //     btnText: '当赏',
-  //     linkTo: 'https://wiki.eryajf.net/reward/'
-  //   },
-  //   closeOnce: true
-  // }],
-
   // meta优化 https://github.com/webmasterish/vuepress-plugin-autometa
   ['autometa',autometa_options],
 
