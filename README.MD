@@ -7,5 +7,9 @@
 
 **学习周刊：** [https://wiki.eryajf.net/pages/11c668/](https://wiki.eryajf.net/pages/11c668/)
 
+> 可通过此地址进行rss订阅：[rss](https://wiki.eryajf.net/rss.xml)
 
-**注意：因为博客使用gitalk作为评论系统，因此平时会有不少issue的通知，大家酌情选择watch，以免造成消息轰炸！如果你实在忍不住就想点一下，烦请右移点个小star🐶**
+
+**注意：因为博客使用gitalk作为评论系统，因此平时会有不少issue的通知，大家酌情选择watch(或者watch中忽略issue通知)，以免造成消息轰炸！如果你实在忍不住就想点一下，烦请右移点个小star🐶**
+
+![image_20220622_090706](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220622_090706.png)
