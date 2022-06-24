@@ -94,7 +94,7 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:Linuxlql@163.com',
+        link: 'mailto:eryajf@163.com',
       },
       {
         iconClass: 'icon-rss',
