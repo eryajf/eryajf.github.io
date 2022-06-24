@@ -35,7 +35,6 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
     "busuanzi.pure.js": "^1.0.3",
     "leancloud-storage": "^4.11.1",
     "vuepress-plugin-comment": "^0.7.3",

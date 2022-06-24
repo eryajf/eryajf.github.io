@@ -29,7 +29,7 @@ jobs:
       - name: run deploy.sh # 步骤3
         env: # 设置环境变量
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-        run: npm install --registry=https://registry.npmmirror.com && npm run deploy
+        run: npm install && npm run deploy
 
       # 利用action把build好的文件上传到服务器/home/eryajf.github.io路径下,需要确认此目录已在服务端创建
       # - name: deploy file to server
