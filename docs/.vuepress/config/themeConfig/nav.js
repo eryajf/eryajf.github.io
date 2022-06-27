@@ -13,7 +13,7 @@ module.exports = [
       { text: 'CentOS', link: '/pages/5279.html'},
       { text: 'Systemd', link: '/pages/2501.html'},
       { text: 'Docker', link: '/pages/1847.html'},
-      { text: 'Rnacher', link: '/pages/2671.html'},
+      { text: 'Rancker', link: '/pages/2671.html'},
       { text: 'Ansible', link: '/pages/5173.html'},
       { text: 'Ldap', link: '/pages/3410.html'},
       { text: 'Gitlab', link: '/pages/243.html'},
