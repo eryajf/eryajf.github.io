@@ -89,6 +89,13 @@ module.exports = [
         { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
         { text: '出口IP查询', link: 'http://ip.eryajf.net' },
       ]
+    },
+    {
+      items: [
+        { text: 'ldapdoc', link: 'http://ldapdoc.eryajf.net' },
+        { text: 'HowToStartOpenSource', link: 'https://eryajf.github.io/HowToStartOpenSource' },
+        { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
+      ]
     }
   ],
 },
