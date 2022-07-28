@@ -1,5 +1,4 @@
 ![wiki](https://img.shields.io/website?url=https://wiki.eryajf.net/)
-![learning-weekly](https://img.shields.io/website?url=https://eryajf.gitee.io/learning-weekly/)
 
 个人博客所有内容源代码，博客通过静态部署，一切内容尽皆开源开放。
 
