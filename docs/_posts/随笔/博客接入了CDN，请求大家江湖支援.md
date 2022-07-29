@@ -3,7 +3,7 @@ title: 博客接入了CDN，请求大家江湖支援
 date: 2022-07-02 23:28:29
 permalink: /pages/5f559d/
 sidebar: auto
-sticky: 3
+# sticky: 3
 categories:
   - 随笔
 tags:
