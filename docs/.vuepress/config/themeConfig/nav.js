@@ -85,7 +85,7 @@ module.exports = [
     {
       items: [
         { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
-        { text: '微信MD编辑', link: 'http://public.eryajf.net/md' },
+        { text: '微信MD编辑', link: 'http://public.eryajf.net/mdnice' },
         { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
         { text: '出口IP查询', link: 'http://ip.eryajf.net' },
       ]
