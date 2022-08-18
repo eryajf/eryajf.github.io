@@ -4,7 +4,7 @@ module.exports = [
   { text: '运维',link: '/ops/',
     items: [
       { text: '最佳实践', link: '/best-practices/'},
-      { text: '迎刃而解', link: '/solve-it'},
+      { text: '迎刃而解', link: '/solve-it/'},
       { text: 'Nginx', link: '/nginx/'},
       { text: 'Php', link: '/php/'},
       { text: 'Zabbix', link: '/zabbix/'},
