@@ -31,7 +31,6 @@
     "vuepress-plugin-rss-support": "^1.1.1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.12.8",
     "yamljs": "^0.3.0"
   },
   "dependencies": {
@@ -40,6 +39,7 @@
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-robots": "^1.0.1",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-theme-vdoing": "^1.12.8"
   }
 }

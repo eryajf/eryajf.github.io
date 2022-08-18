@@ -15,7 +15,7 @@
 
 **博客地址：** [https://wiki.eryajf.net](https://wiki.eryajf.net)
 
-**学习周刊：** [https://wiki.eryajf.net/pages/11c668/](https://wiki.eryajf.net/pages/11c668/)
+**学习周刊：** [https://wiki.eryajf.net/learning-weekly/](https://wiki.eryajf.net/learning-weekly/)
 
 > 可通过此地址进行rss订阅：[rss](https://wiki.eryajf.net/rss.xml)
 
