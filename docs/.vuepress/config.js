@@ -18,4 +18,22 @@ module.exports = {
   head,
   plugins,
   themeConfig,
+
+  // vssue 评论插件
+  plugins: [
+    [
+      "vuepress-plugin-vssue-global",
+      {
+        platform: "github",
+        title: '-[Comment]-<%- frontmatter.title %>',
+        needComments: true,
+        // 其他的 Vssue 配置
+        autoCreateIssue: true,
+        clientId: "fb7da8986eeef58a7bdf",
+        clientSecret: "9bf3f6d604fa86275b546c0d04654ec362c2a864",
+        owner: "eryajf",
+        repo: "eryajf.github.io",
+      },
+    ],
+  ],
 }
