@@ -67,9 +67,11 @@ module.exports = [
   [
     'vuepress-plugin-zooming',
     {
-      selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
+      selector: '.my-wrapper .my-img',
+      delay: 1000,
       options: {
-        bgColor: 'rgba(0,0,0,0.6)',
+        bgColor: 'black',
+        zIndex: 10000,
       },
     },
   ],
@@ -91,13 +93,29 @@ module.exports = [
     },
   ],
 
+  // Vssue 评论插件
+  [
+    "vuepress-plugin-vssue-global",
+    {
+      platform: "github",
+      title: '-[Comment]-<%- frontmatter.title %>',
+      needComments: true,
+      // 其他的 Vssue 配置
+      autoCreateIssue: true,
+      clientId: "fb7da8986eeef58a7bdf",
+      clientSecret: "9bf3f6d604fa86275b546c0d04654ec362c2a864",
+      owner: "eryajf",
+      repo: "eryajf.github.io",
+    },
+  ],
+
   // 站点地图
-  'robots', {
-    host: "https://wiki.eryajf.net",
-    disallowAll: false,
-    allowAll: true,
-    sitemap: "/sitemap.xml",
-  },
+  // 'robots', {
+  //   host: "https://wiki.eryajf.net",
+  //   disallowAll: false,
+  //   allowAll: true,
+  //   sitemap: "/sitemap.xml",
+  // },
 
   // "上次更新"时间格式
   [
