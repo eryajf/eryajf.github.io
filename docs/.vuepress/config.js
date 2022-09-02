@@ -15,12 +15,9 @@ module.exports = {
     extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ]
   },
 
-  head,
-  plugins,
-  themeConfig,
-
-  // vssue 评论插件
   plugins: [
+    plugins,
+    // vssue 评论插件
     [
       "vuepress-plugin-vssue-global",
       {
@@ -36,4 +33,7 @@ module.exports = {
       },
     ],
   ],
+
+  head,
+  themeConfig,
 }
