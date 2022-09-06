@@ -43,12 +43,12 @@
     </div>
 
     <div v-if="indexView" class="webinfo-item">
-      <div class="webinfo-item-title">您的访问排名：</div>
+      <div class="webinfo-item-title">本站访问UV：</div>
       <div class="webinfo-content busuanzi">
         <span id="busuanzi_value_site_uv" class="web-site-uv"
           ><i title="正在获取..." class="loading iconfont icon-loading"></i>
         </span>
-        名
+        人
       </div>
     </div>
   </div>
