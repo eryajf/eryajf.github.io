@@ -89,6 +89,7 @@ module.exports = [
         { text: '微信MD编辑', link: 'http://public.eryajf.net/mdnice' },
         { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
         { text: '出口IP查询', link: 'http://ip.eryajf.net' },
+        { text: '代码高亮工具', link: 'http://public.eryajf.net/highlight/' },
       ]
     },
     {
