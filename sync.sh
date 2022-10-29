@@ -2,7 +2,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 # 编译
-pnpm install
+# pnpm install
 pnpm build
 # 同步
 rsync -az --delete docs/.vuepress/dist/  \
