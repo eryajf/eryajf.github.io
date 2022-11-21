@@ -67,11 +67,9 @@ module.exports = [
   [
     'vuepress-plugin-zooming',
     {
-      selector: '.my-wrapper .my-img',
-      delay: 1000,
+      selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
       options: {
-        bgColor: 'black',
-        zIndex: 10000,
+        bgColor: 'rgba(0,0,0,0.6)',
       },
     },
   ],
