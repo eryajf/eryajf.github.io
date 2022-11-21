@@ -65,41 +65,49 @@ module.exports = [
     ]
   },
   { text: '关于', link: '/about/' },
+  { text: '友链', link: '/friends/' },
   { text: '索引', link: '/categories/',
-  items: [
-    { text: '分类', link: '/categories/' },
-    { text: '标签', link: '/tags/' },
-    { text: '归档', link: '/archives/' },
-  ],
-},
-{
-  text: '页面',
-  link: '/friends/',
-  items: [
-    {
-      items: [
-        { text: '友链', link: '/friends/' },
-        { text: '导航', link: '/nav/' },
-        { text: '打赏', link: '/reward/' },
-      ]
-    },
-    {
-      items: [
-        { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
-        { text: '微信MD编辑', link: 'http://public.eryajf.net/mdnice' },
-        { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
-        { text: '出口IP查询', link: 'http://ip.eryajf.net' },
-        { text: '代码高亮工具', link: 'http://public.eryajf.net/highlight/' },
-      ]
-    },
-    {
-      items: [
-        { text: 'ldapdoc', link: 'http://ldapdoc.eryajf.net' },
-        { text: 'HowToStartOpenSource', link: 'https://eryajf.github.io/HowToStartOpenSource' },
-        { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
-      ]
-    }
-  ],
-},
-{ text: '开往', link: 'https://travellings.link' },
+    items: [
+      { text: '分类', link: '/categories/' },
+      { text: '标签', link: '/tags/' },
+      { text: '归档', link: '/archives/' },
+    ],
+  },
+  {
+    text: '页面',
+    link: '/nav/',
+    items: [
+      // {
+      //   items: [
+      //     { text: '分类', link: '/categories/' },
+      //     { text: '标签', link: '/tags/' },
+      //     { text: '归档', link: '/archives/' },
+      //   ],
+      // },
+      {
+        items: [
+          { text: '开往', link: 'https://travellings.link' },
+          { text: '导航', link: '/nav/' },
+          { text: '打赏', link: '/reward/' },
+        ]
+      },
+      {
+        items: [
+          { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
+          { text: '微信MD编辑', link: 'http://public.eryajf.net/mdnice' },
+          { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
+          { text: '出口IP查询', link: 'http://ip.eryajf.net' },
+          { text: '代码高亮工具', link: 'http://public.eryajf.net/highlight/' },
+        ]
+      },
+     {
+        items: [
+          { text: 'ldapdoc', link: 'http://ldapdoc.eryajf.net' },
+          { text: 'HowToStartOpenSource', link: 'https://eryajf.github.io/HowToStartOpenSource' },
+          { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
+        ]
+      }
+    ],
+  },
+  // { text: '开往', link: 'https://travellings.link' },
 ]
