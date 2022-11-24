@@ -114,3 +114,10 @@ $sidebarWidth = 22rem // 左侧边栏宽度
           background-color rgba(0,0,0,.66)
   div[class*="language-"].line-numbers-mode::after  // 代码块的行数和内容分割线颜色
     border-right 1px solid rgba(0, 0, 0, 0.66)
+
+// artalk 评论框 适配暗黑模式
+.theme-mode-dark #vuepress-plugin-vdoing-comment{
+  --at-color-bg: --bodyBg;
+  color: #ffffff;
+  --at-color-font: #ffffff;
+}

@@ -91,20 +91,35 @@ module.exports = [
     },
   ],
 
-  // Vssue 评论插件
+  // // Vssue 评论插件
+  // [
+  //   "vuepress-plugin-vssue-global",
+  //   {
+  //     platform: "github",
+  //     title: '-[Comment]-<%- frontmatter.title %>',
+  //     needComments: true,
+  //     // 其他的 Vssue 配置
+  //     autoCreateIssue: true,
+  //     clientId: "fb7da8986eeef58a7bdf",
+  //     clientSecret: "9bf3f6d604fa86275b546c0d04654ec362c2a864",
+  //     owner: "eryajf",
+  //     repo: "eryajf.github.io",
+  //   },
+  // ],
+
   [
-    "vuepress-plugin-vssue-global",
+    'vuepress-plugin-vdoing-comment',
     {
-      platform: "github",
-      title: '-[Comment]-<%- frontmatter.title %>',
-      needComments: true,
-      // 其他的 Vssue 配置
-      autoCreateIssue: true,
-      clientId: "fb7da8986eeef58a7bdf",
-      clientSecret: "9bf3f6d604fa86275b546c0d04654ec362c2a864",
-      owner: "eryajf",
-      repo: "eryajf.github.io",
-    },
+      choosen: 'artalk',
+      options: {
+        /* 公共属性 */
+        pageKey:   '', // 固定链接 (留空自动获取)
+        pageTitle: '', // 页面标题 (留空自动获取)
+        /* artalk专属属性 */
+        server: 'https://comment.eryajf.net',
+        site: '二丫讲梵'
+      }
+    }
   ],
 
   // 站点地图
