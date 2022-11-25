@@ -113,8 +113,9 @@ module.exports = [
       choosen: 'artalk',
       options: {
         /* 公共属性 */
-        pageKey:   '', // 固定链接 (留空自动获取)
-        pageTitle: '', // 页面标题 (留空自动获取)
+        // disableEmotion: false, // 是否禁用表情（可选）
+        disablePicture: true, // 是否禁用图片（可选）
+        // disablePreview: false // 是否禁用预览（可选）
         /* artalk专属属性 */
         server: 'https://comment.eryajf.net',
         site: '二丫讲梵'
