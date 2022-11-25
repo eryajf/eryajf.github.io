@@ -116,8 +116,18 @@ $sidebarWidth = 22rem // 左侧边栏宽度
     border-right 1px solid rgba(0, 0, 0, 0.66)
 
 // artalk 评论框 适配暗黑模式
-.theme-mode-dark #vuepress-plugin-vdoing-comment{
+.theme-mode-dark #vuepress-plugin-vdoing-comment {
   --at-color-bg: --bodyBg;
   color: #ffffff;
   --at-color-font: #ffffff;
+  --at-color-bg-transl: --bodyBg;
+  --at-color-bg-grey: #373a40
+}
+
+.theme-mode-dark #vuepress-plugin-vdoing-comment .atk-editor-plug-emoticons > .atk-grp-switcher > span:hover, .atk-editor-plug-emoticons > .atk-grp-switcher > span.active {
+  background: var(--at-color-bg-grey);
+}
+
+.theme-mode-dark #vuepress-plugin-vdoing-comment .atk-editor-plug-emoticons > .atk-grp-switcher {
+  background: var(--at-color-bg-grey)
 }

@@ -14,14 +14,14 @@
     </div>
 
     <div class="webinfo-item">
-      <div class="webinfo-item-title">已运行时间：</div>
+      <div class="webinfo-item-title">运行时间：</div>
       <div class="webinfo-content">
         {{ createToNowDay != 0 ? createToNowDay + " 天" : "不到一天" }}
       </div>
     </div>
 
     <div class="webinfo-item">
-      <div class="webinfo-item-title">本站总字数：</div>
+      <div class="webinfo-item-title">本站字数累计：</div>
       <div class="webinfo-content">{{ totalWords }} 字</div>
     </div>
 
@@ -43,7 +43,7 @@
     </div>
 
     <div v-if="indexView" class="webinfo-item">
-      <div class="webinfo-item-title">本站访问UV：</div>
+      <div class="webinfo-item-title">本站曾来访过：</div>
       <div class="webinfo-content busuanzi">
         <span id="busuanzi_value_site_uv" class="web-site-uv"
           ><i title="正在获取..." class="loading iconfont icon-loading"></i>
