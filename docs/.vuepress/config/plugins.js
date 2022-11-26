@@ -108,19 +108,17 @@ module.exports = [
   // ],
 
   [
-    'vuepress-plugin-vdoing-comment',
-    {
-      choosen: 'artalk',
-      options: {
-        /* 公共属性 */
-        // disableEmotion: false, // 是否禁用表情（可选）
-        disablePicture: true, // 是否禁用图片（可选）
-        // disablePreview: false // 是否禁用预览（可选）
-        /* artalk专属属性 */
-        server: 'https://comment.eryajf.net',
-        site: '二丫讲梵'
+    'vuepress-plugin-vdoing-comment', // 评论
+      {
+        choosen: 'artalk',
+        options: {
+            server: 'https://comment.eryajf.net',
+            site: '二丫讲梵',
+            disableEmotion: false,
+            disablePicture: true,
+            disablePreview: false
+        }
       }
-    }
   ],
 
   // 站点地图
