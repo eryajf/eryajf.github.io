@@ -123,11 +123,13 @@ $sidebarWidth = 22rem // 左侧边栏宽度
   --at-color-bg-transl: --bodyBg;
   --at-color-bg-grey: #373a40
 }
-
 .theme-mode-dark #vuepress-plugin-vdoing-comment .atk-editor-plug-emoticons > .atk-grp-switcher > span:hover, .atk-editor-plug-emoticons > .atk-grp-switcher > span.active {
   background: var(--at-color-bg-grey);
 }
-
 .theme-mode-dark #vuepress-plugin-vdoing-comment .atk-editor-plug-emoticons > .atk-grp-switcher {
   background: var(--at-color-bg-grey)
+}
+// artalk 隐藏图片按钮
+.atk-plug-btn:nth-child(2){
+    display:none !important;
 }
