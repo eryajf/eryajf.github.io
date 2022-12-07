@@ -85,14 +85,17 @@ module.exports = [
       //   ],
       // },
       {
+        text: '本站页面',
         items: [
-          { text: '开往', link: 'https://travellings.link' },
           { text: '导航', link: '/nav/' },
           { text: '打赏', link: '/reward/' },
         ]
       },
       {
+        text: '我的工具',
         items: [
+          { text: '备忘录清单', link: 'https://ref.eryajf.net' },
+          { text: '网站状态', link: 'http://uptime.eryajf.net/dashboard' },
           { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
           { text: '微信MD编辑', link: 'http://public.eryajf.net/mdnice' },
           { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
@@ -101,7 +104,9 @@ module.exports = [
         ]
       },
      {
+        text: '外站页面',
         items: [
+          { text: '开往', link: 'https://travellings.link' },
           { text: 'ldapdoc', link: 'http://ldapdoc.eryajf.net' },
           { text: 'HowToStartOpenSource', link: 'https://eryajf.github.io/HowToStartOpenSource' },
           { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
