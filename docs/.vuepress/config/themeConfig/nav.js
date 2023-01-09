@@ -106,7 +106,7 @@ module.exports = [
      {
         text: '外站页面',
         items: [
-          { text: '开往', link: 'https://travellings.link' },
+          { text: '开往', link: 'https://www.travellings.cn/go.html' },
           { text: 'ldapdoc', link: 'http://ldapdoc.eryajf.net' },
           { text: 'HowToStartOpenSource', link: 'https://eryajf.github.io/HowToStartOpenSource' },
           { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
