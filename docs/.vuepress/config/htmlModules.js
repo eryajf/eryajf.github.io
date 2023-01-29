@@ -9,7 +9,7 @@ module.exports = {
         font-weight: bold;
         margin: 0 0 8px 0;
       ">公众号</p>
-      <img src="http://t.eryajf.net/imgs/2022/02/be5b6c6fa601a9d1.png"  style="width:100%;" />
+      <img src="https://pic6.58cdn.com.cn/nowater/webim/big/n_v2e6192d04a405434bac4cb09b840df657.bmp"  style="width:100%;" />
       <p>
       运维艺术，扫码或者搜索关注
       </p>
@@ -32,4 +32,13 @@ module.exports = {
     // </div>`,
   // 利用广告模块儿,添加访问地球🌎
   // homeSidebarB: `<div style="width:100%;height:122px;color:#fff;background: #eee;"><a href="https://www.revolvermaps.com/livestats/5srkcv15atq/"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/10/5srkcv15atq.png" width="256" height="128" alt="Map" style="border:0;"></a></div>`,
+  pageB: `<div class="donation">
+  <button>打赏</button>
+  <div class="main">
+      <div class="pic">
+          <img src="https://t.eryajf.net/imgs/2023/01/834f12107ebc432a.png" alt="微信">
+          <img src="https://t.eryajf.net/imgs/2023/01/fc21022aadd292ca.png" alt="支付宝">
+      </div>
+  </div>
+</div>`,
 }

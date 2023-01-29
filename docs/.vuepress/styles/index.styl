@@ -72,3 +72,69 @@ body .vuepress-plugin-demo-block__wrapper
 .theme-vdoing-content:not(.custom) img
   display: block
   margin: auto
+
+// 文章底部打赏按钮
+.donation
+  position relative
+  text-align: center
+  margin-top: 10px
+  button
+    width 5rem
+    height 2.5rem
+    border: 0
+    border-radius .5rem
+    color: #fff
+    background-color $accentColor
+    font-weight: bold
+    opacity 0.9
+    transition: all .5s
+    &:hover,&:focus
+      opacity 1
+      transform: scale(1.05)
+      ~.main
+        .pic
+          visibility: visible
+          opacity 1
+          transform: translateY(-1.5rem)
+  .main
+    position absolute
+    bottom 3rem
+    left: 0
+    right: 0
+    pointer-events: none
+    .pic
+      position relative
+      visibility hidden
+      display: inline-block
+      padding:10px 12px
+      background-color rgba(#fff,.8)
+      box-shadow: 0 0 10px 0 #3336
+      border-radius: 1rem
+      opacity 0
+      transition: all .5s
+      pointer-events: all
+      z-index 10
+      &:hover
+        visibility visible
+        opacity 1
+        transform: translateY(-1.5rem)
+      &::before
+        content: ''
+        position absolute
+        bottom -@padding[0]
+        left: 50%
+        right: 50%
+        filter: drop-shadow(0px 4px 4px #3336);
+        transform: translateX(-50%)
+        border-width: (-@bottom) (-@bottom) 0;
+        border-style: solid;
+        border-color: rgba(#fff,.8) transparent transparent;
+      &::after
+        content: ''
+        display block
+        position absolute
+        width 100%
+        height 2.5rem
+      img
+        width 10rem
+        max-width 40vw

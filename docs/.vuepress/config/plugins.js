@@ -26,8 +26,22 @@ module.exports = [
   [
     {
       name: 'custom-plugins',
-        globalUIComponents: ["PageInfo","BlockToggle"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        globalUIComponents: ["PageInfo","BlockToggle","GlobalTip"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }
+  ],
+
+  // 动态标题，官网：https://moefyit.github.io/moefy-vuepress/packages/dynamic-title.html
+  [
+    "dynamic-title",
+    {
+      showIcon:
+        "https://wiki.eryajf.net/img/favicon.ico",
+      showText: "ヾ(≧▽≦*)o欢迎回来！",
+      hideIcon:
+        "https://wiki.eryajf.net/img/favicon.ico",
+      hideText: "ಥ_ಥ不要走呀！",
+      recoverTime: 2000, //  持续时间
+    },
   ],
 
   // rss 配置
