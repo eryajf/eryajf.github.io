@@ -27,6 +27,156 @@ features: # 可选的
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 
+
+
+<html>
+<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/c/font_3872971_vwuw7kt2c5.css">
+<style type="text/css">
+body{
+    margin: 0;
+    padding: 0px;
+}
+#carousel{
+    margin: auto; /* 居中 */
+    width: 100%; /* 设置宽度 */
+    position: relative; /* 相对定位 */
+    overflow: hidden; /* 超出隐藏 */
+}
+#carousel img{
+    position: absolute; /* 绝对定位 使图片堆叠 */
+    width: 100%; /* 设定大小 按比例缩放 */
+    transition: all .6s; /* 动画 */
+    opacity: 0; /* 隐藏 */
+}
+.imgActive{
+    opacity: 1 !important; /* 显示图片 最高优先级 */
+}
+/* 控制按钮的样式 */
+#leftArrow,
+#rightArrow{
+    position: absolute;
+    left: 5px;
+    top: 43%;
+    width: 25px;
+    height: 30px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+#rightArrow{
+    left: auto;
+    right: 5px;
+}
+#sliderBtn{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+.unitBtn{
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.btnActive{
+    background-color: #4C98F7;
+}
+</style>
+<body>
+  <!-- 轮播图容器 -->
+  <div id="carousel">
+    <!-- 图片组 -->
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/05/5b4cb4f9b98669f7.jpg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/04/2b047abd54f8aa81.jpg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/05/1cab6963969618be.jpg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/05/1d1562505d439647.jpg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/11/4e2c50099ec9e26b.jpg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/12/72a0c2d9a56656a0.jpg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/03/5c9f3183898546f5.jpg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/01/fb6c92925a6f487c.jpeg"></a>
+    <a href="https://wiki.eryajf.net"><img src="https://t.eryajf.net/imgs/2022/01/2184c189e2914537.jpg"></a>
+    <!-- 按钮组 -->
+    <div id="leftArrow" class="iconfont icon-icon_arrow_left"></div> <!-- 左箭头切换按钮 -->
+    <div id="rightArrow" class="iconfont icon-icon_arrow_right"></div> <!-- 右箭头切换按钮 -->
+    <div id="sliderBtn"></div> <!-- 切换按钮组 -->
+  </div>
+</body>
+  <script type="text/javascript">
+    var imgArr = []; // 图片数组
+    var curIndex = 0; // 当前显示图片
+    var timer = null; // 定时器
+    var btnList = []; // 右下角切换按钮组
+    function slide(targetIndex = curIndex + 1){
+      curIndex = targetIndex % imgArr.length; // 获取当前index
+      imgArr.forEach((v) => v.className = "" ); // 设置其他图片隐藏
+      imgArr[curIndex] .className = "imgActive"; // 设置当前index图片显示
+      btnList.forEach(v => v.className = "unitBtn") // 设置其他按钮为灰色
+      btnList[curIndex] .className = "unitBtn btnActive"; // 设置当前按钮为蓝色
+    }
+    function createBtnGroup(carousel,config){
+      document.getElementById("leftArrow").addEventListener('click',(e) => {
+        clearInterval(timer); // 清除定时器，避免手动切换时干扰
+        slide(curIndex-1); // 允许点击则切换上一张
+        timer = setInterval(() => {slide()},config.interval); // 重设定时器
+      })
+      document.getElementById("rightArrow").addEventListener('click',(e) => {
+        clearInterval(timer); // 清除定时器，避免手动切换时干扰
+        slide(curIndex+1); // 允许点击则切换下一张
+        timer = setInterval(() => {slide()},config.interval); // 重设定时器
+      })
+      var sliderBtn = document.getElementById("sliderBtn"); // 获取按钮容器的引用
+      imgArr.forEach((v,i) => {
+        let btn = document.createElement("div"); // 制作按钮
+        btn.className = i === 0 ?  "unitBtn btnActive" : "unitBtn"; // 初设蓝色与灰色按钮样式
+        btn.addEventListener('click',(e) => {
+          clearInterval(timer); // 清除定时器，避免手动切换时干扰
+          slide(i); // // 允许点击则切换
+          timer = setInterval(() => {slide()},config.interval); // 重设定时器
+        })
+        btnList.push(btn); // 添加按钮到按钮组
+          sliderBtn.appendChild(btn); // 追加按钮到按钮容器
+        })
+      }
+    function eventDispose(carousel,config){
+      document.addEventListener('visibilitychange',function(){ // 浏览器切换页面会导致动画出现问题，监听页面切换
+        if(document.visibilityState=='hidden') clearInterval(timer); // 页面隐藏清除定时器
+        else timer = setInterval(() => {slide()},config.interval); // 重设定时器
+      });
+      carousel.addEventListener('mouseover',function(){ // 鼠标移动到容器则不切换动画，停止计时器
+        clearInterval(timer); // 页面隐藏清除定时器
+      });
+      carousel.addEventListener('mouseleave',function(){ // 鼠标移出容器则开始动画
+        timer = setInterval(() => {slide()},config.interval); // 重设定时器
+      });
+    }
+    (function start() {
+      var config = {
+        height: "300px", // 配置高度
+        interval: 5000 // 配置轮播时间间隔
+      }
+      var carousel = document.getElementById("carousel"); //获取容器对象的引用
+      carousel.style.height = config.height; // 将轮播容器高度设定
+      document.querySelectorAll("#carousel img").forEach((v,i) => {
+        imgArr.push(v); // 获取所有图片组成数组
+        v.className = i === 0 ?  "imgActive" : "";
+      });
+      eventDispose(carousel,config); // 对一些浏览器事件处理
+      createBtnGroup(carousel,config); // 按钮组的处理
+      timer = setInterval(() => {slide()},config.interval); // 设置定时器定时切换
+    })();
+  </script>
+</html>
+
 ::: center
 大千世界，何其茫茫。谨此笔记，记录过往。凭君阅览，小站洛荒。如能收益，莫大奢望
 :::
@@ -39,7 +189,7 @@ features: # 可选的
 
 <!-- 小熊猫 -->
 <!-- <img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;"> -->
-<!-- 
+<!--
 
 ## 关于
 
