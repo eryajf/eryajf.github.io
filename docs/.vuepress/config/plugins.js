@@ -18,7 +18,31 @@ module.exports = [
   // 鼠标点击后散开小星星
   'cursor-effects',
   // 全文搜索插件
-  'fulltext-search',
+  // 'fulltext-search',
+   // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
+   [
+    'thirdparty-search',
+    {
+      thirdparty: [
+        {
+          title: '在谷歌中搜索',
+          frontUrl: 'https://www.google.com/search?q=',
+        },
+        {
+          title: '在Bing中搜索',
+          frontUrl: 'https://cn.bing.com/search?q=',
+        },
+        {
+          title: '在百度中搜索',
+          frontUrl: 'https://www.baidu.com/s?wd=',
+        },
+        {
+          title: '通过百度搜索本站的',
+          frontUrl: `https://www.baidu.com/s?wd=site%3Awiki.eryajf.net%20`,
+        },
+      ],
+    }
+  ],
   // 阅读顶部进度条
   'reading-progress',
 

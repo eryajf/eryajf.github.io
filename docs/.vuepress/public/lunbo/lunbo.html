@@ -13,7 +13,7 @@
     <div id="carousel">
         <!-- 图片组 -->
         <a href="https://wiki.eryajf.net" target="_blank"><img src="https://t.eryajf.net/imgs/2022/05/5b4cb4f9b98669f7.jpg"></a>
-        <a href="https://wiki.eryajf.net" target="_blank"><img src="https://t.eryajf.net/imgs/2022/04/2b047abd54f8aa81.jpg"></a>
+        <a href="https://baidu.com" target="_blank"><img src="https://t.eryajf.net/imgs/2022/04/2b047abd54f8aa81.jpg"></a>
         <a href="https://wiki.eryajf.net" target="_blank"><img src="https://t.eryajf.net/imgs/2022/05/1cab6963969618be.jpg"></a>
         <a href="https://wiki.eryajf.net" target="_blank"><img src="https://t.eryajf.net/imgs/2022/05/1d1562505d439647.jpg"></a>
         <a href="https://wiki.eryajf.net" target="_blank"><img src="https://t.eryajf.net/imgs/2022/11/4e2c50099ec9e26b.jpg"></a>
@@ -34,9 +34,9 @@
     function slide(targetIndex = curIndex + 1){
         curIndex = targetIndex % imgArr.length; // 获取当前index
         imgArr.forEach((v) => v.className = "" ); // 设置其他图片隐藏
-        imgArr[curIndex] .className = "imgActive"; // 设置当前index图片显示
+        imgArr[curIndex].className = "imgActive"; // 设置当前index图片显示
         btnList.forEach(v => v.className = "unitBtn") // 设置其他按钮为灰色
-        btnList[curIndex] .className = "unitBtn btnActive"; // 设置当前按钮为蓝色
+        btnList[curIndex].className = "unitBtn btnActive"; // 设置当前按钮为蓝色
     }
     function createBtnGroup(carousel,config){
         document.getElementById("leftArrow").addEventListener('click',(e) => {
