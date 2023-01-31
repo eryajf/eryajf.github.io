@@ -27,6 +27,10 @@ features: # 可选的
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 
+::: v-pre
+<iframe height="300" style="width: 100%;" scrolling="no" title="轮播展示" src="https://wiki.eryajf.net/lunbo/lunbo.html" frameborder="no" allowtransparency="true" allowfullscreen="true" loading="lazy"></iframe>
+:::
+
 
 ::: center
 大千世界，何其茫茫。谨此笔记，记录过往。凭君阅览，小站洛荒。如能收益，莫大奢望
