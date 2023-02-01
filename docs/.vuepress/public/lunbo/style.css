@@ -11,6 +11,7 @@ body{
 #carousel img{
     position: absolute; /* 绝对定位 使图片堆叠 */
     width: 100%; /* 设定大小 按比例缩放 */
+    height: 100%;
     transition: all .6s; /* 动画 */
     opacity: 0; /* 隐藏 */
 }
