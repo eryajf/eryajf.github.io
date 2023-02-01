@@ -79,7 +79,7 @@ module.exports = {
   blogger: {
     // 博主信息，显示在首页侧边栏
     // avatar: '/img/dengxia.gif',
-    avatar: 'https://pic6.58cdn.com.cn/nowater/webim/big/n_v2955dec3c90a1400a818eafac8e305d01.gif',
+    avatar: 'https://ldbbs.ldmnq.com/bbs/topic/attachment/2023-2/1aebdb3f-7c51-4ab9-ba55-3c3ff9bec8cc.gif',
     name: '二丫讲梵',
     slogan: '行者常至，为者常成',
   },
