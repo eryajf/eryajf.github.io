@@ -66,24 +66,26 @@ module.exports = [
   },
   { text: '关于', link: '/about/' },
   { text: '友链', link: '/friends/' },
-  { text: '索引', link: '/categories/',
-    items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
-    ],
-  },
+  { text: '推广', link: '/geektime/' },
+  // { text: '索引', link: '/categories/',
+  //   items: [
+  //     { text: '分类', link: '/categories/' },
+  //     { text: '标签', link: '/tags/' },
+  //     { text: '归档', link: '/archives/' },
+  //   ],
+  // },
   {
     text: '页面',
     link: '/nav/',
     items: [
-      // {
-      //   items: [
-      //     { text: '分类', link: '/categories/' },
-      //     { text: '标签', link: '/tags/' },
-      //     { text: '归档', link: '/archives/' },
-      //   ],
-      // },
+      {
+        text: '本站索引',
+        items: [
+          { text: '分类', link: '/categories/' },
+          { text: '标签', link: '/tags/' },
+          { text: '归档', link: '/archives/' },
+        ],
+      },
       {
         text: '本站页面',
         items: [
