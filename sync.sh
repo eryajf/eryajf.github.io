@@ -14,3 +14,6 @@ rsync -az --delete docs/.vuepress/dist/  \
 sleep 5
 # 刷新
 doge flush path
+
+# 更新
+ssh root@8.136.215.57 'bash /data/docker/meilisearch/scraper/do.sh'

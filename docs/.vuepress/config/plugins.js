@@ -27,7 +27,7 @@ module.exports = [
           apiKey: "8d05703c1896278c2507375b47b8bf4d8366ad00b2a1e7a24c5fcc38744af48d",
           indexUid: 'wiki',
           // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
-          maxSuggestions: 12,                      // 最多显示几个搜索结果
+          maxSuggestions: 5,                      // 最多显示几个搜索结果
           cropLength: 30,                         // 每个搜索结果最多显示多少个字符
       },
   ],
