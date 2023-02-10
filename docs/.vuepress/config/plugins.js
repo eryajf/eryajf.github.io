@@ -19,30 +19,42 @@ module.exports = [
   'cursor-effects',
   // 全文搜索插件
   // 'fulltext-search',
-   // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
-   [
-    'thirdparty-search',
-    {
-      thirdparty: [
-        {
-          title: '在谷歌中搜索',
-          frontUrl: 'https://www.google.com/search?q=',
-        },
-        {
-          title: '在Bing中搜索',
-          frontUrl: 'https://cn.bing.com/search?q=',
-        },
-        {
-          title: '在百度中搜索',
-          frontUrl: 'https://www.baidu.com/s?wd=',
-        },
-        {
-          title: '通过百度搜索本站的',
-          frontUrl: `https://www.baidu.com/s?wd=site%3Awiki.eryajf.net%20`,
-        },
-      ],
-    }
+  // 全文搜索插件 meilisearch
+  [
+    'vuepress-plugin-meilisearch',
+      {
+          hostUrl: 'https://search.eryajf.net',        // 该 URL 应该能在用户的浏览器上被访问，不能为 localhost
+          apiKey: "8d05703c1896278c2507375b47b8bf4d8366ad00b2a1e7a24c5fcc38744af48d",
+          indexUid: 'wiki',
+          // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
+          maxSuggestions: 12,                      // 最多显示几个搜索结果
+          cropLength: 30,                         // 每个搜索结果最多显示多少个字符
+      },
   ],
+   // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
+  //  [
+  //   'thirdparty-search',
+  //   {
+  //     thirdparty: [
+  //       {
+  //         title: '在谷歌中搜索',
+  //         frontUrl: 'https://www.google.com/search?q=',
+  //       },
+  //       {
+  //         title: '在Bing中搜索',
+  //         frontUrl: 'https://cn.bing.com/search?q=',
+  //       },
+  //       {
+  //         title: '在百度中搜索',
+  //         frontUrl: 'https://www.baidu.com/s?wd=',
+  //       },
+  //       {
+  //         title: '通过百度搜索本站的',
+  //         frontUrl: `https://www.baidu.com/s?wd=site%3Awiki.eryajf.net%20`,
+  //       },
+  //     ],
+  //   }
+  // ],
   // 阅读顶部进度条
   'reading-progress',
 
