@@ -13,7 +13,8 @@ rsync -az --delete docs/.vuepress/dist/  \
 
 sleep 5
 # 刷新
-doge flush path
+doge flush path -p "https://wiki.eryajf.net/"
+doge flush path -p "https://comment.eryajf.net/"
 
 # 更新
 ssh root@8.136.215.57 'bash /data/docker/meilisearch/scraper/do.sh'
