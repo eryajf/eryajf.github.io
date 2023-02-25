@@ -165,8 +165,8 @@ module.exports = [
             server: 'https://comment.eryajf.net',
             site: '二丫讲梵',
             disableEmotion: false,
-            disablePreview: false,
-            disablePicture: true
+            disablePicture: false,
+            disablePreview: false
         }
       }
   ],
