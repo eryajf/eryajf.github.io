@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>openLDAP查询语法整理入门 | Go-Ldap-Admin</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/img/favicon.ico">
+    <script language="javascript" type="text/javascript" src="/js/pgmanor-self.js"></script>
+    <meta name="description" content="基于Go+Vue实现的openLDAP后台管理项目">
+    <meta name="keywords" content="二丫讲梵,golang,vue,go-web,go-admin,go-ldap-admin">
+    <meta name="theme-color" content="#11a8cd">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <link rel="preload" href="/assets/css/0.styles.ba3a7147.css" as="style"><link rel="preload" href="/assets/js/app.c1a61b71.js" as="script"><link rel="preload" href="/assets/js/3.712bb047.js" as="script"><link rel="preload" href="/assets/js/27.73a8e49f.js" as="script"><link rel="prefetch" href="/assets/js/10.7e502ca8.js"><link rel="prefetch" href="/assets/js/11.6adef038.js"><link rel="prefetch" href="/assets/js/12.59a2d4f4.js"><link rel="prefetch" href="/assets/js/13.e2bcda18.js"><link rel="prefetch" href="/assets/js/14.f5f8a973.js"><link rel="prefetch" href="/assets/js/15.b74e9e11.js"><link rel="prefetch" href="/assets/js/16.57f8d6c5.js"><link rel="prefetch" href="/assets/js/17.c5473a03.js"><link rel="prefetch" href="/assets/js/18.9f6cb316.js"><link rel="prefetch" href="/assets/js/19.ad1b6280.js"><link rel="prefetch" href="/assets/js/20.45007d03.js"><link rel="prefetch" href="/assets/js/21.aae93afb.js"><link rel="prefetch" href="/assets/js/22.7ccf0e60.js"><link rel="prefetch" href="/assets/js/23.5f1f8e4f.js"><link rel="prefetch" href="/assets/js/24.399af381.js"><link rel="prefetch" href="/assets/js/25.bc32535a.js"><link rel="prefetch" href="/assets/js/26.df1c53ce.js"><link rel="prefetch" href="/assets/js/28.537519dd.js"><link rel="prefetch" href="/assets/js/29.3f79e43d.js"><link rel="prefetch" href="/assets/js/30.72e1a27a.js"><link rel="prefetch" href="/assets/js/4.b7a50441.js"><link rel="prefetch" href="/assets/js/5.acf057fe.js"><link rel="prefetch" href="/assets/js/6.b0fd5072.js"><link rel="prefetch" href="/assets/js/7.cb07dda5.js"><link rel="prefetch" href="/assets/js/8.8a5118af.js"><link rel="prefetch" href="/assets/js/9.0b580a42.js"><link rel="prefetch" href="/assets/js/vendors~docs-searchbar.5a7fbe73.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ba3a7147.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="Go-Ldap-Admin" class="logo"> <span class="site-name can-hide">Go-Ldap-Admin</span></a> <div class="links"><form id="search-form" role="search" class="meilisearch-search-wrapper search-box theme-false"><input id="meilisearch-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目相关" class="dropdown-title"><a href="/pages/101948/" class="link-title">项目相关</a> <span class="title" style="display:none;">项目相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/101948/" class="nav-link">产品概述</a></li><li class="dropdown-item"><!----> <a href="/pages/f081dc/" class="nav-link">安装入门</a></li><li class="dropdown-item"><!----> <a href="/pages/e881d0/" class="nav-link">参与贡献</a></li><li class="dropdown-item"><h4>最佳实践</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/84953d/" class="nav-link">动态字段关系管理</a></li><li class="dropdown-subitem"><a href="/pages/94f43a/" class="nav-link">配置钉钉同步</a></li><li class="dropdown-subitem"><a href="/pages/cf1698/" class="nav-link">配置企业微信同步</a></li><li class="dropdown-subitem"><a href="/pages/83c90b/" class="nav-link">配置企业飞书同步</a></li></ul></li><li class="dropdown-item"><!----> <a href="/pages/771802/" class="nav-link">常见问题</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="周边相关" class="dropdown-title"><a href="/pages/17ba17/" class="link-title">周边相关</a> <span class="title" style="display:none;">周边相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/17ba17/" class="nav-link">openLDAP</a></li></ul></div></div><div class="nav-item"><a href="/pages/2b6725/" class="nav-link">捐赠支持</a></div><div class="nav-item"><a href="http://demo-go-ldap-admin.eryajf.net" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线体验
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/eryajf/go-ldap-admin" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目相关" class="dropdown-title"><a href="/pages/101948/" class="link-title">项目相关</a> <span class="title" style="display:none;">项目相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/101948/" class="nav-link">产品概述</a></li><li class="dropdown-item"><!----> <a href="/pages/f081dc/" class="nav-link">安装入门</a></li><li class="dropdown-item"><!----> <a href="/pages/e881d0/" class="nav-link">参与贡献</a></li><li class="dropdown-item"><h4>最佳实践</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/84953d/" class="nav-link">动态字段关系管理</a></li><li class="dropdown-subitem"><a href="/pages/94f43a/" class="nav-link">配置钉钉同步</a></li><li class="dropdown-subitem"><a href="/pages/cf1698/" class="nav-link">配置企业微信同步</a></li><li class="dropdown-subitem"><a href="/pages/83c90b/" class="nav-link">配置企业飞书同步</a></li></ul></li><li class="dropdown-item"><!----> <a href="/pages/771802/" class="nav-link">常见问题</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="周边相关" class="dropdown-title"><a href="/pages/17ba17/" class="link-title">周边相关</a> <span class="title" style="display:none;">周边相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/17ba17/" class="nav-link">openLDAP</a></li></ul></div></div><div class="nav-item"><a href="/pages/2b6725/" class="nav-link">捐赠支持</a></div><div class="nav-item"><a href="http://demo-go-ldap-admin.eryajf.net" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线体验
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/eryajf/go-ldap-admin" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>openLDAP</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/17ba17/" class="sidebar-link">捋透openLDAP的基础概念</a></li><li><a href="/pages/a5328b/" class="sidebar-link">简单认识objectCLass以及常见应用</a></li><li><a href="/pages/f537df/" aria-current="page" class="active sidebar-link">openLDAP查询语法整理入门</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/f537df/#简单搜索" class="sidebar-link">简单搜索</a></li><li class="sidebar-sub-header level2"><a href="/pages/f537df/#使用过滤器搜索" class="sidebar-link">使用过滤器搜索</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/f537df/#查找目录树中的所有对象" class="sidebar-link">查找目录树中的所有对象</a></li><li class="sidebar-sub-header level3"><a href="/pages/f537df/#缩小查询范围" class="sidebar-link">缩小查询范围</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/f537df/#添加运算符" class="sidebar-link">添加运算符</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/f537df/#逻辑与" class="sidebar-link">逻辑与</a></li><li class="sidebar-sub-header level3"><a href="/pages/f537df/#逻辑或" class="sidebar-link">逻辑或</a></li><li class="sidebar-sub-header level3"><a href="/pages/f537df/#逻辑非" class="sidebar-link">逻辑非</a></li><li class="sidebar-sub-header level3"><a href="/pages/f537df/#通配符" class="sidebar-link">通配符</a></li><li class="sidebar-sub-header level3"><a href="/pages/f537df/#其他" class="sidebar-link">其他</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/f537df/#命令参数" class="sidebar-link">命令参数</a></li></ul></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><span data-v-06225672>周边相关</span></li><li data-v-06225672><span data-v-06225672>openLDAP</span></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/eryajf" target="_blank" title="作者" class="beLink" data-v-06225672>二丫讲梵</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2022-07-17</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGpJREFUSA3tVVtoXFUU3fvOI53UlmCaKIFmwEhsE7QK0ipFEdHEKpXaZGrp15SINsXUWvBDpBgQRKi0+KKoFeJHfZA+ED9KKoIU2gYD9UejTW4rVIzm0VSTziPzuNu1z507dibTTjL4U/DAzLn3nL3X2o91ziX6f9wMFdh6Jvbm9nNSV0msViVO6tN1Rm7NMu2OpeJ9lWBUTDxrJbYTS0hInuwciu9eLHlFxCLCZEk3MegsJmZ5K/JD6t7FkFdEvGUo1g7qJoG3MHImqRIn8/nzY1K9UPKKiJmtnUqHVE3Gbuay6vJE/N2FEmuxFjW2nUuE0yQXRRxLiTUAzs36zhZvOXJPdX850EVnnLZkB8prodQoM5JGj7Xk2mvC7JB8tG04Ef5PiXtG0UtxupRQSfTnBoCy554x18yJHI6I+G5Eru4LHmPJZEQsrvPUbMiA8G/WgMK7w7I+ez7++o2ANfbrjvaOl1tFMs+htG3IrZH9/hDX1Pr8Tc0UvH8tcX29KzAgIGcEkINyW5BF9x891hw6VYqgJHEk0huccS7vh3C6gTiODL+26huuBtbct8eZnqLML8PkxGYpuPZBqtqwkSjgc4mB5gbgig5i+y0UDK35LMxXisn9xQtK+nd26gTIHsHe/oblK/b29fUmN/8Y+9jAQrnBp56m1LcDlDp9irKTExSKduXJVWSqdBMA08pEJnEIOB3FPPMybu/oeV8zFeYN3xx576Q6RH+VmplE4ncQV5v+5rzSoyOU7PuEAg8g803PwBJ0CExno/jcMbN8tONYeOmHiuUNryvm3fRUy4tMPVLdAGkUhNWuggGrJcXPv+ouCjz0MKUHz1J2/E8IC9nqTabcxgaBYM0hPhD5Y65FsbxRQKxCQrDjDctW7PUM3HuZunFyifSAqEfuzCp48Il24luWUWZoyJCaPR82jE0+kFA643wRFVni4RYSq3ohJO2pZ7B5dO4xkDWbEpossJPLSrPjYID8rS2UHTlvyNxqIGsg674XJJ7vnh5L7PNwC4hh2sjCI96mzszOTpxLF0T7l88Yz7lAuK6OnL8gXLOnTvpzSb22YG8W7us3jSebFHeeqnXRG1vt+MoUM84LQIBmMsCTAcOauTh0T0l0neQK7m2bLMt2mGxU3HYssS0J2cdv5wljlPsrIuZLAG/2DOZIXgCYT8uMGZN+e2kSirfxZOPCsC0f24nTZzspnVn9VePS1Z5vubmAGGXG8ZFno9Hel0yfA5ZPhF7Dh972BQJ2qCpgH67lmWtBYbvk6sz02wjky2vXyz0XErP/kFB619js1BtwfOV4OPRqOQBjy3Qbk18vigUPPSD5ceHnwck7W9bhAqZdd7SuG7w4/P2F/GaJh8c7e9qgow+Q7cGBo+98WsLkuktFqiZabtXuQTu/Y5ETbR0v7tNSFnvrmu6pjdoan2KjMu8q/Hmj1EfCO2ZGfEIbIXKUlw8qaX9/b2oeSJmFksSeT/Fn0V3nSypChh4Gjh74ybO9aeZ/AN2dwciu2/MhAAAAAElFTkSuQmCC">openLDAP查询语法整理入门<!----></h1> <!----> <div class="theme-vdoing-content content__default"><p>本文来整理一些openLDAP简单基础的查询语法。</p> <p>有人可能会觉得，有了go-ldap-admin这个平台之后，就不需要再了解这些查询方面的知识了，其实这是一个误区，go-ldap-admin平台的确接管了ldap的一应管理，但是ldap终究还是要对接到第三方应用，这个时候，掌握一点简单的查询语法，就是很有必要的。</p> <p>一般情况下，命令行中我们使用<a href="https://command-not-found.com/ldapsearch" target="_blank" rel="noopener noreferrer">ldapsearch<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>来进行搜索。</p> <h2 id="简单搜索"><a href="#简单搜索" class="header-anchor">#</a> 简单搜索</h2> <p>一般情况下，你可以直接运行如下命令执行搜索：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token operator">&lt;</span>search_base<span class="token operator">&gt;</span> <span class="token parameter variable">-H</span> <span class="token operator">&lt;</span>ldap_host<span class="token operator">&gt;</span> <span class="token parameter variable">-D</span> <span class="token operator">&lt;</span>bind_dn<span class="token operator">&gt;</span> <span class="token parameter variable">-W</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li><code>-x</code>：表示简单的身份认证。</li> <li><code>-b</code>：指定搜索的DC。</li> <li><code>-H</code>：指定搜索的主机URL，如果你是在LDAP服务器上，则不需要带这个参数。比如我这里为 <code>ldap://192.168.31.76:389</code></li> <li><code>-D</code>：绑定的DN。</li> <li><code>-W</code>：绑定的DN的密码。</li></ul> <p>go-ldap-admin初始化之后的数据，通过如下命令可以查询到：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span>
+
+
+<span class="token comment"># eryajf.net</span>
+dn: <span class="token assign-left variable">dc</span><span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+objectClass: <span class="token function">top</span>
+objectClass: dcObject
+objectClass: organization
+o: eryajf.net
+dc: eryajf
+
+<span class="token comment"># admin, eryajf.net</span>
+dn: <span class="token assign-left variable">cn</span><span class="token operator">=</span>admin,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: <span class="token assign-left variable">e1NTSEF9SXg2Zms0UnBLVVl4Y1JaVFZrZFNZN0tiVkZ1OGRYckQ</span><span class="token operator">=</span>
+
+<span class="token comment"># people, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>people,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: people
+description:: 55So5oi35qC555uu5b2V
+objectClass: organizationalUnit
+
+<span class="token comment"># dingtalkroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>dingtalkroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: dingtalkroot
+description:: 6ZKJ6ZKJ5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># wecomroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>wecomroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: wecomroot
+description:: 5LyB5Lia5b6u5L+h5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># feishuroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>feishuroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: feishuroot
+description:: 6aOe5Lmm5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># search result</span>
+search: <span class="token number">2</span>
+result: <span class="token number">0</span> Success
+
+<span class="token comment"># numResponses: 7</span>
+<span class="token comment"># numEntries: 6</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br></div></div><h2 id="使用过滤器搜索"><a href="#使用过滤器搜索" class="header-anchor">#</a> 使用过滤器搜索</h2> <p>我们可以通过在搜索命令末尾添加过滤条件，来实现符合条件的搜索。</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token operator">&lt;</span>previous_options<span class="token operator">&gt;</span> <span class="token string">&quot;(object_type)=(object_value)&quot;</span> <span class="token operator">&lt;</span>optional_attributes<span class="token operator">&gt;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>其中的条件可以添加多个，并且支持一定的逻辑运算符，接下来一一介绍。</p> <h3 id="查找目录树中的所有对象"><a href="#查找目录树中的所有对象" class="header-anchor">#</a> 查找目录树中的所有对象</h3> <p>通过添加 <code>&quot;objectclass=*&quot;</code>的条件，我们可以检索到所有的对象信息：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;objectclass=*&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>执行结果与上边默认的一致。</p> <h3 id="缩小查询范围"><a href="#缩小查询范围" class="header-anchor">#</a> 缩小查询范围</h3> <p>比如上边有四个ou对应用户，钉钉，飞书，企业微信的组织，我们可以通过如下条件，将这四个组织过滤出来：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;objectclass=organizationalUnit&quot;</span>
+
+<span class="token comment"># people, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>people,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: people
+description:: 55So5oi35qC555uu5b2V
+objectClass: organizationalUnit
+
+<span class="token comment"># dingtalkroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>dingtalkroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: dingtalkroot
+description:: 6ZKJ6ZKJ5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># wecomroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>wecomroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: wecomroot
+description:: 5LyB5Lia5b6u5L+h5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># feishuroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>feishuroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: feishuroot
+description:: 6aOe5Lmm5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># search result</span>
+search: <span class="token number">2</span>
+result: <span class="token number">0</span> Success
+
+<span class="token comment"># numResponses: 5</span>
+<span class="token comment"># numEntries: 4</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><p>在过滤条件的后边，我们可以指定关心的属性进行查询：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;objectclass=organizationalUnit&quot;</span> dn ou
+
+<span class="token comment"># people, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>people,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: people
+
+<span class="token comment"># dingtalkroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>dingtalkroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: dingtalkroot
+
+<span class="token comment"># wecomroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>wecomroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: wecomroot
+
+<span class="token comment"># feishuroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>feishuroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: feishuroot
+
+<span class="token comment"># search result</span>
+search: <span class="token number">2</span>
+result: <span class="token number">0</span> Success
+
+<span class="token comment"># numResponses: 5</span>
+<span class="token comment"># numEntries: 4</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h2 id="添加运算符"><a href="#添加运算符" class="header-anchor">#</a> 添加运算符</h2> <h3 id="逻辑与"><a href="#逻辑与" class="header-anchor">#</a> 逻辑与</h3> <p>ldapsearch使用<code>&amp;</code>来表示逻辑与的运算，它的查询语法格式如下：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token operator">&lt;</span>previous_options<span class="token operator">&gt;</span> <span class="token string">&quot;(&amp;(&lt;条件_1&gt;)(&lt;条件_2&gt;)...)&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>注意上边的查询语法格式不要弄错。</p> <p>比如，我们可以通过如下两个条件，来定位到feishu(只是为了展示语法，不必纠结场景用法)：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;(&amp;(objectclass=organizationalUnit)(ou=feishu))&quot;</span>
+Enter LDAP Password:
+
+<span class="token comment"># feishuroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>feishuroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: feishu
+ou: feishuroot
+description:: 6aOe5Lmm5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># search result</span>
+search: <span class="token number">2</span>
+result: <span class="token number">0</span> Success
+
+<span class="token comment"># numResponses: 2</span>
+<span class="token comment"># numEntries: 1</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h3 id="逻辑或"><a href="#逻辑或" class="header-anchor">#</a> 逻辑或</h3> <p>ldapsearch使用<code>|</code>来表示逻辑或的运算，它的查询语法格式如下：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token operator">&lt;</span>previous_options<span class="token operator">&gt;</span> <span class="token string">&quot;(|(&lt;条件_1&gt;)(&lt;条件_2&gt;)...)&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>比如，我们可以通过如下两个条件，来查询出飞书与钉钉的信息：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;(|(ou=dingtalkroot)(ou=feishuroot))&quot;</span>
+Enter LDAP Password:
+
+
+<span class="token comment"># dingtalkroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>dingtalkroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: dingtalkroot
+description:: 6ZKJ6ZKJ5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># feishuroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>feishuroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: feishu
+ou: feishuroot
+description:: 6aOe5Lmm5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># search result</span>
+search: <span class="token number">2</span>
+result: <span class="token number">0</span> Success
+
+<span class="token comment"># numResponses: 3</span>
+<span class="token comment"># numEntries: 2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><h3 id="逻辑非"><a href="#逻辑非" class="header-anchor">#</a> 逻辑非</h3> <p>ldapsearch使用!来表示逻辑非的运算，他的查询语法格式如下：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token operator">&lt;</span>previous_options<span class="token operator">&gt;</span> <span class="token string">&quot;(!(&lt;条件_1&gt;))&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>比如，查询ou不是钉钉的方法如下：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;(!(ou=dingtalkroot))&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>注意逻辑非不能直接多条件，如果想要多个条件，那么需要与其他逻辑进行嵌套使用，比如查询ou不是钉钉或者飞书，则可以用如下条件：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;(!(|(ou=dingtalkroot)(ou=feishuroot)))&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>注意如上嵌套的格式，那么更复杂的条件，就可以在此基础上进行扩展应用。</p> <h3 id="通配符"><a href="#通配符" class="header-anchor">#</a> 通配符</h3> <p>ldap的搜索中也可以使用通配符，常用的是<code>*</code>，搜索语法如下：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token operator">&lt;</span>previous_options<span class="token operator">&gt;</span> <span class="token string">&quot;(object_type)=*(object_value)&quot;</span>
+
+$ ldapsearch <span class="token operator">&lt;</span>previous_options<span class="token operator">&gt;</span> <span class="token string">&quot;(object_type)=(object_value)*&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>比如，我们可以搜索ou以root结尾的内容：</p> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code>$ ldapsearch <span class="token parameter variable">-x</span> <span class="token parameter variable">-b</span> <span class="token string">&quot;dc=eryajf,dc=net&quot;</span> <span class="token parameter variable">-H</span> ldap://192.168.31.76:389 <span class="token parameter variable">-D</span> <span class="token string">&quot;cn=admin,dc=eryajf,dc=net&quot;</span>  <span class="token parameter variable">-W</span> <span class="token string">&quot;ou=*root&quot;</span>
+
+<span class="token comment"># dingtalkroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>dingtalkroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: dingtalkroot
+description:: 6ZKJ6ZKJ5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># wecomroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>wecomroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: wecomroot
+description:: 5LyB5Lia5b6u5L+h5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># feishuroot, eryajf.net</span>
+dn: <span class="token assign-left variable">ou</span><span class="token operator">=</span>feishuroot,dc<span class="token operator">=</span>eryajf,dc<span class="token operator">=</span>net
+ou: feishu
+ou: feishuroot
+description:: 6aOe5Lmm5qC56YOo6Zeo
+objectClass: <span class="token function">top</span>
+objectClass: organizationalUnit
+
+<span class="token comment"># search result</span>
+search: <span class="token number">2</span>
+result: <span class="token number">0</span> Success
+
+<span class="token comment"># numResponses: 4</span>
+<span class="token comment"># numEntries: 3</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br></div></div><h3 id="其他"><a href="#其他" class="header-anchor">#</a> 其他</h3> <p>ldapsearch还支持其他一些逻辑运算符，比如：</p> <ul><li><code>&gt;=</code>：查找特定项，该项中包含的属性的数字或字母值大于或等于指定的值。</li> <li><code>&lt;=</code>：查找特定项，该项中包含的属性的数字或字母值小于或等于指定的值。</li> <li><code>~=</code>：查找特定项，该项中所含属性的值约等于指定的值。</li></ul> <h2 id="命令参数"><a href="#命令参数" class="header-anchor">#</a> 命令参数</h2> <p>ldapsearch还有丰富的命令参数，罗列如下：</p> <table><tbody><tr><td>参数<br></td><td>用途</td></tr><tr><td>-a deref</td><td>指定别名反向引用。请输入 never、always、search 或 find。如果不使用此参数，缺省为 never。</td></tr><tr><td>-A</td><td>只检索属性的名称，而不检索属性的值。</td></tr><tr><td>-b base dn</td><td>指定用作搜索起始点的专有名称。使用引号来指定该值，如：&quot;ou=Ops,dc=shuyun,dc=com&quot;. 如果要搜索的服务器需要指定搜索起点，则必须使用此参数。否则此参数是可选的。也可以同时使用 -b 和 -s 来确定搜索范围。没有 –s，-b 就会搜索指定为起始点的项以及该项的所有子项。</td></tr><tr><td>-B</td><td>允许打印非 ASCII 值</td></tr><tr><td>-D bind dn</td><td>指定服务器用于验证您的专有名称。名称必须与目录中的项相符，并且必须拥有搜索目录所需的权限。请使用引号来指定该名称，例如：&quot;cn=Manager,dc=shuyun,dc=com&quot;。如果不使用此参数，则与服务器的连接是匿名的。如果服务器不允许匿名连接，则必须使用 -D。除了 -D，还必须使用 -w 参数来指定与专有名称相关联的口令。</td></tr><tr><td>-f file</td><td>指定包含要使用的搜索过滤器的文件，如 -f 过滤器。请将每个搜索过滤器置于单独的一行。Ldapsearch 会对每一行执行一次搜索。可选择指定过滤模式。例如，指定 -f 过滤 &quot;cn=%s&quot;，并在文件的每一行中输入公用名称的值。</td></tr><tr><td>-F sep</td><td>在属性名称和值之间打印 sep 而不是等号 (=)。例如，如果读取 ldapsearch 输出的工具希望使用其他的分隔符时，可以使用此参数。</td></tr><tr><td>-h host name</td><td>指定要连接的服务器主机名，如 -h ldap.shuyun.com。</td></tr><tr><td>-l timelimit</td><td>指定完成搜索的时间限制（秒）。如果没有指定此参数或指定的限制为 0，那么搜索就没有时间限制。但是，ldapsearch 的等待时间决不会超过服务器上设置的搜索时间限制。</td></tr></tbody></table><table><tbody><tr><td>-L</td><td>指定以 LDIF 格式输出。LDIF 格式使用冒号 (:) 而不是等号 (=) 作为属性描述符。LDIF 对一次性添加或修改大量目录项很有帮助。例如，可以将输出内容引入兼容 LDAP 的目录中。</td></tr><tr><td>-M</td><td>将参考对象作为普通项进行管理，以使 ldapsearch 可返回参考项本身的属性，而不是所参考的项的属性。</td></tr><tr><td>-n</td><td>显示如何执行搜索，但不实际执行搜索</td></tr><tr><td>-p port</td><td>指定服务器使用的端口。如果没有使用此参数，缺省情况下 ldapsearch 使用 389 端口。</td></tr><tr><td>-R</td><td>不自动遵循服务器返回的搜索引用。请注意，Netscape 目录服务器将术语 referrals 用于搜索引用。</td></tr><tr><td>-s scope</td><td>指定使用 -b 参数时的搜索范围：<p>base -- 仅搜索 -b 参数指定的项</p><p>onelevel -- 仅搜索 -b 参数指定项的直接子项，而不搜索该项本身</p><p>subtree -- 搜索 -b 参数指定的项以及它的所有子项。这是不带 -s 时使用 -b 的缺省行为。</p><p>指定 -b 和 -s 的顺序并不重要。</p></td></tr><tr><td>-S attribute</td><td>按指定的属性排序结果。</td></tr><tr><td>-z sizelimit</td><td>指定返回项的最大数目。如果没有指定此参数或指定的限制为 0，那么返回的项没有数量限制。但是，ldapsearch 返回的项决不会多于服务器允许的数量。</td></tr><tr><td>-u</td><td>指定 ldapsearch 以用户友好格式返回专有名称。</td></tr><tr><td>-v</td><td>指定 ldapsearch 以详尽模式运行。</td></tr></tbody></table><table><tbody><tr><td>-w password</td><td>指定与 -D 参数一起使用的与专有名称关联的口令。</td></tr><tr><td>x</td><td>与 -S 一起使用时可指定 LDAP 服务器在将结果返回之前就对它们进行排序。如果使用 -S 而不使用 –x，ldapsearch 将对结果排序。</td></tr></tbody></table></div></div> <!----> <div class="page-edit"><div class="edit-link"><a href="https://github.com/eryajf/go-ldap-admin-doc/edit/main/docs/02.周边相关/01.openLDAP/03.openLDAP查询语法整理入门.md" target="_blank" rel="noopener noreferrer">帮助我们改善此页面</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2023/02/20, 19:48:02</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/pages/a5328b/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">简单认识objectCLass以及常见应用</div></a> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/pages/a5328b/" class="prev">简单认识objectCLass以及常见应用</a></span> <!----></p></div></div></div> <!----></main></div> <div class="footer"><div class="icons"><a href="https://github.com/eryajf" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="mailto:Linuxlql@163.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://gitee.com/eryajf" title="Gitee" target="_blank" class="iconfont icon-gitee"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2022-2023
+    <span>Eryajf | <a href="https://github.com/eryajf/go-ldap-admin-doc/blob/main/LICENSE" target="_blank">MIT License</a></span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c1a61b71.js" defer></script><script src="/assets/js/3.712bb047.js" defer></script><script src="/assets/js/27.73a8e49f.js" defer></script>
+  </body>
+</html>
