@@ -2,8 +2,8 @@
 # 确保脚本抛出遇到的错误
 set -e
 # 编译
-# pnpm install
-pnpm build
+# yarn install
+yarn build
 
 # 必应认证
 cp utils/BingSiteAuth.xml docs/.vuepress/dist
