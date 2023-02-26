@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-02-26T05:36:22.420Z</updated>
+    <updated>2023-02-26T06:11:02.358Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -425,19 +425,19 @@
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第38期-2022年第03周]]></title>
-        <id>https://wiki.eryajf.net/pages/1d2aab/</id>
-        <link href="https://wiki.eryajf.net/pages/1d2aab/">
-        </link>
-        <updated>2022-01-21T21:43:40.000Z</updated>
-        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第37期-2022年第02周]]></title>
         <id>https://wiki.eryajf.net/pages/cbecfd/</id>
         <link href="https://wiki.eryajf.net/pages/cbecfd/">
         </link>
         <updated>2022-01-15T13:47:04.000Z</updated>
+        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第38期-2022年第03周]]></title>
+        <id>https://wiki.eryajf.net/pages/1d2aab/</id>
+        <link href="https://wiki.eryajf.net/pages/1d2aab/">
+        </link>
+        <updated>2022-01-21T21:43:40.000Z</updated>
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
@@ -561,20 +561,20 @@
         <summary type="html"><![CDATA[学习周刊-总第53期-2022年第18周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
-        <id>https://wiki.eryajf.net/pages/75bb76/</id>
-        <link href="https://wiki.eryajf.net/pages/75bb76/">
-        </link>
-        <updated>2022-05-21T14:52:29.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第55期-2022年第20周]]></title>
         <id>https://wiki.eryajf.net/pages/fe7652/</id>
         <link href="https://wiki.eryajf.net/pages/fe7652/">
         </link>
         <updated>2022-05-28T18:03:49.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第55期-2022年第20周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
+        <id>https://wiki.eryajf.net/pages/75bb76/</id>
+        <link href="https://wiki.eryajf.net/pages/75bb76/">
+        </link>
+        <updated>2022-05-21T14:52:29.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第56期-2022年第21周]]></title>
@@ -657,20 +657,20 @@
         <summary type="html"><![CDATA[学习周刊-总第65期-2022年第30周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第66期-2022年第31周]]></title>
-        <id>https://wiki.eryajf.net/pages/66c212/</id>
-        <link href="https://wiki.eryajf.net/pages/66c212/">
-        </link>
-        <updated>2022-08-12T08:42:41.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第66期-2022年第31周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第67期-2022年第32周]]></title>
         <id>https://wiki.eryajf.net/pages/c5dd7c/</id>
         <link href="https://wiki.eryajf.net/pages/c5dd7c/">
         </link>
         <updated>2022-08-19T07:10:11.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第67期-2022年第32周,几个Redis管理平台与B站加强脚本]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第66期-2022年第31周]]></title>
+        <id>https://wiki.eryajf.net/pages/66c212/</id>
+        <link href="https://wiki.eryajf.net/pages/66c212/">
+        </link>
+        <updated>2022-08-12T08:42:41.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第66期-2022年第31周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第68期-2022年第33周]]></title>
