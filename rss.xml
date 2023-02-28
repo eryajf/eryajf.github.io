@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Tue, 28 Feb 2023 07:53:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Feb 2023 09:33:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -190,6 +190,13 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[利用GitHub Actions自动生成个人star列表并归类]]></title>
+            <link>https://wiki.eryajf.net/pages/4ba0f4/</link>
+            <guid>https://wiki.eryajf.net/pages/4ba0f4/</guid>
+            <pubDate>Fri, 29 Jul 2022 16:26:09 GMT</pubDate>
+            <description><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></description>
+        </item>
+        <item>
             <title><![CDATA[利用GitHub Actions自动生成GitHub的Fans]]></title>
             <link>https://wiki.eryajf.net/pages/db92f0/</link>
             <guid>https://wiki.eryajf.net/pages/db92f0/</guid>
@@ -197,13 +204,6 @@
             <description><![CDATA[GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/07/71ebbd7a8dc21cb3.png">
             </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[利用GitHub Actions自动生成个人star列表并归类]]></title>
-            <link>https://wiki.eryajf.net/pages/4ba0f4/</link>
-            <guid>https://wiki.eryajf.net/pages/4ba0f4/</guid>
-            <pubDate>Fri, 29 Jul 2022 16:26:09 GMT</pubDate>
-            <description><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></description>
         </item>
         <item>
             <title><![CDATA[利用GitHub Actions自动对仓库内图片进行无损压缩]]></title>
@@ -856,21 +856,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第80期-2022年第45周]]></title>
-            <link>https://wiki.eryajf.net/pages/b442a6/</link>
-            <guid>https://wiki.eryajf.net/pages/b442a6/</guid>
-            <pubDate>Fri, 18 Nov 2022 09:07:19 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第80期-两个前端代码生成项目与一个go语言时间库]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/11/ddef028c0b037a96.gif">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第81期-2022年第46周]]></title>
             <link>https://wiki.eryajf.net/pages/2ef415/</link>
             <guid>https://wiki.eryajf.net/pages/2ef415/</guid>
             <pubDate>Fri, 25 Nov 2022 09:16:51 GMT</pubDate>
             <description><![CDATA[学习周刊-总第81期-Mac启用clash之后本地hosts失效的解决办法]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/11/9c99b9905f041a72.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第80期-2022年第45周]]></title>
+            <link>https://wiki.eryajf.net/pages/b442a6/</link>
+            <guid>https://wiki.eryajf.net/pages/b442a6/</guid>
+            <pubDate>Fri, 18 Nov 2022 09:07:19 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第80期-两个前端代码生成项目与一个go语言时间库]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/11/ddef028c0b037a96.gif">
             </enclosure>
         </item>
         <item>

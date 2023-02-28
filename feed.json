@@ -166,19 +166,19 @@
             "date_modified": "2022-07-23T11:01:57.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/4ba0f4/",
+            "url": "https://wiki.eryajf.net/pages/4ba0f4/",
+            "title": "利用GitHub Actions自动生成个人star列表并归类",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "date_modified": "2022-07-29T16:26:09.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/db92f0/",
             "url": "https://wiki.eryajf.net/pages/db92f0/",
             "title": "利用GitHub Actions自动生成GitHub的Fans",
             "summary": "GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。",
             "image": "http://t.eryajf.net/imgs/2022/07/71ebbd7a8dc21cb3.png",
             "date_modified": "2022-07-29T15:51:43.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/4ba0f4/",
-            "url": "https://wiki.eryajf.net/pages/4ba0f4/",
-            "title": "利用GitHub Actions自动生成个人star列表并归类",
-            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
-            "date_modified": "2022-07-29T16:26:09.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/dbee9e/",
@@ -765,20 +765,20 @@
             "date_modified": "2022-11-11T09:12:17.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/b442a6/",
-            "url": "https://wiki.eryajf.net/pages/b442a6/",
-            "title": "学习周刊-总第80期-2022年第45周",
-            "summary": "学习周刊-总第80期-两个前端代码生成项目与一个go语言时间库",
-            "image": "http://t.eryajf.net/imgs/2022/11/ddef028c0b037a96.gif",
-            "date_modified": "2022-11-18T09:07:19.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/2ef415/",
             "url": "https://wiki.eryajf.net/pages/2ef415/",
             "title": "学习周刊-总第81期-2022年第46周",
             "summary": "学习周刊-总第81期-Mac启用clash之后本地hosts失效的解决办法",
             "image": "http://t.eryajf.net/imgs/2022/11/9c99b9905f041a72.png",
             "date_modified": "2022-11-25T09:16:51.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/b442a6/",
+            "url": "https://wiki.eryajf.net/pages/b442a6/",
+            "title": "学习周刊-总第80期-2022年第45周",
+            "summary": "学习周刊-总第80期-两个前端代码生成项目与一个go语言时间库",
+            "image": "http://t.eryajf.net/imgs/2022/11/ddef028c0b037a96.gif",
+            "date_modified": "2022-11-18T09:07:19.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/273843/",
