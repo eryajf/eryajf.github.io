@@ -38,20 +38,20 @@
             "date_modified": "2022-05-17T16:57:37.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/8ff051/",
-            "url": "https://wiki.eryajf.net/pages/8ff051/",
-            "title": "Docker 调试构建失败的 Dockerfile 的方法",
-            "summary": "当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。",
-            "image": "http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png",
-            "date_modified": "2022-10-22T21:58:03.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/1cb90e/",
             "url": "https://wiki.eryajf.net/pages/1cb90e/",
             "title": "docker exec命令中含有通配符执行失败的问题",
             "summary": "我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误",
             "image": "http://t.eryajf.net/imgs/2022/06/8647d5b91f458b86.png",
             "date_modified": "2022-06-14T17:21:26.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/8ff051/",
+            "url": "https://wiki.eryajf.net/pages/8ff051/",
+            "title": "Docker 调试构建失败的 Dockerfile 的方法",
+            "summary": "当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。",
+            "image": "http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png",
+            "date_modified": "2022-10-22T21:58:03.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/e8b7f8/",
@@ -197,20 +197,20 @@
             "date_modified": "2022-08-08T15:47:20.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/77e2fe/",
-            "url": "https://wiki.eryajf.net/pages/77e2fe/",
-            "title": "利用github-slug-action暴漏Github Action上下文中的关键变量",
-            "summary": "使用 GitHub Action 时，有一种场景需求为，通过 release 触发构建，然后构建的过程中，还要用到这次创建的 release 号。默认的 github action 没有现成的变量可用，而 github-slug-action 弥补了这一缺憾。",
-            "image": "http://t.eryajf.net/imgs/2023/02/cda775b399fb8034.png",
-            "date_modified": "2023-02-28T14:56:10.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/d16f3f/",
             "url": "https://wiki.eryajf.net/pages/d16f3f/",
             "title": "利用GitHub Actions自动构建go项目的二进制到release",
             "summary": "最近 ChatGPT 大火，随之一起火起来的，有一大批基于 ChatGPT 编写的工具，我的项目chatgpt-dingtalk也是这批项目中的一个，旨在提供在钉钉群聊中与 ChatGPT 交互的能力。这是一个工具类的项目，已经提供了 docker 一键部署的能力。但是也有人只想通过二进制直接部署的方式进行体验，多平台兼容的二进制构建，早已有成熟的 Actions 支持，本文就来介绍一个实现方案。",
             "image": "http://t.eryajf.net/imgs/2022/12/1d8e1511fa8befa5.png",
             "date_modified": "2022-12-12T13:10:22.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/77e2fe/",
+            "url": "https://wiki.eryajf.net/pages/77e2fe/",
+            "title": "利用github-slug-action暴漏Github Action上下文中的关键变量",
+            "summary": "使用 GitHub Action 时，有一种场景需求为，通过 release 触发构建，然后构建的过程中，还要用到这次创建的 release 号。默认的 github action 没有现成的变量可用，而 github-slug-action 弥补了这一缺憾。",
+            "image": "http://t.eryajf.net/imgs/2023/02/cda775b399fb8034.png",
+            "date_modified": "2023-02-28T14:56:10.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/7edb58/",
@@ -245,20 +245,20 @@
             "date_modified": "2022-05-22T11:23:33.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/ebae63/",
-            "url": "https://wiki.eryajf.net/pages/ebae63/",
-            "title": "Jenkins-Groovy中三元表达式的用法",
-            "summary": "我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。",
-            "image": "https://tva2.sinaimg.cn/large/008k1Yt0ly1h4rdnv4bawj30u011g7ai.jpg",
-            "date_modified": "2022-09-10T14:53:11.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/ef36d8/",
             "url": "https://wiki.eryajf.net/pages/ef36d8/",
             "title": "Jenkins结合MySql Database插件的平台化实践思路",
             "summary": "以往Jenkins实践当中，配置了共享库的流水线方案，通过将核心公共逻辑抽离成膜版，项目个性化配置信息放到引导文件中的方式进行推进。这种方案没有什么毛病，对于运维的维护工作也是比较友好的，只是后来我们打算再在Jenkins上层做一下平台化封装的时候，发现还是存在一些问题，并且有一些难度的。最近我了解学习到了一个与 MySQL Database 插件结合的思路，能够比较好解决这种问题，那么接下来话不多说，直接进入正题，让我们来认识一下这个插件。",
             "image": "http://t.eryajf.net/imgs/2022/09/154a7c496ea4eac9.png",
             "date_modified": "2022-09-04T19:02:27.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/ebae63/",
+            "url": "https://wiki.eryajf.net/pages/ebae63/",
+            "title": "Jenkins-Groovy中三元表达式的用法",
+            "summary": "我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。",
+            "image": "https://tva2.sinaimg.cn/large/008k1Yt0ly1h4rdnv4bawj30u011g7ai.jpg",
+            "date_modified": "2022-09-10T14:53:11.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/813b7b/",
@@ -442,18 +442,18 @@
             "date_modified": "2022-01-21T21:43:40.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/909492/",
-            "url": "https://wiki.eryajf.net/pages/909492/",
-            "title": "学习周刊-总第40期-2022年第05周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "date_modified": "2022-02-12T00:08:49.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/478f83/",
             "url": "https://wiki.eryajf.net/pages/478f83/",
             "title": "学习周刊-总第39期-2022年第04周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "date_modified": "2022-01-30T16:16:38.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/909492/",
+            "url": "https://wiki.eryajf.net/pages/909492/",
+            "title": "学习周刊-总第40期-2022年第05周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "date_modified": "2022-02-12T00:08:49.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/ced061/",
@@ -479,20 +479,20 @@
             "date_modified": "2022-03-05T13:21:22.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/02cfc7/",
-            "url": "https://wiki.eryajf.net/pages/02cfc7/",
-            "title": "学习周刊-总第45期-2022年第10周",
-            "summary": "学习周刊-2022年第10周",
-            "image": "http://t.eryajf.net/imgs/2022/02/a71b5592652a0d07.png",
-            "date_modified": "2022-03-19T17:53:04.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/c3ee7b/",
             "url": "https://wiki.eryajf.net/pages/c3ee7b/",
             "title": "学习周刊-总第44期-2022年第09周",
             "summary": "学习周刊-2022年第09周",
             "image": "http://t.eryajf.net/imgs/2022/03/6a51b421f5d8593d.webp",
             "date_modified": "2022-03-12T08:26:46.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/02cfc7/",
+            "url": "https://wiki.eryajf.net/pages/02cfc7/",
+            "title": "学习周刊-总第45期-2022年第10周",
+            "summary": "学习周刊-2022年第10周",
+            "image": "http://t.eryajf.net/imgs/2022/02/a71b5592652a0d07.png",
+            "date_modified": "2022-03-19T17:53:04.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/ae6b3c/",
@@ -605,14 +605,6 @@
             "date_modified": "2022-06-24T15:52:01.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/bff449/",
-            "url": "https://wiki.eryajf.net/pages/bff449/",
-            "title": "学习周刊-总第60期-2022年第25周",
-            "summary": "学习周刊-总第60期-2022年第25周",
-            "image": "http://t.eryajf.net/imgs/2022/06/91cf6ffd9f4daa1d.gif",
-            "date_modified": "2022-07-02T11:07:05.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/703307/",
             "url": "https://wiki.eryajf.net/pages/703307/",
             "title": "学习周刊-总第61期-2022年第26周",
@@ -645,20 +637,20 @@
             "date_modified": "2022-07-29T07:49:35.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/66c212/",
-            "url": "https://wiki.eryajf.net/pages/66c212/",
-            "title": "学习周刊-总第66期-2022年第31周",
-            "summary": "学习周刊-总第66期-2022年第31周",
-            "image": "http://t.eryajf.net/imgs/2022/07/755273381608161e.png",
-            "date_modified": "2022-08-12T08:42:41.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/ac9758/",
             "url": "https://wiki.eryajf.net/pages/ac9758/",
             "title": "学习周刊-总第65期-2022年第30周",
             "summary": "学习周刊-总第65期-2022年第30周",
             "image": "http://t.eryajf.net/imgs/2022/07/8ac617670aa092b5.gif",
             "date_modified": "2022-08-05T07:42:12.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/66c212/",
+            "url": "https://wiki.eryajf.net/pages/66c212/",
+            "title": "学习周刊-总第66期-2022年第31周",
+            "summary": "学习周刊-总第66期-2022年第31周",
+            "image": "http://t.eryajf.net/imgs/2022/07/755273381608161e.png",
+            "date_modified": "2022-08-12T08:42:41.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/c5dd7c/",
@@ -741,6 +733,14 @@
             "date_modified": "2022-10-21T08:16:37.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/bff449/",
+            "url": "https://wiki.eryajf.net/pages/bff449/",
+            "title": "学习周刊-总第60期-2022年第25周",
+            "summary": "学习周刊-总第60期-2022年第25周",
+            "image": "http://t.eryajf.net/imgs/2022/06/91cf6ffd9f4daa1d.gif",
+            "date_modified": "2022-07-02T11:07:05.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/dc502c/",
             "url": "https://wiki.eryajf.net/pages/dc502c/",
             "title": "学习周刊-总第77期-2022年第42周",
@@ -773,20 +773,20 @@
             "date_modified": "2022-11-18T09:07:19.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/2ef415/",
-            "url": "https://wiki.eryajf.net/pages/2ef415/",
-            "title": "学习周刊-总第81期-2022年第46周",
-            "summary": "学习周刊-总第81期-Mac启用clash之后本地hosts失效的解决办法",
-            "image": "http://t.eryajf.net/imgs/2022/11/9c99b9905f041a72.png",
-            "date_modified": "2022-11-25T09:16:51.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/273843/",
             "url": "https://wiki.eryajf.net/pages/273843/",
             "title": "学习周刊-总第82期-2022年第47周",
             "summary": "学习周刊-总第82期-两个生成与解析二维码的go三方库",
             "image": "http://t.eryajf.net/imgs/2022/11/2b70641563dfa690.gif",
             "date_modified": "2022-12-02T09:12:33.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/2ef415/",
+            "url": "https://wiki.eryajf.net/pages/2ef415/",
+            "title": "学习周刊-总第81期-2022年第46周",
+            "summary": "学习周刊-总第81期-Mac启用clash之后本地hosts失效的解决办法",
+            "image": "http://t.eryajf.net/imgs/2022/11/9c99b9905f041a72.png",
+            "date_modified": "2022-11-25T09:16:51.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/0c1a1b/",
@@ -884,20 +884,20 @@
             "date_modified": "2023-02-17T21:40:45.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/866763/",
-            "url": "https://wiki.eryajf.net/pages/866763/",
-            "title": "学习周刊-总第96期-2023年第09周",
-            "summary": "学习周刊-总第96期-超强的开源搜索引擎meilisearch",
-            "image": "http://t.eryajf.net/imgs/2023/02/bdce31c81c72219d.gif",
-            "date_modified": "2023-03-03T20:09:06.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/5ec73f/",
             "url": "https://wiki.eryajf.net/pages/5ec73f/",
             "title": "学习周刊-总第95期-2023年第08周",
             "summary": "学习周刊-总第95期-汇总整理几个优秀的开源图床程序",
             "image": "http://t.eryajf.net/imgs/2023/02/1c26de6863eba107.png",
             "date_modified": "2023-02-24T09:51:14.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/866763/",
+            "url": "https://wiki.eryajf.net/pages/866763/",
+            "title": "学习周刊-总第96期-2023年第09周",
+            "summary": "学习周刊-总第96期-超强的开源搜索引擎meilisearch",
+            "image": "http://t.eryajf.net/imgs/2023/02/bdce31c81c72219d.gif",
+            "date_modified": "2023-03-03T20:09:06.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/1f0c42/",
@@ -908,20 +908,20 @@
             "date_modified": "2022-02-14T09:32:32.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/ee8957/",
-            "url": "https://wiki.eryajf.net/pages/ee8957/",
-            "title": "Obsidian插件周刊第十六期",
-            "summary": "请参阅：Obsidian插件周刊说明。",
-            "image": "http://t.eryajf.net/imgs/2022/01/53f15953f734705f.png",
-            "date_modified": "2022-02-26T13:41:20.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/e5cdbf/",
             "url": "https://wiki.eryajf.net/pages/e5cdbf/",
             "title": "Obsidian插件周刊第十七期",
             "summary": "请参阅：Obsidian插件周刊说明。",
             "image": "http://t.eryajf.net/imgs/2022/01/74c63f250a88161c.png",
             "date_modified": "2022-03-12T08:27:15.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/ee8957/",
+            "url": "https://wiki.eryajf.net/pages/ee8957/",
+            "title": "Obsidian插件周刊第十六期",
+            "summary": "请参阅：Obsidian插件周刊说明。",
+            "image": "http://t.eryajf.net/imgs/2022/01/53f15953f734705f.png",
+            "date_modified": "2022-02-26T13:41:20.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/comein/",
@@ -938,6 +938,12 @@
             "summary": "收款明细",
             "image": "http://t.eryajf.net/imgs/2022/07/d520bd101fb57b91.png",
             "date_modified": "2022-07-02T23:28:29.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/looking-for-a-job/",
+            "url": "https://wiki.eryajf.net/looking-for-a-job/",
+            "title": "求职公告",
+            "date_modified": "2023-03-07T10:56:00.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/afc8fe/",
