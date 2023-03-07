@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-03-07T03:23:28.329Z</updated>
+    <updated>2023-03-07T06:17:20.710Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -121,20 +121,20 @@
         <summary type="html"><![CDATA[一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[如何将个人的GitHub主页配置的优雅好看]]></title>
-        <id>https://wiki.eryajf.net/pages/d195b4/</id>
-        <link href="https://wiki.eryajf.net/pages/d195b4/">
-        </link>
-        <updated>2022-07-23T11:10:55.000Z</updated>
-        <summary type="html"><![CDATA[我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动为README添加TOC目录]]></title>
         <id>https://wiki.eryajf.net/pages/226388/</id>
         <link href="https://wiki.eryajf.net/pages/226388/">
         </link>
         <updated>2022-05-08T10:40:28.000Z</updated>
         <summary type="html"><![CDATA[GitHub的Markdown目前不支持直接[TOC]渲染文章的目录，有些README则需要这样的效果，可以借助外部工具进行生成，也可以借助 GitHub Actions 自动生成，本文就介绍这种方式。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何将个人的GitHub主页配置的优雅好看]]></title>
+        <id>https://wiki.eryajf.net/pages/d195b4/</id>
+        <link href="https://wiki.eryajf.net/pages/d195b4/">
+        </link>
+        <updated>2022-07-23T11:10:55.000Z</updated>
+        <summary type="html"><![CDATA[我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动将项目贡献者列表添加到README中]]></title>
@@ -425,19 +425,19 @@
         <summary type="html"><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第36期-2022年第01周]]></title>
-        <id>https://wiki.eryajf.net/pages/aa3e00/</id>
-        <link href="https://wiki.eryajf.net/pages/aa3e00/">
-        </link>
-        <updated>2022-01-07T22:08:28.000Z</updated>
-        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第37期-2022年第02周]]></title>
         <id>https://wiki.eryajf.net/pages/cbecfd/</id>
         <link href="https://wiki.eryajf.net/pages/cbecfd/">
         </link>
         <updated>2022-01-15T13:47:04.000Z</updated>
+        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第36期-2022年第01周]]></title>
+        <id>https://wiki.eryajf.net/pages/aa3e00/</id>
+        <link href="https://wiki.eryajf.net/pages/aa3e00/">
+        </link>
+        <updated>2022-01-07T22:08:28.000Z</updated>
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
@@ -617,6 +617,14 @@
         <summary type="html"><![CDATA[学习周刊-总第59期-2022年第24周]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[学习周刊-总第60期-2022年第25周]]></title>
+        <id>https://wiki.eryajf.net/pages/bff449/</id>
+        <link href="https://wiki.eryajf.net/pages/bff449/">
+        </link>
+        <updated>2022-07-02T11:07:05.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第60期-2022年第25周]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[学习周刊-总第61期-2022年第26周]]></title>
         <id>https://wiki.eryajf.net/pages/703307/</id>
         <link href="https://wiki.eryajf.net/pages/703307/">
@@ -745,28 +753,12 @@
         <summary type="html"><![CDATA[学习周刊-总第76期-Mac电脑中所有软件的icon合集]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第60期-2022年第25周]]></title>
-        <id>https://wiki.eryajf.net/pages/bff449/</id>
-        <link href="https://wiki.eryajf.net/pages/bff449/">
-        </link>
-        <updated>2022-07-02T11:07:05.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第60期-2022年第25周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第77期-2022年第42周]]></title>
         <id>https://wiki.eryajf.net/pages/dc502c/</id>
         <link href="https://wiki.eryajf.net/pages/dc502c/">
         </link>
         <updated>2022-10-29T09:57:37.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第77期-Vue3右键菜单组件和数据库备份管理平台]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[学习周刊-总第79期-2022年第44周]]></title>
-        <id>https://wiki.eryajf.net/pages/43ee57/</id>
-        <link href="https://wiki.eryajf.net/pages/43ee57/">
-        </link>
-        <updated>2022-11-11T09:12:17.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第79期-homebrew桌面版与一个类似jumpserver登陆界面的ssh登陆工具]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第78期-2022年第43周]]></title>
@@ -777,6 +769,14 @@
         <summary type="html"><![CDATA[学习周刊-总第78期-k8s管理平台与可视化正则]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[学习周刊-总第79期-2022年第44周]]></title>
+        <id>https://wiki.eryajf.net/pages/43ee57/</id>
+        <link href="https://wiki.eryajf.net/pages/43ee57/">
+        </link>
+        <updated>2022-11-11T09:12:17.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第79期-homebrew桌面版与一个类似jumpserver登陆界面的ssh登陆工具]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[学习周刊-总第80期-2022年第45周]]></title>
         <id>https://wiki.eryajf.net/pages/b442a6/</id>
         <link href="https://wiki.eryajf.net/pages/b442a6/">
@@ -785,20 +785,20 @@
         <summary type="html"><![CDATA[学习周刊-总第80期-两个前端代码生成项目与一个go语言时间库]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第82期-2022年第47周]]></title>
-        <id>https://wiki.eryajf.net/pages/273843/</id>
-        <link href="https://wiki.eryajf.net/pages/273843/">
-        </link>
-        <updated>2022-12-02T09:12:33.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第82期-两个生成与解析二维码的go三方库]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第81期-2022年第46周]]></title>
         <id>https://wiki.eryajf.net/pages/2ef415/</id>
         <link href="https://wiki.eryajf.net/pages/2ef415/">
         </link>
         <updated>2022-11-25T09:16:51.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第81期-Mac启用clash之后本地hosts失效的解决办法]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第82期-2022年第47周]]></title>
+        <id>https://wiki.eryajf.net/pages/273843/</id>
+        <link href="https://wiki.eryajf.net/pages/273843/">
+        </link>
+        <updated>2022-12-02T09:12:33.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第82期-两个生成与解析二维码的go三方库]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第83期-2022年第48周]]></title>
@@ -921,19 +921,19 @@
         <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Obsidian插件周刊第十七期]]></title>
-        <id>https://wiki.eryajf.net/pages/e5cdbf/</id>
-        <link href="https://wiki.eryajf.net/pages/e5cdbf/">
-        </link>
-        <updated>2022-03-12T08:27:15.000Z</updated>
-        <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Obsidian插件周刊第十六期]]></title>
         <id>https://wiki.eryajf.net/pages/ee8957/</id>
         <link href="https://wiki.eryajf.net/pages/ee8957/">
         </link>
         <updated>2022-02-26T13:41:20.000Z</updated>
+        <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Obsidian插件周刊第十七期]]></title>
+        <id>https://wiki.eryajf.net/pages/e5cdbf/</id>
+        <link href="https://wiki.eryajf.net/pages/e5cdbf/">
+        </link>
+        <updated>2022-03-12T08:27:15.000Z</updated>
         <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
     </entry>
     <entry>
