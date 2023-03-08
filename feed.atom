@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-03-07T06:19:01.290Z</updated>
+    <updated>2023-03-08T03:20:53.609Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -505,20 +505,20 @@
         <summary type="html"><![CDATA[学习周刊-2022年第09周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第45期-2022年第10周]]></title>
-        <id>https://wiki.eryajf.net/pages/02cfc7/</id>
-        <link href="https://wiki.eryajf.net/pages/02cfc7/">
-        </link>
-        <updated>2022-03-19T17:53:04.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-2022年第10周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第46期-2022年第11周]]></title>
         <id>https://wiki.eryajf.net/pages/ae6b3c/</id>
         <link href="https://wiki.eryajf.net/pages/ae6b3c/">
         </link>
         <updated>2022-03-25T21:28:58.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第46期-2022年第11周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第45期-2022年第10周]]></title>
+        <id>https://wiki.eryajf.net/pages/02cfc7/</id>
+        <link href="https://wiki.eryajf.net/pages/02cfc7/">
+        </link>
+        <updated>2022-03-19T17:53:04.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-2022年第10周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第47期-2022年第12周]]></title>
@@ -545,20 +545,20 @@
         <summary type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></title>
-        <id>https://wiki.eryajf.net/pages/4c8490/</id>
-        <link href="https://wiki.eryajf.net/pages/4c8490/">
-        </link>
-        <updated>2022-04-23T22:12:15.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第51期-2022年第16周]]></title>
         <id>https://wiki.eryajf.net/pages/4d2fe6/</id>
         <link href="https://wiki.eryajf.net/pages/4d2fe6/">
         </link>
         <updated>2022-04-30T08:56:13.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第51期-2022年第16周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></title>
+        <id>https://wiki.eryajf.net/pages/4c8490/</id>
+        <link href="https://wiki.eryajf.net/pages/4c8490/">
+        </link>
+        <updated>2022-04-23T22:12:15.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第52期-2022年第17周]]></title>
@@ -585,20 +585,20 @@
         <summary type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第56期-2022年第21周]]></title>
-        <id>https://wiki.eryajf.net/pages/77b80b/</id>
-        <link href="https://wiki.eryajf.net/pages/77b80b/">
-        </link>
-        <updated>2022-06-04T16:41:13.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第56期-2022年第21周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第55期-2022年第20周]]></title>
         <id>https://wiki.eryajf.net/pages/fe7652/</id>
         <link href="https://wiki.eryajf.net/pages/fe7652/">
         </link>
         <updated>2022-05-28T18:03:49.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第55期-2022年第20周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第56期-2022年第21周]]></title>
+        <id>https://wiki.eryajf.net/pages/77b80b/</id>
+        <link href="https://wiki.eryajf.net/pages/77b80b/">
+        </link>
+        <updated>2022-06-04T16:41:13.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第56期-2022年第21周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第57期-2022年第22周]]></title>
@@ -633,20 +633,20 @@
         <summary type="html"><![CDATA[学习周刊-总第60期-2022年第25周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第62期-2022年第27周]]></title>
-        <id>https://wiki.eryajf.net/pages/4a06ab/</id>
-        <link href="https://wiki.eryajf.net/pages/4a06ab/">
-        </link>
-        <updated>2022-07-16T14:25:58.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第62期-2022年第27周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第61期-2022年第26周]]></title>
         <id>https://wiki.eryajf.net/pages/703307/</id>
         <link href="https://wiki.eryajf.net/pages/703307/">
         </link>
         <updated>2022-07-09T14:45:59.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第61期-2022年第26周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第62期-2022年第27周]]></title>
+        <id>https://wiki.eryajf.net/pages/4a06ab/</id>
+        <link href="https://wiki.eryajf.net/pages/4a06ab/">
+        </link>
+        <updated>2022-07-16T14:25:58.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第62期-2022年第27周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第63期-2022年第28周]]></title>
@@ -745,20 +745,20 @@
         <summary type="html"><![CDATA[学习周刊-总第74期-一个go语言输出着色包]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
-        <id>https://wiki.eryajf.net/pages/34698c/</id>
-        <link href="https://wiki.eryajf.net/pages/34698c/">
-        </link>
-        <updated>2022-10-14T10:20:30.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第76期-2022年第41周]]></title>
         <id>https://wiki.eryajf.net/pages/137fb1/</id>
         <link href="https://wiki.eryajf.net/pages/137fb1/">
         </link>
         <updated>2022-10-21T08:16:37.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第76期-Mac电脑中所有软件的icon合集]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
+        <id>https://wiki.eryajf.net/pages/34698c/</id>
+        <link href="https://wiki.eryajf.net/pages/34698c/">
+        </link>
+        <updated>2022-10-14T10:20:30.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第77期-2022年第42周]]></title>
@@ -809,14 +809,6 @@
         <summary type="html"><![CDATA[学习周刊-总第82期-两个生成与解析二维码的go三方库]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第84期-2022年第49周]]></title>
-        <id>https://wiki.eryajf.net/pages/355e5b/</id>
-        <link href="https://wiki.eryajf.net/pages/355e5b/">
-        </link>
-        <updated>2022-12-16T18:16:30.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第84期-关于手机号的正则校验应该用严格校验，还是宽松校验呢]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第83期-2022年第48周]]></title>
         <id>https://wiki.eryajf.net/pages/0c1a1b/</id>
         <link href="https://wiki.eryajf.net/pages/0c1a1b/">
@@ -831,6 +823,14 @@
         </link>
         <updated>2022-12-23T20:44:39.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第85期-go语言进程管理工具]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第84期-2022年第49周]]></title>
+        <id>https://wiki.eryajf.net/pages/355e5b/</id>
+        <link href="https://wiki.eryajf.net/pages/355e5b/">
+        </link>
+        <updated>2022-12-16T18:16:30.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第84期-关于手机号的正则校验应该用严格校验，还是宽松校验呢]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第86期-2022年第51周]]></title>
@@ -966,6 +966,7 @@
         <link href="https://wiki.eryajf.net/looking-for-a-job/">
         </link>
         <updated>2023-03-07T10:56:00.000Z</updated>
+        <summary type="html"><![CDATA[关于个人的技能，思想，以及人生观等详情，基本上通过这个博客可以窥见一二，期待您的联络，期待与您共事！]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[置顶文章汇总]]></title>
