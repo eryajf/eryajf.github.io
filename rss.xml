@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Sun, 12 Mar 2023 15:35:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Mar 2023 13:30:12 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -461,6 +461,15 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[使用retry-go给项目添加重试机制]]></title>
+            <link>https://wiki.eryajf.net/pages/541fc0/</link>
+            <guid>https://wiki.eryajf.net/pages/541fc0/</guid>
+            <pubDate>Wed, 15 Mar 2023 21:05:48 GMT</pubDate>
+            <description><![CDATA[在编写分布式应用程序时，有时会出现一些短暂的错误，例如网络问题、服务端连接中断等。这些错误可能会导致函数执行失败，但在稍后重新尝试时可能会成功。在这种情况下，我们可以使用重试机制。retry-go 是一个轻量级的 Golang 库，它使重试代码块变得更加简单。它通过提供一个简单的 API 来实现这一点，这使得开发人员可以在代码中轻松地添加重试逻辑。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/03/4704fe2930acd95e.jpg">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[拯救openLDAP的上古管理界面，我写了一个现代化的ldap管理后台go-ldap-admin]]></title>
             <link>https://wiki.eryajf.net/pages/e41911/</link>
             <guid>https://wiki.eryajf.net/pages/e41911/</guid>
@@ -631,6 +640,15 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
+            <link>https://wiki.eryajf.net/pages/75bb76/</link>
+            <guid>https://wiki.eryajf.net/pages/75bb76/</guid>
+            <pubDate>Sat, 21 May 2022 14:52:29 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第54期-2022年第19周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[学习周刊-总第55期-2022年第20周]]></title>
             <link>https://wiki.eryajf.net/pages/fe7652/</link>
             <guid>https://wiki.eryajf.net/pages/fe7652/</guid>
@@ -655,15 +673,6 @@
             <pubDate>Sat, 11 Jun 2022 09:12:21 GMT</pubDate>
             <description><![CDATA[学习周刊-总第57期-2022年第22周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/05/4834a35be03c892e.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
-            <link>https://wiki.eryajf.net/pages/75bb76/</link>
-            <guid>https://wiki.eryajf.net/pages/75bb76/</guid>
-            <pubDate>Sat, 21 May 2022 14:52:29 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第54期-2022年第19周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png">
             </enclosure>
         </item>
         <item>
@@ -820,21 +829,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第76期-2022年第41周]]></title>
-            <link>https://wiki.eryajf.net/pages/137fb1/</link>
-            <guid>https://wiki.eryajf.net/pages/137fb1/</guid>
-            <pubDate>Fri, 21 Oct 2022 08:16:37 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第76期-Mac电脑中所有软件的icon合集]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/10/5431682a6c7c8711.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
             <link>https://wiki.eryajf.net/pages/34698c/</link>
             <guid>https://wiki.eryajf.net/pages/34698c/</guid>
             <pubDate>Fri, 14 Oct 2022 10:20:30 GMT</pubDate>
             <description><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/10/efbbb5af047a4d18.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第76期-2022年第41周]]></title>
+            <link>https://wiki.eryajf.net/pages/137fb1/</link>
+            <guid>https://wiki.eryajf.net/pages/137fb1/</guid>
+            <pubDate>Fri, 21 Oct 2022 08:16:37 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第76期-Mac电脑中所有软件的icon合集]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/10/5431682a6c7c8711.png">
             </enclosure>
         </item>
         <item>

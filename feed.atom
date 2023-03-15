@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-03-12T15:35:43.195Z</updated>
+    <updated>2023-03-15T13:30:12.663Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -417,6 +417,14 @@
         <summary type="html"><![CDATA[我的 xirang 系统之前引入 sqlite 功能的时候，使用的驱动包是 github.com/mattn/go-sqlite3 v1.14.15，这个库现在在 go 项目当中，引用最多，应用最广，看项目 Used By 达到了 71k，俨然成为这一方面的标准，但有一个最大的问题就是，这是一个 C 语言实现的库，如果要应用这个库，那么你的环境就需要解决这个 CGO 依赖。]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[使用retry-go给项目添加重试机制]]></title>
+        <id>https://wiki.eryajf.net/pages/541fc0/</id>
+        <link href="https://wiki.eryajf.net/pages/541fc0/">
+        </link>
+        <updated>2023-03-15T21:05:48.000Z</updated>
+        <summary type="html"><![CDATA[在编写分布式应用程序时，有时会出现一些短暂的错误，例如网络问题、服务端连接中断等。这些错误可能会导致函数执行失败，但在稍后重新尝试时可能会成功。在这种情况下，我们可以使用重试机制。retry-go 是一个轻量级的 Golang 库，它使重试代码块变得更加简单。它通过提供一个简单的 API 来实现这一点，这使得开发人员可以在代码中轻松地添加重试逻辑。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[拯救openLDAP的上古管理界面，我写了一个现代化的ldap管理后台go-ldap-admin]]></title>
         <id>https://wiki.eryajf.net/pages/e41911/</id>
         <link href="https://wiki.eryajf.net/pages/e41911/">
@@ -577,6 +585,14 @@
         <summary type="html"><![CDATA[学习周刊-总第53期-2022年第18周]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
+        <id>https://wiki.eryajf.net/pages/75bb76/</id>
+        <link href="https://wiki.eryajf.net/pages/75bb76/">
+        </link>
+        <updated>2022-05-21T14:52:29.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[学习周刊-总第55期-2022年第20周]]></title>
         <id>https://wiki.eryajf.net/pages/fe7652/</id>
         <link href="https://wiki.eryajf.net/pages/fe7652/">
@@ -599,14 +615,6 @@
         </link>
         <updated>2022-06-11T09:12:21.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第57期-2022年第22周]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
-        <id>https://wiki.eryajf.net/pages/75bb76/</id>
-        <link href="https://wiki.eryajf.net/pages/75bb76/">
-        </link>
-        <updated>2022-05-21T14:52:29.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第58期-2022年第23周]]></title>
@@ -745,20 +753,20 @@
         <summary type="html"><![CDATA[学习周刊-总第74期-一个go语言输出着色包]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第76期-2022年第41周]]></title>
-        <id>https://wiki.eryajf.net/pages/137fb1/</id>
-        <link href="https://wiki.eryajf.net/pages/137fb1/">
-        </link>
-        <updated>2022-10-21T08:16:37.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第76期-Mac电脑中所有软件的icon合集]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
         <id>https://wiki.eryajf.net/pages/34698c/</id>
         <link href="https://wiki.eryajf.net/pages/34698c/">
         </link>
         <updated>2022-10-14T10:20:30.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第76期-2022年第41周]]></title>
+        <id>https://wiki.eryajf.net/pages/137fb1/</id>
+        <link href="https://wiki.eryajf.net/pages/137fb1/">
+        </link>
+        <updated>2022-10-21T08:16:37.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第76期-Mac电脑中所有软件的icon合集]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第77期-2022年第42周]]></title>

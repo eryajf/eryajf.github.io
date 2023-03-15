@@ -410,6 +410,14 @@
             "date_modified": "2023-02-25T11:38:49.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/541fc0/",
+            "url": "https://wiki.eryajf.net/pages/541fc0/",
+            "title": "使用retry-go给项目添加重试机制",
+            "summary": "在编写分布式应用程序时，有时会出现一些短暂的错误，例如网络问题、服务端连接中断等。这些错误可能会导致函数执行失败，但在稍后重新尝试时可能会成功。在这种情况下，我们可以使用重试机制。retry-go 是一个轻量级的 Golang 库，它使重试代码块变得更加简单。它通过提供一个简单的 API 来实现这一点，这使得开发人员可以在代码中轻松地添加重试逻辑。",
+            "image": "http://t.eryajf.net/imgs/2023/03/4704fe2930acd95e.jpg",
+            "date_modified": "2023-03-15T21:05:48.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/e41911/",
             "url": "https://wiki.eryajf.net/pages/e41911/",
             "title": "拯救openLDAP的上古管理界面，我写了一个现代化的ldap管理后台go-ldap-admin",
@@ -565,6 +573,14 @@
             "date_modified": "2022-05-14T23:12:02.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/75bb76/",
+            "url": "https://wiki.eryajf.net/pages/75bb76/",
+            "title": "学习周刊-总第54期-2022年第19周",
+            "summary": "学习周刊-总第54期-2022年第19周",
+            "image": "http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png",
+            "date_modified": "2022-05-21T14:52:29.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/fe7652/",
             "url": "https://wiki.eryajf.net/pages/fe7652/",
             "title": "学习周刊-总第55期-2022年第20周",
@@ -587,14 +603,6 @@
             "summary": "学习周刊-总第57期-2022年第22周",
             "image": "http://t.eryajf.net/imgs/2022/05/4834a35be03c892e.png",
             "date_modified": "2022-06-11T09:12:21.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/75bb76/",
-            "url": "https://wiki.eryajf.net/pages/75bb76/",
-            "title": "学习周刊-总第54期-2022年第19周",
-            "summary": "学习周刊-总第54期-2022年第19周",
-            "image": "http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png",
-            "date_modified": "2022-05-21T14:52:29.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/62a9c7/",
@@ -733,20 +741,20 @@
             "date_modified": "2022-10-08T09:28:26.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/137fb1/",
-            "url": "https://wiki.eryajf.net/pages/137fb1/",
-            "title": "学习周刊-总第76期-2022年第41周",
-            "summary": "学习周刊-总第76期-Mac电脑中所有软件的icon合集",
-            "image": "http://t.eryajf.net/imgs/2022/10/5431682a6c7c8711.png",
-            "date_modified": "2022-10-21T08:16:37.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/34698c/",
             "url": "https://wiki.eryajf.net/pages/34698c/",
             "title": "学习周刊-总第75期-2022年第40周",
             "summary": "学习周刊-总第75期-一个开源的SCRM",
             "image": "http://t.eryajf.net/imgs/2022/10/efbbb5af047a4d18.png",
             "date_modified": "2022-10-14T10:20:30.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/137fb1/",
+            "url": "https://wiki.eryajf.net/pages/137fb1/",
+            "title": "学习周刊-总第76期-2022年第41周",
+            "summary": "学习周刊-总第76期-Mac电脑中所有软件的icon合集",
+            "image": "http://t.eryajf.net/imgs/2022/10/5431682a6c7c8711.png",
+            "date_modified": "2022-10-21T08:16:37.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/dc502c/",
