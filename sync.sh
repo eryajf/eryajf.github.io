@@ -7,6 +7,7 @@ yarn build
 
 # 必应认证
 cp utils/BingSiteAuth.xml docs/.vuepress/dist
+cp utils/436d5778d83e4fdb99facd48b571b90d.txt docs/.vuepress/dist
 # 同步
 rsync -az --delete docs/.vuepress/dist/  \
     root@8.136.215.57:/data/www/eryajf.github.io/
