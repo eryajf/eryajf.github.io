@@ -9,7 +9,7 @@
 
 个人博客所有内容源代码，博客通过静态部署，一切内容尽皆开源开放。
 
-因此`不必fork`，可`尽情star`！
+因此 `不必fork`，可以 `尽情star`！
 
 ---
 
@@ -21,7 +21,7 @@
 
 ---
 
-注意： ~~因为博客使用gitalk作为评论系统，因此平时会有不少issue的通知~~，大家酌情选择watch(或者watch中忽略issue通知)，以免造成消息轰炸！如果你实在忍不住就想点一下，烦请右移点个小star🐶
+注意： ~~因为博客使用gitalk作为评论系统，因此平时会有不少issue的通知，大家酌情选择watch(或者watch中忽略issue通知)，以免造成消息轰炸！~~ 如果你实在忍不住就想点一下，烦请右移点个小star🐶
 
 现在，评论系统基于Artalk自建，不存在issue通知的问题，请尽情地一键三连！！
 
@@ -29,4 +29,10 @@
 
 **博客首页**
 
-![image_20220624_163553](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220624_163553.png)
+`2022-06-24`
+
+![image_20230317_083607](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230317_083607.jpg)
+
+`2023-03-17`
+
+![image_20230317_083538](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230317_083538.jpg)
