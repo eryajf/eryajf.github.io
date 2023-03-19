@@ -1,4 +1,4 @@
-**二丫讲梵**
+### 二丫讲梵
 
 [![](https://visitor-badge.laobi.icu/badge?page_id=eryajf.eryajf)](https://visitor-badge.laobi.icu/badge?page_id=eryajf.eryajf)
 [![Mail Badge](https://img.shields.io/badge/-eryajf@163.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:eryajf@163.com)](mailto:eryajf@163.com)
@@ -25,14 +25,28 @@
 
 现在，评论系统基于Artalk自建，不存在issue通知的问题，请尽情地一键三连！！
 
+
+### 博客首页
+
 ---
 
-**博客首页**
+<div align="center">
 
-`2022-06-24`
+**`2022-06-24`**
 
 ![image_20230317_083607](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230317_083607.jpg)
 
-`2023-03-17`
+</div>
+
+---
+
+<div align="center">
+
+
+**`2023-03-17`**
 
 ![image_20230317_083538](https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230317_083538.jpg)
+
+</div>
+
+---
