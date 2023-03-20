@@ -129,6 +129,10 @@ $sidebarWidth = 22rem // 左侧边栏宽度
 .theme-mode-dark #vuepress-plugin-vdoing-comment .atk-editor-plug-emoticons > .atk-grp-switcher {
   background: var(--at-color-bg-grey)
 }
+// 解决评论区单行内容过长，而无法正确显示的问题
+.artalk pre code, .atk-layer-wrap pre code {
+  white-space: pre-wrap !important;
+}
 
 // meilisearch 样式自定义
 $accentDarkColor = #FF85BF
