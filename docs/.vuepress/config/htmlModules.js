@@ -32,9 +32,21 @@ module.exports = {
     // </div>`,
   // 利用广告模块儿,添加访问地球🌎
   // homeSidebarB: `<div style="width:100%;height:122px;color:#fff;background: #eee;"><a href="https://www.revolvermaps.com/livestats/5srkcv15atq/"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/10/5srkcv15atq.png" width="256" height="128" alt="Map" style="border:0;"></a></div>`,
-  pageT: `<div class="timeHint" style="color:#f56c6c;letter-spacing:0;background: #fef0f0;border-radius: 4px;border: solid 1px; display: block; width: 530px; margin: auto;">
-  这篇文章的发布时间较早，其中的内容可能已经过时，阅读时请注意甄别。
-  </div>`,
+  pageT: `<div style="
+  color:#f56c6c;
+  letter-spacing:0;
+  background: #fef0f0;
+  border-radius: 4px;
+  border: solid 1px;
+  display: block;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  box-sizing: border-box;
+">
+  这篇文章的发布时间较早，其中的内容可能已经过时，阅读时请注意甄别时效性。
+</div>`,
   pageB: `<div class="donation">
   <button>打赏</button>
   <div class="main">
