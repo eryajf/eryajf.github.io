@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-03-24T01:06:32.353Z</updated>
+    <updated>2023-03-30T13:15:52.012Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -185,20 +185,20 @@
         <summary type="html"><![CDATA[GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[利用GitHub Actions自动对仓库内图片进行无损压缩]]></title>
-        <id>https://wiki.eryajf.net/pages/dbee9e/</id>
-        <link href="https://wiki.eryajf.net/pages/dbee9e/">
-        </link>
-        <updated>2022-08-01T23:42:32.000Z</updated>
-        <summary type="html"><![CDATA[我维护的 awesome-github-profile-readme-chinese 项目旨在收集汇总中文区优秀的个人主页，每个人的主页将会通过截图的方式存放在 exampls 目录下，有时候有的朋友主页内容很多，这样整体截图下来就非常大。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的图片，然后对其进行几乎无损的压缩，让整个仓库的体积保持在一个相对低的水平。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动生成个人star列表并归类]]></title>
         <id>https://wiki.eryajf.net/pages/4ba0f4/</id>
         <link href="https://wiki.eryajf.net/pages/4ba0f4/">
         </link>
         <updated>2022-07-29T16:26:09.000Z</updated>
         <summary type="html"><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用GitHub Actions自动对仓库内图片进行无损压缩]]></title>
+        <id>https://wiki.eryajf.net/pages/dbee9e/</id>
+        <link href="https://wiki.eryajf.net/pages/dbee9e/">
+        </link>
+        <updated>2022-08-01T23:42:32.000Z</updated>
+        <summary type="html"><![CDATA[我维护的 awesome-github-profile-readme-chinese 项目旨在收集汇总中文区优秀的个人主页，每个人的主页将会通过截图的方式存放在 exampls 目录下，有时候有的朋友主页内容很多，这样整体截图下来就非常大。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的图片，然后对其进行几乎无损的压缩，让整个仓库的体积保持在一个相对低的水平。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动检测项目中的问题链接]]></title>
@@ -481,19 +481,19 @@
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第41期-2022年第06周]]></title>
-        <id>https://wiki.eryajf.net/pages/ced061/</id>
-        <link href="https://wiki.eryajf.net/pages/ced061/">
-        </link>
-        <updated>2022-02-19T15:38:57.000Z</updated>
-        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第40期-2022年第05周]]></title>
         <id>https://wiki.eryajf.net/pages/909492/</id>
         <link href="https://wiki.eryajf.net/pages/909492/">
         </link>
         <updated>2022-02-12T00:08:49.000Z</updated>
+        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第41期-2022年第06周]]></title>
+        <id>https://wiki.eryajf.net/pages/ced061/</id>
+        <link href="https://wiki.eryajf.net/pages/ced061/">
+        </link>
+        <updated>2022-02-19T15:38:57.000Z</updated>
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
@@ -545,20 +545,20 @@
         <summary type="html"><![CDATA[学习周刊-总第47期-2022年第12周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></title>
-        <id>https://wiki.eryajf.net/pages/0e9bb7/</id>
-        <link href="https://wiki.eryajf.net/pages/0e9bb7/">
-        </link>
-        <updated>2022-04-17T15:29:35.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
         <id>https://wiki.eryajf.net/pages/5463a4/</id>
         <link href="https://wiki.eryajf.net/pages/5463a4/">
         </link>
         <updated>2022-04-09T08:11:16.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></title>
+        <id>https://wiki.eryajf.net/pages/0e9bb7/</id>
+        <link href="https://wiki.eryajf.net/pages/0e9bb7/">
+        </link>
+        <updated>2022-04-17T15:29:35.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></title>
@@ -737,20 +737,20 @@
         <summary type="html"><![CDATA[学习周刊-总第71期-一些国内的公司在服务网格方面的实践]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第73期-2022年第38周]]></title>
-        <id>https://wiki.eryajf.net/pages/3d89ea/</id>
-        <link href="https://wiki.eryajf.net/pages/3d89ea/">
-        </link>
-        <updated>2022-09-30T08:38:21.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第73期-k8s集群常用监控指标]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第72期-2022年第37周]]></title>
         <id>https://wiki.eryajf.net/pages/430bd1/</id>
         <link href="https://wiki.eryajf.net/pages/430bd1/">
         </link>
         <updated>2022-09-23T08:50:33.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第72期-有些事，不能忘]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第73期-2022年第38周]]></title>
+        <id>https://wiki.eryajf.net/pages/3d89ea/</id>
+        <link href="https://wiki.eryajf.net/pages/3d89ea/">
+        </link>
+        <updated>2022-09-30T08:38:21.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第73期-k8s集群常用监控指标]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第74期-2022年第39周]]></title>

@@ -182,19 +182,19 @@
             "date_modified": "2022-07-29T15:51:43.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/4ba0f4/",
+            "url": "https://wiki.eryajf.net/pages/4ba0f4/",
+            "title": "利用GitHub Actions自动生成个人star列表并归类",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "date_modified": "2022-07-29T16:26:09.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/dbee9e/",
             "url": "https://wiki.eryajf.net/pages/dbee9e/",
             "title": "利用GitHub Actions自动对仓库内图片进行无损压缩",
             "summary": "我维护的 awesome-github-profile-readme-chinese 项目旨在收集汇总中文区优秀的个人主页，每个人的主页将会通过截图的方式存放在 exampls 目录下，有时候有的朋友主页内容很多，这样整体截图下来就非常大。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的图片，然后对其进行几乎无损的压缩，让整个仓库的体积保持在一个相对低的水平。",
             "image": "http://t.eryajf.net/imgs/2022/08/1fa538021f1f5631.png",
             "date_modified": "2022-08-01T23:42:32.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/4ba0f4/",
-            "url": "https://wiki.eryajf.net/pages/4ba0f4/",
-            "title": "利用GitHub Actions自动生成个人star列表并归类",
-            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
-            "date_modified": "2022-07-29T16:26:09.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/c78b38/",
@@ -438,7 +438,7 @@
             "url": "https://wiki.eryajf.net/pages/e85cbc/",
             "title": "chatGPT钉钉群聊交互版-chatgpt-dingtalk",
             "summary": "最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。",
-            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20221209_163616.png",
+            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230325_162017.jpg",
             "date_modified": "2022-12-09T17:47:22.000Z"
         },
         {
@@ -473,18 +473,18 @@
             "date_modified": "2022-01-30T16:16:38.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/ced061/",
-            "url": "https://wiki.eryajf.net/pages/ced061/",
-            "title": "学习周刊-总第41期-2022年第06周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "date_modified": "2022-02-19T15:38:57.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/909492/",
             "url": "https://wiki.eryajf.net/pages/909492/",
             "title": "学习周刊-总第40期-2022年第05周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "date_modified": "2022-02-12T00:08:49.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/ced061/",
+            "url": "https://wiki.eryajf.net/pages/ced061/",
+            "title": "学习周刊-总第41期-2022年第06周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "date_modified": "2022-02-19T15:38:57.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/fa9a0a/",
@@ -533,20 +533,20 @@
             "date_modified": "2022-04-03T08:54:17.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/0e9bb7/",
-            "url": "https://wiki.eryajf.net/pages/0e9bb7/",
-            "title": "学习周刊-总第49期-2022年第14周",
-            "summary": "学习周刊-总第49期-2022年第14周",
-            "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
-            "date_modified": "2022-04-17T15:29:35.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/5463a4/",
             "url": "https://wiki.eryajf.net/pages/5463a4/",
             "title": "学习周刊-总第48期-2022年第13周",
             "summary": "学习周刊-总第48期-2022年第13周",
             "image": "http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png",
             "date_modified": "2022-04-09T08:11:16.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/0e9bb7/",
+            "url": "https://wiki.eryajf.net/pages/0e9bb7/",
+            "title": "学习周刊-总第49期-2022年第14周",
+            "summary": "学习周刊-总第49期-2022年第14周",
+            "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
+            "date_modified": "2022-04-17T15:29:35.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/4c8490/",
@@ -725,20 +725,20 @@
             "date_modified": "2022-09-16T09:06:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/3d89ea/",
-            "url": "https://wiki.eryajf.net/pages/3d89ea/",
-            "title": "学习周刊-总第73期-2022年第38周",
-            "summary": "学习周刊-总第73期-k8s集群常用监控指标",
-            "image": "http://t.eryajf.net/imgs/2022/09/8336066abe86e4c9.png",
-            "date_modified": "2022-09-30T08:38:21.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/430bd1/",
             "url": "https://wiki.eryajf.net/pages/430bd1/",
             "title": "学习周刊-总第72期-2022年第37周",
             "summary": "学习周刊-总第72期-有些事，不能忘",
             "image": "http://t.eryajf.net/imgs/2022/09/96e4c6b63f45feac.gif",
             "date_modified": "2022-09-23T08:50:33.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/3d89ea/",
+            "url": "https://wiki.eryajf.net/pages/3d89ea/",
+            "title": "学习周刊-总第73期-2022年第38周",
+            "summary": "学习周刊-总第73期-k8s集群常用监控指标",
+            "image": "http://t.eryajf.net/imgs/2022/09/8336066abe86e4c9.png",
+            "date_modified": "2022-09-30T08:38:21.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/cc327d/",
