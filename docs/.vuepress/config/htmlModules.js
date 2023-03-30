@@ -45,7 +45,7 @@ module.exports = {
   padding: 10px 0;
   box-sizing: border-box;
 ">
-  这篇文章的发布时间较早，其中的内容可能已经过时，阅读时请注意甄别时效性。
+  文章发布较早，内容可能过时，阅读注意甄别。
 </div>`,
   pageB: `<div class="donation">
   <button>打赏</button>
