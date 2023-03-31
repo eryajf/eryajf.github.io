@@ -39,7 +39,7 @@ module.exports = {
   border-radius: 4px;
   border: solid 1px;
   display: block;
-  width: 75%;
+  width: 50%;
   text-align: center;
   margin: 0 auto;
   padding: 10px 0;
