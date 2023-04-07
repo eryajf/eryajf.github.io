@@ -118,20 +118,20 @@
             "date_modified": "2022-05-09T23:48:23.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/48e307/",
-            "url": "https://wiki.eryajf.net/pages/48e307/",
-            "title": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
-            "summary": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
-            "image": "http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png",
-            "date_modified": "2022-07-23T11:06:46.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/d195b4/",
             "url": "https://wiki.eryajf.net/pages/d195b4/",
             "title": "如何将个人的GitHub主页配置的优雅好看",
             "summary": "我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。",
             "image": "http://t.eryajf.net/imgs/2022/07/b67354a1cd3df47e.png",
             "date_modified": "2022-07-23T11:10:55.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/48e307/",
+            "url": "https://wiki.eryajf.net/pages/48e307/",
+            "title": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
+            "summary": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
+            "image": "http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png",
+            "date_modified": "2022-07-23T11:06:46.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/226388/",
@@ -292,19 +292,19 @@
             "date_modified": "2022-05-29T09:50:49.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/e36842/",
-            "url": "https://wiki.eryajf.net/pages/e36842/",
-            "title": "在家季余随感",
-            "summary": "老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸",
-            "date_modified": "2022-07-20T17:22:11.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/00a267/",
             "url": "https://wiki.eryajf.net/pages/00a267/",
             "title": "微拍堂工作盖论",
             "summary": "诚然，微拍堂有它不完美的地方，幸运的是，我遇到了一群近乎完美的人组成的完美的团队，我们之间的关系没有任何缝隙，我们互相信任，彼此坦诚，真诚分享，并肩作战，共同成长。吃饭当晚，我们每个人也都感慨着，细数着每个人的优秀与负责任，并真切感受到这样一个团队氛围的珍贵。几个月后，我在朋友圈发表：再也遇不到了，好在曾经拥有过！",
             "image": "http://t.eryajf.net/imgs/2022/09/0755cf3a9ebc183e.jpg",
             "date_modified": "2022-03-21T01:02:12.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/e36842/",
+            "url": "https://wiki.eryajf.net/pages/e36842/",
+            "title": "在家季余随感",
+            "summary": "老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸",
+            "date_modified": "2022-07-20T17:22:11.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/72a375/",
@@ -362,20 +362,20 @@
             "date_modified": "2023-01-30T11:44:55.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/2e6f3a/",
-            "url": "https://wiki.eryajf.net/pages/2e6f3a/",
-            "title": "Vuepress添加首页轮播图与打赏按钮的配置",
-            "summary": "我的博客已经快五岁了，她得学会自己挣钱了，于是乎，我打算通过添加一个轮播图，来挂一些广告。这个功能从想法到落地折腾了两三天，最后终于配置完毕，今天来做个分享。",
-            "image": "http://t.eryajf.net/imgs/2023/02/c647413d4ef42b85.jpg",
-            "date_modified": "2023-02-01T21:53:53.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/dbc829/",
             "url": "https://wiki.eryajf.net/pages/dbc829/",
             "title": "Vuepress配置rss订阅功能",
             "summary": "默认的 vuepress 程序没有集成 rss 订阅能力，不过第三方有插件集成了相应的能力，本文来介绍下如何通过插件来为博客集成 rss 订阅能力。",
             "image": "http://t.eryajf.net/imgs/2023/02/eda332e9f423f6b1.jpg",
             "date_modified": "2023-02-01T21:54:04.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/2e6f3a/",
+            "url": "https://wiki.eryajf.net/pages/2e6f3a/",
+            "title": "Vuepress添加首页轮播图与打赏按钮的配置",
+            "summary": "我的博客已经快五岁了，她得学会自己挣钱了，于是乎，我打算通过添加一个轮播图，来挂一些广告。这个功能从想法到落地折腾了两三天，最后终于配置完毕，今天来做个分享。",
+            "image": "http://t.eryajf.net/imgs/2023/02/c647413d4ef42b85.jpg",
+            "date_modified": "2023-02-01T21:53:53.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/b205e9/",
@@ -442,20 +442,20 @@
             "date_modified": "2022-12-09T17:47:22.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/aa3e00/",
-            "url": "https://wiki.eryajf.net/pages/aa3e00/",
-            "title": "学习周刊-总第36期-2022年第01周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "image": "http://t.eryajf.net/imgs/2022/01/345c225125d1a501.png",
-            "date_modified": "2022-01-07T22:08:28.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/cbecfd/",
             "url": "https://wiki.eryajf.net/pages/cbecfd/",
             "title": "学习周刊-总第37期-2022年第02周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "image": "http://t.eryajf.net/imgs/2022/01/1673c473898b4424.png",
             "date_modified": "2022-01-15T13:47:04.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/aa3e00/",
+            "url": "https://wiki.eryajf.net/pages/aa3e00/",
+            "title": "学习周刊-总第36期-2022年第01周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/01/345c225125d1a501.png",
+            "date_modified": "2022-01-07T22:08:28.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/1d2aab/",
@@ -533,20 +533,20 @@
             "date_modified": "2022-04-03T08:54:17.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/5463a4/",
-            "url": "https://wiki.eryajf.net/pages/5463a4/",
-            "title": "学习周刊-总第48期-2022年第13周",
-            "summary": "学习周刊-总第48期-2022年第13周",
-            "image": "http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png",
-            "date_modified": "2022-04-09T08:11:16.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/0e9bb7/",
             "url": "https://wiki.eryajf.net/pages/0e9bb7/",
             "title": "学习周刊-总第49期-2022年第14周",
             "summary": "学习周刊-总第49期-2022年第14周",
             "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
             "date_modified": "2022-04-17T15:29:35.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/5463a4/",
+            "url": "https://wiki.eryajf.net/pages/5463a4/",
+            "title": "学习周刊-总第48期-2022年第13周",
+            "summary": "学习周刊-总第48期-2022年第13周",
+            "image": "http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png",
+            "date_modified": "2022-04-09T08:11:16.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/4c8490/",
@@ -693,20 +693,20 @@
             "date_modified": "2022-08-19T07:10:11.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/73eb3e/",
-            "url": "https://wiki.eryajf.net/pages/73eb3e/",
-            "title": "学习周刊-总第68期-2022年第33周",
-            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
-            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
-            "date_modified": "2022-08-26T09:02:58.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/30b309/",
             "url": "https://wiki.eryajf.net/pages/30b309/",
             "title": "学习周刊-总第69期-2022年第34周",
             "summary": "学习周刊-总第69期-2021年个人博主们的年终总结",
             "image": "http://t.eryajf.net/imgs/2022/08/fdfe65cb3dcaa78b.png",
             "date_modified": "2022-09-02T08:41:56.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/73eb3e/",
+            "url": "https://wiki.eryajf.net/pages/73eb3e/",
+            "title": "学习周刊-总第68期-2022年第33周",
+            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
+            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
+            "date_modified": "2022-08-26T09:02:58.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/d3ed2b/",
@@ -980,14 +980,6 @@
             "date_modified": "2022-03-12T08:27:15.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/comein/",
-            "url": "https://wiki.eryajf.net/comein/",
-            "title": "博客导引",
-            "summary": "博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。",
-            "image": "https://raw.githubusercontent.com/eryajf/eryajf/master/assets/github-contribution-grid-snake.svg",
-            "date_modified": "2023-02-13T10:56:00.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/5f559d/",
             "url": "https://wiki.eryajf.net/pages/5f559d/",
             "title": "博客接入了CDN，请求大家江湖支援",
@@ -996,11 +988,12 @@
             "date_modified": "2022-07-02T23:28:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/looking-for-a-job/",
-            "url": "https://wiki.eryajf.net/looking-for-a-job/",
-            "title": "求职公告",
-            "summary": "关于个人的技能，思想，以及人生观等详情，基本上通过这个博客可以窥见一二，期待您的联络，期待与您共事！",
-            "date_modified": "2023-03-07T10:56:00.000Z"
+            "id": "https://wiki.eryajf.net/comein/",
+            "url": "https://wiki.eryajf.net/comein/",
+            "title": "博客导引",
+            "summary": "博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。",
+            "image": "https://raw.githubusercontent.com/eryajf/eryajf/master/assets/github-contribution-grid-snake.svg",
+            "date_modified": "2023-02-13T10:56:00.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/afc8fe/",
@@ -1008,6 +1001,13 @@
             "title": "置顶文章汇总",
             "summary": "因为首页只展示最近更新的十篇文章，过多优秀的文章不能都置顶，因此单独一篇文章，将博客中精华内容罗列于此。",
             "date_modified": "2022-05-23T22:26:48.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/looking-for-a-job/",
+            "url": "https://wiki.eryajf.net/looking-for-a-job/",
+            "title": "求职公告",
+            "summary": "关于个人的技能，思想，以及人生观等详情，基本上通过这个博客可以窥见一二，期待您的联络，期待与您共事！",
+            "date_modified": "2023-03-07T10:56:00.000Z"
         }
     ]
 }
