@@ -66,7 +66,7 @@ module.exports = [
   },
   { text: '关于', link: '/about/' },
   { text: '友链', link: '/friends/' },
-  { text: '推广', link: '/geektime/' },
+  // { text: '推广', link: '/geektime/' },
   // { text: '索引', link: '/categories/',
   //   items: [
   //     { text: '分类', link: '/categories/' },
