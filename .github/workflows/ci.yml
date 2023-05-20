@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: 16
       - run: |
+          npm install -g pnpm
           pnpm install
           yarn build
 
