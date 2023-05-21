@@ -261,6 +261,14 @@
             "date_modified": "2022-09-20T23:11:24.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/de5421/",
+            "url": "https://wiki.eryajf.net/pages/de5421/",
+            "title": "nexus2.x升级到3.x之后仓库地址改变的问题探索",
+            "summary": "了解nexus2升级到nexus3之后在仓亏命名规范上的差异。",
+            "image": "http://t.eryajf.net/imgs/2023/05/f659f8871ff6931c.jpg",
+            "date_modified": "2023-05-21T09:49:01.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/fa2478/",
             "url": "https://wiki.eryajf.net/pages/fa2478/",
             "title": "Jenkins基于Share Library共享库的最佳实践探索",
@@ -497,20 +505,20 @@
             "date_modified": "2022-01-07T22:08:28.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/cbecfd/",
-            "url": "https://wiki.eryajf.net/pages/cbecfd/",
-            "title": "学习周刊-总第37期-2022年第02周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "image": "http://t.eryajf.net/imgs/2022/01/1673c473898b4424.png",
-            "date_modified": "2022-01-15T13:47:04.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/1d2aab/",
             "url": "https://wiki.eryajf.net/pages/1d2aab/",
             "title": "学习周刊-总第38期-2022年第03周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "image": "http://t.eryajf.net/imgs/2022/01/ba56862e2b17337a.png",
             "date_modified": "2022-01-21T21:43:40.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/cbecfd/",
+            "url": "https://wiki.eryajf.net/pages/cbecfd/",
+            "title": "学习周刊-总第37期-2022年第02周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/01/1673c473898b4424.png",
+            "date_modified": "2022-01-15T13:47:04.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/478f83/",
@@ -542,20 +550,20 @@
             "date_modified": "2022-02-26T13:41:01.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/b47c65/",
-            "url": "https://wiki.eryajf.net/pages/b47c65/",
-            "title": "学习周刊-总第43期-2022年第08周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "image": "http://t.eryajf.net/imgs/2022/02/802eccbe92779a77.png",
-            "date_modified": "2022-03-05T13:21:22.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/c3ee7b/",
             "url": "https://wiki.eryajf.net/pages/c3ee7b/",
             "title": "学习周刊-总第44期-2022年第09周",
             "summary": "学习周刊-2022年第09周",
             "image": "http://t.eryajf.net/imgs/2022/03/6a51b421f5d8593d.webp",
             "date_modified": "2022-03-12T08:26:46.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/b47c65/",
+            "url": "https://wiki.eryajf.net/pages/b47c65/",
+            "title": "学习周刊-总第43期-2022年第08周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/02/802eccbe92779a77.png",
+            "date_modified": "2022-03-05T13:21:22.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/02cfc7/",
@@ -748,20 +756,20 @@
             "date_modified": "2022-08-26T09:02:58.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/30b309/",
-            "url": "https://wiki.eryajf.net/pages/30b309/",
-            "title": "学习周刊-总第69期-2022年第34周",
-            "summary": "学习周刊-总第69期-2021年个人博主们的年终总结",
-            "image": "http://t.eryajf.net/imgs/2022/08/fdfe65cb3dcaa78b.png",
-            "date_modified": "2022-09-02T08:41:56.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/d3ed2b/",
             "url": "https://wiki.eryajf.net/pages/d3ed2b/",
             "title": "学习周刊-总第70期-2022年第35周",
             "summary": "学习周刊-总第70期-国内效能平台实践与一个优质的开源堡垒机",
             "image": "http://t.eryajf.net/imgs/2022/08/6d8bed7e8f8f2c57.webp",
             "date_modified": "2022-09-09T08:47:23.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/30b309/",
+            "url": "https://wiki.eryajf.net/pages/30b309/",
+            "title": "学习周刊-总第69期-2022年第34周",
+            "summary": "学习周刊-总第69期-2021年个人博主们的年终总结",
+            "image": "http://t.eryajf.net/imgs/2022/08/fdfe65cb3dcaa78b.png",
+            "date_modified": "2022-09-02T08:41:56.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/502079/",
@@ -979,14 +987,6 @@
             "date_modified": "2023-03-10T09:21:50.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/9e8d81/",
-            "url": "https://wiki.eryajf.net/pages/9e8d81/",
-            "title": "学习周刊-总第98期-2023年第11周",
-            "summary": "学习周刊-总第98期-开源的 Mac 端 GIF 录制软件",
-            "image": "http://t.eryajf.net/imgs/2023/02/f2745f9c67d3fc7a.png",
-            "date_modified": "2023-03-17T08:27:15.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/e239f5/",
             "url": "https://wiki.eryajf.net/pages/e239f5/",
             "title": "学习周刊-总第99期-2023年第12周",
@@ -1011,20 +1011,20 @@
             "date_modified": "2023-04-07T07:55:55.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/61eda1/",
-            "url": "https://wiki.eryajf.net/pages/61eda1/",
-            "title": "学习周刊-总第102期-2023年第15周",
-            "summary": "学习周刊-总第101期-一个暴漏github action变量的开源项目",
-            "image": "http://t.eryajf.net/imgs/2023/02/0f5905d316a01467.gif",
-            "date_modified": "2023-04-13T20:28:33.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/415247/",
             "url": "https://wiki.eryajf.net/pages/415247/",
             "title": "学习周刊-总第103期-2023年第16周",
             "summary": "学习周刊-总第103期-一款安卓系统上的 rss 阅读软件",
             "image": "http://t.eryajf.net/imgs/2023/02/441fdac4f10b9041.png",
             "date_modified": "2023-04-21T19:32:14.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/61eda1/",
+            "url": "https://wiki.eryajf.net/pages/61eda1/",
+            "title": "学习周刊-总第102期-2023年第15周",
+            "summary": "学习周刊-总第101期-一个暴漏github action变量的开源项目",
+            "image": "http://t.eryajf.net/imgs/2023/02/0f5905d316a01467.gif",
+            "date_modified": "2023-04-13T20:28:33.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/19d76d/",
@@ -1111,6 +1111,14 @@
             "title": "置顶文章汇总",
             "summary": "因为首页只展示最近更新的十篇文章，过多优秀的文章不能都置顶，因此单独一篇文章，将博客中精华内容罗列于此。",
             "date_modified": "2022-05-23T22:26:48.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/9e8d81/",
+            "url": "https://wiki.eryajf.net/pages/9e8d81/",
+            "title": "学习周刊-总第98期-2023年第11周",
+            "summary": "学习周刊-总第98期-开源的 Mac 端 GIF 录制软件",
+            "image": "http://t.eryajf.net/imgs/2023/02/f2745f9c67d3fc7a.png",
+            "date_modified": "2023-03-17T08:27:15.000Z"
         }
     ]
 }
