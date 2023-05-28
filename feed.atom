@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-05-26T15:09:26.065Z</updated>
+    <updated>2023-05-28T01:58:06.837Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -129,20 +129,20 @@
         <summary type="html"><![CDATA[有人可能会觉得，有了go-ldap-admin这个平台之后，就不需要再了解这些查询方面的知识了，其实这是一个误区，go-ldap-admin平台的确接管了ldap的一应管理，但是ldap终究还是要对接到第三方应用，这个时候，掌握一点简单的查询语法，就是很有必要的。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[分享我的开源项目Thank-Mirror]]></title>
-        <id>https://wiki.eryajf.net/pages/e7a8dc/</id>
-        <link href="https://wiki.eryajf.net/pages/e7a8dc/">
-        </link>
-        <updated>2022-05-09T23:48:23.000Z</updated>
-        <summary type="html"><![CDATA[整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitHub中开源项目维护流程手册]]></title>
         <id>https://wiki.eryajf.net/pages/53399c/</id>
         <link href="https://wiki.eryajf.net/pages/53399c/">
         </link>
         <updated>2022-06-01T14:28:05.000Z</updated>
         <summary type="html"><![CDATA[混迹于互联网，或多或少难免都会与 GitHub 有交互，大多数时候在公司中积累的 git 使用经验都是面向 GitLab 的，也很容易想当然地将过往的经验套到 GitHub 中，而事实上还是有一些差别的，最近开源了几个项目，有一些还涉及到要与外部开发者协同工作，当我真正面对要处理一个 PR 的时候，内心是慌乱的，一时间不知道该从何处下手，这里就整理记录一下这方面的实践。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分享我的开源项目Thank-Mirror]]></title>
+        <id>https://wiki.eryajf.net/pages/e7a8dc/</id>
+        <link href="https://wiki.eryajf.net/pages/e7a8dc/">
+        </link>
+        <updated>2022-05-09T23:48:23.000Z</updated>
+        <summary type="html"><![CDATA[整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template]]></title>
@@ -209,20 +209,20 @@
         <summary type="html"><![CDATA[GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[利用GitHub Actions自动生成个人star列表并归类]]></title>
-        <id>https://wiki.eryajf.net/pages/4ba0f4/</id>
-        <link href="https://wiki.eryajf.net/pages/4ba0f4/">
-        </link>
-        <updated>2022-07-29T16:26:09.000Z</updated>
-        <summary type="html"><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动对仓库内图片进行无损压缩]]></title>
         <id>https://wiki.eryajf.net/pages/dbee9e/</id>
         <link href="https://wiki.eryajf.net/pages/dbee9e/">
         </link>
         <updated>2022-08-01T23:42:32.000Z</updated>
         <summary type="html"><![CDATA[我维护的 awesome-github-profile-readme-chinese 项目旨在收集汇总中文区优秀的个人主页，每个人的主页将会通过截图的方式存放在 exampls 目录下，有时候有的朋友主页内容很多，这样整体截图下来就非常大。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的图片，然后对其进行几乎无损的压缩，让整个仓库的体积保持在一个相对低的水平。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用GitHub Actions自动生成个人star列表并归类]]></title>
+        <id>https://wiki.eryajf.net/pages/4ba0f4/</id>
+        <link href="https://wiki.eryajf.net/pages/4ba0f4/">
+        </link>
+        <updated>2022-07-29T16:26:09.000Z</updated>
+        <summary type="html"><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动检测项目中的问题链接]]></title>
@@ -505,20 +505,20 @@
         <summary type="html"><![CDATA[平时用 go 写一些小工具的时候，如果数据的敏感性没有那么强，那么一些热数据就可以考虑放在 cache 当中，cache 也没必要用外置服务，那就直接使用本机内存进行存储即可。 go-cache 就是一个用于本地缓存的 Go 语言库，它支持过期时间和自动清理。它使用了一个内部的 goroutine 来检查缓存项是否过期，并在需要时自动清理过期的缓存项。使我们能够很方便地将一些数据放在缓存当中。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
-        <id>https://wiki.eryajf.net/pages/e85cbc/</id>
-        <link href="https://wiki.eryajf.net/pages/e85cbc/">
-        </link>
-        <updated>2022-12-09T17:47:22.000Z</updated>
-        <summary type="html"><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[拯救openLDAP的上古管理界面，我写了一个现代化的ldap管理后台go-ldap-admin]]></title>
         <id>https://wiki.eryajf.net/pages/e41911/</id>
         <link href="https://wiki.eryajf.net/pages/e41911/">
         </link>
         <updated>2022-05-18T20:52:22.000Z</updated>
         <summary type="html"><![CDATA[基于Go+Vue实现的openLDAP后台管理项目。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
+        <id>https://wiki.eryajf.net/pages/e85cbc/</id>
+        <link href="https://wiki.eryajf.net/pages/e85cbc/">
+        </link>
+        <updated>2022-12-09T17:47:22.000Z</updated>
+        <summary type="html"><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第36期-2022年第01周]]></title>
@@ -657,20 +657,20 @@
         <summary type="html"><![CDATA[学习周刊-总第52期-2022年第17周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第53期-2022年第18周]]></title>
-        <id>https://wiki.eryajf.net/pages/fc658e/</id>
-        <link href="https://wiki.eryajf.net/pages/fc658e/">
-        </link>
-        <updated>2022-05-14T23:12:02.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第53期-2022年第18周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
         <id>https://wiki.eryajf.net/pages/75bb76/</id>
         <link href="https://wiki.eryajf.net/pages/75bb76/">
         </link>
         <updated>2022-05-21T14:52:29.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第54期-2022年第19周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第53期-2022年第18周]]></title>
+        <id>https://wiki.eryajf.net/pages/fc658e/</id>
+        <link href="https://wiki.eryajf.net/pages/fc658e/">
+        </link>
+        <updated>2022-05-14T23:12:02.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第53期-2022年第18周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第55期-2022年第20周]]></title>
@@ -809,14 +809,6 @@
         <summary type="html"><![CDATA[学习周刊-总第71期-一些国内的公司在服务网格方面的实践]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第73期-2022年第38周]]></title>
-        <id>https://wiki.eryajf.net/pages/3d89ea/</id>
-        <link href="https://wiki.eryajf.net/pages/3d89ea/">
-        </link>
-        <updated>2022-09-30T08:38:21.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第73期-k8s集群常用监控指标]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第72期-2022年第37周]]></title>
         <id>https://wiki.eryajf.net/pages/430bd1/</id>
         <link href="https://wiki.eryajf.net/pages/430bd1/">
@@ -825,12 +817,12 @@
         <summary type="html"><![CDATA[学习周刊-总第72期-有些事，不能忘]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
-        <id>https://wiki.eryajf.net/pages/34698c/</id>
-        <link href="https://wiki.eryajf.net/pages/34698c/">
+        <title type="html"><![CDATA[学习周刊-总第73期-2022年第38周]]></title>
+        <id>https://wiki.eryajf.net/pages/3d89ea/</id>
+        <link href="https://wiki.eryajf.net/pages/3d89ea/">
         </link>
-        <updated>2022-10-14T10:20:30.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></summary>
+        <updated>2022-09-30T08:38:21.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第73期-k8s集群常用监控指标]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第74期-2022年第39周]]></title>
@@ -841,12 +833,12 @@
         <summary type="html"><![CDATA[学习周刊-总第74期-一个go语言输出着色包]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第77期-2022年第42周]]></title>
-        <id>https://wiki.eryajf.net/pages/dc502c/</id>
-        <link href="https://wiki.eryajf.net/pages/dc502c/">
+        <title type="html"><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
+        <id>https://wiki.eryajf.net/pages/34698c/</id>
+        <link href="https://wiki.eryajf.net/pages/34698c/">
         </link>
-        <updated>2022-10-29T09:57:37.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第77期-Vue3右键菜单组件和数据库备份管理平台]]></summary>
+        <updated>2022-10-14T10:20:30.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第76期-2022年第41周]]></title>
@@ -855,6 +847,14 @@
         </link>
         <updated>2022-10-21T08:16:37.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第76期-Mac电脑中所有软件的icon合集]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第77期-2022年第42周]]></title>
+        <id>https://wiki.eryajf.net/pages/dc502c/</id>
+        <link href="https://wiki.eryajf.net/pages/dc502c/">
+        </link>
+        <updated>2022-10-29T09:57:37.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第77期-Vue3右键菜单组件和数据库备份管理平台]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第78期-2022年第43周]]></title>
@@ -945,20 +945,20 @@
         <summary type="html"><![CDATA[学习周刊-总第88期-一个自建不蒜子的开源项目]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第89期-2023年第02周]]></title>
-        <id>https://wiki.eryajf.net/pages/0401bb/</id>
-        <link href="https://wiki.eryajf.net/pages/0401bb/">
-        </link>
-        <updated>2023-01-13T14:03:12.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第89期-前端npm包投毒事件]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第90期-2023年第03周]]></title>
         <id>https://wiki.eryajf.net/pages/0af1da/</id>
         <link href="https://wiki.eryajf.net/pages/0af1da/">
         </link>
         <updated>2023-01-20T10:01:50.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第90期-一个将 sql 转换为 elasticsearch DSL 的 go 库]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第89期-2023年第02周]]></title>
+        <id>https://wiki.eryajf.net/pages/0401bb/</id>
+        <link href="https://wiki.eryajf.net/pages/0401bb/">
+        </link>
+        <updated>2023-01-13T14:03:12.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第89期-前端npm包投毒事件]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第91期-2023年第04周]]></title>
