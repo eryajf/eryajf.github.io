@@ -277,6 +277,14 @@
             "date_modified": "2023-05-21T09:49:01.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/347662/",
+            "url": "https://wiki.eryajf.net/pages/347662/",
+            "title": "关于gradle中plugins依赖未走私服导致编译失败的原因探析",
+            "summary": "本文将介绍gradle中plugins配置区块儿的私服代理配置问题",
+            "image": "http://t.eryajf.net/imgs/2023/06/d12ea0825cebfefe.png",
+            "date_modified": "2023-06-03T21:34:58.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/fa2478/",
             "url": "https://wiki.eryajf.net/pages/fa2478/",
             "title": "Jenkins基于Share Library共享库的最佳实践探索",
@@ -385,20 +393,20 @@
             "date_modified": "2022-08-25T09:04:55.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/62a7c7/",
-            "url": "https://wiki.eryajf.net/pages/62a7c7/",
-            "title": "brew安装软件的一个报错解决",
-            "summary": "解决一个brew install时出现的错误。",
-            "image": "http://t.eryajf.net/imgs/2023/04/54411102a0621097.jpg",
-            "date_modified": "2023-04-24T22:23:54.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/301514/",
             "url": "https://wiki.eryajf.net/pages/301514/",
             "title": "结合Multitouch完成我在Mac触摸板上的高效使用",
             "summary": "Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。",
             "image": "http://t.eryajf.net/imgs/2022/11/6145ae6b7f89c4da.png",
             "date_modified": "2022-11-12T15:32:33.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/62a7c7/",
+            "url": "https://wiki.eryajf.net/pages/62a7c7/",
+            "title": "brew安装软件的一个报错解决",
+            "summary": "解决一个brew install时出现的错误。",
+            "image": "http://t.eryajf.net/imgs/2023/04/54411102a0621097.jpg",
+            "date_modified": "2023-04-24T22:23:54.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/4aee10/",
@@ -433,14 +441,6 @@
             "date_modified": "2023-01-30T11:44:55.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/2e6f3a/",
-            "url": "https://wiki.eryajf.net/pages/2e6f3a/",
-            "title": "Vuepress添加首页轮播图与打赏按钮的配置",
-            "summary": "我的博客已经快五岁了，她得学会自己挣钱了，于是乎，我打算通过添加一个轮播图，来挂一些广告。这个功能从想法到落地折腾了两三天，最后终于配置完毕，今天来做个分享。",
-            "image": "http://t.eryajf.net/imgs/2023/02/c647413d4ef42b85.jpg",
-            "date_modified": "2023-02-01T21:53:53.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/dbc829/",
             "url": "https://wiki.eryajf.net/pages/dbc829/",
             "title": "Vuepress配置rss订阅功能",
@@ -449,12 +449,12 @@
             "date_modified": "2023-02-01T21:54:04.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/b205e9/",
-            "url": "https://wiki.eryajf.net/pages/b205e9/",
-            "title": "Vuepress全文搜索插件vuepress-plugin-flexsearch-pro",
-            "summary": "之前介绍过 Vuepress 的一款全文搜索插件 fulltext-search，今天来介绍另一款相对不错的全文搜索插件 vuepress-plugin-flexsearch-pro。",
-            "image": "http://t.eryajf.net/imgs/2023/02/f3d3707eeb4f2f3d.png",
-            "date_modified": "2023-02-08T21:54:44.000Z"
+            "id": "https://wiki.eryajf.net/pages/2e6f3a/",
+            "url": "https://wiki.eryajf.net/pages/2e6f3a/",
+            "title": "Vuepress添加首页轮播图与打赏按钮的配置",
+            "summary": "我的博客已经快五岁了，她得学会自己挣钱了，于是乎，我打算通过添加一个轮播图，来挂一些广告。这个功能从想法到落地折腾了两三天，最后终于配置完毕，今天来做个分享。",
+            "image": "http://t.eryajf.net/imgs/2023/02/c647413d4ef42b85.jpg",
+            "date_modified": "2023-02-01T21:53:53.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/dfc792/",
@@ -463,6 +463,14 @@
             "summary": "一个好的搜索，能够更快速地把我们博客的内容呈现给读者。这也是我为什么五次三番地写文章介绍 Vuepress 配置全文搜索的原因。在市面上，除了利用自身实现全文搜索之外，还有一种比较流行的就是接入外置的搜索引擎，在这种方案之中，大多数推荐的，文章介绍的，都是针对 algolia 的对接，algolia 非常优秀，提供了免费的额度供普通博客进行接入，但据一些反馈来看，这个资格的审核一般需要三天。另外最重要的是，当博客内容足够多之后，免费额度不够用，就得付费购买服务，且 algolia 是闭源的，没有自建搜索的可能。",
             "image": "http://t.eryajf.net/imgs/2023/02/05c4eacd04712121.png",
             "date_modified": "2023-02-11T16:16:54.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/b205e9/",
+            "url": "https://wiki.eryajf.net/pages/b205e9/",
+            "title": "Vuepress全文搜索插件vuepress-plugin-flexsearch-pro",
+            "summary": "之前介绍过 Vuepress 的一款全文搜索插件 fulltext-search，今天来介绍另一款相对不错的全文搜索插件 vuepress-plugin-flexsearch-pro。",
+            "image": "http://t.eryajf.net/imgs/2023/02/f3d3707eeb4f2f3d.png",
+            "date_modified": "2023-02-08T21:54:44.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/33a476/",
@@ -551,19 +559,19 @@
             "date_modified": "2022-02-12T00:08:49.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/ced061/",
+            "url": "https://wiki.eryajf.net/pages/ced061/",
+            "title": "学习周刊-总第41期-2022年第06周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "date_modified": "2022-02-19T15:38:57.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/fa9a0a/",
             "url": "https://wiki.eryajf.net/pages/fa9a0a/",
             "title": "学习周刊-总第42期-2022年第07周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "image": "http://t.eryajf.net/imgs/2022/02/7b70201f236baff6.png",
             "date_modified": "2022-02-26T13:41:01.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/ced061/",
-            "url": "https://wiki.eryajf.net/pages/ced061/",
-            "title": "学习周刊-总第41期-2022年第06周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "date_modified": "2022-02-19T15:38:57.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/b47c65/",
@@ -604,20 +612,20 @@
             "date_modified": "2022-04-03T08:54:17.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/0e9bb7/",
-            "url": "https://wiki.eryajf.net/pages/0e9bb7/",
-            "title": "学习周刊-总第49期-2022年第14周",
-            "summary": "学习周刊-总第49期-2022年第14周",
-            "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
-            "date_modified": "2022-04-17T15:29:35.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/5463a4/",
             "url": "https://wiki.eryajf.net/pages/5463a4/",
             "title": "学习周刊-总第48期-2022年第13周",
             "summary": "学习周刊-总第48期-2022年第13周",
             "image": "http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png",
             "date_modified": "2022-04-09T08:11:16.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/0e9bb7/",
+            "url": "https://wiki.eryajf.net/pages/0e9bb7/",
+            "title": "学习周刊-总第49期-2022年第14周",
+            "summary": "学习周刊-总第49期-2022年第14周",
+            "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
+            "date_modified": "2022-04-17T15:29:35.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/4c8490/",
@@ -660,20 +668,20 @@
             "date_modified": "2022-05-21T14:52:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/77b80b/",
-            "url": "https://wiki.eryajf.net/pages/77b80b/",
-            "title": "学习周刊-总第56期-2022年第21周",
-            "summary": "学习周刊-总第56期-2022年第21周",
-            "image": "http://t.eryajf.net/imgs/2022/05/3d9cc5b7c4ebf826.gif",
-            "date_modified": "2022-06-04T16:41:13.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/fe7652/",
             "url": "https://wiki.eryajf.net/pages/fe7652/",
             "title": "学习周刊-总第55期-2022年第20周",
             "summary": "学习周刊-总第55期-2022年第20周",
             "image": "http://t.eryajf.net/imgs/2022/05/3f91cdfe2a5e2ec8.webp",
             "date_modified": "2022-05-28T18:03:49.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/77b80b/",
+            "url": "https://wiki.eryajf.net/pages/77b80b/",
+            "title": "学习周刊-总第56期-2022年第21周",
+            "summary": "学习周刊-总第56期-2022年第21周",
+            "image": "http://t.eryajf.net/imgs/2022/05/3d9cc5b7c4ebf826.gif",
+            "date_modified": "2022-06-04T16:41:13.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/af0834/",
@@ -764,20 +772,20 @@
             "date_modified": "2022-08-19T07:10:11.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/73eb3e/",
-            "url": "https://wiki.eryajf.net/pages/73eb3e/",
-            "title": "学习周刊-总第68期-2022年第33周",
-            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
-            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
-            "date_modified": "2022-08-26T09:02:58.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/30b309/",
             "url": "https://wiki.eryajf.net/pages/30b309/",
             "title": "学习周刊-总第69期-2022年第34周",
             "summary": "学习周刊-总第69期-2021年个人博主们的年终总结",
             "image": "http://t.eryajf.net/imgs/2022/08/fdfe65cb3dcaa78b.png",
             "date_modified": "2022-09-02T08:41:56.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/73eb3e/",
+            "url": "https://wiki.eryajf.net/pages/73eb3e/",
+            "title": "学习周刊-总第68期-2022年第33周",
+            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
+            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
+            "date_modified": "2022-08-26T09:02:58.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/d3ed2b/",
@@ -844,20 +852,20 @@
             "date_modified": "2022-10-29T09:57:37.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/b0b61c/",
-            "url": "https://wiki.eryajf.net/pages/b0b61c/",
-            "title": "学习周刊-总第78期-2022年第43周",
-            "summary": "学习周刊-总第78期-k8s管理平台与可视化正则",
-            "image": "http://t.eryajf.net/imgs/2022/10/edae84333f37b9ac.jpg",
-            "date_modified": "2022-11-05T10:51:02.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/43ee57/",
             "url": "https://wiki.eryajf.net/pages/43ee57/",
             "title": "学习周刊-总第79期-2022年第44周",
             "summary": "学习周刊-总第79期-homebrew桌面版与一个类似jumpserver登陆界面的ssh登陆工具",
             "image": "http://t.eryajf.net/imgs/2022/10/4cb110bf49af844a.png",
             "date_modified": "2022-11-11T09:12:17.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/b0b61c/",
+            "url": "https://wiki.eryajf.net/pages/b0b61c/",
+            "title": "学习周刊-总第78期-2022年第43周",
+            "summary": "学习周刊-总第78期-k8s管理平台与可视化正则",
+            "image": "http://t.eryajf.net/imgs/2022/10/edae84333f37b9ac.jpg",
+            "date_modified": "2022-11-05T10:51:02.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/b442a6/",
@@ -876,20 +884,20 @@
             "date_modified": "2022-11-25T09:16:51.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/0c1a1b/",
-            "url": "https://wiki.eryajf.net/pages/0c1a1b/",
-            "title": "学习周刊-总第83期-2022年第48周",
-            "summary": "学习周刊-总第83期-几个chatGPT相关的项目与两个短链项目",
-            "image": "http://t.eryajf.net/imgs/2022/12/5b86f7ad87808970.png",
-            "date_modified": "2022-12-09T17:41:46.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/273843/",
             "url": "https://wiki.eryajf.net/pages/273843/",
             "title": "学习周刊-总第82期-2022年第47周",
             "summary": "学习周刊-总第82期-两个生成与解析二维码的go三方库",
             "image": "http://t.eryajf.net/imgs/2022/11/2b70641563dfa690.gif",
             "date_modified": "2022-12-02T09:12:33.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/0c1a1b/",
+            "url": "https://wiki.eryajf.net/pages/0c1a1b/",
+            "title": "学习周刊-总第83期-2022年第48周",
+            "summary": "学习周刊-总第83期-几个chatGPT相关的项目与两个短链项目",
+            "image": "http://t.eryajf.net/imgs/2022/12/5b86f7ad87808970.png",
+            "date_modified": "2022-12-09T17:41:46.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/355e5b/",
@@ -987,14 +995,6 @@
             "date_modified": "2023-02-24T09:51:14.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/823a62/",
-            "url": "https://wiki.eryajf.net/pages/823a62/",
-            "title": "学习周刊-总第97期-2023年第10周",
-            "summary": "学习周刊-总第97期-一个开源的APM程序",
-            "image": "http://t.eryajf.net/imgs/2023/02/9b1387a9546d5696.png",
-            "date_modified": "2023-03-10T09:21:50.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/866763/",
             "url": "https://wiki.eryajf.net/pages/866763/",
             "title": "学习周刊-总第96期-2023年第09周",
@@ -1011,6 +1011,22 @@
             "date_modified": "2023-03-17T08:27:15.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/823a62/",
+            "url": "https://wiki.eryajf.net/pages/823a62/",
+            "title": "学习周刊-总第97期-2023年第10周",
+            "summary": "学习周刊-总第97期-一个开源的APM程序",
+            "image": "http://t.eryajf.net/imgs/2023/02/9b1387a9546d5696.png",
+            "date_modified": "2023-03-10T09:21:50.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/6a3264/",
+            "url": "https://wiki.eryajf.net/pages/6a3264/",
+            "title": "学习周刊-总第100期-2023年第13周",
+            "summary": "学习周刊-总第100期-go语言版本的elasticsearch与Mac上传歌曲到网易云盘的插件",
+            "image": "http://t.eryajf.net/imgs/2023/02/666a8875045c530c.jpg",
+            "date_modified": "2023-03-31T08:35:17.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/e239f5/",
             "url": "https://wiki.eryajf.net/pages/e239f5/",
             "title": "学习周刊-总第99期-2023年第12周",
@@ -1025,14 +1041,6 @@
             "summary": "学习周刊-总第101期-一个纯go实现的sqlite库",
             "image": "http://t.eryajf.net/imgs/2023/02/1ef064add192a8a3.png",
             "date_modified": "2023-04-07T07:55:55.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/6a3264/",
-            "url": "https://wiki.eryajf.net/pages/6a3264/",
-            "title": "学习周刊-总第100期-2023年第13周",
-            "summary": "学习周刊-总第100期-go语言版本的elasticsearch与Mac上传歌曲到网易云盘的插件",
-            "image": "http://t.eryajf.net/imgs/2023/02/666a8875045c530c.jpg",
-            "date_modified": "2023-03-31T08:35:17.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/61eda1/",
