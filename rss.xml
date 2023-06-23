@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Thu, 22 Jun 2023 07:58:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jun 2023 07:40:09 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -375,13 +375,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[在家季余随感]]></title>
-            <link>https://wiki.eryajf.net/pages/e36842/</link>
-            <guid>https://wiki.eryajf.net/pages/e36842/</guid>
-            <pubDate>Wed, 20 Jul 2022 17:22:11 GMT</pubDate>
-            <description><![CDATA[老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸]]></description>
-        </item>
-        <item>
             <title><![CDATA[微拍堂工作盖论]]></title>
             <link>https://wiki.eryajf.net/pages/00a267/</link>
             <guid>https://wiki.eryajf.net/pages/00a267/</guid>
@@ -389,6 +382,13 @@
             <description><![CDATA[诚然，微拍堂有它不完美的地方，幸运的是，我遇到了一群近乎完美的人组成的完美的团队，我们之间的关系没有任何缝隙，我们互相信任，彼此坦诚，真诚分享，并肩作战，共同成长。吃饭当晚，我们每个人也都感慨着，细数着每个人的优秀与负责任，并真切感受到这样一个团队氛围的珍贵。几个月后，我在朋友圈发表：再也遇不到了，好在曾经拥有过！]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/09/0755cf3a9ebc183e.jpg">
             </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[在家季余随感]]></title>
+            <link>https://wiki.eryajf.net/pages/e36842/</link>
+            <guid>https://wiki.eryajf.net/pages/e36842/</guid>
+            <pubDate>Wed, 20 Jul 2022 17:22:11 GMT</pubDate>
+            <description><![CDATA[老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸]]></description>
         </item>
         <item>
             <title><![CDATA[博客与开源帮我找到工作]]></title>
@@ -459,21 +459,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Mac 电脑中 zsh 环境下配置 docker 命令自动补全]]></title>
-            <link>https://wiki.eryajf.net/pages/7220b1/</link>
-            <guid>https://wiki.eryajf.net/pages/7220b1/</guid>
-            <pubDate>Thu, 27 Apr 2023 17:45:51 GMT</pubDate>
-            <description><![CDATA[zsh 中有专门的插件来解决 docker 命令补全的问题，安装配置也比较简单，以下是操作的步骤。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/04/cee03a95313195d3.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[mac电脑安装Java开发环境]]></title>
             <link>https://wiki.eryajf.net/pages/4aee10/</link>
             <guid>https://wiki.eryajf.net/pages/4aee10/</guid>
             <pubDate>Mon, 24 Apr 2023 22:29:05 GMT</pubDate>
             <description><![CDATA[本文介绍如何在Mac上配置jdk与maven环境。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/04/80cc8c393d1e3fcf.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Mac 电脑中 zsh 环境下配置 docker 命令自动补全]]></title>
+            <link>https://wiki.eryajf.net/pages/7220b1/</link>
+            <guid>https://wiki.eryajf.net/pages/7220b1/</guid>
+            <pubDate>Thu, 27 Apr 2023 17:45:51 GMT</pubDate>
+            <description><![CDATA[zsh 中有专门的插件来解决 docker 命令补全的问题，安装配置也比较简单，以下是操作的步骤。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/04/cee03a95313195d3.jpg">
             </enclosure>
         </item>
         <item>
@@ -845,21 +845,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第64期-2022年第29周]]></title>
-            <link>https://wiki.eryajf.net/pages/6e74fb/</link>
-            <guid>https://wiki.eryajf.net/pages/6e74fb/</guid>
-            <pubDate>Fri, 29 Jul 2022 07:49:35 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第64期-2022年第29周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/07/24d0d3fca95753d8.gif">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第65期-2022年第30周]]></title>
             <link>https://wiki.eryajf.net/pages/ac9758/</link>
             <guid>https://wiki.eryajf.net/pages/ac9758/</guid>
             <pubDate>Fri, 05 Aug 2022 07:42:12 GMT</pubDate>
             <description><![CDATA[学习周刊-总第65期-2022年第30周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/07/8ac617670aa092b5.gif">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第64期-2022年第29周]]></title>
+            <link>https://wiki.eryajf.net/pages/6e74fb/</link>
+            <guid>https://wiki.eryajf.net/pages/6e74fb/</guid>
+            <pubDate>Fri, 29 Jul 2022 07:49:35 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第64期-2022年第29周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/07/24d0d3fca95753d8.gif">
             </enclosure>
         </item>
         <item>
@@ -1272,6 +1272,15 @@
             <pubDate>Fri, 16 Jun 2023 09:28:28 GMT</pubDate>
             <description><![CDATA[学习周刊-总第111期-在线双拼练习与两个不错的测试压测管理平台]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/05/9fbd0d3d20689b58.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第112期-2023年第25周]]></title>
+            <link>https://wiki.eryajf.net/pages/57257c/</link>
+            <guid>https://wiki.eryajf.net/pages/57257c/</guid>
+            <pubDate>Fri, 23 Jun 2023 15:21:09 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第112期-两个开源的智能表格系统与一个多云管理平台]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/05/833825104fb94e0f.png">
             </enclosure>
         </item>
         <item>
