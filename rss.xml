@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Fri, 30 Jun 2023 01:59:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Jul 2023 15:34:23 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -91,21 +91,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[博客已发布过的docker-compose拉起项目文件汇集]]></title>
-            <link>https://wiki.eryajf.net/pages/e8b7f8/</link>
-            <guid>https://wiki.eryajf.net/pages/e8b7f8/</guid>
-            <pubDate>Mon, 09 May 2022 23:48:06 GMT</pubDate>
-            <description><![CDATA[因为很多通过docker-compose拉起的项目，都归属到项目的分类之下了，在docker-compose分类下反而没有内容了，但是在用到的时候却又并不便于查找，因此本文对散落在各处的配置进行一个汇总搜集。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/05/c6704e16e4b21cc1.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[Docker容器如何优雅地访问宿主机网络]]></title>
             <link>https://wiki.eryajf.net/pages/674f53/</link>
             <guid>https://wiki.eryajf.net/pages/674f53/</guid>
             <pubDate>Tue, 07 Mar 2023 13:59:35 GMT</pubDate>
             <description><![CDATA[某些时候，我们会有在容器内容访问宿主机某个服务的需求，比如现在 openai 无法直接访问，需要给项目添加代理，我的 chatgpt-dingtalk 项目支持了通过环境变量指定代理地址。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/03/215c61e103505625.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[博客已发布过的docker-compose拉起项目文件汇集]]></title>
+            <link>https://wiki.eryajf.net/pages/e8b7f8/</link>
+            <guid>https://wiki.eryajf.net/pages/e8b7f8/</guid>
+            <pubDate>Mon, 09 May 2022 23:48:06 GMT</pubDate>
+            <description><![CDATA[因为很多通过docker-compose拉起的项目，都归属到项目的分类之下了，在docker-compose分类下反而没有内容了，但是在用到的时候却又并不便于查找，因此本文对散落在各处的配置进行一个汇总搜集。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/05/c6704e16e4b21cc1.jpg">
             </enclosure>
         </item>
         <item>
@@ -154,21 +154,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template]]></title>
-            <link>https://wiki.eryajf.net/pages/48e307/</link>
-            <guid>https://wiki.eryajf.net/pages/48e307/</guid>
-            <pubDate>Sat, 23 Jul 2022 11:06:46 GMT</pubDate>
-            <description><![CDATA[一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[分享我的开源项目Thank-Mirror]]></title>
             <link>https://wiki.eryajf.net/pages/e7a8dc/</link>
             <guid>https://wiki.eryajf.net/pages/e7a8dc/</guid>
             <pubDate>Mon, 09 May 2022 23:48:23 GMT</pubDate>
             <description><![CDATA[整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。]]></description>
             <enclosure url="https://starchart.cc/eryajf/Thanks-Mirror.svg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template]]></title>
+            <link>https://wiki.eryajf.net/pages/48e307/</link>
+            <guid>https://wiki.eryajf.net/pages/48e307/</guid>
+            <pubDate>Sat, 23 Jul 2022 11:06:46 GMT</pubDate>
+            <description><![CDATA[一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png">
             </enclosure>
         </item>
         <item>
@@ -217,21 +217,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[利用GitHub Actions自动生成GitHub的Fans]]></title>
-            <link>https://wiki.eryajf.net/pages/db92f0/</link>
-            <guid>https://wiki.eryajf.net/pages/db92f0/</guid>
-            <pubDate>Fri, 29 Jul 2022 15:51:43 GMT</pubDate>
-            <description><![CDATA[GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/07/71ebbd7a8dc21cb3.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[利用GitHub Actions自动构建项目的docker镜像并发布到DockerHub]]></title>
             <link>https://wiki.eryajf.net/pages/5baf0a/</link>
             <guid>https://wiki.eryajf.net/pages/5baf0a/</guid>
             <pubDate>Sat, 23 Jul 2022 11:01:57 GMT</pubDate>
             <description><![CDATA[做一个开源项目，尽量提供给受众以简单易用的快速上手体验，也是项目能够立刻把人抓住的一个关键。现在如果想让用户快速体验项目，除了提供demo环境之外，还有一个方案，那就是提供一个完备的docker-compose，让人能够直接一键拉起。]]></description>
             <enclosure url="https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20220723_105957.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[利用GitHub Actions自动生成GitHub的Fans]]></title>
+            <link>https://wiki.eryajf.net/pages/db92f0/</link>
+            <guid>https://wiki.eryajf.net/pages/db92f0/</guid>
+            <pubDate>Fri, 29 Jul 2022 15:51:43 GMT</pubDate>
+            <description><![CDATA[GitHub中的follow功能，类似于微博中的关注，而关注我们的大佬，就更应该有一个合适的地方安排，本文将分享如何基于GitHub Actions自动生成个人的Fans列表。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/07/71ebbd7a8dc21cb3.png">
             </enclosure>
         </item>
         <item>
@@ -407,6 +407,15 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[欣闻陈大惠老师重新开播-推及四海皆应学]]></title>
+            <link>https://wiki.eryajf.net/pages/d5188a/</link>
+            <guid>https://wiki.eryajf.net/pages/d5188a/</guid>
+            <pubDate>Sun, 02 Jul 2023 23:10:32 GMT</pubDate>
+            <description><![CDATA[大约在 12-15 年，我也曾是传统文化的狂热痴迷者，彼时一直跟随陈大惠老师的视频学习，整个人在这个飞速前进的时代，修炼出了一颗向内求的心，这些学习并修炼来的品性，都为我后来工作中所能取得的成绩做了注解。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/07/d6854899f1323cf1.jpg">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[整理欣遇宝贝在22年4月到8月的言语]]></title>
             <link>https://wiki.eryajf.net/pages/72a375/</link>
             <guid>https://wiki.eryajf.net/pages/72a375/</guid>
@@ -432,21 +441,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[结合Multitouch完成我在Mac触摸板上的高效使用]]></title>
-            <link>https://wiki.eryajf.net/pages/301514/</link>
-            <guid>https://wiki.eryajf.net/pages/301514/</guid>
-            <pubDate>Sat, 12 Nov 2022 15:32:33 GMT</pubDate>
-            <description><![CDATA[Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/11/6145ae6b7f89c4da.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
             <link>https://wiki.eryajf.net/pages/c2262c/</link>
             <guid>https://wiki.eryajf.net/pages/c2262c/</guid>
             <pubDate>Thu, 25 Aug 2022 09:04:55 GMT</pubDate>
             <description><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[结合Multitouch完成我在Mac触摸板上的高效使用]]></title>
+            <link>https://wiki.eryajf.net/pages/301514/</link>
+            <guid>https://wiki.eryajf.net/pages/301514/</guid>
+            <pubDate>Sat, 12 Nov 2022 15:32:33 GMT</pubDate>
+            <description><![CDATA[Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/11/6145ae6b7f89c4da.png">
             </enclosure>
         </item>
         <item>
@@ -585,6 +594,15 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
+            <link>https://wiki.eryajf.net/pages/e85cbc/</link>
+            <guid>https://wiki.eryajf.net/pages/e85cbc/</guid>
+            <pubDate>Fri, 09 Dec 2022 17:47:22 GMT</pubDate>
+            <description><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></description>
+            <enclosure url="https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230405_191425.jpg">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[最近开源的两个项目-获取腾讯云CLS日志费用预估]]></title>
             <link>https://wiki.eryajf.net/pages/1b6f63/</link>
             <guid>https://wiki.eryajf.net/pages/1b6f63/</guid>
@@ -594,12 +612,12 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
-            <link>https://wiki.eryajf.net/pages/e85cbc/</link>
-            <guid>https://wiki.eryajf.net/pages/e85cbc/</guid>
-            <pubDate>Fri, 09 Dec 2022 17:47:22 GMT</pubDate>
-            <description><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></description>
-            <enclosure url="https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230405_191425.jpg">
+            <title><![CDATA[基于GO语言实现的体验最好的企微应用集成ChatGPT项目chatgpt-wecom]]></title>
+            <link>https://wiki.eryajf.net/pages/a76bb0/</link>
+            <guid>https://wiki.eryajf.net/pages/a76bb0/</guid>
+            <pubDate>Sun, 02 Jul 2023 23:13:40 GMT</pubDate>
+            <description><![CDATA[如题]]></description>
+            <enclosure url="https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230702_210053.jpg">
             </enclosure>
         </item>
         <item>
@@ -651,21 +669,21 @@
             <description><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></description>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第43期-2022年第08周]]></title>
-            <link>https://wiki.eryajf.net/pages/b47c65/</link>
-            <guid>https://wiki.eryajf.net/pages/b47c65/</guid>
-            <pubDate>Sat, 05 Mar 2022 13:21:22 GMT</pubDate>
-            <description><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/02/802eccbe92779a77.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第42期-2022年第07周]]></title>
             <link>https://wiki.eryajf.net/pages/fa9a0a/</link>
             <guid>https://wiki.eryajf.net/pages/fa9a0a/</guid>
             <pubDate>Sat, 26 Feb 2022 13:41:01 GMT</pubDate>
             <description><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/02/7b70201f236baff6.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第43期-2022年第08周]]></title>
+            <link>https://wiki.eryajf.net/pages/b47c65/</link>
+            <guid>https://wiki.eryajf.net/pages/b47c65/</guid>
+            <pubDate>Sat, 05 Mar 2022 13:21:22 GMT</pubDate>
+            <description><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/02/802eccbe92779a77.png">
             </enclosure>
         </item>
         <item>
@@ -687,13 +705,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第46期-2022年第11周]]></title>
-            <link>https://wiki.eryajf.net/pages/ae6b3c/</link>
-            <guid>https://wiki.eryajf.net/pages/ae6b3c/</guid>
-            <pubDate>Fri, 25 Mar 2022 21:28:58 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第46期-2022年第11周]]></description>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第47期-2022年第12周]]></title>
             <link>https://wiki.eryajf.net/pages/713f83/</link>
             <guid>https://wiki.eryajf.net/pages/713f83/</guid>
@@ -701,13 +712,11 @@
             <description><![CDATA[学习周刊-总第47期-2022年第12周]]></description>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
-            <link>https://wiki.eryajf.net/pages/5463a4/</link>
-            <guid>https://wiki.eryajf.net/pages/5463a4/</guid>
-            <pubDate>Sat, 09 Apr 2022 08:11:16 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第48期-2022年第13周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png">
-            </enclosure>
+            <title><![CDATA[学习周刊-总第46期-2022年第11周]]></title>
+            <link>https://wiki.eryajf.net/pages/ae6b3c/</link>
+            <guid>https://wiki.eryajf.net/pages/ae6b3c/</guid>
+            <pubDate>Fri, 25 Mar 2022 21:28:58 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第46期-2022年第11周]]></description>
         </item>
         <item>
             <title><![CDATA[学习周刊-总第49期-2022年第14周]]></title>
@@ -716,6 +725,15 @@
             <pubDate>Sun, 17 Apr 2022 15:29:35 GMT</pubDate>
             <description><![CDATA[学习周刊-总第49期-2022年第14周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
+            <link>https://wiki.eryajf.net/pages/5463a4/</link>
+            <guid>https://wiki.eryajf.net/pages/5463a4/</guid>
+            <pubDate>Sat, 09 Apr 2022 08:11:16 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第48期-2022年第13周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png">
             </enclosure>
         </item>
         <item>
@@ -746,21 +764,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
-            <link>https://wiki.eryajf.net/pages/75bb76/</link>
-            <guid>https://wiki.eryajf.net/pages/75bb76/</guid>
-            <pubDate>Sat, 21 May 2022 14:52:29 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第54期-2022年第19周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第53期-2022年第18周]]></title>
             <link>https://wiki.eryajf.net/pages/fc658e/</link>
             <guid>https://wiki.eryajf.net/pages/fc658e/</guid>
             <pubDate>Sat, 14 May 2022 23:12:02 GMT</pubDate>
             <description><![CDATA[学习周刊-总第53期-2022年第18周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/05/91567c17a3b1eeb9.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第54期-2022年第19周]]></title>
+            <link>https://wiki.eryajf.net/pages/75bb76/</link>
+            <guid>https://wiki.eryajf.net/pages/75bb76/</guid>
+            <pubDate>Sat, 21 May 2022 14:52:29 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第54期-2022年第19周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png">
             </enclosure>
         </item>
         <item>
@@ -809,21 +827,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第61期-2022年第26周]]></title>
-            <link>https://wiki.eryajf.net/pages/703307/</link>
-            <guid>https://wiki.eryajf.net/pages/703307/</guid>
-            <pubDate>Sat, 09 Jul 2022 14:45:59 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第61期-2022年第26周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/06/b1cc4b8269277dff.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第60期-2022年第25周]]></title>
             <link>https://wiki.eryajf.net/pages/bff449/</link>
             <guid>https://wiki.eryajf.net/pages/bff449/</guid>
             <pubDate>Sat, 02 Jul 2022 11:07:05 GMT</pubDate>
             <description><![CDATA[学习周刊-总第60期-2022年第25周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/06/91cf6ffd9f4daa1d.gif">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第61期-2022年第26周]]></title>
+            <link>https://wiki.eryajf.net/pages/703307/</link>
+            <guid>https://wiki.eryajf.net/pages/703307/</guid>
+            <pubDate>Sat, 09 Jul 2022 14:45:59 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第61期-2022年第26周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/06/b1cc4b8269277dff.png">
             </enclosure>
         </item>
         <item>
@@ -872,21 +890,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第68期-2022年第33周]]></title>
-            <link>https://wiki.eryajf.net/pages/73eb3e/</link>
-            <guid>https://wiki.eryajf.net/pages/73eb3e/</guid>
-            <pubDate>Fri, 26 Aug 2022 09:02:58 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第 68 期-程序员如何优雅地挣零花钱]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/07/070940084883b435.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第67期-2022年第32周]]></title>
             <link>https://wiki.eryajf.net/pages/c5dd7c/</link>
             <guid>https://wiki.eryajf.net/pages/c5dd7c/</guid>
             <pubDate>Fri, 19 Aug 2022 07:10:11 GMT</pubDate>
             <description><![CDATA[学习周刊-总第67期-2022年第32周,几个Redis管理平台与B站加强脚本]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/07/4654caa62645b137.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第68期-2022年第33周]]></title>
+            <link>https://wiki.eryajf.net/pages/73eb3e/</link>
+            <guid>https://wiki.eryajf.net/pages/73eb3e/</guid>
+            <pubDate>Fri, 26 Aug 2022 09:02:58 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第 68 期-程序员如何优雅地挣零花钱]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/07/070940084883b435.png">
             </enclosure>
         </item>
         <item>
@@ -917,15 +935,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第72期-2022年第37周]]></title>
-            <link>https://wiki.eryajf.net/pages/430bd1/</link>
-            <guid>https://wiki.eryajf.net/pages/430bd1/</guid>
-            <pubDate>Fri, 23 Sep 2022 08:50:33 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第72期-有些事，不能忘]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/09/96e4c6b63f45feac.gif">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第73期-2022年第38周]]></title>
             <link>https://wiki.eryajf.net/pages/3d89ea/</link>
             <guid>https://wiki.eryajf.net/pages/3d89ea/</guid>
@@ -935,12 +944,12 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
-            <link>https://wiki.eryajf.net/pages/34698c/</link>
-            <guid>https://wiki.eryajf.net/pages/34698c/</guid>
-            <pubDate>Fri, 14 Oct 2022 10:20:30 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/10/efbbb5af047a4d18.png">
+            <title><![CDATA[学习周刊-总第72期-2022年第37周]]></title>
+            <link>https://wiki.eryajf.net/pages/430bd1/</link>
+            <guid>https://wiki.eryajf.net/pages/430bd1/</guid>
+            <pubDate>Fri, 23 Sep 2022 08:50:33 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第72期-有些事，不能忘]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/09/96e4c6b63f45feac.gif">
             </enclosure>
         </item>
         <item>
@@ -950,6 +959,15 @@
             <pubDate>Sat, 08 Oct 2022 09:28:26 GMT</pubDate>
             <description><![CDATA[学习周刊-总第74期-一个go语言输出着色包]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/09/ad2af667163dc7c2.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第75期-2022年第40周]]></title>
+            <link>https://wiki.eryajf.net/pages/34698c/</link>
+            <guid>https://wiki.eryajf.net/pages/34698c/</guid>
+            <pubDate>Fri, 14 Oct 2022 10:20:30 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第75期-一个开源的SCRM]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/10/efbbb5af047a4d18.png">
             </enclosure>
         </item>
         <item>
@@ -980,15 +998,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第79期-2022年第44周]]></title>
-            <link>https://wiki.eryajf.net/pages/43ee57/</link>
-            <guid>https://wiki.eryajf.net/pages/43ee57/</guid>
-            <pubDate>Fri, 11 Nov 2022 09:12:17 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第79期-homebrew桌面版与一个类似jumpserver登陆界面的ssh登陆工具]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/10/4cb110bf49af844a.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第80期-2022年第45周]]></title>
             <link>https://wiki.eryajf.net/pages/b442a6/</link>
             <guid>https://wiki.eryajf.net/pages/b442a6/</guid>
@@ -998,12 +1007,12 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第81期-2022年第46周]]></title>
-            <link>https://wiki.eryajf.net/pages/2ef415/</link>
-            <guid>https://wiki.eryajf.net/pages/2ef415/</guid>
-            <pubDate>Fri, 25 Nov 2022 09:16:51 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第81期-Mac启用clash之后本地hosts失效的解决办法]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/11/9c99b9905f041a72.png">
+            <title><![CDATA[学习周刊-总第79期-2022年第44周]]></title>
+            <link>https://wiki.eryajf.net/pages/43ee57/</link>
+            <guid>https://wiki.eryajf.net/pages/43ee57/</guid>
+            <pubDate>Fri, 11 Nov 2022 09:12:17 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第79期-homebrew桌面版与一个类似jumpserver登陆界面的ssh登陆工具]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/10/4cb110bf49af844a.png">
             </enclosure>
         </item>
         <item>
@@ -1013,6 +1022,15 @@
             <pubDate>Fri, 02 Dec 2022 09:12:33 GMT</pubDate>
             <description><![CDATA[学习周刊-总第82期-两个生成与解析二维码的go三方库]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/11/2b70641563dfa690.gif">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第81期-2022年第46周]]></title>
+            <link>https://wiki.eryajf.net/pages/2ef415/</link>
+            <guid>https://wiki.eryajf.net/pages/2ef415/</guid>
+            <pubDate>Fri, 25 Nov 2022 09:16:51 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第81期-Mac启用clash之后本地hosts失效的解决办法]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/11/9c99b9905f041a72.png">
             </enclosure>
         </item>
         <item>
@@ -1034,21 +1052,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第86期-2022年第51周]]></title>
-            <link>https://wiki.eryajf.net/pages/f86f4e/</link>
-            <guid>https://wiki.eryajf.net/pages/f86f4e/</guid>
-            <pubDate>Thu, 29 Dec 2022 15:30:00 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第86期-简洁易用的行为式验证码Go库]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/12/5a50c33d02507aa3.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第85期-2022年第50周]]></title>
             <link>https://wiki.eryajf.net/pages/a11db4/</link>
             <guid>https://wiki.eryajf.net/pages/a11db4/</guid>
             <pubDate>Fri, 23 Dec 2022 20:44:39 GMT</pubDate>
             <description><![CDATA[学习周刊-总第85期-go语言进程管理工具]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/12/3d860bbd408102db.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第86期-2022年第51周]]></title>
+            <link>https://wiki.eryajf.net/pages/f86f4e/</link>
+            <guid>https://wiki.eryajf.net/pages/f86f4e/</guid>
+            <pubDate>Thu, 29 Dec 2022 15:30:00 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第86期-简洁易用的行为式验证码Go库]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/12/5a50c33d02507aa3.jpg">
             </enclosure>
         </item>
         <item>
@@ -1095,21 +1113,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第93期-2023年第06周]]></title>
-            <link>https://wiki.eryajf.net/pages/a4cf69/</link>
-            <guid>https://wiki.eryajf.net/pages/a4cf69/</guid>
-            <pubDate>Fri, 10 Feb 2023 08:37:01 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第93期-一个小霸王游戏合集的开源项目]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/01/44d1f3b181bf2e1f.gif">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第92期-2023年第05周]]></title>
             <link>https://wiki.eryajf.net/pages/971e2b/</link>
             <guid>https://wiki.eryajf.net/pages/971e2b/</guid>
             <pubDate>Fri, 03 Feb 2023 10:01:53 GMT</pubDate>
             <description><![CDATA[学习周刊-总第92期-一个超级优秀的浏览器网页翻译插件]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/02/30fc1a8aa9fbb3c1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第93期-2023年第06周]]></title>
+            <link>https://wiki.eryajf.net/pages/a4cf69/</link>
+            <guid>https://wiki.eryajf.net/pages/a4cf69/</guid>
+            <pubDate>Fri, 10 Feb 2023 08:37:01 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第93期-一个小霸王游戏合集的开源项目]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/01/44d1f3b181bf2e1f.gif">
             </enclosure>
         </item>
         <item>
@@ -1140,21 +1158,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第98期-2023年第11周]]></title>
-            <link>https://wiki.eryajf.net/pages/9e8d81/</link>
-            <guid>https://wiki.eryajf.net/pages/9e8d81/</guid>
-            <pubDate>Fri, 17 Mar 2023 08:27:15 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第98期-开源的 Mac 端 GIF 录制软件]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/02/f2745f9c67d3fc7a.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第97期-2023年第10周]]></title>
             <link>https://wiki.eryajf.net/pages/823a62/</link>
             <guid>https://wiki.eryajf.net/pages/823a62/</guid>
             <pubDate>Fri, 10 Mar 2023 09:21:50 GMT</pubDate>
             <description><![CDATA[学习周刊-总第97期-一个开源的APM程序]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/02/9b1387a9546d5696.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第98期-2023年第11周]]></title>
+            <link>https://wiki.eryajf.net/pages/9e8d81/</link>
+            <guid>https://wiki.eryajf.net/pages/9e8d81/</guid>
+            <pubDate>Fri, 17 Mar 2023 08:27:15 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第98期-开源的 Mac 端 GIF 录制软件]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/02/f2745f9c67d3fc7a.png">
             </enclosure>
         </item>
         <item>
@@ -1185,21 +1203,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第103期-2023年第16周]]></title>
-            <link>https://wiki.eryajf.net/pages/415247/</link>
-            <guid>https://wiki.eryajf.net/pages/415247/</guid>
-            <pubDate>Fri, 21 Apr 2023 19:32:14 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第103期-一款安卓系统上的 rss 阅读软件]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/02/441fdac4f10b9041.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第102期-2023年第15周]]></title>
             <link>https://wiki.eryajf.net/pages/61eda1/</link>
             <guid>https://wiki.eryajf.net/pages/61eda1/</guid>
             <pubDate>Thu, 13 Apr 2023 20:28:33 GMT</pubDate>
             <description><![CDATA[学习周刊-总第101期-一个暴漏github action变量的开源项目]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/02/0f5905d316a01467.gif">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第103期-2023年第16周]]></title>
+            <link>https://wiki.eryajf.net/pages/415247/</link>
+            <guid>https://wiki.eryajf.net/pages/415247/</guid>
+            <pubDate>Fri, 21 Apr 2023 19:32:14 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第103期-一款安卓系统上的 rss 阅读软件]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/02/441fdac4f10b9041.png">
             </enclosure>
         </item>
         <item>
@@ -1248,15 +1266,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第110期-2023年第23周]]></title>
-            <link>https://wiki.eryajf.net/pages/5c314c/</link>
-            <guid>https://wiki.eryajf.net/pages/5c314c/</guid>
-            <pubDate>Fri, 09 Jun 2023 09:24:53 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第110期-一个多租户 SaaS 开发框架]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/04/767e22d62f9a7d47.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第109期-2023年第22周]]></title>
             <link>https://wiki.eryajf.net/pages/269e4c/</link>
             <guid>https://wiki.eryajf.net/pages/269e4c/</guid>
@@ -1266,12 +1275,12 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第111期-2023年第24周]]></title>
-            <link>https://wiki.eryajf.net/pages/23943e/</link>
-            <guid>https://wiki.eryajf.net/pages/23943e/</guid>
-            <pubDate>Fri, 16 Jun 2023 09:28:28 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第111期-在线双拼练习与两个不错的测试压测管理平台]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/05/9fbd0d3d20689b58.png">
+            <title><![CDATA[学习周刊-总第110期-2023年第23周]]></title>
+            <link>https://wiki.eryajf.net/pages/5c314c/</link>
+            <guid>https://wiki.eryajf.net/pages/5c314c/</guid>
+            <pubDate>Fri, 09 Jun 2023 09:24:53 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第110期-一个多租户 SaaS 开发框架]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/04/767e22d62f9a7d47.png">
             </enclosure>
         </item>
         <item>
@@ -1281,6 +1290,15 @@
             <pubDate>Fri, 23 Jun 2023 15:21:09 GMT</pubDate>
             <description><![CDATA[学习周刊-总第112期-两个开源的智能表格系统与一个多云管理平台]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/05/833825104fb94e0f.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第111期-2023年第24周]]></title>
+            <link>https://wiki.eryajf.net/pages/23943e/</link>
+            <guid>https://wiki.eryajf.net/pages/23943e/</guid>
+            <pubDate>Fri, 16 Jun 2023 09:28:28 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第111期-在线双拼练习与两个不错的测试压测管理平台]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/05/9fbd0d3d20689b58.png">
             </enclosure>
         </item>
         <item>
@@ -1329,13 +1347,6 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[求职公告]]></title>
-            <link>https://wiki.eryajf.net/looking-for-a-job/</link>
-            <guid>https://wiki.eryajf.net/looking-for-a-job/</guid>
-            <pubDate>Tue, 07 Mar 2023 10:56:00 GMT</pubDate>
-            <description><![CDATA[注：已找到工作，这期间得到了太多的帮助，随后有空会整理一个文档进行感谢，接下来该专心投入到工作当中啦！]]></description>
-        </item>
-        <item>
             <title><![CDATA[博客接入了CDN，请求大家江湖支援]]></title>
             <link>https://wiki.eryajf.net/pages/5f559d/</link>
             <guid>https://wiki.eryajf.net/pages/5f559d/</guid>
@@ -1343,6 +1354,13 @@
             <description><![CDATA[收款明细]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/07/d520bd101fb57b91.png">
             </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[求职公告]]></title>
+            <link>https://wiki.eryajf.net/looking-for-a-job/</link>
+            <guid>https://wiki.eryajf.net/looking-for-a-job/</guid>
+            <pubDate>Tue, 07 Mar 2023 10:56:00 GMT</pubDate>
+            <description><![CDATA[注：已找到工作，这期间得到了太多的帮助，随后有空会整理一个文档进行感谢，接下来该专心投入到工作当中啦！]]></description>
         </item>
         <item>
             <title><![CDATA[置顶文章汇总]]></title>
