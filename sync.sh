@@ -20,4 +20,4 @@ doge flush path -p "https://wiki.eryajf.net/"
 doge flush path -p "https://comment.eryajf.net/"
 
 # 更新检索的索引数据
-ssh root@8.136.215.57 'bash /data/docker/meilisearch/scraper/do.sh'
+ssh -p 2023 root@8.136.215.57 'bash /data/docker/meilisearch/scraper/do.sh'
