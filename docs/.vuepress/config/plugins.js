@@ -23,8 +23,8 @@ module.exports = [
   [
     'vuepress-plugin-meilisearch',
       {
-          hostUrl: 'https://ms-cea9697b10ca-1961.sgp.meilisearch.io',        // 该 URL 应该能在用户的浏览器上被访问，不能为 localhost
-          apiKey: "899b4f028209df3541c1dd0cd8c0fdd5a7eae31d63580678be233da5bc50e273",
+          hostUrl: 'https://search.eryajf.net',        // 该 URL 应该能在用户的浏览器上被访问，不能为 localhost
+          apiKey: "8d05703c1896278c2507375b47b8bf4d8366ad00b2a1e7a24c5fcc38744af48d",
           indexUid: 'wiki',
           // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
           maxSuggestions: 6,                      // 最多显示几个搜索结果
