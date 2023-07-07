@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-07-05T11:38:37.954Z</updated>
+    <updated>2023-07-07T01:27:03.063Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -57,20 +57,20 @@
         <summary type="html"><![CDATA[watch命令能够将其他命令的输出定时输出到终端，从而实现监听的能力，在我们要对一些命令状态进行实时监听的场景中，有非常好的应用场景。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[利用buildx构建支持多CPU架构平台的docker镜像]]></title>
-        <id>https://wiki.eryajf.net/pages/95cf71/</id>
-        <link href="https://wiki.eryajf.net/pages/95cf71/">
-        </link>
-        <updated>2022-05-17T16:57:37.000Z</updated>
-        <summary type="html"><![CDATA[准备给开源项目做一个镜像，由于当前使用的是 M1 型号的 Mac 电脑，打出来的镜像无法运行在 AMD 架构之上，但是在 dockerhub 上又见过一些比较大的项目的镜像，支持多平台，因此就了解了一波，本文记录一下实操过程。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[docker exec命令中含有通配符执行失败的问题]]></title>
         <id>https://wiki.eryajf.net/pages/1cb90e/</id>
         <link href="https://wiki.eryajf.net/pages/1cb90e/">
         </link>
         <updated>2022-06-14T17:21:26.000Z</updated>
         <summary type="html"><![CDATA[我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用buildx构建支持多CPU架构平台的docker镜像]]></title>
+        <id>https://wiki.eryajf.net/pages/95cf71/</id>
+        <link href="https://wiki.eryajf.net/pages/95cf71/">
+        </link>
+        <updated>2022-05-17T16:57:37.000Z</updated>
+        <summary type="html"><![CDATA[准备给开源项目做一个镜像，由于当前使用的是 M1 型号的 Mac 电脑，打出来的镜像无法运行在 AMD 架构之上，但是在 dockerhub 上又见过一些比较大的项目的镜像，支持多平台，因此就了解了一波，本文记录一下实操过程。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docker 调试构建失败的 Dockerfile 的方法]]></title>
@@ -129,20 +129,20 @@
         <summary type="html"><![CDATA[有人可能会觉得，有了go-ldap-admin这个平台之后，就不需要再了解这些查询方面的知识了，其实这是一个误区，go-ldap-admin平台的确接管了ldap的一应管理，但是ldap终究还是要对接到第三方应用，这个时候，掌握一点简单的查询语法，就是很有必要的。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GitHub中开源项目维护流程手册]]></title>
-        <id>https://wiki.eryajf.net/pages/53399c/</id>
-        <link href="https://wiki.eryajf.net/pages/53399c/">
-        </link>
-        <updated>2022-06-01T14:28:05.000Z</updated>
-        <summary type="html"><![CDATA[混迹于互联网，或多或少难免都会与 GitHub 有交互，大多数时候在公司中积累的 git 使用经验都是面向 GitLab 的，也很容易想当然地将过往的经验套到 GitHub 中，而事实上还是有一些差别的，最近开源了几个项目，有一些还涉及到要与外部开发者协同工作，当我真正面对要处理一个 PR 的时候，内心是慌乱的，一时间不知道该从何处下手，这里就整理记录一下这方面的实践。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[分享我的开源项目Thank-Mirror]]></title>
         <id>https://wiki.eryajf.net/pages/e7a8dc/</id>
         <link href="https://wiki.eryajf.net/pages/e7a8dc/">
         </link>
         <updated>2022-05-09T23:48:23.000Z</updated>
         <summary type="html"><![CDATA[整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub中开源项目维护流程手册]]></title>
+        <id>https://wiki.eryajf.net/pages/53399c/</id>
+        <link href="https://wiki.eryajf.net/pages/53399c/">
+        </link>
+        <updated>2022-06-01T14:28:05.000Z</updated>
+        <summary type="html"><![CDATA[混迹于互联网，或多或少难免都会与 GitHub 有交互，大多数时候在公司中积累的 git 使用经验都是面向 GitLab 的，也很容易想当然地将过往的经验套到 GitHub 中，而事实上还是有一些差别的，最近开源了几个项目，有一些还涉及到要与外部开发者协同工作，当我真正面对要处理一个 PR 的时候，内心是慌乱的，一时间不知道该从何处下手，这里就整理记录一下这方面的实践。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template]]></title>
@@ -329,20 +329,20 @@
         <summary type="html"><![CDATA[我曾在2017年参加了兄弟连(当然在19年底疫情爆发时，兄弟连也倒下了，但我仍要说，兄弟连的教学风格是非常优秀的，向兄弟连致敬)云计算课程的培训，培训时间是4月底到9月底，而后10月份转战杭州参加工作，由于自知培训出来的学生矮人一截，因此五年来，这件事儿我都一直按压在了心底。现而今距离当初决定参加培训已过去五年，五年后的自己当然谈不上多么成功，但相对彼时求出无门的自己来说，今日的状态已经是极大的奢望。所以能够走到今天这一境界，与自己入场之时的低劣身份有莫大的关系，这大概就是，反者道之动，弱者道之用的真义罢。曾经我为此低劣身份感到难以启齿，而今能够正视这个问题，则说明自己已经走出来了，这两天偶然又翻出当初刚入学时留的一个作业：写给未来的一封信，希望通过这样一封信，来激励自己。当我再次通读这封信，隐约能体悟到，一个人的命运走向早已被自己的综合认知决定。机遇是非常难遇，如果说那时选择报培训班完全是鬼使神差，多少有一些傲娇，但也的确不曾有人在那时给我以指导。机会是留给有准备的人的，哪怕你没有这个针对机会的准备，只要你拥有良好的行事习惯，也能抓住机会，到达彼岸。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[在家季余随感]]></title>
-        <id>https://wiki.eryajf.net/pages/e36842/</id>
-        <link href="https://wiki.eryajf.net/pages/e36842/">
-        </link>
-        <updated>2022-07-20T17:22:11.000Z</updated>
-        <summary type="html"><![CDATA[老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[写在博客发表文章600篇的节点]]></title>
         <id>https://wiki.eryajf.net/pages/b4e432/</id>
         <link href="https://wiki.eryajf.net/pages/b4e432/">
         </link>
         <updated>2022-05-29T09:50:49.000Z</updated>
         <summary type="html"><![CDATA[我想，博客已经发表文章600篇，近90w字，总有些话想说，就把这里当做我的独白罢！]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在家季余随感]]></title>
+        <id>https://wiki.eryajf.net/pages/e36842/</id>
+        <link href="https://wiki.eryajf.net/pages/e36842/">
+        </link>
+        <updated>2022-07-20T17:22:11.000Z</updated>
+        <summary type="html"><![CDATA[老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[微拍堂工作盖论]]></title>
@@ -545,20 +545,20 @@
         <summary type="html"><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[基于GO语言实现的体验最好的企微应用集成ChatGPT项目chatgpt-wecom]]></title>
-        <id>https://wiki.eryajf.net/pages/a76bb0/</id>
-        <link href="https://wiki.eryajf.net/pages/a76bb0/">
-        </link>
-        <updated>2023-07-02T23:13:40.000Z</updated>
-        <summary type="html"><![CDATA[如题]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[最近开源的两个项目-获取腾讯云CLS日志费用预估]]></title>
         <id>https://wiki.eryajf.net/pages/1b6f63/</id>
         <link href="https://wiki.eryajf.net/pages/1b6f63/">
         </link>
         <updated>2023-06-22T15:32:15.000Z</updated>
         <summary type="html"><![CDATA[一个分析腾讯云CLS日志费用预估的项目和一个命令行工具框架]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基于GO语言实现的体验最好的企微应用集成ChatGPT项目chatgpt-wecom]]></title>
+        <id>https://wiki.eryajf.net/pages/a76bb0/</id>
+        <link href="https://wiki.eryajf.net/pages/a76bb0/">
+        </link>
+        <updated>2023-07-02T23:13:40.000Z</updated>
+        <summary type="html"><![CDATA[如题]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第36期-2022年第01周]]></title>
@@ -625,20 +625,20 @@
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第45期-2022年第10周]]></title>
-        <id>https://wiki.eryajf.net/pages/02cfc7/</id>
-        <link href="https://wiki.eryajf.net/pages/02cfc7/">
-        </link>
-        <updated>2022-03-19T17:53:04.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-2022年第10周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第44期-2022年第09周]]></title>
         <id>https://wiki.eryajf.net/pages/c3ee7b/</id>
         <link href="https://wiki.eryajf.net/pages/c3ee7b/">
         </link>
         <updated>2022-03-12T08:26:46.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-2022年第09周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第45期-2022年第10周]]></title>
+        <id>https://wiki.eryajf.net/pages/02cfc7/</id>
+        <link href="https://wiki.eryajf.net/pages/02cfc7/">
+        </link>
+        <updated>2022-03-19T17:53:04.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-2022年第10周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第46期-2022年第11周]]></title>
@@ -737,20 +737,20 @@
         <summary type="html"><![CDATA[学习周刊-总第57期-2022年第22周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第59期-2022年第24周]]></title>
-        <id>https://wiki.eryajf.net/pages/b0bdd0/</id>
-        <link href="https://wiki.eryajf.net/pages/b0bdd0/">
-        </link>
-        <updated>2022-06-24T15:52:01.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第59期-2022年第24周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第58期-2022年第23周]]></title>
         <id>https://wiki.eryajf.net/pages/62a9c7/</id>
         <link href="https://wiki.eryajf.net/pages/62a9c7/">
         </link>
         <updated>2022-06-17T21:11:58.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第58期-2022年第23周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第59期-2022年第24周]]></title>
+        <id>https://wiki.eryajf.net/pages/b0bdd0/</id>
+        <link href="https://wiki.eryajf.net/pages/b0bdd0/">
+        </link>
+        <updated>2022-06-24T15:52:01.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第59期-2022年第24周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第60期-2022年第25周]]></title>
@@ -1025,20 +1025,20 @@
         <summary type="html"><![CDATA[学习周刊-总第93期-一个小霸王游戏合集的开源项目]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第94期-2023年第07周]]></title>
-        <id>https://wiki.eryajf.net/pages/bb1e7a/</id>
-        <link href="https://wiki.eryajf.net/pages/bb1e7a/">
-        </link>
-        <updated>2023-02-17T21:40:45.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第94期-一个优秀开源的rss阅读器]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第95期-2023年第08周]]></title>
         <id>https://wiki.eryajf.net/pages/5ec73f/</id>
         <link href="https://wiki.eryajf.net/pages/5ec73f/">
         </link>
         <updated>2023-02-24T09:51:14.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第95期-汇总整理几个优秀的开源图床程序]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第94期-2023年第07周]]></title>
+        <id>https://wiki.eryajf.net/pages/bb1e7a/</id>
+        <link href="https://wiki.eryajf.net/pages/bb1e7a/">
+        </link>
+        <updated>2023-02-17T21:40:45.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第94期-一个优秀开源的rss阅读器]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第96期-2023年第09周]]></title>
@@ -1097,20 +1097,20 @@
         <summary type="html"><![CDATA[学习周刊-总第101期-一个暴漏github action变量的开源项目]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第104期-2023年第17周]]></title>
-        <id>https://wiki.eryajf.net/pages/19d76d/</id>
-        <link href="https://wiki.eryajf.net/pages/19d76d/">
-        </link>
-        <updated>2023-04-27T17:48:54.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第104期-一个优秀的基于Obsidian将笔记部署为博客的开源方案]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第103期-2023年第16周]]></title>
         <id>https://wiki.eryajf.net/pages/415247/</id>
         <link href="https://wiki.eryajf.net/pages/415247/">
         </link>
         <updated>2023-04-21T19:32:14.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第103期-一款安卓系统上的 rss 阅读软件]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第104期-2023年第17周]]></title>
+        <id>https://wiki.eryajf.net/pages/19d76d/</id>
+        <link href="https://wiki.eryajf.net/pages/19d76d/">
+        </link>
+        <updated>2023-04-27T17:48:54.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第104期-一个优秀的基于Obsidian将笔记部署为博客的开源方案]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第105期-2023年第18周]]></title>
@@ -1129,20 +1129,20 @@
         <summary type="html"><![CDATA[学习周刊-总第106期-超级给力的Mac端给应用绑定快捷键的工具]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第108期-2023年第21周]]></title>
-        <id>https://wiki.eryajf.net/pages/4fbfaf/</id>
-        <link href="https://wiki.eryajf.net/pages/4fbfaf/">
-        </link>
-        <updated>2023-05-26T09:37:27.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第108期-强大的发短信go库与开源的轻量级gitlab和一个Sql审核平台]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第107期-2023年第20周]]></title>
         <id>https://wiki.eryajf.net/pages/b5d2d2/</id>
         <link href="https://wiki.eryajf.net/pages/b5d2d2/">
         </link>
         <updated>2023-05-19T08:47:20.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第107期-又一个Nginx管理面板与一个适合入门的Vue3管理后台项目]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第108期-2023年第21周]]></title>
+        <id>https://wiki.eryajf.net/pages/4fbfaf/</id>
+        <link href="https://wiki.eryajf.net/pages/4fbfaf/">
+        </link>
+        <updated>2023-05-26T09:37:27.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第108期-强大的发短信go库与开源的轻量级gitlab和一个Sql审核平台]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第109期-2023年第22周]]></title>
@@ -1153,20 +1153,20 @@
         <summary type="html"><![CDATA[学习周刊-总第109期-一个现代化开源的Linux服务器运维管理面板]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第111期-2023年第24周]]></title>
-        <id>https://wiki.eryajf.net/pages/23943e/</id>
-        <link href="https://wiki.eryajf.net/pages/23943e/">
-        </link>
-        <updated>2023-06-16T09:28:28.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第111期-在线双拼练习与两个不错的测试压测管理平台]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第110期-2023年第23周]]></title>
         <id>https://wiki.eryajf.net/pages/5c314c/</id>
         <link href="https://wiki.eryajf.net/pages/5c314c/">
         </link>
         <updated>2023-06-09T09:24:53.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第110期-一个多租户 SaaS 开发框架]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第111期-2023年第24周]]></title>
+        <id>https://wiki.eryajf.net/pages/23943e/</id>
+        <link href="https://wiki.eryajf.net/pages/23943e/">
+        </link>
+        <updated>2023-06-16T09:28:28.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第111期-在线双拼练习与两个不错的测试压测管理平台]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第112期-2023年第25周]]></title>
@@ -1183,6 +1183,14 @@
         </link>
         <updated>2023-06-30T09:36:52.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第113期-一款开源免费的WAF]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第114期-2023年第27周]]></title>
+        <id>https://wiki.eryajf.net/pages/628a87/</id>
+        <link href="https://wiki.eryajf.net/pages/628a87/">
+        </link>
+        <updated>2023-07-07T09:10:16.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第114期-一款个人和中小型团队的在线文档知识库系统]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Obsidian插件周刊第十四期]]></title>
