@@ -13,14 +13,15 @@ module.exports = {
       <p>
       运维艺术，扫码或者搜索关注
       </p>
-      <img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="100%"  height="3">
-      <a href="https://item.m.jd.com/product/13996910.html?utm_user=plusmember&gx=RnAohDtYYTzfw5kc49UzFw&gxd=RnAoxzRebWDYyphH-dEkWp8WgYz4W6E&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends" target="_blank">
-          <img src="https://pic6.58cdn.com.cn/nowater/webim/big/n_v20068e773520d46d99902ee12ec1c42d3.png" alt="宣传图" height="320" width="100%">
-        </a>
-      <p>
-      欢迎关注购买我们的新书。
-      </p>
       </div>`,
+
+      // <img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="100%"  height="3">
+      // <a href="https://item.m.jd.com/product/13996910.html?utm_user=plusmember&gx=RnAohDtYYTzfw5kc49UzFw&gxd=RnAoxzRebWDYyphH-dEkWp8WgYz4W6E&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends" target="_blank">
+      //     <img src="https://pic6.58cdn.com.cn/nowater/webim/big/n_v20068e773520d46d99902ee12ec1c42d3.png" alt="宣传图" height="320" width="100%">
+      //   </a>
+      // <p>
+      // 欢迎关注购买我们的新书。
+      // </p>
     // `<div style="padding: 0.95rem">
     // <p style="
     //   color: var(--textColor);
