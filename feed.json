@@ -6,20 +6,20 @@
     "description": "💻学习📝记录🔗分享\n学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。",
     "items": [
         {
-            "id": "https://wiki.eryajf.net/pages/c54d2e/",
-            "url": "https://wiki.eryajf.net/pages/c54d2e/",
-            "title": "规范编码之利用pre-commit给项目添加提交前检查",
-            "summary": "日常开发过程中，不论是哪个语言，一定都会有相对应的语法检测工具或者手段来辅助我们检查出编码过程中的一些遗漏或疏忽。但有时候会有一个尴尬的情况就是，把检测的方式配置上去了，却没有运行，最后成了摆设。今天来介绍一个工具pre-commit，能够完成在代码提交之前运行指定检测，从而实现代码的自检。",
-            "image": "http://t.eryajf.net/imgs/2023/02/b521f43dba90f43b.jpg",
-            "date_modified": "2023-02-26T13:04:41.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/4bcf72/",
             "url": "https://wiki.eryajf.net/pages/4bcf72/",
             "title": "CMDB平台建设指南",
             "summary": "我们的运维团队汇聚了一群优秀的，富有想法的年轻人。每次周会里边，当我们完成了各自日常工作的交流沟通之后，总是会跳出当下，天南海北，胡言乱语地头脑风暴一番。在这些看似  闲笔  的沟通当中，我们进行了大量的运维规范以及最佳实践的讨论，而当我们进行地讨论越多，越能够发现一个问题，无论是对于一个全流程(指一个项目的整个生命周期)命名的规范约束落地，还是对发布平台以应用维度的主机列表维护，都步步绕不开一个能够真正解决运维痛点的 CMDB 平台。注意，这里在 CMDB 这个名词的前边加了一个定语，真正解决运维痛点。事实上在这之前，我们并非没有做过 CMDB 平台的建设，只不过由于我们以往对这一概念的认知不足，完全交由运维开发同学，按他的一些经验想法开发出来的 CMDB，却总是难以真正在实际运维生产当中落地，简而言之就是，CMDB 平台做过，但都失败了。",
             "image": "https://t.eryajf.net/imgs/2023/07/1688807086693.png",
             "date_modified": "2023-07-08T16:56:07.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/c54d2e/",
+            "url": "https://wiki.eryajf.net/pages/c54d2e/",
+            "title": "规范编码之利用pre-commit给项目添加提交前检查",
+            "summary": "日常开发过程中，不论是哪个语言，一定都会有相对应的语法检测工具或者手段来辅助我们检查出编码过程中的一些遗漏或疏忽。但有时候会有一个尴尬的情况就是，把检测的方式配置上去了，却没有运行，最后成了摆设。今天来介绍一个工具pre-commit，能够完成在代码提交之前运行指定检测，从而实现代码的自检。",
+            "image": "http://t.eryajf.net/imgs/2023/02/b521f43dba90f43b.jpg",
+            "date_modified": "2023-02-26T13:04:41.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/d4534a/",
@@ -142,20 +142,20 @@
             "date_modified": "2022-06-01T14:28:05.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/e7a8dc/",
-            "url": "https://wiki.eryajf.net/pages/e7a8dc/",
-            "title": "分享我的开源项目Thank-Mirror",
-            "summary": "整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。",
-            "image": "https://starchart.cc/eryajf/Thanks-Mirror.svg",
-            "date_modified": "2022-05-09T23:48:23.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/48e307/",
             "url": "https://wiki.eryajf.net/pages/48e307/",
             "title": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
             "summary": "一个仅需三步配置就能生成免费个人博客的开源模板vdoing-template",
             "image": "http://t.eryajf.net/imgs/2022/07/63da28a5c19aecfa.png",
             "date_modified": "2022-07-23T11:06:46.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/e7a8dc/",
+            "url": "https://wiki.eryajf.net/pages/e7a8dc/",
+            "title": "分享我的开源项目Thank-Mirror",
+            "summary": "整理记录各个包管理器，系统镜像，以及常用软件的好用镜像。Thanks Mirror。",
+            "image": "https://starchart.cc/eryajf/Thanks-Mirror.svg",
+            "date_modified": "2022-05-09T23:48:23.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/d195b4/",
@@ -182,20 +182,20 @@
             "date_modified": "2022-06-01T10:30:49.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/f3e878/",
-            "url": "https://wiki.eryajf.net/pages/f3e878/",
-            "title": "利用GitHub Actions自动优雅地为项目构建Releases",
-            "summary": "基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。",
-            "image": "http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg",
-            "date_modified": "2022-06-22T17:20:54.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/1b1ba3/",
             "url": "https://wiki.eryajf.net/pages/1b1ba3/",
             "title": "利用GitHub Actions自动获取博客rss文章",
             "summary": "在GitHub中，我们能看到每个人都在折腾个人同名仓库的profile，我在这上边也花了不少的时间，在这个冲浪经历中，感觉外国人折腾的好像要更厉害一些，浏览过程中看到有人能直接在个人的profile中生成博客最近更新文章，很是新颖，于是就学习了一下。",
             "image": "http://t.eryajf.net/imgs/2022/06/a8aba8b74d90d40e.png",
             "date_modified": "2022-06-27T16:39:27.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/f3e878/",
+            "url": "https://wiki.eryajf.net/pages/f3e878/",
+            "title": "利用GitHub Actions自动优雅地为项目构建Releases",
+            "summary": "基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。",
+            "image": "http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg",
+            "date_modified": "2022-06-22T17:20:54.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/5baf0a/",
@@ -214,19 +214,19 @@
             "date_modified": "2022-07-29T15:51:43.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/4ba0f4/",
-            "url": "https://wiki.eryajf.net/pages/4ba0f4/",
-            "title": "利用GitHub Actions自动生成个人star列表并归类",
-            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
-            "date_modified": "2022-07-29T16:26:09.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/dbee9e/",
             "url": "https://wiki.eryajf.net/pages/dbee9e/",
             "title": "利用GitHub Actions自动对仓库内图片进行无损压缩",
             "summary": "我维护的 awesome-github-profile-readme-chinese 项目旨在收集汇总中文区优秀的个人主页，每个人的主页将会通过截图的方式存放在 exampls 目录下，有时候有的朋友主页内容很多，这样整体截图下来就非常大。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的图片，然后对其进行几乎无损的压缩，让整个仓库的体积保持在一个相对低的水平。",
             "image": "http://t.eryajf.net/imgs/2022/08/1fa538021f1f5631.png",
             "date_modified": "2022-08-01T23:42:32.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/4ba0f4/",
+            "url": "https://wiki.eryajf.net/pages/4ba0f4/",
+            "title": "利用GitHub Actions自动生成个人star列表并归类",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "date_modified": "2022-07-29T16:26:09.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/c78b38/",
@@ -569,20 +569,20 @@
             "date_modified": "2022-01-07T22:08:28.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/cbecfd/",
-            "url": "https://wiki.eryajf.net/pages/cbecfd/",
-            "title": "学习周刊-总第37期-2022年第02周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "image": "http://t.eryajf.net/imgs/2022/01/1673c473898b4424.png",
-            "date_modified": "2022-01-15T13:47:04.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/1d2aab/",
             "url": "https://wiki.eryajf.net/pages/1d2aab/",
             "title": "学习周刊-总第38期-2022年第03周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "image": "http://t.eryajf.net/imgs/2022/01/ba56862e2b17337a.png",
             "date_modified": "2022-01-21T21:43:40.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/cbecfd/",
+            "url": "https://wiki.eryajf.net/pages/cbecfd/",
+            "title": "学习周刊-总第37期-2022年第02周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/01/1673c473898b4424.png",
+            "date_modified": "2022-01-15T13:47:04.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/478f83/",
@@ -716,20 +716,20 @@
             "date_modified": "2022-05-28T18:03:49.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/af0834/",
-            "url": "https://wiki.eryajf.net/pages/af0834/",
-            "title": "学习周刊-总第57期-2022年第22周",
-            "summary": "学习周刊-总第57期-2022年第22周",
-            "image": "http://t.eryajf.net/imgs/2022/05/4834a35be03c892e.png",
-            "date_modified": "2022-06-11T09:12:21.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/77b80b/",
             "url": "https://wiki.eryajf.net/pages/77b80b/",
             "title": "学习周刊-总第56期-2022年第21周",
             "summary": "学习周刊-总第56期-2022年第21周",
             "image": "http://t.eryajf.net/imgs/2022/05/3d9cc5b7c4ebf826.gif",
             "date_modified": "2022-06-04T16:41:13.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/af0834/",
+            "url": "https://wiki.eryajf.net/pages/af0834/",
+            "title": "学习周刊-总第57期-2022年第22周",
+            "summary": "学习周刊-总第57期-2022年第22周",
+            "image": "http://t.eryajf.net/imgs/2022/05/4834a35be03c892e.png",
+            "date_modified": "2022-06-11T09:12:21.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/62a9c7/",
@@ -796,14 +796,6 @@
             "date_modified": "2022-08-05T07:42:12.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/c5dd7c/",
-            "url": "https://wiki.eryajf.net/pages/c5dd7c/",
-            "title": "学习周刊-总第67期-2022年第32周",
-            "summary": "学习周刊-总第67期-2022年第32周,几个Redis管理平台与B站加强脚本",
-            "image": "http://t.eryajf.net/imgs/2022/07/4654caa62645b137.png",
-            "date_modified": "2022-08-19T07:10:11.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/66c212/",
             "url": "https://wiki.eryajf.net/pages/66c212/",
             "title": "学习周刊-总第66期-2022年第31周",
@@ -812,12 +804,12 @@
             "date_modified": "2022-08-12T08:42:41.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/73eb3e/",
-            "url": "https://wiki.eryajf.net/pages/73eb3e/",
-            "title": "学习周刊-总第68期-2022年第33周",
-            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
-            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
-            "date_modified": "2022-08-26T09:02:58.000Z"
+            "id": "https://wiki.eryajf.net/pages/c5dd7c/",
+            "url": "https://wiki.eryajf.net/pages/c5dd7c/",
+            "title": "学习周刊-总第67期-2022年第32周",
+            "summary": "学习周刊-总第67期-2022年第32周,几个Redis管理平台与B站加强脚本",
+            "image": "http://t.eryajf.net/imgs/2022/07/4654caa62645b137.png",
+            "date_modified": "2022-08-19T07:10:11.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/30b309/",
@@ -826,6 +818,14 @@
             "summary": "学习周刊-总第69期-2021年个人博主们的年终总结",
             "image": "http://t.eryajf.net/imgs/2022/08/fdfe65cb3dcaa78b.png",
             "date_modified": "2022-09-02T08:41:56.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/73eb3e/",
+            "url": "https://wiki.eryajf.net/pages/73eb3e/",
+            "title": "学习周刊-总第68期-2022年第33周",
+            "summary": "学习周刊-总第 68 期-程序员如何优雅地挣零花钱",
+            "image": "http://t.eryajf.net/imgs/2022/07/070940084883b435.png",
+            "date_modified": "2022-08-26T09:02:58.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/d3ed2b/",
@@ -1059,20 +1059,20 @@
             "date_modified": "2023-03-17T08:27:15.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/6a3264/",
-            "url": "https://wiki.eryajf.net/pages/6a3264/",
-            "title": "学习周刊-总第100期-2023年第13周",
-            "summary": "学习周刊-总第100期-go语言版本的elasticsearch与Mac上传歌曲到网易云盘的插件",
-            "image": "http://t.eryajf.net/imgs/2023/02/666a8875045c530c.jpg",
-            "date_modified": "2023-03-31T08:35:17.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/e239f5/",
             "url": "https://wiki.eryajf.net/pages/e239f5/",
             "title": "学习周刊-总第99期-2023年第12周",
             "summary": "学习周刊-总第99期-开源的图片编辑器与多功能画板",
             "image": "https://ldbbs.ldmnq.com/bbs/topic/attachment/2023-2/c465c89f-d7c6-437b-9238-2f31aa9eca7c.jpg",
             "date_modified": "2023-03-24T08:44:49.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/6a3264/",
+            "url": "https://wiki.eryajf.net/pages/6a3264/",
+            "title": "学习周刊-总第100期-2023年第13周",
+            "summary": "学习周刊-总第100期-go语言版本的elasticsearch与Mac上传歌曲到网易云盘的插件",
+            "image": "http://t.eryajf.net/imgs/2023/02/666a8875045c530c.jpg",
+            "date_modified": "2023-03-31T08:35:17.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/264dc4/",
@@ -1107,20 +1107,20 @@
             "date_modified": "2023-04-27T17:48:54.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/215c5b/",
-            "url": "https://wiki.eryajf.net/pages/215c5b/",
-            "title": "学习周刊-总第105期-2023年第18周",
-            "summary": "学习周刊-总第105期-一款有意思的终端中使用的网易云音乐",
-            "image": "http://t.eryajf.net/imgs/2023/03/c61adcd10980a0d0.gif",
-            "date_modified": "2023-05-05T23:14:59.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/56968a/",
             "url": "https://wiki.eryajf.net/pages/56968a/",
             "title": "学习周刊-总第106期-2023年第19周",
             "summary": "学习周刊-总第106期-超级给力的Mac端给应用绑定快捷键的工具",
             "image": "http://t.eryajf.net/imgs/2023/03/d5b575dd2791f2c5.png",
             "date_modified": "2023-05-12T09:56:36.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/215c5b/",
+            "url": "https://wiki.eryajf.net/pages/215c5b/",
+            "title": "学习周刊-总第105期-2023年第18周",
+            "summary": "学习周刊-总第105期-一款有意思的终端中使用的网易云音乐",
+            "image": "http://t.eryajf.net/imgs/2023/03/c61adcd10980a0d0.gif",
+            "date_modified": "2023-05-05T23:14:59.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/b5d2d2/",
@@ -1203,14 +1203,6 @@
             "date_modified": "2022-02-14T09:32:32.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/e5cdbf/",
-            "url": "https://wiki.eryajf.net/pages/e5cdbf/",
-            "title": "Obsidian插件周刊第十七期",
-            "summary": "请参阅：Obsidian插件周刊说明。",
-            "image": "http://t.eryajf.net/imgs/2022/01/74c63f250a88161c.png",
-            "date_modified": "2022-03-12T08:27:15.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/ee8957/",
             "url": "https://wiki.eryajf.net/pages/ee8957/",
             "title": "Obsidian插件周刊第十六期",
@@ -1219,8 +1211,16 @@
             "date_modified": "2022-02-26T13:41:20.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/comein/",
-            "url": "https://wiki.eryajf.net/comein/",
+            "id": "https://wiki.eryajf.net/pages/e5cdbf/",
+            "url": "https://wiki.eryajf.net/pages/e5cdbf/",
+            "title": "Obsidian插件周刊第十七期",
+            "summary": "请参阅：Obsidian插件周刊说明。",
+            "image": "http://t.eryajf.net/imgs/2022/01/74c63f250a88161c.png",
+            "date_modified": "2022-03-12T08:27:15.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/b2f34c/",
+            "url": "https://wiki.eryajf.net/pages/b2f34c/",
             "title": "博客导引",
             "summary": "博客经过了五年的积累之后，已经沉淀了许多的内容，在此有必要做一个导引，帮助你更好地认识到，你正在浏览的，是一个构思多么用心，设计多么优秀，内容多么丰富，情操多么高尚，境界多么高雅的博客。",
             "image": "https://raw.githubusercontent.com/eryajf/eryajf/master/assets/github-contribution-grid-snake.svg",
