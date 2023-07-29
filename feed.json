@@ -301,20 +301,20 @@
             "date_modified": "2022-05-22T11:23:33.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/ebae63/",
-            "url": "https://wiki.eryajf.net/pages/ebae63/",
-            "title": "Jenkins-Groovy中三元表达式的用法",
-            "summary": "我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。",
-            "image": "https://tva2.sinaimg.cn/large/008k1Yt0ly1h4rdnv4bawj30u011g7ai.jpg",
-            "date_modified": "2022-09-10T14:53:11.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/ef36d8/",
             "url": "https://wiki.eryajf.net/pages/ef36d8/",
             "title": "Jenkins结合MySql Database插件的平台化实践思路",
             "summary": "以往Jenkins实践当中，配置了共享库的流水线方案，通过将核心公共逻辑抽离成膜版，项目个性化配置信息放到引导文件中的方式进行推进。这种方案没有什么毛病，对于运维的维护工作也是比较友好的，只是后来我们打算再在Jenkins上层做一下平台化封装的时候，发现还是存在一些问题，并且有一些难度的。最近我了解学习到了一个与 MySQL Database 插件结合的思路，能够比较好解决这种问题，那么接下来话不多说，直接进入正题，让我们来认识一下这个插件。",
             "image": "http://t.eryajf.net/imgs/2022/09/154a7c496ea4eac9.png",
             "date_modified": "2022-09-04T19:02:27.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/ebae63/",
+            "url": "https://wiki.eryajf.net/pages/ebae63/",
+            "title": "Jenkins-Groovy中三元表达式的用法",
+            "summary": "我们在使用pipeline的时候，如果某一个变量没有正常声明，则会遇到变量定义失败的错误，这个时候，我们可以借助三元表达式来解决这个问题。",
+            "image": "https://tva2.sinaimg.cn/large/008k1Yt0ly1h4rdnv4bawj30u011g7ai.jpg",
+            "date_modified": "2022-09-10T14:53:11.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/0c3bcb/",
@@ -409,20 +409,20 @@
             "date_modified": "2022-11-26T19:39:08.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/62b2b7/",
-            "url": "https://wiki.eryajf.net/pages/62b2b7/",
-            "title": "vscode开发前端项目时如何tab补全自定义HTML标签",
-            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
-            "image": "https://tvax1.sinaimg.cn/large/008k1Yt0ly1h3tk8o6vamj30rs15o462.jpg",
-            "date_modified": "2022-08-01T15:28:09.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/c2262c/",
             "url": "https://wiki.eryajf.net/pages/c2262c/",
             "title": "Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解",
             "summary": "前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。",
             "image": "http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png",
             "date_modified": "2022-08-25T09:04:55.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/62b2b7/",
+            "url": "https://wiki.eryajf.net/pages/62b2b7/",
+            "title": "vscode开发前端项目时如何tab补全自定义HTML标签",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "image": "https://tvax1.sinaimg.cn/large/008k1Yt0ly1h3tk8o6vamj30rs15o462.jpg",
+            "date_modified": "2022-08-01T15:28:09.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/301514/",
@@ -513,20 +513,20 @@
             "date_modified": "2022-07-17T11:42:01.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/95d127/",
-            "url": "https://wiki.eryajf.net/pages/95d127/",
-            "title": "企业微信自建应用-golang校验回调",
-            "summary": "企业微信创建应用配置回调的步骤记录，golang版本。",
-            "image": "http://t.eryajf.net/imgs/2023/06/e917209a33a521ce.png",
-            "date_modified": "2023-06-22T15:27:29.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/74da0a/",
             "url": "https://wiki.eryajf.net/pages/74da0a/",
             "title": "记录VSCode中写Go代码切换Sqlite无CGO依赖版本的过程以及遇到的五个问题",
             "summary": "我的 xirang 系统之前引入 sqlite 功能的时候，使用的驱动包是 github.com/mattn/go-sqlite3 v1.14.15，这个库现在在 go 项目当中，引用最多，应用最广，看项目 Used By 达到了 71k，俨然成为这一方面的标准，但有一个最大的问题就是，这是一个 C 语言实现的库，如果要应用这个库，那么你的环境就需要解决这个 CGO 依赖。",
             "image": "http://t.eryajf.net/imgs/2023/02/8c562458419d0f96.png",
             "date_modified": "2023-02-25T11:38:49.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/95d127/",
+            "url": "https://wiki.eryajf.net/pages/95d127/",
+            "title": "企业微信自建应用-golang校验回调",
+            "summary": "企业微信创建应用配置回调的步骤记录，golang版本。",
+            "image": "http://t.eryajf.net/imgs/2023/06/e917209a33a521ce.png",
+            "date_modified": "2023-06-22T15:27:29.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/541fc0/",
@@ -553,20 +553,20 @@
             "date_modified": "2022-05-18T20:52:22.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/1b6f63/",
-            "url": "https://wiki.eryajf.net/pages/1b6f63/",
-            "title": "最近开源的两个项目-获取腾讯云CLS日志费用预估",
-            "summary": "一个分析腾讯云CLS日志费用预估的项目和一个命令行工具框架",
-            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230605_184855.png",
-            "date_modified": "2023-06-22T15:32:15.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/e85cbc/",
             "url": "https://wiki.eryajf.net/pages/e85cbc/",
             "title": "chatGPT钉钉群聊交互版-chatgpt-dingtalk",
             "summary": "最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。",
             "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230405_191425.jpg",
             "date_modified": "2022-12-09T17:47:22.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/1b6f63/",
+            "url": "https://wiki.eryajf.net/pages/1b6f63/",
+            "title": "最近开源的两个项目-获取腾讯云CLS日志费用预估",
+            "summary": "一个分析腾讯云CLS日志费用预估的项目和一个命令行工具框架",
+            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230605_184855.png",
+            "date_modified": "2023-06-22T15:32:15.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/a76bb0/",
@@ -1115,20 +1115,20 @@
             "date_modified": "2023-04-21T19:32:14.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/215c5b/",
-            "url": "https://wiki.eryajf.net/pages/215c5b/",
-            "title": "学习周刊-总第105期-2023年第18周",
-            "summary": "学习周刊-总第105期-一款有意思的终端中使用的网易云音乐",
-            "image": "http://t.eryajf.net/imgs/2023/03/c61adcd10980a0d0.gif",
-            "date_modified": "2023-05-05T23:14:59.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/19d76d/",
             "url": "https://wiki.eryajf.net/pages/19d76d/",
             "title": "学习周刊-总第104期-2023年第17周",
             "summary": "学习周刊-总第104期-一个优秀的基于Obsidian将笔记部署为博客的开源方案",
             "image": "http://t.eryajf.net/imgs/2023/03/05b2e3ce3a25bd4b.png",
             "date_modified": "2023-04-27T17:48:54.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/215c5b/",
+            "url": "https://wiki.eryajf.net/pages/215c5b/",
+            "title": "学习周刊-总第105期-2023年第18周",
+            "summary": "学习周刊-总第105期-一款有意思的终端中使用的网易云音乐",
+            "image": "http://t.eryajf.net/imgs/2023/03/c61adcd10980a0d0.gif",
+            "date_modified": "2023-05-05T23:14:59.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/56968a/",
