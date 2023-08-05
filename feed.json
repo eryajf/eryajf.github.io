@@ -158,12 +158,12 @@
             "date_modified": "2022-07-23T11:06:46.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/2cb154/",
-            "url": "https://wiki.eryajf.net/pages/2cb154/",
-            "title": "利用GitHub Actions自动将项目贡献者列表添加到README中",
-            "summary": "当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。",
-            "image": "http://t.eryajf.net/imgs/2022/06/9dc0fcdcc6ebd0c2.jpg",
-            "date_modified": "2022-06-01T10:30:49.000Z"
+            "id": "https://wiki.eryajf.net/pages/d195b4/",
+            "url": "https://wiki.eryajf.net/pages/d195b4/",
+            "title": "如何将个人的GitHub主页配置的优雅好看",
+            "summary": "我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。",
+            "image": "http://t.eryajf.net/imgs/2022/07/b67354a1cd3df47e.png",
+            "date_modified": "2022-07-23T11:10:55.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/226388/",
@@ -174,12 +174,12 @@
             "date_modified": "2022-05-08T10:40:28.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/f3e878/",
-            "url": "https://wiki.eryajf.net/pages/f3e878/",
-            "title": "利用GitHub Actions自动优雅地为项目构建Releases",
-            "summary": "基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。",
-            "image": "http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg",
-            "date_modified": "2022-06-22T17:20:54.000Z"
+            "id": "https://wiki.eryajf.net/pages/2cb154/",
+            "url": "https://wiki.eryajf.net/pages/2cb154/",
+            "title": "利用GitHub Actions自动将项目贡献者列表添加到README中",
+            "summary": "当我们负责的项目有越来越多的人加入进行协作之后，将贡献者添加到 README 中是一个很好的激励作用，很多大的项目也都是这么做的，本文就来讲一下，如何借助 Github Actions 自动将项目贡献者列表添加到 README 中。",
+            "image": "http://t.eryajf.net/imgs/2022/06/9dc0fcdcc6ebd0c2.jpg",
+            "date_modified": "2022-06-01T10:30:49.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/1b1ba3/",
@@ -188,6 +188,14 @@
             "summary": "在GitHub中，我们能看到每个人都在折腾个人同名仓库的profile，我在这上边也花了不少的时间，在这个冲浪经历中，感觉外国人折腾的好像要更厉害一些，浏览过程中看到有人能直接在个人的profile中生成博客最近更新文章，很是新颖，于是就学习了一下。",
             "image": "http://t.eryajf.net/imgs/2022/06/a8aba8b74d90d40e.png",
             "date_modified": "2022-06-27T16:39:27.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/f3e878/",
+            "url": "https://wiki.eryajf.net/pages/f3e878/",
+            "title": "利用GitHub Actions自动优雅地为项目构建Releases",
+            "summary": "基于git管理的项目，通常在分支管理之外，还会通过tag来对代码进行管理，尤其像go语言，go mod更是依赖tag来对项目的版本进行管理，因此合理的版本管理，对于项目的发展也会是更加健康的一个激励。GitHub中有一个Releases的概念，其实与tag差不多，简单理解就是在打一个tag的基础之上，用releases来进行管理。如果你没有了解过这里边的概念，那么要想成功打一个release还是有点难度的。",
+            "image": "http://t.eryajf.net/imgs/2022/06/7de93f2784bd8d32.jpg",
+            "date_modified": "2022-06-22T17:20:54.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/5baf0a/",
@@ -245,12 +253,12 @@
             "date_modified": "2023-02-28T14:56:10.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/d195b4/",
-            "url": "https://wiki.eryajf.net/pages/d195b4/",
-            "title": "如何将个人的GitHub主页配置的优雅好看",
-            "summary": "我很早注意到，GitHub当中，你创建一个与自己账号同名的仓库，然后这个仓库的内容会展示在个人主页，换言之，你可以通过装扮这个仓库，来实现个人主页的装扮。",
-            "image": "http://t.eryajf.net/imgs/2022/07/b67354a1cd3df47e.png",
-            "date_modified": "2022-07-23T11:10:55.000Z"
+            "id": "https://wiki.eryajf.net/pages/7edb58/",
+            "url": "https://wiki.eryajf.net/pages/7edb58/",
+            "title": "认识并使用一个透明代理http-server",
+            "summary": "http-server 可以简单理解成一个透明代理。能够让我们方便的在本地对项目以及资源进行调试校验，而不必再起一个 Nginx 来进行代理。",
+            "image": "http://t.eryajf.net/imgs/2022/12/72a0c2d9a56656a0.jpg",
+            "date_modified": "2022-12-08T11:15:58.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/f5007c/",
@@ -283,14 +291,6 @@
             "summary": "本文将介绍gradle中plugins配置区块儿的私服代理配置问题",
             "image": "http://t.eryajf.net/imgs/2023/06/d12ea0825cebfefe.png",
             "date_modified": "2023-06-03T21:34:58.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/7edb58/",
-            "url": "https://wiki.eryajf.net/pages/7edb58/",
-            "title": "认识并使用一个透明代理http-server",
-            "summary": "http-server 可以简单理解成一个透明代理。能够让我们方便的在本地对项目以及资源进行调试校验，而不必再起一个 Nginx 来进行代理。",
-            "image": "http://t.eryajf.net/imgs/2022/12/72a0c2d9a56656a0.jpg",
-            "date_modified": "2022-12-08T11:15:58.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/fa2478/",
@@ -371,13 +371,6 @@
             "date_modified": "2022-07-20T17:22:11.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/36303e/",
-            "url": "https://wiki.eryajf.net/pages/36303e/",
-            "title": "博客与开源帮我找到工作",
-            "summary": "很久没在随写编年更新文章了，着实把自己安排的太忙了，沉入了各种事务之中，整个人也变得了无生趣，没有什么写作的欲望。但是找工作这个历程的确一直想写一写，不为别的，只为感谢那些曾给我提供帮助的人。",
-            "date_modified": "2023-05-14T22:28:34.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/00a267/",
             "url": "https://wiki.eryajf.net/pages/00a267/",
             "title": "微拍堂工作盖论",
@@ -386,12 +379,11 @@
             "date_modified": "2022-03-21T01:02:12.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/d5188a/",
-            "url": "https://wiki.eryajf.net/pages/d5188a/",
-            "title": "欣闻陈大惠老师重新开播-推及四海皆应学",
-            "summary": "大约在 12-15 年，我也曾是传统文化的狂热痴迷者，彼时一直跟随陈大惠老师的视频学习，整个人在这个飞速前进的时代，修炼出了一颗向内求的心，这些学习并修炼来的品性，都为我后来工作中所能取得的成绩做了注解。",
-            "image": "http://t.eryajf.net/imgs/2023/07/d6854899f1323cf1.jpg",
-            "date_modified": "2023-07-02T23:10:32.000Z"
+            "id": "https://wiki.eryajf.net/pages/36303e/",
+            "url": "https://wiki.eryajf.net/pages/36303e/",
+            "title": "博客与开源帮我找到工作",
+            "summary": "很久没在随写编年更新文章了，着实把自己安排的太忙了，沉入了各种事务之中，整个人也变得了无生趣，没有什么写作的欲望。但是找工作这个历程的确一直想写一写，不为别的，只为感谢那些曾给我提供帮助的人。",
+            "date_modified": "2023-05-14T22:28:34.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/47872c/",
@@ -400,6 +392,14 @@
             "summary": "一路走来，我也算是一个数码爱好者，虽然不像上学时因为穷爱而不得的那种狂热，但也仍旧对高性能，高品质的产品有相当的追求。本文将记录我在2022年度买过的还不错的电子产品。",
             "image": "http://t.eryajf.net/imgs/2023/05/dc7f098a948436f6.jpg",
             "date_modified": "2023-05-26T22:52:36.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/d5188a/",
+            "url": "https://wiki.eryajf.net/pages/d5188a/",
+            "title": "欣闻陈大惠老师重新开播-推及四海皆应学",
+            "summary": "大约在 12-15 年，我也曾是传统文化的狂热痴迷者，彼时一直跟随陈大惠老师的视频学习，整个人在这个飞速前进的时代，修炼出了一颗向内求的心，这些学习并修炼来的品性，都为我后来工作中所能取得的成绩做了注解。",
+            "image": "http://t.eryajf.net/imgs/2023/07/d6854899f1323cf1.jpg",
+            "date_modified": "2023-07-02T23:10:32.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/72a375/",
@@ -465,20 +465,20 @@
             "date_modified": "2023-04-27T17:45:51.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/1a0733/",
-            "url": "https://wiki.eryajf.net/pages/1a0733/",
-            "title": "博客接入CDN的折腾-对阿里云七牛云蓝易云多吉云几家CDN使用评测",
-            "summary": "一句话来讲：我需要 CDN 的加速能力，但是又不想为对抗刷流量付出过多的精力，在这个基础之上，费用越便宜越好。毕竟是个人博客，服务器费用已是自己承担，分享内容已消耗很多的精力，现在 CDN 如果再有过多的精力和金钱投入，就太难受了。有了以上的准备及预期之后，我开始了博客接入 CDN 的折腾之旅。顺着这个折腾之旅，也了解体验了不少国内的 CDN 产品，聊作记录，兼为评测，以为分享。",
-            "image": "http://t.eryajf.net/imgs/2023/01/4b0d2463a48df154.png",
-            "date_modified": "2023-01-30T11:44:55.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/b74c2b/",
             "url": "https://wiki.eryajf.net/pages/b74c2b/",
             "title": "Vuepress配置评论插件为Artalk",
             "summary": "把博客平台迁移到 vuepress 以来，之前折腾过好几次评论系统，大多是依赖第三方作为后端存储，导致要么是加载速度不理想，要么是配置费劲儿，于是，我终于下决心，自建评论系统。",
             "image": "http://t.eryajf.net/imgs/2022/11/dc133db73e0b890e.png",
             "date_modified": "2022-11-27T17:33:19.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/1a0733/",
+            "url": "https://wiki.eryajf.net/pages/1a0733/",
+            "title": "博客接入CDN的折腾-对阿里云七牛云蓝易云多吉云几家CDN使用评测",
+            "summary": "一句话来讲：我需要 CDN 的加速能力，但是又不想为对抗刷流量付出过多的精力，在这个基础之上，费用越便宜越好。毕竟是个人博客，服务器费用已是自己承担，分享内容已消耗很多的精力，现在 CDN 如果再有过多的精力和金钱投入，就太难受了。有了以上的准备及预期之后，我开始了博客接入 CDN 的折腾之旅。顺着这个折腾之旅，也了解体验了不少国内的 CDN 产品，聊作记录，兼为评测，以为分享。",
+            "image": "http://t.eryajf.net/imgs/2023/01/4b0d2463a48df154.png",
+            "date_modified": "2023-01-30T11:44:55.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/2e6f3a/",
@@ -561,20 +561,20 @@
             "date_modified": "2022-05-18T20:52:22.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/1b6f63/",
-            "url": "https://wiki.eryajf.net/pages/1b6f63/",
-            "title": "最近开源的两个项目-获取腾讯云CLS日志费用预估",
-            "summary": "一个分析腾讯云CLS日志费用预估的项目和一个命令行工具框架",
-            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230605_184855.png",
-            "date_modified": "2023-06-22T15:32:15.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/e85cbc/",
             "url": "https://wiki.eryajf.net/pages/e85cbc/",
             "title": "chatGPT钉钉群聊交互版-chatgpt-dingtalk",
             "summary": "最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。",
             "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230405_191425.jpg",
             "date_modified": "2022-12-09T17:47:22.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/1b6f63/",
+            "url": "https://wiki.eryajf.net/pages/1b6f63/",
+            "title": "最近开源的两个项目-获取腾讯云CLS日志费用预估",
+            "summary": "一个分析腾讯云CLS日志费用预估的项目和一个命令行工具框架",
+            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230605_184855.png",
+            "date_modified": "2023-06-22T15:32:15.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/a76bb0/",
@@ -630,20 +630,20 @@
             "date_modified": "2022-02-19T15:38:57.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/fa9a0a/",
-            "url": "https://wiki.eryajf.net/pages/fa9a0a/",
-            "title": "学习周刊-总第42期-2022年第07周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "image": "http://t.eryajf.net/imgs/2022/02/7b70201f236baff6.png",
-            "date_modified": "2022-02-26T13:41:01.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/b47c65/",
             "url": "https://wiki.eryajf.net/pages/b47c65/",
             "title": "学习周刊-总第43期-2022年第08周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "image": "http://t.eryajf.net/imgs/2022/02/802eccbe92779a77.png",
             "date_modified": "2022-03-05T13:21:22.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/fa9a0a/",
+            "url": "https://wiki.eryajf.net/pages/fa9a0a/",
+            "title": "学习周刊-总第42期-2022年第07周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "image": "http://t.eryajf.net/imgs/2022/02/7b70201f236baff6.png",
+            "date_modified": "2022-02-26T13:41:01.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/c3ee7b/",
@@ -716,14 +716,6 @@
             "date_modified": "2022-05-07T20:38:56.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/75bb76/",
-            "url": "https://wiki.eryajf.net/pages/75bb76/",
-            "title": "学习周刊-总第54期-2022年第19周",
-            "summary": "学习周刊-总第54期-2022年第19周",
-            "image": "http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png",
-            "date_modified": "2022-05-21T14:52:29.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/fc658e/",
             "url": "https://wiki.eryajf.net/pages/fc658e/",
             "title": "学习周刊-总第53期-2022年第18周",
@@ -738,6 +730,14 @@
             "summary": "学习周刊-总第55期-2022年第20周",
             "image": "http://t.eryajf.net/imgs/2022/05/3f91cdfe2a5e2ec8.webp",
             "date_modified": "2022-05-28T18:03:49.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/75bb76/",
+            "url": "https://wiki.eryajf.net/pages/75bb76/",
+            "title": "学习周刊-总第54期-2022年第19周",
+            "summary": "学习周刊-总第54期-2022年第19周",
+            "image": "http://t.eryajf.net/imgs/2022/05/c10793cf89b04397.png",
+            "date_modified": "2022-05-21T14:52:29.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/77b80b/",
@@ -1019,20 +1019,20 @@
             "date_modified": "2023-01-20T10:01:50.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/644c4d/",
-            "url": "https://wiki.eryajf.net/pages/644c4d/",
-            "title": "学习周刊-总第91期-2023年第04周",
-            "summary": "学习周刊-总第91期-一个开源的Git客户端",
-            "image": "http://t.eryajf.net/imgs/2023/01/572555138a87b6bc.png",
-            "date_modified": "2023-01-27T16:05:44.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/971e2b/",
             "url": "https://wiki.eryajf.net/pages/971e2b/",
             "title": "学习周刊-总第92期-2023年第05周",
             "summary": "学习周刊-总第92期-一个超级优秀的浏览器网页翻译插件",
             "image": "http://t.eryajf.net/imgs/2023/02/30fc1a8aa9fbb3c1.png",
             "date_modified": "2023-02-03T10:01:53.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/644c4d/",
+            "url": "https://wiki.eryajf.net/pages/644c4d/",
+            "title": "学习周刊-总第91期-2023年第04周",
+            "summary": "学习周刊-总第91期-一个开源的Git客户端",
+            "image": "http://t.eryajf.net/imgs/2023/01/572555138a87b6bc.png",
+            "date_modified": "2023-01-27T16:05:44.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/a4cf69/",
