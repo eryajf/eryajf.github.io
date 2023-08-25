@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-08-18T01:31:12.470Z</updated>
+    <updated>2023-08-25T01:46:00.551Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -441,20 +441,20 @@
         <summary type="html"><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[结合Multitouch完成我在Mac触摸板上的高效使用]]></title>
-        <id>https://wiki.eryajf.net/pages/301514/</id>
-        <link href="https://wiki.eryajf.net/pages/301514/">
-        </link>
-        <updated>2022-11-12T15:32:33.000Z</updated>
-        <summary type="html"><![CDATA[Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
         <id>https://wiki.eryajf.net/pages/c2262c/</id>
         <link href="https://wiki.eryajf.net/pages/c2262c/">
         </link>
         <updated>2022-08-25T09:04:55.000Z</updated>
         <summary type="html"><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[结合Multitouch完成我在Mac触摸板上的高效使用]]></title>
+        <id>https://wiki.eryajf.net/pages/301514/</id>
+        <link href="https://wiki.eryajf.net/pages/301514/">
+        </link>
+        <updated>2022-11-12T15:32:33.000Z</updated>
+        <summary type="html"><![CDATA[Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[brew安装软件的一个报错解决]]></title>
@@ -497,20 +497,20 @@
         <summary type="html"><![CDATA[一句话来讲：我需要 CDN 的加速能力，但是又不想为对抗刷流量付出过多的精力，在这个基础之上，费用越便宜越好。毕竟是个人博客，服务器费用已是自己承担，分享内容已消耗很多的精力，现在 CDN 如果再有过多的精力和金钱投入，就太难受了。有了以上的准备及预期之后，我开始了博客接入 CDN 的折腾之旅。顺着这个折腾之旅，也了解体验了不少国内的 CDN 产品，聊作记录，兼为评测，以为分享。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vuepress配置rss订阅功能]]></title>
-        <id>https://wiki.eryajf.net/pages/dbc829/</id>
-        <link href="https://wiki.eryajf.net/pages/dbc829/">
-        </link>
-        <updated>2023-02-01T21:54:04.000Z</updated>
-        <summary type="html"><![CDATA[默认的 vuepress 程序没有集成 rss 订阅能力，不过第三方有插件集成了相应的能力，本文来介绍下如何通过插件来为博客集成 rss 订阅能力。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Vuepress添加首页轮播图与打赏按钮的配置]]></title>
         <id>https://wiki.eryajf.net/pages/2e6f3a/</id>
         <link href="https://wiki.eryajf.net/pages/2e6f3a/">
         </link>
         <updated>2023-02-01T21:53:53.000Z</updated>
         <summary type="html"><![CDATA[我的博客已经快五岁了，她得学会自己挣钱了，于是乎，我打算通过添加一个轮播图，来挂一些广告。这个功能从想法到落地折腾了两三天，最后终于配置完毕，今天来做个分享。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vuepress配置rss订阅功能]]></title>
+        <id>https://wiki.eryajf.net/pages/dbc829/</id>
+        <link href="https://wiki.eryajf.net/pages/dbc829/">
+        </link>
+        <updated>2023-02-01T21:54:04.000Z</updated>
+        <summary type="html"><![CDATA[默认的 vuepress 程序没有集成 rss 订阅能力，不过第三方有插件集成了相应的能力，本文来介绍下如何通过插件来为博客集成 rss 订阅能力。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vuepress全文搜索插件vuepress-plugin-flexsearch-pro]]></title>
@@ -705,20 +705,20 @@
         <summary type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></title>
-        <id>https://wiki.eryajf.net/pages/4c8490/</id>
-        <link href="https://wiki.eryajf.net/pages/4c8490/">
-        </link>
-        <updated>2022-04-23T22:12:15.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></title>
         <id>https://wiki.eryajf.net/pages/0e9bb7/</id>
         <link href="https://wiki.eryajf.net/pages/0e9bb7/">
         </link>
         <updated>2022-04-17T15:29:35.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></title>
+        <id>https://wiki.eryajf.net/pages/4c8490/</id>
+        <link href="https://wiki.eryajf.net/pages/4c8490/">
+        </link>
+        <updated>2022-04-23T22:12:15.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第51期-2022年第16周]]></title>
@@ -889,20 +889,20 @@
         <summary type="html"><![CDATA[学习周刊-总第71期-一些国内的公司在服务网格方面的实践]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第73期-2022年第38周]]></title>
-        <id>https://wiki.eryajf.net/pages/3d89ea/</id>
-        <link href="https://wiki.eryajf.net/pages/3d89ea/">
-        </link>
-        <updated>2022-09-30T08:38:21.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第73期-k8s集群常用监控指标]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第72期-2022年第37周]]></title>
         <id>https://wiki.eryajf.net/pages/430bd1/</id>
         <link href="https://wiki.eryajf.net/pages/430bd1/">
         </link>
         <updated>2022-09-23T08:50:33.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第72期-有些事，不能忘]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第73期-2022年第38周]]></title>
+        <id>https://wiki.eryajf.net/pages/3d89ea/</id>
+        <link href="https://wiki.eryajf.net/pages/3d89ea/">
+        </link>
+        <updated>2022-09-30T08:38:21.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第73期-k8s集群常用监控指标]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第74期-2022年第39周]]></title>
@@ -1281,6 +1281,14 @@
         <summary type="html"><![CDATA[学习周刊-总第120期-一款go语言编写的开源的自荐邮件服务器系统项目]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[学习周刊-总第121期-2023年第34周]]></title>
+        <id>https://wiki.eryajf.net/pages/0e1fea/</id>
+        <link href="https://wiki.eryajf.net/pages/0e1fea/">
+        </link>
+        <updated>2023-08-25T09:14:50.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第121期-Obsidian一些同步方案的介绍]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Obsidian插件周刊第十四期]]></title>
         <id>https://wiki.eryajf.net/pages/1f0c42/</id>
         <link href="https://wiki.eryajf.net/pages/1f0c42/">
@@ -1289,19 +1297,19 @@
         <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Obsidian插件周刊第十七期]]></title>
-        <id>https://wiki.eryajf.net/pages/e5cdbf/</id>
-        <link href="https://wiki.eryajf.net/pages/e5cdbf/">
-        </link>
-        <updated>2022-03-12T08:27:15.000Z</updated>
-        <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Obsidian插件周刊第十六期]]></title>
         <id>https://wiki.eryajf.net/pages/ee8957/</id>
         <link href="https://wiki.eryajf.net/pages/ee8957/">
         </link>
         <updated>2022-02-26T13:41:20.000Z</updated>
+        <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Obsidian插件周刊第十七期]]></title>
+        <id>https://wiki.eryajf.net/pages/e5cdbf/</id>
+        <link href="https://wiki.eryajf.net/pages/e5cdbf/">
+        </link>
+        <updated>2022-03-12T08:27:15.000Z</updated>
         <summary type="html"><![CDATA[请参阅：Obsidian插件周刊说明。]]></summary>
     </entry>
     <entry>

@@ -433,20 +433,20 @@
             "date_modified": "2022-08-01T15:28:09.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/301514/",
-            "url": "https://wiki.eryajf.net/pages/301514/",
-            "title": "结合Multitouch完成我在Mac触摸板上的高效使用",
-            "summary": "Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。",
-            "image": "http://t.eryajf.net/imgs/2022/11/6145ae6b7f89c4da.png",
-            "date_modified": "2022-11-12T15:32:33.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/c2262c/",
             "url": "https://wiki.eryajf.net/pages/c2262c/",
             "title": "Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解",
             "summary": "前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。",
             "image": "http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png",
             "date_modified": "2022-08-25T09:04:55.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/301514/",
+            "url": "https://wiki.eryajf.net/pages/301514/",
+            "title": "结合Multitouch完成我在Mac触摸板上的高效使用",
+            "summary": "Mac 的触摸板已经是一大神器，通过辅助软件配置好，将会生发出更大的能量。本文分享记录我的触摸板规则及配置。",
+            "image": "http://t.eryajf.net/imgs/2022/11/6145ae6b7f89c4da.png",
+            "date_modified": "2022-11-12T15:32:33.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/62a7c7/",
@@ -489,20 +489,20 @@
             "date_modified": "2023-01-30T11:44:55.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/dbc829/",
-            "url": "https://wiki.eryajf.net/pages/dbc829/",
-            "title": "Vuepress配置rss订阅功能",
-            "summary": "默认的 vuepress 程序没有集成 rss 订阅能力，不过第三方有插件集成了相应的能力，本文来介绍下如何通过插件来为博客集成 rss 订阅能力。",
-            "image": "http://t.eryajf.net/imgs/2023/02/eda332e9f423f6b1.jpg",
-            "date_modified": "2023-02-01T21:54:04.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/2e6f3a/",
             "url": "https://wiki.eryajf.net/pages/2e6f3a/",
             "title": "Vuepress添加首页轮播图与打赏按钮的配置",
             "summary": "我的博客已经快五岁了，她得学会自己挣钱了，于是乎，我打算通过添加一个轮播图，来挂一些广告。这个功能从想法到落地折腾了两三天，最后终于配置完毕，今天来做个分享。",
             "image": "http://t.eryajf.net/imgs/2023/02/c647413d4ef42b85.jpg",
             "date_modified": "2023-02-01T21:53:53.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/dbc829/",
+            "url": "https://wiki.eryajf.net/pages/dbc829/",
+            "title": "Vuepress配置rss订阅功能",
+            "summary": "默认的 vuepress 程序没有集成 rss 订阅能力，不过第三方有插件集成了相应的能力，本文来介绍下如何通过插件来为博客集成 rss 订阅能力。",
+            "image": "http://t.eryajf.net/imgs/2023/02/eda332e9f423f6b1.jpg",
+            "date_modified": "2023-02-01T21:54:04.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/b205e9/",
@@ -692,20 +692,20 @@
             "date_modified": "2022-04-09T08:11:16.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/4c8490/",
-            "url": "https://wiki.eryajf.net/pages/4c8490/",
-            "title": "学习周刊-总第50期-2022年第15周",
-            "summary": "学习周刊-总第50期-2022年第15周",
-            "image": "http://t.eryajf.net/imgs/2022/04/efd61d4133686e59.jpg",
-            "date_modified": "2022-04-23T22:12:15.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/0e9bb7/",
             "url": "https://wiki.eryajf.net/pages/0e9bb7/",
             "title": "学习周刊-总第49期-2022年第14周",
             "summary": "学习周刊-总第49期-2022年第14周",
             "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
             "date_modified": "2022-04-17T15:29:35.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/4c8490/",
+            "url": "https://wiki.eryajf.net/pages/4c8490/",
+            "title": "学习周刊-总第50期-2022年第15周",
+            "summary": "学习周刊-总第50期-2022年第15周",
+            "image": "http://t.eryajf.net/imgs/2022/04/efd61d4133686e59.jpg",
+            "date_modified": "2022-04-23T22:12:15.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/4d2fe6/",
@@ -876,20 +876,20 @@
             "date_modified": "2022-09-16T09:06:29.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/3d89ea/",
-            "url": "https://wiki.eryajf.net/pages/3d89ea/",
-            "title": "学习周刊-总第73期-2022年第38周",
-            "summary": "学习周刊-总第73期-k8s集群常用监控指标",
-            "image": "http://t.eryajf.net/imgs/2022/09/8336066abe86e4c9.png",
-            "date_modified": "2022-09-30T08:38:21.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/430bd1/",
             "url": "https://wiki.eryajf.net/pages/430bd1/",
             "title": "学习周刊-总第72期-2022年第37周",
             "summary": "学习周刊-总第72期-有些事，不能忘",
             "image": "http://t.eryajf.net/imgs/2022/09/96e4c6b63f45feac.gif",
             "date_modified": "2022-09-23T08:50:33.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/3d89ea/",
+            "url": "https://wiki.eryajf.net/pages/3d89ea/",
+            "title": "学习周刊-总第73期-2022年第38周",
+            "summary": "学习周刊-总第73期-k8s集群常用监控指标",
+            "image": "http://t.eryajf.net/imgs/2022/09/8336066abe86e4c9.png",
+            "date_modified": "2022-09-30T08:38:21.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/cc327d/",
@@ -1267,6 +1267,14 @@
             "date_modified": "2023-08-18T09:08:42.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/0e1fea/",
+            "url": "https://wiki.eryajf.net/pages/0e1fea/",
+            "title": "学习周刊-总第121期-2023年第34周",
+            "summary": "学习周刊-总第121期-Obsidian一些同步方案的介绍",
+            "image": "https://t.eryajf.net/imgs/2023/08/1691808926212.png",
+            "date_modified": "2023-08-25T09:14:50.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/1f0c42/",
             "url": "https://wiki.eryajf.net/pages/1f0c42/",
             "title": "Obsidian插件周刊第十四期",
@@ -1275,20 +1283,20 @@
             "date_modified": "2022-02-14T09:32:32.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/e5cdbf/",
-            "url": "https://wiki.eryajf.net/pages/e5cdbf/",
-            "title": "Obsidian插件周刊第十七期",
-            "summary": "请参阅：Obsidian插件周刊说明。",
-            "image": "http://t.eryajf.net/imgs/2022/01/74c63f250a88161c.png",
-            "date_modified": "2022-03-12T08:27:15.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/ee8957/",
             "url": "https://wiki.eryajf.net/pages/ee8957/",
             "title": "Obsidian插件周刊第十六期",
             "summary": "请参阅：Obsidian插件周刊说明。",
             "image": "http://t.eryajf.net/imgs/2022/01/53f15953f734705f.png",
             "date_modified": "2022-02-26T13:41:20.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/e5cdbf/",
+            "url": "https://wiki.eryajf.net/pages/e5cdbf/",
+            "title": "Obsidian插件周刊第十七期",
+            "summary": "请参阅：Obsidian插件周刊说明。",
+            "image": "http://t.eryajf.net/imgs/2022/01/74c63f250a88161c.png",
+            "date_modified": "2022-03-12T08:27:15.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/b2f34c/",
