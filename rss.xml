@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Fri, 25 Aug 2023 01:46:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Sep 2023 01:58:59 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -100,21 +100,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Docker容器如何优雅地访问宿主机网络]]></title>
-            <link>https://wiki.eryajf.net/pages/674f53/</link>
-            <guid>https://wiki.eryajf.net/pages/674f53/</guid>
-            <pubDate>Tue, 07 Mar 2023 13:59:35 GMT</pubDate>
-            <description><![CDATA[某些时候，我们会有在容器内容访问宿主机某个服务的需求，比如现在 openai 无法直接访问，需要给项目添加代理，我的 chatgpt-dingtalk 项目支持了通过环境变量指定代理地址。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/03/215c61e103505625.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[博客已发布过的docker-compose拉起项目文件汇集]]></title>
             <link>https://wiki.eryajf.net/pages/e8b7f8/</link>
             <guid>https://wiki.eryajf.net/pages/e8b7f8/</guid>
             <pubDate>Mon, 09 May 2022 23:48:06 GMT</pubDate>
             <description><![CDATA[因为很多通过docker-compose拉起的项目，都归属到项目的分类之下了，在docker-compose分类下反而没有内容了，但是在用到的时候却又并不便于查找，因此本文对散落在各处的配置进行一个汇总搜集。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/05/c6704e16e4b21cc1.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Docker容器如何优雅地访问宿主机网络]]></title>
+            <link>https://wiki.eryajf.net/pages/674f53/</link>
+            <guid>https://wiki.eryajf.net/pages/674f53/</guid>
+            <pubDate>Tue, 07 Mar 2023 13:59:35 GMT</pubDate>
+            <description><![CDATA[某些时候，我们会有在容器内容访问宿主机某个服务的需求，比如现在 openai 无法直接访问，需要给项目添加代理，我的 chatgpt-dingtalk 项目支持了通过环境变量指定代理地址。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/03/215c61e103505625.png">
             </enclosure>
         </item>
         <item>
@@ -1140,21 +1140,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第90期-2023年第03周]]></title>
-            <link>https://wiki.eryajf.net/pages/0af1da/</link>
-            <guid>https://wiki.eryajf.net/pages/0af1da/</guid>
-            <pubDate>Fri, 20 Jan 2023 10:01:50 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第90期-一个将 sql 转换为 elasticsearch DSL 的 go 库]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/01/5c9362499fd75ba6.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第91期-2023年第04周]]></title>
             <link>https://wiki.eryajf.net/pages/644c4d/</link>
             <guid>https://wiki.eryajf.net/pages/644c4d/</guid>
             <pubDate>Fri, 27 Jan 2023 16:05:44 GMT</pubDate>
             <description><![CDATA[学习周刊-总第91期-一个开源的Git客户端]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/01/572555138a87b6bc.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第90期-2023年第03周]]></title>
+            <link>https://wiki.eryajf.net/pages/0af1da/</link>
+            <guid>https://wiki.eryajf.net/pages/0af1da/</guid>
+            <pubDate>Fri, 20 Jan 2023 10:01:50 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第90期-一个将 sql 转换为 elasticsearch DSL 的 go 库]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/01/5c9362499fd75ba6.png">
             </enclosure>
         </item>
         <item>
@@ -1194,21 +1194,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第96期-2023年第09周]]></title>
-            <link>https://wiki.eryajf.net/pages/866763/</link>
-            <guid>https://wiki.eryajf.net/pages/866763/</guid>
-            <pubDate>Fri, 03 Mar 2023 20:09:06 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第96期-超强的开源搜索引擎meilisearch]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/02/bdce31c81c72219d.gif">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第97期-2023年第10周]]></title>
             <link>https://wiki.eryajf.net/pages/823a62/</link>
             <guid>https://wiki.eryajf.net/pages/823a62/</guid>
             <pubDate>Fri, 10 Mar 2023 09:21:50 GMT</pubDate>
             <description><![CDATA[学习周刊-总第97期-一个开源的APM程序]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/02/9b1387a9546d5696.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第96期-2023年第09周]]></title>
+            <link>https://wiki.eryajf.net/pages/866763/</link>
+            <guid>https://wiki.eryajf.net/pages/866763/</guid>
+            <pubDate>Fri, 03 Mar 2023 20:09:06 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第96期-超强的开源搜索引擎meilisearch]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/02/bdce31c81c72219d.gif">
             </enclosure>
         </item>
         <item>
@@ -1425,6 +1425,15 @@
             <pubDate>Fri, 25 Aug 2023 09:14:50 GMT</pubDate>
             <description><![CDATA[学习周刊-总第121期-Obsidian一些同步方案的介绍]]></description>
             <enclosure url="https://t.eryajf.net/imgs/2023/08/1691808926212.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第122期-2023年第35周]]></title>
+            <link>https://wiki.eryajf.net/pages/d0decb/</link>
+            <guid>https://wiki.eryajf.net/pages/d0decb/</guid>
+            <pubDate>Fri, 01 Sep 2023 09:36:21 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第122期-一个指导我们构建自己喜欢的技术的开源知识仓库]]></description>
+            <enclosure url="https://t.eryajf.net/imgs/2023/08/1693230102093.png">
             </enclosure>
         </item>
         <item>
