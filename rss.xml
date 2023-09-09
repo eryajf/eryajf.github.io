@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Fri, 08 Sep 2023 00:49:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Sep 2023 15:43:31 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -19,21 +19,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[腾讯云日志产品CLS使用以及成本控制的最佳实践]]></title>
-            <link>https://wiki.eryajf.net/pages/d4534a/</link>
-            <guid>https://wiki.eryajf.net/pages/d4534a/</guid>
-            <pubDate>Fri, 19 May 2023 09:15:57 GMT</pubDate>
-            <description><![CDATA[日志成本控制主要有如下几个维度：- 减量：去掉没有意义的无效日志，只打印关键日志。- 减周期：尽可能减少日志存储的时长。- 转低频：低频相较于标准存储，可降低 6 0%--70%的成本。- 慎开全文索引：全文索引将会把所有日志全部索引一遍，并且这个存储是未压缩的存储，如果开启全文索引，则存储往往会比不开的存储高出 4--10 倍。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/05/d09320ca6917fc3f.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[CMDB平台建设指南]]></title>
             <link>https://wiki.eryajf.net/pages/4bcf72/</link>
             <guid>https://wiki.eryajf.net/pages/4bcf72/</guid>
             <pubDate>Sat, 08 Jul 2023 16:56:07 GMT</pubDate>
             <description><![CDATA[我们的运维团队汇聚了一群优秀的，富有想法的年轻人。每次周会里边，当我们完成了各自日常工作的交流沟通之后，总是会跳出当下，天南海北，胡言乱语地头脑风暴一番。在这些看似  闲笔  的沟通当中，我们进行了大量的运维规范以及最佳实践的讨论，而当我们进行地讨论越多，越能够发现一个问题，无论是对于一个全流程(指一个项目的整个生命周期)命名的规范约束落地，还是对发布平台以应用维度的主机列表维护，都步步绕不开一个能够真正解决运维痛点的 CMDB 平台。注意，这里在 CMDB 这个名词的前边加了一个定语，真正解决运维痛点。事实上在这之前，我们并非没有做过 CMDB 平台的建设，只不过由于我们以往对这一概念的认知不足，完全交由运维开发同学，按他的一些经验想法开发出来的 CMDB，却总是难以真正在实际运维生产当中落地，简而言之就是，CMDB 平台做过，但都失败了。]]></description>
             <enclosure url="https://t.eryajf.net/imgs/2023/07/1688807086693.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[腾讯云日志产品CLS使用以及成本控制的最佳实践]]></title>
+            <link>https://wiki.eryajf.net/pages/d4534a/</link>
+            <guid>https://wiki.eryajf.net/pages/d4534a/</guid>
+            <pubDate>Fri, 19 May 2023 09:15:57 GMT</pubDate>
+            <description><![CDATA[日志成本控制主要有如下几个维度：- 减量：去掉没有意义的无效日志，只打印关键日志。- 减周期：尽可能减少日志存储的时长。- 转低频：低频相较于标准存储，可降低 6 0%--70%的成本。- 慎开全文索引：全文索引将会把所有日志全部索引一遍，并且这个存储是未压缩的存储，如果开启全文索引，则存储往往会比不开的存储高出 4--10 倍。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/05/d09320ca6917fc3f.jpg">
             </enclosure>
         </item>
         <item>
@@ -82,21 +82,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Docker 调试构建失败的 Dockerfile 的方法]]></title>
-            <link>https://wiki.eryajf.net/pages/8ff051/</link>
-            <guid>https://wiki.eryajf.net/pages/8ff051/</guid>
-            <pubDate>Sat, 22 Oct 2022 21:58:03 GMT</pubDate>
-            <description><![CDATA[当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[docker exec命令中含有通配符执行失败的问题]]></title>
             <link>https://wiki.eryajf.net/pages/1cb90e/</link>
             <guid>https://wiki.eryajf.net/pages/1cb90e/</guid>
             <pubDate>Tue, 14 Jun 2022 17:21:26 GMT</pubDate>
             <description><![CDATA[我写的的demo环境是通过docker-compose一键拉起的。因为服务器部署，与本地拉起测试有一些配置需要调整，于是打算用脚本做一下，这个时候发现执行带有通配符的命令会报如下错误]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/06/8647d5b91f458b86.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Docker 调试构建失败的 Dockerfile 的方法]]></title>
+            <link>https://wiki.eryajf.net/pages/8ff051/</link>
+            <guid>https://wiki.eryajf.net/pages/8ff051/</guid>
+            <pubDate>Sat, 22 Oct 2022 21:58:03 GMT</pubDate>
+            <description><![CDATA[当我们基于 Dockerfile 构建一个镜像的时候，不可避免的会遇到错误或失败，这个时候，通常我们会核查对应步骤执行的指令，然后调整指令，再次构建镜像，这是一种常规的方法。其实，因为 Docker 底层存储的机制，我们可以直接进入到失败之前成功的那次状态中，然后二次调试我们的指令，从而做到有的放矢地验证。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/10/614b90515388dca3.png">
             </enclosure>
         </item>
         <item>
@@ -368,6 +368,15 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[Jenkins-pipeline之利用activity choice插件对接查询MySQL数据实现动态参数化的功能]]></title>
+            <link>https://wiki.eryajf.net/pages/90c88d/</link>
+            <guid>https://wiki.eryajf.net/pages/90c88d/</guid>
+            <pubDate>Sat, 09 Sep 2023 23:18:29 GMT</pubDate>
+            <description><![CDATA[Jenkins-pipeline之利用activity choice插件对接查询MySQL数据实现动态参数化的功能]]></description>
+            <enclosure url="https://t.eryajf.net/imgs/2023/09/1694272861789.png">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[k8s集群接入了kubegems之后删除namespace报错kubegems-local-controller-webhook-not-found]]></title>
             <link>https://wiki.eryajf.net/pages/0c3bcb/</link>
             <guid>https://wiki.eryajf.net/pages/0c3bcb/</guid>
@@ -429,6 +438,13 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[在家季余随感]]></title>
+            <link>https://wiki.eryajf.net/pages/e36842/</link>
+            <guid>https://wiki.eryajf.net/pages/e36842/</guid>
+            <pubDate>Wed, 20 Jul 2022 17:22:11 GMT</pubDate>
+            <description><![CDATA[老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸]]></description>
+        </item>
+        <item>
             <title><![CDATA[微拍堂工作盖论]]></title>
             <link>https://wiki.eryajf.net/pages/00a267/</link>
             <guid>https://wiki.eryajf.net/pages/00a267/</guid>
@@ -436,13 +452,6 @@
             <description><![CDATA[诚然，微拍堂有它不完美的地方，幸运的是，我遇到了一群近乎完美的人组成的完美的团队，我们之间的关系没有任何缝隙，我们互相信任，彼此坦诚，真诚分享，并肩作战，共同成长。吃饭当晚，我们每个人也都感慨着，细数着每个人的优秀与负责任，并真切感受到这样一个团队氛围的珍贵。几个月后，我在朋友圈发表：再也遇不到了，好在曾经拥有过！]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/09/0755cf3a9ebc183e.jpg">
             </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[在家季余随感]]></title>
-            <link>https://wiki.eryajf.net/pages/e36842/</link>
-            <guid>https://wiki.eryajf.net/pages/e36842/</guid>
-            <pubDate>Wed, 20 Jul 2022 17:22:11 GMT</pubDate>
-            <description><![CDATA[老婆，孩子，热炕头,电脑，开源，打篮球,我已阔别城市那拥挤的精彩,在家抓住了这一阵儿的平庸]]></description>
         </item>
         <item>
             <title><![CDATA[博客与开源帮我找到工作]]></title>
@@ -693,21 +702,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第38期-2022年第03周]]></title>
-            <link>https://wiki.eryajf.net/pages/1d2aab/</link>
-            <guid>https://wiki.eryajf.net/pages/1d2aab/</guid>
-            <pubDate>Fri, 21 Jan 2022 21:43:40 GMT</pubDate>
-            <description><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/01/ba56862e2b17337a.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第37期-2022年第02周]]></title>
             <link>https://wiki.eryajf.net/pages/cbecfd/</link>
             <guid>https://wiki.eryajf.net/pages/cbecfd/</guid>
             <pubDate>Sat, 15 Jan 2022 13:47:04 GMT</pubDate>
             <description><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/01/1673c473898b4424.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第38期-2022年第03周]]></title>
+            <link>https://wiki.eryajf.net/pages/1d2aab/</link>
+            <guid>https://wiki.eryajf.net/pages/1d2aab/</guid>
+            <pubDate>Fri, 21 Jan 2022 21:43:40 GMT</pubDate>
+            <description><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/01/ba56862e2b17337a.png">
             </enclosure>
         </item>
         <item>
@@ -1106,21 +1115,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第85期-2022年第50周]]></title>
-            <link>https://wiki.eryajf.net/pages/a11db4/</link>
-            <guid>https://wiki.eryajf.net/pages/a11db4/</guid>
-            <pubDate>Fri, 23 Dec 2022 20:44:39 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第85期-go语言进程管理工具]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/12/3d860bbd408102db.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第84期-2022年第49周]]></title>
             <link>https://wiki.eryajf.net/pages/355e5b/</link>
             <guid>https://wiki.eryajf.net/pages/355e5b/</guid>
             <pubDate>Fri, 16 Dec 2022 18:16:30 GMT</pubDate>
             <description><![CDATA[学习周刊-总第84期-关于手机号的正则校验应该用严格校验，还是宽松校验呢]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/12/86ae7415aad2c7cf.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第85期-2022年第50周]]></title>
+            <link>https://wiki.eryajf.net/pages/a11db4/</link>
+            <guid>https://wiki.eryajf.net/pages/a11db4/</guid>
+            <pubDate>Fri, 23 Dec 2022 20:44:39 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第85期-go语言进程管理工具]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/12/3d860bbd408102db.png">
             </enclosure>
         </item>
         <item>
@@ -1167,21 +1176,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第92期-2023年第05周]]></title>
-            <link>https://wiki.eryajf.net/pages/971e2b/</link>
-            <guid>https://wiki.eryajf.net/pages/971e2b/</guid>
-            <pubDate>Fri, 03 Feb 2023 10:01:53 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第92期-一个超级优秀的浏览器网页翻译插件]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/02/30fc1a8aa9fbb3c1.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第91期-2023年第04周]]></title>
             <link>https://wiki.eryajf.net/pages/644c4d/</link>
             <guid>https://wiki.eryajf.net/pages/644c4d/</guid>
             <pubDate>Fri, 27 Jan 2023 16:05:44 GMT</pubDate>
             <description><![CDATA[学习周刊-总第91期-一个开源的Git客户端]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/01/572555138a87b6bc.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第92期-2023年第05周]]></title>
+            <link>https://wiki.eryajf.net/pages/971e2b/</link>
+            <guid>https://wiki.eryajf.net/pages/971e2b/</guid>
+            <pubDate>Fri, 03 Feb 2023 10:01:53 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第92期-一个超级优秀的浏览器网页翻译插件]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/02/30fc1a8aa9fbb3c1.png">
             </enclosure>
         </item>
         <item>
