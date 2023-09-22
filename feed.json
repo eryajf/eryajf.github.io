@@ -229,20 +229,20 @@
             "date_modified": "2022-08-01T23:42:32.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/c78b38/",
-            "url": "https://wiki.eryajf.net/pages/c78b38/",
-            "title": "利用GitHub Actions自动检测项目中的问题链接",
-            "summary": "我维护的开源项目 https://github.com/eryajf/Thanks-Mirror 整理记录了各个包管理器，系统镜像，以及常用软件的好用镜像，随着项目越来越完善，到今天，已经累计整理链接 1091 个，随着时间推移，一些国内镜像可能会停止维护，如何自定感知那些已经失效的链接，就是一个需要考虑的事情了。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的链接，然后对链接进行请求，根据自定义的规则，自动抛出异常的链接，然后将这些链接创建到issue当中。",
-            "image": "http://t.eryajf.net/imgs/2022/08/6553b783d2d157ca.png",
-            "date_modified": "2022-08-08T15:47:20.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/d16f3f/",
             "url": "https://wiki.eryajf.net/pages/d16f3f/",
             "title": "利用GitHub Actions自动构建go项目的二进制到release",
             "summary": "最近 ChatGPT 大火，随之一起火起来的，有一大批基于 ChatGPT 编写的工具，我的项目chatgpt-dingtalk也是这批项目中的一个，旨在提供在钉钉群聊中与 ChatGPT 交互的能力。这是一个工具类的项目，已经提供了 docker 一键部署的能力。但是也有人只想通过二进制直接部署的方式进行体验，多平台兼容的二进制构建，早已有成熟的 Actions 支持，本文就来介绍一个实现方案。",
             "image": "http://t.eryajf.net/imgs/2022/12/1d8e1511fa8befa5.png",
             "date_modified": "2022-12-12T13:10:22.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/c78b38/",
+            "url": "https://wiki.eryajf.net/pages/c78b38/",
+            "title": "利用GitHub Actions自动检测项目中的问题链接",
+            "summary": "我维护的开源项目 https://github.com/eryajf/Thanks-Mirror 整理记录了各个包管理器，系统镜像，以及常用软件的好用镜像，随着项目越来越完善，到今天，已经累计整理链接 1091 个，随着时间推移，一些国内镜像可能会停止维护，如何自定感知那些已经失效的链接，就是一个需要考虑的事情了。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的链接，然后对链接进行请求，根据自定义的规则，自动抛出异常的链接，然后将这些链接创建到issue当中。",
+            "image": "http://t.eryajf.net/imgs/2022/08/6553b783d2d157ca.png",
+            "date_modified": "2022-08-08T15:47:20.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/77e2fe/",
@@ -410,20 +410,20 @@
             "date_modified": "2023-05-14T22:28:34.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/47872c/",
-            "url": "https://wiki.eryajf.net/pages/47872c/",
-            "title": "记录2022年购买过的电子产品",
-            "summary": "一路走来，我也算是一个数码爱好者，虽然不像上学时因为穷爱而不得的那种狂热，但也仍旧对高性能，高品质的产品有相当的追求。本文将记录我在2022年度买过的还不错的电子产品。",
-            "image": "http://t.eryajf.net/imgs/2023/05/dc7f098a948436f6.jpg",
-            "date_modified": "2023-05-26T22:52:36.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/d5188a/",
             "url": "https://wiki.eryajf.net/pages/d5188a/",
             "title": "欣闻陈大惠老师重新开播-推及四海皆应学",
             "summary": "大约在 12-15 年，我也曾是传统文化的狂热痴迷者，彼时一直跟随陈大惠老师的视频学习，整个人在这个飞速前进的时代，修炼出了一颗向内求的心，这些学习并修炼来的品性，都为我后来工作中所能取得的成绩做了注解。",
             "image": "http://t.eryajf.net/imgs/2023/07/d6854899f1323cf1.jpg",
             "date_modified": "2023-07-02T23:10:32.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/47872c/",
+            "url": "https://wiki.eryajf.net/pages/47872c/",
+            "title": "记录2022年购买过的电子产品",
+            "summary": "一路走来，我也算是一个数码爱好者，虽然不像上学时因为穷爱而不得的那种狂热，但也仍旧对高性能，高品质的产品有相当的追求。本文将记录我在2022年度买过的还不错的电子产品。",
+            "image": "http://t.eryajf.net/imgs/2023/05/dc7f098a948436f6.jpg",
+            "date_modified": "2023-05-26T22:52:36.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/72a375/",
@@ -441,20 +441,20 @@
             "date_modified": "2022-11-26T19:39:08.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/62b2b7/",
-            "url": "https://wiki.eryajf.net/pages/62b2b7/",
-            "title": "vscode开发前端项目时如何tab补全自定义HTML标签",
-            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
-            "image": "https://tvax1.sinaimg.cn/large/008k1Yt0ly1h3tk8o6vamj30rs15o462.jpg",
-            "date_modified": "2022-08-01T15:28:09.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/c2262c/",
             "url": "https://wiki.eryajf.net/pages/c2262c/",
             "title": "Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解",
             "summary": "前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。",
             "image": "http://t.eryajf.net/imgs/2022/08/0f1ec643b598917a.png",
             "date_modified": "2022-08-25T09:04:55.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/62b2b7/",
+            "url": "https://wiki.eryajf.net/pages/62b2b7/",
+            "title": "vscode开发前端项目时如何tab补全自定义HTML标签",
+            "summary": "当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。",
+            "image": "https://tvax1.sinaimg.cn/large/008k1Yt0ly1h3tk8o6vamj30rs15o462.jpg",
+            "date_modified": "2022-08-01T15:28:09.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/301514/",
@@ -473,20 +473,20 @@
             "date_modified": "2023-04-24T22:23:54.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/4aee10/",
-            "url": "https://wiki.eryajf.net/pages/4aee10/",
-            "title": "mac电脑安装Java开发环境",
-            "summary": "本文介绍如何在Mac上配置jdk与maven环境。",
-            "image": "http://t.eryajf.net/imgs/2023/04/80cc8c393d1e3fcf.png",
-            "date_modified": "2023-04-24T22:29:05.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/7220b1/",
             "url": "https://wiki.eryajf.net/pages/7220b1/",
             "title": "Mac 电脑中 zsh 环境下配置 docker 命令自动补全",
             "summary": "zsh 中有专门的插件来解决 docker 命令补全的问题，安装配置也比较简单，以下是操作的步骤。",
             "image": "http://t.eryajf.net/imgs/2023/04/cee03a95313195d3.jpg",
             "date_modified": "2023-04-27T17:45:51.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/4aee10/",
+            "url": "https://wiki.eryajf.net/pages/4aee10/",
+            "title": "mac电脑安装Java开发环境",
+            "summary": "本文介绍如何在Mac上配置jdk与maven环境。",
+            "image": "http://t.eryajf.net/imgs/2023/04/80cc8c393d1e3fcf.png",
+            "date_modified": "2023-04-24T22:29:05.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/b74c2b/",
@@ -545,20 +545,20 @@
             "date_modified": "2022-07-17T11:42:01.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/74da0a/",
-            "url": "https://wiki.eryajf.net/pages/74da0a/",
-            "title": "记录VSCode中写Go代码切换Sqlite无CGO依赖版本的过程以及遇到的五个问题",
-            "summary": "我的 xirang 系统之前引入 sqlite 功能的时候，使用的驱动包是 github.com/mattn/go-sqlite3 v1.14.15，这个库现在在 go 项目当中，引用最多，应用最广，看项目 Used By 达到了 71k，俨然成为这一方面的标准，但有一个最大的问题就是，这是一个 C 语言实现的库，如果要应用这个库，那么你的环境就需要解决这个 CGO 依赖。",
-            "image": "http://t.eryajf.net/imgs/2023/02/8c562458419d0f96.png",
-            "date_modified": "2023-02-25T11:38:49.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/95d127/",
             "url": "https://wiki.eryajf.net/pages/95d127/",
             "title": "企业微信自建应用-golang校验回调",
             "summary": "企业微信创建应用配置回调的步骤记录，golang版本。",
             "image": "http://t.eryajf.net/imgs/2023/06/e917209a33a521ce.png",
             "date_modified": "2023-06-22T15:27:29.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/74da0a/",
+            "url": "https://wiki.eryajf.net/pages/74da0a/",
+            "title": "记录VSCode中写Go代码切换Sqlite无CGO依赖版本的过程以及遇到的五个问题",
+            "summary": "我的 xirang 系统之前引入 sqlite 功能的时候，使用的驱动包是 github.com/mattn/go-sqlite3 v1.14.15，这个库现在在 go 项目当中，引用最多，应用最广，看项目 Used By 达到了 71k，俨然成为这一方面的标准，但有一个最大的问题就是，这是一个 C 语言实现的库，如果要应用这个库，那么你的环境就需要解决这个 CGO 依赖。",
+            "image": "http://t.eryajf.net/imgs/2023/02/8c562458419d0f96.png",
+            "date_modified": "2023-02-25T11:38:49.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/541fc0/",
@@ -585,20 +585,20 @@
             "date_modified": "2022-05-18T20:52:22.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/e85cbc/",
-            "url": "https://wiki.eryajf.net/pages/e85cbc/",
-            "title": "chatGPT钉钉群聊交互版-chatgpt-dingtalk",
-            "summary": "最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。",
-            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230405_191425.jpg",
-            "date_modified": "2022-12-09T17:47:22.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/1b6f63/",
             "url": "https://wiki.eryajf.net/pages/1b6f63/",
             "title": "最近开源的两个项目-获取腾讯云CLS日志费用预估",
             "summary": "一个分析腾讯云CLS日志费用预估的项目和一个命令行工具框架",
             "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230605_184855.png",
             "date_modified": "2023-06-22T15:32:15.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/e85cbc/",
+            "url": "https://wiki.eryajf.net/pages/e85cbc/",
+            "title": "chatGPT钉钉群聊交互版-chatgpt-dingtalk",
+            "summary": "最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。",
+            "image": "https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230405_191425.jpg",
+            "date_modified": "2022-12-09T17:47:22.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/a76bb0/",
@@ -633,6 +633,13 @@
             "date_modified": "2022-01-15T13:47:04.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/478f83/",
+            "url": "https://wiki.eryajf.net/pages/478f83/",
+            "title": "学习周刊-总第39期-2022年第04周",
+            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
+            "date_modified": "2022-01-30T16:16:38.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/1d2aab/",
             "url": "https://wiki.eryajf.net/pages/1d2aab/",
             "title": "学习周刊-总第38期-2022年第03周",
@@ -641,11 +648,11 @@
             "date_modified": "2022-01-21T21:43:40.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/478f83/",
-            "url": "https://wiki.eryajf.net/pages/478f83/",
-            "title": "学习周刊-总第39期-2022年第04周",
+            "id": "https://wiki.eryajf.net/pages/909492/",
+            "url": "https://wiki.eryajf.net/pages/909492/",
+            "title": "学习周刊-总第40期-2022年第05周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "date_modified": "2022-01-30T16:16:38.000Z"
+            "date_modified": "2022-02-12T00:08:49.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/ced061/",
@@ -653,13 +660,6 @@
             "title": "学习周刊-总第41期-2022年第06周",
             "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
             "date_modified": "2022-02-19T15:38:57.000Z"
-        },
-        {
-            "id": "https://wiki.eryajf.net/pages/909492/",
-            "url": "https://wiki.eryajf.net/pages/909492/",
-            "title": "学习周刊-总第40期-2022年第05周",
-            "summary": "周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。",
-            "date_modified": "2022-02-12T00:08:49.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/fa9a0a/",
@@ -1195,20 +1195,20 @@
             "date_modified": "2023-05-26T09:37:27.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/269e4c/",
-            "url": "https://wiki.eryajf.net/pages/269e4c/",
-            "title": "学习周刊-总第109期-2023年第22周",
-            "summary": "学习周刊-总第109期-一个现代化开源的Linux服务器运维管理面板",
-            "image": "http://t.eryajf.net/imgs/2023/04/866552b0516d2fb1.gif",
-            "date_modified": "2023-06-02T09:21:30.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/5c314c/",
             "url": "https://wiki.eryajf.net/pages/5c314c/",
             "title": "学习周刊-总第110期-2023年第23周",
             "summary": "学习周刊-总第110期-一个多租户 SaaS 开发框架",
             "image": "http://t.eryajf.net/imgs/2023/04/767e22d62f9a7d47.png",
             "date_modified": "2023-06-09T09:24:53.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/269e4c/",
+            "url": "https://wiki.eryajf.net/pages/269e4c/",
+            "title": "学习周刊-总第109期-2023年第22周",
+            "summary": "学习周刊-总第109期-一个现代化开源的Linux服务器运维管理面板",
+            "image": "http://t.eryajf.net/imgs/2023/04/866552b0516d2fb1.gif",
+            "date_modified": "2023-06-02T09:21:30.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/23943e/",
@@ -1321,6 +1321,14 @@
             "summary": "学习周刊-总第124期-Bob的开源版本，以及一个开源的抓包工具",
             "image": "https://t.eryajf.net/imgs/2023/09/1693667388911.png",
             "date_modified": "2023-09-14T21:48:38.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/8e1841/",
+            "url": "https://wiki.eryajf.net/pages/8e1841/",
+            "title": "学习周刊-总第125期-2023年第38周",
+            "summary": "学习周刊-总第125期-几款开源的各语言私服项目",
+            "image": "https://t.eryajf.net/imgs/2023/09/1694488859446.png",
+            "date_modified": "2023-09-22T09:48:50.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/1f0c42/",
