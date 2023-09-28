@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-09-22T02:07:57.196Z</updated>
+    <updated>2023-09-28T13:06:16.660Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -233,20 +233,20 @@
         <summary type="html"><![CDATA[我维护的 awesome-github-profile-readme-chinese 项目旨在收集汇总中文区优秀的个人主页，每个人的主页将会通过截图的方式存放在 exampls 目录下，有时候有的朋友主页内容很多，这样整体截图下来就非常大。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的图片，然后对其进行几乎无损的压缩，让整个仓库的体积保持在一个相对低的水平。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[利用GitHub Actions自动构建go项目的二进制到release]]></title>
-        <id>https://wiki.eryajf.net/pages/d16f3f/</id>
-        <link href="https://wiki.eryajf.net/pages/d16f3f/">
-        </link>
-        <updated>2022-12-12T13:10:22.000Z</updated>
-        <summary type="html"><![CDATA[最近 ChatGPT 大火，随之一起火起来的，有一大批基于 ChatGPT 编写的工具，我的项目chatgpt-dingtalk也是这批项目中的一个，旨在提供在钉钉群聊中与 ChatGPT 交互的能力。这是一个工具类的项目，已经提供了 docker 一键部署的能力。但是也有人只想通过二进制直接部署的方式进行体验，多平台兼容的二进制构建，早已有成熟的 Actions 支持，本文就来介绍一个实现方案。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[利用GitHub Actions自动检测项目中的问题链接]]></title>
         <id>https://wiki.eryajf.net/pages/c78b38/</id>
         <link href="https://wiki.eryajf.net/pages/c78b38/">
         </link>
         <updated>2022-08-08T15:47:20.000Z</updated>
         <summary type="html"><![CDATA[我维护的开源项目 https://github.com/eryajf/Thanks-Mirror 整理记录了各个包管理器，系统镜像，以及常用软件的好用镜像，随着项目越来越完善，到今天，已经累计整理链接 1091 个，随着时间推移，一些国内镜像可能会停止维护，如何自定感知那些已经失效的链接，就是一个需要考虑的事情了。本文就介绍一个有意思的小动作，它的主要功能是可以自动扫描仓库内的链接，然后对链接进行请求，根据自定义的规则，自动抛出异常的链接，然后将这些链接创建到issue当中。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用GitHub Actions自动构建go项目的二进制到release]]></title>
+        <id>https://wiki.eryajf.net/pages/d16f3f/</id>
+        <link href="https://wiki.eryajf.net/pages/d16f3f/">
+        </link>
+        <updated>2022-12-12T13:10:22.000Z</updated>
+        <summary type="html"><![CDATA[最近 ChatGPT 大火，随之一起火起来的，有一大批基于 ChatGPT 编写的工具，我的项目chatgpt-dingtalk也是这批项目中的一个，旨在提供在钉钉群聊中与 ChatGPT 交互的能力。这是一个工具类的项目，已经提供了 docker 一键部署的能力。但是也有人只想通过二进制直接部署的方式进行体验，多平台兼容的二进制构建，早已有成熟的 Actions 支持，本文就来介绍一个实现方案。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[利用github-slug-action暴漏Github Action上下文中的关键变量]]></title>
@@ -417,20 +417,20 @@
         <summary type="html"><![CDATA[很久没在随写编年更新文章了，着实把自己安排的太忙了，沉入了各种事务之中，整个人也变得了无生趣，没有什么写作的欲望。但是找工作这个历程的确一直想写一写，不为别的，只为感谢那些曾给我提供帮助的人。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[欣闻陈大惠老师重新开播-推及四海皆应学]]></title>
-        <id>https://wiki.eryajf.net/pages/d5188a/</id>
-        <link href="https://wiki.eryajf.net/pages/d5188a/">
-        </link>
-        <updated>2023-07-02T23:10:32.000Z</updated>
-        <summary type="html"><![CDATA[大约在 12-15 年，我也曾是传统文化的狂热痴迷者，彼时一直跟随陈大惠老师的视频学习，整个人在这个飞速前进的时代，修炼出了一颗向内求的心，这些学习并修炼来的品性，都为我后来工作中所能取得的成绩做了注解。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[记录2022年购买过的电子产品]]></title>
         <id>https://wiki.eryajf.net/pages/47872c/</id>
         <link href="https://wiki.eryajf.net/pages/47872c/">
         </link>
         <updated>2023-05-26T22:52:36.000Z</updated>
         <summary type="html"><![CDATA[一路走来，我也算是一个数码爱好者，虽然不像上学时因为穷爱而不得的那种狂热，但也仍旧对高性能，高品质的产品有相当的追求。本文将记录我在2022年度买过的还不错的电子产品。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欣闻陈大惠老师重新开播-推及四海皆应学]]></title>
+        <id>https://wiki.eryajf.net/pages/d5188a/</id>
+        <link href="https://wiki.eryajf.net/pages/d5188a/">
+        </link>
+        <updated>2023-07-02T23:10:32.000Z</updated>
+        <summary type="html"><![CDATA[大约在 12-15 年，我也曾是传统文化的狂热痴迷者，彼时一直跟随陈大惠老师的视频学习，整个人在这个飞速前进的时代，修炼出了一颗向内求的心，这些学习并修炼来的品性，都为我后来工作中所能取得的成绩做了注解。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[整理欣遇宝贝在22年4月到8月的言语]]></title>
@@ -449,20 +449,20 @@
         <summary type="html"><![CDATA[接到一个需求，是基于 Jenkins 给 unity 打包，unity 则需要在 Windows 环境下构建，因此实现这个需求的第一步，就是需要解决给主 Jenkins 添加一个 Windows 节点的 slave。而 slave 基于Java启动，如何将这个Java启动的命令放到后台启动，就成了一个问题！]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
-        <id>https://wiki.eryajf.net/pages/c2262c/</id>
-        <link href="https://wiki.eryajf.net/pages/c2262c/">
-        </link>
-        <updated>2022-08-25T09:04:55.000Z</updated>
-        <summary type="html"><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[vscode开发前端项目时如何tab补全自定义HTML标签]]></title>
         <id>https://wiki.eryajf.net/pages/62b2b7/</id>
         <link href="https://wiki.eryajf.net/pages/62b2b7/">
         </link>
         <updated>2022-08-01T15:28:09.000Z</updated>
         <summary type="html"><![CDATA[当我们在GitHub中冲浪时，遇到优秀的项目经常会为之点赞，但就像网络上经常说的玩笑一样：收藏等于会了。其实我们不应该让这些已被自己赏识过的项目石沉大海，那么，如果有一个项目能把自己过去star过得项目自动整理并归类就好了。本文就将介绍如何利用GitHub Actions来实现这个功能。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac电脑中优秀的讲课直播划线批注软件ScreenBrush详解]]></title>
+        <id>https://wiki.eryajf.net/pages/c2262c/</id>
+        <link href="https://wiki.eryajf.net/pages/c2262c/">
+        </link>
+        <updated>2022-08-25T09:04:55.000Z</updated>
+        <summary type="html"><![CDATA[前一阵儿赋闲在家的时候，试水过一次直播，当时没有注意到一个问题，那就是讲课时实时划线批注的问题，当我们对着文档讲解的时候，观看直播的同学不能及时跟着主播的进度走，思路就很容易掉队，效果也就出不来。于是，我开始了解Mac上有没有优秀的划线批注软件，经过一番搜索与体验，最终我锁定了：ScreenBrush。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[结合Multitouch完成我在Mac触摸板上的高效使用]]></title>
@@ -481,20 +481,20 @@
         <summary type="html"><![CDATA[解决一个brew install时出现的错误。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mac 电脑中 zsh 环境下配置 docker 命令自动补全]]></title>
-        <id>https://wiki.eryajf.net/pages/7220b1/</id>
-        <link href="https://wiki.eryajf.net/pages/7220b1/">
-        </link>
-        <updated>2023-04-27T17:45:51.000Z</updated>
-        <summary type="html"><![CDATA[zsh 中有专门的插件来解决 docker 命令补全的问题，安装配置也比较简单，以下是操作的步骤。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[mac电脑安装Java开发环境]]></title>
         <id>https://wiki.eryajf.net/pages/4aee10/</id>
         <link href="https://wiki.eryajf.net/pages/4aee10/">
         </link>
         <updated>2023-04-24T22:29:05.000Z</updated>
         <summary type="html"><![CDATA[本文介绍如何在Mac上配置jdk与maven环境。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac 电脑中 zsh 环境下配置 docker 命令自动补全]]></title>
+        <id>https://wiki.eryajf.net/pages/7220b1/</id>
+        <link href="https://wiki.eryajf.net/pages/7220b1/">
+        </link>
+        <updated>2023-04-27T17:45:51.000Z</updated>
+        <summary type="html"><![CDATA[zsh 中有专门的插件来解决 docker 命令补全的问题，安装配置也比较简单，以下是操作的步骤。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vuepress配置评论插件为Artalk]]></title>
@@ -521,20 +521,20 @@
         <summary type="html"><![CDATA[我的博客已经快五岁了，她得学会自己挣钱了，于是乎，我打算通过添加一个轮播图，来挂一些广告。这个功能从想法到落地折腾了两三天，最后终于配置完毕，今天来做个分享。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vuepress配置rss订阅功能]]></title>
-        <id>https://wiki.eryajf.net/pages/dbc829/</id>
-        <link href="https://wiki.eryajf.net/pages/dbc829/">
-        </link>
-        <updated>2023-02-01T21:54:04.000Z</updated>
-        <summary type="html"><![CDATA[默认的 vuepress 程序没有集成 rss 订阅能力，不过第三方有插件集成了相应的能力，本文来介绍下如何通过插件来为博客集成 rss 订阅能力。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Vuepress全文搜索插件vuepress-plugin-flexsearch-pro]]></title>
         <id>https://wiki.eryajf.net/pages/b205e9/</id>
         <link href="https://wiki.eryajf.net/pages/b205e9/">
         </link>
         <updated>2023-02-08T21:54:44.000Z</updated>
         <summary type="html"><![CDATA[之前介绍过 Vuepress 的一款全文搜索插件 fulltext-search，今天来介绍另一款相对不错的全文搜索插件 vuepress-plugin-flexsearch-pro。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vuepress配置rss订阅功能]]></title>
+        <id>https://wiki.eryajf.net/pages/dbc829/</id>
+        <link href="https://wiki.eryajf.net/pages/dbc829/">
+        </link>
+        <updated>2023-02-01T21:54:04.000Z</updated>
+        <summary type="html"><![CDATA[默认的 vuepress 程序没有集成 rss 订阅能力，不过第三方有插件集成了相应的能力，本文来介绍下如何通过插件来为博客集成 rss 订阅能力。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vuepress全文搜索终极版-algolia的开源实现meilisearch全接入指南]]></title>
@@ -553,20 +553,20 @@
         <summary type="html"><![CDATA[golang作为强类型语言，我们在日常开发过程中，遇到类型转换的场景也非常多，本文整理我在工作开发中遇到过的类型转换实践。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[企业微信自建应用-golang校验回调]]></title>
-        <id>https://wiki.eryajf.net/pages/95d127/</id>
-        <link href="https://wiki.eryajf.net/pages/95d127/">
-        </link>
-        <updated>2023-06-22T15:27:29.000Z</updated>
-        <summary type="html"><![CDATA[企业微信创建应用配置回调的步骤记录，golang版本。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[记录VSCode中写Go代码切换Sqlite无CGO依赖版本的过程以及遇到的五个问题]]></title>
         <id>https://wiki.eryajf.net/pages/74da0a/</id>
         <link href="https://wiki.eryajf.net/pages/74da0a/">
         </link>
         <updated>2023-02-25T11:38:49.000Z</updated>
         <summary type="html"><![CDATA[我的 xirang 系统之前引入 sqlite 功能的时候，使用的驱动包是 github.com/mattn/go-sqlite3 v1.14.15，这个库现在在 go 项目当中，引用最多，应用最广，看项目 Used By 达到了 71k，俨然成为这一方面的标准，但有一个最大的问题就是，这是一个 C 语言实现的库，如果要应用这个库，那么你的环境就需要解决这个 CGO 依赖。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[企业微信自建应用-golang校验回调]]></title>
+        <id>https://wiki.eryajf.net/pages/95d127/</id>
+        <link href="https://wiki.eryajf.net/pages/95d127/">
+        </link>
+        <updated>2023-06-22T15:27:29.000Z</updated>
+        <summary type="html"><![CDATA[企业微信创建应用配置回调的步骤记录，golang版本。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用retry-go给项目添加重试机制]]></title>
@@ -585,6 +585,14 @@
         <summary type="html"><![CDATA[平时用 go 写一些小工具的时候，如果数据的敏感性没有那么强，那么一些热数据就可以考虑放在 cache 当中，cache 也没必要用外置服务，那就直接使用本机内存进行存储即可。 go-cache 就是一个用于本地缓存的 Go 语言库，它支持过期时间和自动清理。它使用了一个内部的 goroutine 来检查缓存项是否过期，并在需要时自动清理过期的缓存项。使我们能够很方便地将一些数据放在缓存当中。]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
+        <id>https://wiki.eryajf.net/pages/e85cbc/</id>
+        <link href="https://wiki.eryajf.net/pages/e85cbc/">
+        </link>
+        <updated>2022-12-09T17:47:22.000Z</updated>
+        <summary type="html"><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[拯救openLDAP的上古管理界面，我写了一个现代化的ldap管理后台go-ldap-admin]]></title>
         <id>https://wiki.eryajf.net/pages/e41911/</id>
         <link href="https://wiki.eryajf.net/pages/e41911/">
@@ -599,14 +607,6 @@
         </link>
         <updated>2023-06-22T15:32:15.000Z</updated>
         <summary type="html"><![CDATA[一个分析腾讯云CLS日志费用预估的项目和一个命令行工具框架]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
-        <id>https://wiki.eryajf.net/pages/e85cbc/</id>
-        <link href="https://wiki.eryajf.net/pages/e85cbc/">
-        </link>
-        <updated>2022-12-09T17:47:22.000Z</updated>
-        <summary type="html"><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[基于GO语言实现的体验最好的企微应用集成ChatGPT项目chatgpt-wecom]]></title>
@@ -641,19 +641,19 @@
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第39期-2022年第04周]]></title>
-        <id>https://wiki.eryajf.net/pages/478f83/</id>
-        <link href="https://wiki.eryajf.net/pages/478f83/">
-        </link>
-        <updated>2022-01-30T16:16:38.000Z</updated>
-        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第38期-2022年第03周]]></title>
         <id>https://wiki.eryajf.net/pages/1d2aab/</id>
         <link href="https://wiki.eryajf.net/pages/1d2aab/">
         </link>
         <updated>2022-01-21T21:43:40.000Z</updated>
+        <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第39期-2022年第04周]]></title>
+        <id>https://wiki.eryajf.net/pages/478f83/</id>
+        <link href="https://wiki.eryajf.net/pages/478f83/">
+        </link>
+        <updated>2022-01-30T16:16:38.000Z</updated>
         <summary type="html"><![CDATA[周刊维护在：https://github.com/eryajf/learning-weekly  欢迎投稿，推荐或自荐项目 /文章 /博客，请提交 issue 。]]></summary>
     </entry>
     <entry>
@@ -721,20 +721,20 @@
         <summary type="html"><![CDATA[学习周刊-总第47期-2022年第12周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
-        <id>https://wiki.eryajf.net/pages/5463a4/</id>
-        <link href="https://wiki.eryajf.net/pages/5463a4/">
-        </link>
-        <updated>2022-04-09T08:11:16.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></title>
         <id>https://wiki.eryajf.net/pages/0e9bb7/</id>
         <link href="https://wiki.eryajf.net/pages/0e9bb7/">
         </link>
         <updated>2022-04-17T15:29:35.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
+        <id>https://wiki.eryajf.net/pages/5463a4/</id>
+        <link href="https://wiki.eryajf.net/pages/5463a4/">
+        </link>
+        <updated>2022-04-09T08:11:16.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></title>
@@ -825,20 +825,20 @@
         <summary type="html"><![CDATA[学习周刊-总第60期-2022年第25周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第61期-2022年第26周]]></title>
-        <id>https://wiki.eryajf.net/pages/703307/</id>
-        <link href="https://wiki.eryajf.net/pages/703307/">
-        </link>
-        <updated>2022-07-09T14:45:59.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第61期-2022年第26周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第62期-2022年第27周]]></title>
         <id>https://wiki.eryajf.net/pages/4a06ab/</id>
         <link href="https://wiki.eryajf.net/pages/4a06ab/">
         </link>
         <updated>2022-07-16T14:25:58.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第62期-2022年第27周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第61期-2022年第26周]]></title>
+        <id>https://wiki.eryajf.net/pages/703307/</id>
+        <link href="https://wiki.eryajf.net/pages/703307/">
+        </link>
+        <updated>2022-07-09T14:45:59.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第61期-2022年第26周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第63期-2022年第28周]]></title>
@@ -1209,20 +1209,20 @@
         <summary type="html"><![CDATA[学习周刊-总第108期-强大的发短信go库与开源的轻量级gitlab和一个Sql审核平台]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第110期-2023年第23周]]></title>
-        <id>https://wiki.eryajf.net/pages/5c314c/</id>
-        <link href="https://wiki.eryajf.net/pages/5c314c/">
-        </link>
-        <updated>2023-06-09T09:24:53.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第110期-一个多租户 SaaS 开发框架]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第109期-2023年第22周]]></title>
         <id>https://wiki.eryajf.net/pages/269e4c/</id>
         <link href="https://wiki.eryajf.net/pages/269e4c/">
         </link>
         <updated>2023-06-02T09:21:30.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第109期-一个现代化开源的Linux服务器运维管理面板]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第110期-2023年第23周]]></title>
+        <id>https://wiki.eryajf.net/pages/5c314c/</id>
+        <link href="https://wiki.eryajf.net/pages/5c314c/">
+        </link>
+        <updated>2023-06-09T09:24:53.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第110期-一个多租户 SaaS 开发框架]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第111期-2023年第24周]]></title>
@@ -1343,6 +1343,14 @@
         </link>
         <updated>2023-09-22T09:48:50.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第125期-几款开源的各语言私服项目]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第126期-2023年第39周]]></title>
+        <id>https://wiki.eryajf.net/pages/8b091b/</id>
+        <link href="https://wiki.eryajf.net/pages/8b091b/">
+        </link>
+        <updated>2023-09-28T20:48:08.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第126期-与grafana类似的国人开发的监控平台]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Obsidian插件周刊第十四期]]></title>
