@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Fri, 20 Oct 2023 01:44:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Oct 2023 01:52:10 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -666,21 +666,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
-            <link>https://wiki.eryajf.net/pages/e85cbc/</link>
-            <guid>https://wiki.eryajf.net/pages/e85cbc/</guid>
-            <pubDate>Fri, 09 Dec 2022 17:47:22 GMT</pubDate>
-            <description><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></description>
-            <enclosure url="https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20230405_191425.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[拯救openLDAP的上古管理界面，我写了一个现代化的ldap管理后台go-ldap-admin]]></title>
             <link>https://wiki.eryajf.net/pages/e41911/</link>
             <guid>https://wiki.eryajf.net/pages/e41911/</guid>
             <pubDate>Wed, 18 May 2022 20:52:22 GMT</pubDate>
             <description><![CDATA[基于Go+Vue实现的openLDAP后台管理项目。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/05/17dbe07a137c9b4c.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[chatGPT钉钉群聊交互版-chatgpt-dingtalk]]></title>
+            <link>https://wiki.eryajf.net/pages/e85cbc/</link>
+            <guid>https://wiki.eryajf.net/pages/e85cbc/</guid>
+            <pubDate>Fri, 09 Dec 2022 17:47:22 GMT</pubDate>
+            <description><![CDATA[最近chatGPT异常火爆，本项目可以将GPT机器人集成到钉钉群聊中。]]></description>
+            <enclosure url="https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20230405_191425.jpg">
             </enclosure>
         </item>
         <item>
@@ -777,21 +777,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第45期-2022年第10周]]></title>
-            <link>https://wiki.eryajf.net/pages/02cfc7/</link>
-            <guid>https://wiki.eryajf.net/pages/02cfc7/</guid>
-            <pubDate>Sat, 19 Mar 2022 17:53:04 GMT</pubDate>
-            <description><![CDATA[学习周刊-2022年第10周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/02/a71b5592652a0d07.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第44期-2022年第09周]]></title>
             <link>https://wiki.eryajf.net/pages/c3ee7b/</link>
             <guid>https://wiki.eryajf.net/pages/c3ee7b/</guid>
             <pubDate>Sat, 12 Mar 2022 08:26:46 GMT</pubDate>
             <description><![CDATA[学习周刊-2022年第09周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/03/6a51b421f5d8593d.webp">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第45期-2022年第10周]]></title>
+            <link>https://wiki.eryajf.net/pages/02cfc7/</link>
+            <guid>https://wiki.eryajf.net/pages/02cfc7/</guid>
+            <pubDate>Sat, 19 Mar 2022 17:53:04 GMT</pubDate>
+            <description><![CDATA[学习周刊-2022年第10周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/02/a71b5592652a0d07.png">
             </enclosure>
         </item>
         <item>
@@ -890,6 +890,15 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[学习周刊-总第57期-2022年第22周]]></title>
+            <link>https://wiki.eryajf.net/pages/af0834/</link>
+            <guid>https://wiki.eryajf.net/pages/af0834/</guid>
+            <pubDate>Sat, 11 Jun 2022 09:12:21 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第57期-2022年第22周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/05/4834a35be03c892e.png">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[学习周刊-总第58期-2022年第23周]]></title>
             <link>https://wiki.eryajf.net/pages/62a9c7/</link>
             <guid>https://wiki.eryajf.net/pages/62a9c7/</guid>
@@ -905,15 +914,6 @@
             <pubDate>Fri, 24 Jun 2022 15:52:01 GMT</pubDate>
             <description><![CDATA[学习周刊-总第59期-2022年第24周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/06/74afd02fa6d03cc4.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[学习周刊-总第57期-2022年第22周]]></title>
-            <link>https://wiki.eryajf.net/pages/af0834/</link>
-            <guid>https://wiki.eryajf.net/pages/af0834/</guid>
-            <pubDate>Sat, 11 Jun 2022 09:12:21 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第57期-2022年第22周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/05/4834a35be03c892e.png">
             </enclosure>
         </item>
         <item>
@@ -971,21 +971,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第67期-2022年第32周]]></title>
-            <link>https://wiki.eryajf.net/pages/c5dd7c/</link>
-            <guid>https://wiki.eryajf.net/pages/c5dd7c/</guid>
-            <pubDate>Fri, 19 Aug 2022 07:10:11 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第67期-2022年第32周,几个Redis管理平台与B站加强脚本]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/07/4654caa62645b137.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第66期-2022年第31周]]></title>
             <link>https://wiki.eryajf.net/pages/66c212/</link>
             <guid>https://wiki.eryajf.net/pages/66c212/</guid>
             <pubDate>Fri, 12 Aug 2022 08:42:41 GMT</pubDate>
             <description><![CDATA[学习周刊-总第66期-2022年第31周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/07/755273381608161e.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第67期-2022年第32周]]></title>
+            <link>https://wiki.eryajf.net/pages/c5dd7c/</link>
+            <guid>https://wiki.eryajf.net/pages/c5dd7c/</guid>
+            <pubDate>Fri, 19 Aug 2022 07:10:11 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第67期-2022年第32周,几个Redis管理平台与B站加强脚本]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/07/4654caa62645b137.png">
             </enclosure>
         </item>
         <item>
@@ -1266,21 +1266,21 @@
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第100期-2023年第13周]]></title>
-            <link>https://wiki.eryajf.net/pages/6a3264/</link>
-            <guid>https://wiki.eryajf.net/pages/6a3264/</guid>
-            <pubDate>Fri, 31 Mar 2023 08:35:17 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第100期-go语言版本的elasticsearch与Mac上传歌曲到网易云盘的插件]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2023/02/666a8875045c530c.jpg">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第99期-2023年第12周]]></title>
             <link>https://wiki.eryajf.net/pages/e239f5/</link>
             <guid>https://wiki.eryajf.net/pages/e239f5/</guid>
             <pubDate>Fri, 24 Mar 2023 08:44:49 GMT</pubDate>
             <description><![CDATA[学习周刊-总第99期-开源的图片编辑器与多功能画板]]></description>
             <enclosure url="https://ldbbs.ldmnq.com/bbs/topic/attachment/2023-2/c465c89f-d7c6-437b-9238-2f31aa9eca7c.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第100期-2023年第13周]]></title>
+            <link>https://wiki.eryajf.net/pages/6a3264/</link>
+            <guid>https://wiki.eryajf.net/pages/6a3264/</guid>
+            <pubDate>Fri, 31 Mar 2023 08:35:17 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第100期-go语言版本的elasticsearch与Mac上传歌曲到网易云盘的插件]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2023/02/666a8875045c530c.jpg">
             </enclosure>
         </item>
         <item>
