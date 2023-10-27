@@ -1158,7 +1158,7 @@
             "id": "https://wiki.eryajf.net/pages/61eda1/",
             "url": "https://wiki.eryajf.net/pages/61eda1/",
             "title": "学习周刊-总第102期-2023年第15周",
-            "summary": "学习周刊-总第101期-一个暴漏github action变量的开源项目",
+            "summary": "学习周刊-总第102期-一个暴漏github action变量的开源项目",
             "image": "http://t.eryajf.net/imgs/2023/02/0f5905d316a01467.gif",
             "date_modified": "2023-04-13T20:28:33.000Z"
         },
@@ -1366,7 +1366,7 @@
             "id": "https://wiki.eryajf.net/pages/c1499d/",
             "url": "https://wiki.eryajf.net/pages/c1499d/",
             "title": "学习周刊-总第128期-2023年第41周",
-            "summary": "学习周刊-总第127期-两个json处理相关的开源项目",
+            "summary": "学习周刊-总第128期-两个json处理相关的开源项目",
             "image": "https://t.eryajf.net/imgs/2023/09/1695904540897.gif",
             "date_modified": "2023-10-13T09:28:26.000Z"
         },
@@ -1377,6 +1377,14 @@
             "summary": "学习周刊-总第129期-域名证书过期检测项目以及又一个redis客户端",
             "image": "https://t.eryajf.net/imgs/2023/09/1695906934101.png",
             "date_modified": "2023-10-20T09:20:50.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/b46f92/",
+            "url": "https://wiki.eryajf.net/pages/b46f92/",
+            "title": "学习周刊-总第130期-2023年第43周",
+            "summary": "学习周刊-总第130期-批量将语雀文档导出为本地Markdown的项目",
+            "image": "https://t.eryajf.net/imgs/2023/10/1697725535342.jpg",
+            "date_modified": "2023-10-27T09:25:29.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/1f0c42/",
