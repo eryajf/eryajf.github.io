@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.eryajf.net</id>
     <title>二丫讲梵</title>
-    <updated>2023-10-27T01:54:07.212Z</updated>
+    <updated>2023-10-28T15:16:08.001Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://wiki.eryajf.net"/>
     <link rel="self" href="https://wiki.eryajf.net/feed.atom"/>
@@ -47,6 +47,14 @@
         </link>
         <updated>2023-05-26T14:20:38.000Z</updated>
         <summary type="html"><![CDATA[公司内部安卓与 iOS 打包是通过内部的一台 Mac mini 主机上部署的 Jenkins 完成的，一切都看起来非常优雅且自如。我也正在忙自己的事情，突然一个开发小哥找过来，说发布过程有问题了，其中有一个步骤是在 Jenkins 中打完包之后，将包通过 scp 传到一台 centos 服务器上，从而提供给开发者进行下载。现在出现的问题是，scp 的时候让输入密码了。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从Nginx过滤打印user-agent为clb-healthcheck的日志聊聊Nginx的日志自定义打印]]></title>
+        <id>https://wiki.eryajf.net/pages/5fce99/</id>
+        <link href="https://wiki.eryajf.net/pages/5fce99/">
+        </link>
+        <updated>2023-10-28T22:31:18.000Z</updated>
+        <summary type="html"><![CDATA[通常我们的南北流量的链路是从云的 LB 到服务器的 Nginx 集群，为了利用好 lb 自动检测 Nginx 的功能，通常你会打开健康检查，此时，Nginx 的日志当中就会打印大量的健康检查日志，令人不胜其烦。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用docker-compose部署最新版loki+promtail+grafana采集Nginx的日志流程记录]]></title>
@@ -393,6 +401,30 @@
         <summary type="html"><![CDATA[在中国往往事大于人，乃至大于天，当事情已经进入状态，则连学校最大领导也变得听之任之，唯之诺之。任凭老天下雨，也阻拦不住其行进，这可算一奇观。在“独立之人格，自由之思想”，极度缺乏的大学校园，很多很多不正常，不应该，不可能变得正常，应该，可能，这是悲哀之所在。]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[关于坦率的思考]]></title>
+        <id>https://wiki.eryajf.net/pages/22cf00/</id>
+        <link href="https://wiki.eryajf.net/pages/22cf00/">
+        </link>
+        <updated>2023-10-20T09:26:48.000Z</updated>
+        <summary type="html"><![CDATA[我是在高一上学期末接触的文学， 从这儿开始，一发不可收拾地买书，读书，直到今天彻底走进文学。文学给我带来了很多的转变与收获，今天就说说文学对我性格的影响。人生的很多第一次的体验会对人有很多奇妙且重大的影响，文学亦然，拉你走进的第一本书，第一个作者，都会影响你的文格与人格的塑造。我记得那时读完的第一本书是《李敖和他的女人们》，李敖变成了我的偶像启蒙人，在后来买的最多读的最多的就是他的书，幸甚，他是一个极有原则的人，于是，他身上的坦率快意，务实勤奋，扶正摧邪被我偷学不少，而坦率，是我那一个时期尤其用心的。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常怀一颗谦卑心]]></title>
+        <id>https://wiki.eryajf.net/pages/1ed778/</id>
+        <link href="https://wiki.eryajf.net/pages/1ed778/">
+        </link>
+        <updated>2023-10-28T22:39:20.000Z</updated>
+        <summary type="html"><![CDATA[某人并不信鬼神，更不屑于耍弄这一套的人。但总也乐于好奇一下，便慕着大名找到王大仙，说明来意之后，恭恭敬敬地端坐在大仙对面，听着他的指点。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为何无志气]]></title>
+        <id>https://wiki.eryajf.net/pages/37439f/</id>
+        <link href="https://wiki.eryajf.net/pages/37439f/">
+        </link>
+        <updated>2023-10-28T22:51:05.000Z</updated>
+        <summary type="html"><![CDATA[今天的年轻人，可说是毫无志气的，也没有人在生活中谈论志气，及时行乐的思想充斥在人们的脑中，眼前，耳里，口里，没有人愿意去十年寒窗苦，因为到处都是年少成名，九零后亿万富翁之类的宣传，人们都绞尽脑汁，挖空心思，削尖脑袋朝那里边儿扎，却毫不顾问一下自己，果真有那个心胸与德行吗？经济（钱）为主导的今天，人们都不屑于那所谓的士子德操，都以赶紧赚到钱为要事，却没有人考虑该怎样挣钱，以及怎样花钱。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[五个月后，你将成为一条好汉]]></title>
         <id>https://wiki.eryajf.net/pages/46913a/</id>
         <link href="https://wiki.eryajf.net/pages/46913a/">
@@ -737,20 +769,20 @@
         <summary type="html"><![CDATA[学习周刊-总第47期-2022年第12周]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
-        <id>https://wiki.eryajf.net/pages/5463a4/</id>
-        <link href="https://wiki.eryajf.net/pages/5463a4/">
-        </link>
-        <updated>2022-04-09T08:11:16.000Z</updated>
-        <summary type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></title>
         <id>https://wiki.eryajf.net/pages/0e9bb7/</id>
         <link href="https://wiki.eryajf.net/pages/0e9bb7/">
         </link>
         <updated>2022-04-17T15:29:35.000Z</updated>
         <summary type="html"><![CDATA[学习周刊-总第49期-2022年第14周]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
+        <id>https://wiki.eryajf.net/pages/5463a4/</id>
+        <link href="https://wiki.eryajf.net/pages/5463a4/">
+        </link>
+        <updated>2022-04-09T08:11:16.000Z</updated>
+        <summary type="html"><![CDATA[学习周刊-总第48期-2022年第13周]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[学习周刊-总第50期-2022年第15周]]></title>

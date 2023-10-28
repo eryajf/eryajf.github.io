@@ -5,7 +5,7 @@
         <link>https://wiki.eryajf.net</link>
         <description>💻学习📝记录🔗分享
 学无止境是永远前进的基础，跃然纸上是对知识的总结交代，与众分享则是实现价值的最好方式。</description>
-        <lastBuildDate>Fri, 27 Oct 2023 01:54:07 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Oct 2023 15:16:07 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://wiki.eryajf.net/feed.atom" rel="self" type="application/rss+xml"/>
@@ -52,6 +52,15 @@
             <pubDate>Fri, 26 May 2023 14:20:38 GMT</pubDate>
             <description><![CDATA[公司内部安卓与 iOS 打包是通过内部的一台 Mac mini 主机上部署的 Jenkins 完成的，一切都看起来非常优雅且自如。我也正在忙自己的事情，突然一个开发小哥找过来，说发布过程有问题了，其中有一个步骤是在 Jenkins 中打完包之后，将包通过 scp 传到一台 centos 服务器上，从而提供给开发者进行下载。现在出现的问题是，scp 的时候让输入密码了。]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2023/05/090da587d95bed42.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[从Nginx过滤打印user-agent为clb-healthcheck的日志聊聊Nginx的日志自定义打印]]></title>
+            <link>https://wiki.eryajf.net/pages/5fce99/</link>
+            <guid>https://wiki.eryajf.net/pages/5fce99/</guid>
+            <pubDate>Sat, 28 Oct 2023 22:31:18 GMT</pubDate>
+            <description><![CDATA[通常我们的南北流量的链路是从云的 LB 到服务器的 Nginx 集群，为了利用好 lb 自动检测 Nginx 的功能，通常你会打开健康检查，此时，Nginx 的日志当中就会打印大量的健康检查日志，令人不胜其烦。]]></description>
+            <enclosure url="https://t.eryajf.net/imgs/2023/10/1698503594038.png">
             </enclosure>
         </item>
         <item>
@@ -440,6 +449,33 @@
             </enclosure>
         </item>
         <item>
+            <title><![CDATA[关于坦率的思考]]></title>
+            <link>https://wiki.eryajf.net/pages/22cf00/</link>
+            <guid>https://wiki.eryajf.net/pages/22cf00/</guid>
+            <pubDate>Fri, 20 Oct 2023 09:26:48 GMT</pubDate>
+            <description><![CDATA[我是在高一上学期末接触的文学， 从这儿开始，一发不可收拾地买书，读书，直到今天彻底走进文学。文学给我带来了很多的转变与收获，今天就说说文学对我性格的影响。人生的很多第一次的体验会对人有很多奇妙且重大的影响，文学亦然，拉你走进的第一本书，第一个作者，都会影响你的文格与人格的塑造。我记得那时读完的第一本书是《李敖和他的女人们》，李敖变成了我的偶像启蒙人，在后来买的最多读的最多的就是他的书，幸甚，他是一个极有原则的人，于是，他身上的坦率快意，务实勤奋，扶正摧邪被我偷学不少，而坦率，是我那一个时期尤其用心的。]]></description>
+            <enclosure url="https://t.eryajf.net/imgs/2023/10/1697765501517.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[常怀一颗谦卑心]]></title>
+            <link>https://wiki.eryajf.net/pages/1ed778/</link>
+            <guid>https://wiki.eryajf.net/pages/1ed778/</guid>
+            <pubDate>Sat, 28 Oct 2023 22:39:20 GMT</pubDate>
+            <description><![CDATA[某人并不信鬼神，更不屑于耍弄这一套的人。但总也乐于好奇一下，便慕着大名找到王大仙，说明来意之后，恭恭敬敬地端坐在大仙对面，听着他的指点。]]></description>
+            <enclosure url="https://t.eryajf.net/imgs/2023/10/1698504109208.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[为何无志气]]></title>
+            <link>https://wiki.eryajf.net/pages/37439f/</link>
+            <guid>https://wiki.eryajf.net/pages/37439f/</guid>
+            <pubDate>Sat, 28 Oct 2023 22:51:05 GMT</pubDate>
+            <description><![CDATA[今天的年轻人，可说是毫无志气的，也没有人在生活中谈论志气，及时行乐的思想充斥在人们的脑中，眼前，耳里，口里，没有人愿意去十年寒窗苦，因为到处都是年少成名，九零后亿万富翁之类的宣传，人们都绞尽脑汁，挖空心思，削尖脑袋朝那里边儿扎，却毫不顾问一下自己，果真有那个心胸与德行吗？经济（钱）为主导的今天，人们都不屑于那所谓的士子德操，都以赶紧赚到钱为要事，却没有人考虑该怎样挣钱，以及怎样花钱。]]></description>
+            <enclosure url="https://t.eryajf.net/imgs/2023/10/1698504826444.jpg">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[五个月后，你将成为一条好汉]]></title>
             <link>https://wiki.eryajf.net/pages/46913a/</link>
             <guid>https://wiki.eryajf.net/pages/46913a/</guid>
@@ -809,21 +845,21 @@
             <description><![CDATA[学习周刊-总第47期-2022年第12周]]></description>
         </item>
         <item>
-            <title><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
-            <link>https://wiki.eryajf.net/pages/5463a4/</link>
-            <guid>https://wiki.eryajf.net/pages/5463a4/</guid>
-            <pubDate>Sat, 09 Apr 2022 08:11:16 GMT</pubDate>
-            <description><![CDATA[学习周刊-总第48期-2022年第13周]]></description>
-            <enclosure url="http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png">
-            </enclosure>
-        </item>
-        <item>
             <title><![CDATA[学习周刊-总第49期-2022年第14周]]></title>
             <link>https://wiki.eryajf.net/pages/0e9bb7/</link>
             <guid>https://wiki.eryajf.net/pages/0e9bb7/</guid>
             <pubDate>Sun, 17 Apr 2022 15:29:35 GMT</pubDate>
             <description><![CDATA[学习周刊-总第49期-2022年第14周]]></description>
             <enclosure url="http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[学习周刊-总第48期-2022年第13周]]></title>
+            <link>https://wiki.eryajf.net/pages/5463a4/</link>
+            <guid>https://wiki.eryajf.net/pages/5463a4/</guid>
+            <pubDate>Sat, 09 Apr 2022 08:11:16 GMT</pubDate>
+            <description><![CDATA[学习周刊-总第48期-2022年第13周]]></description>
+            <enclosure url="http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png">
             </enclosure>
         </item>
         <item>

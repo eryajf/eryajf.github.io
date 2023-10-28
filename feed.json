@@ -46,6 +46,14 @@
             "date_modified": "2023-05-26T14:20:38.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/5fce99/",
+            "url": "https://wiki.eryajf.net/pages/5fce99/",
+            "title": "从Nginx过滤打印user-agent为clb-healthcheck的日志聊聊Nginx的日志自定义打印",
+            "summary": "通常我们的南北流量的链路是从云的 LB 到服务器的 Nginx 集群，为了利用好 lb 自动检测 Nginx 的功能，通常你会打开健康检查，此时，Nginx 的日志当中就会打印大量的健康检查日志，令人不胜其烦。",
+            "image": "https://t.eryajf.net/imgs/2023/10/1698503594038.png",
+            "date_modified": "2023-10-28T22:31:18.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/e8500e/",
             "url": "https://wiki.eryajf.net/pages/e8500e/",
             "title": "使用docker-compose部署最新版loki+promtail+grafana采集Nginx的日志流程记录",
@@ -389,6 +397,30 @@
             "date_modified": "2023-10-15T21:56:09.000Z"
         },
         {
+            "id": "https://wiki.eryajf.net/pages/22cf00/",
+            "url": "https://wiki.eryajf.net/pages/22cf00/",
+            "title": "关于坦率的思考",
+            "summary": "我是在高一上学期末接触的文学， 从这儿开始，一发不可收拾地买书，读书，直到今天彻底走进文学。文学给我带来了很多的转变与收获，今天就说说文学对我性格的影响。人生的很多第一次的体验会对人有很多奇妙且重大的影响，文学亦然，拉你走进的第一本书，第一个作者，都会影响你的文格与人格的塑造。我记得那时读完的第一本书是《李敖和他的女人们》，李敖变成了我的偶像启蒙人，在后来买的最多读的最多的就是他的书，幸甚，他是一个极有原则的人，于是，他身上的坦率快意，务实勤奋，扶正摧邪被我偷学不少，而坦率，是我那一个时期尤其用心的。",
+            "image": "https://t.eryajf.net/imgs/2023/10/1697765501517.png",
+            "date_modified": "2023-10-20T09:26:48.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/1ed778/",
+            "url": "https://wiki.eryajf.net/pages/1ed778/",
+            "title": "常怀一颗谦卑心",
+            "summary": "某人并不信鬼神，更不屑于耍弄这一套的人。但总也乐于好奇一下，便慕着大名找到王大仙，说明来意之后，恭恭敬敬地端坐在大仙对面，听着他的指点。",
+            "image": "https://t.eryajf.net/imgs/2023/10/1698504109208.png",
+            "date_modified": "2023-10-28T22:39:20.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/37439f/",
+            "url": "https://wiki.eryajf.net/pages/37439f/",
+            "title": "为何无志气",
+            "summary": "今天的年轻人，可说是毫无志气的，也没有人在生活中谈论志气，及时行乐的思想充斥在人们的脑中，眼前，耳里，口里，没有人愿意去十年寒窗苦，因为到处都是年少成名，九零后亿万富翁之类的宣传，人们都绞尽脑汁，挖空心思，削尖脑袋朝那里边儿扎，却毫不顾问一下自己，果真有那个心胸与德行吗？经济（钱）为主导的今天，人们都不屑于那所谓的士子德操，都以赶紧赚到钱为要事，却没有人考虑该怎样挣钱，以及怎样花钱。",
+            "image": "https://t.eryajf.net/imgs/2023/10/1698504826444.jpg",
+            "date_modified": "2023-10-28T22:51:05.000Z"
+        },
+        {
             "id": "https://wiki.eryajf.net/pages/46913a/",
             "url": "https://wiki.eryajf.net/pages/46913a/",
             "title": "五个月后，你将成为一条好汉",
@@ -724,20 +756,20 @@
             "date_modified": "2022-04-03T08:54:17.000Z"
         },
         {
-            "id": "https://wiki.eryajf.net/pages/5463a4/",
-            "url": "https://wiki.eryajf.net/pages/5463a4/",
-            "title": "学习周刊-总第48期-2022年第13周",
-            "summary": "学习周刊-总第48期-2022年第13周",
-            "image": "http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png",
-            "date_modified": "2022-04-09T08:11:16.000Z"
-        },
-        {
             "id": "https://wiki.eryajf.net/pages/0e9bb7/",
             "url": "https://wiki.eryajf.net/pages/0e9bb7/",
             "title": "学习周刊-总第49期-2022年第14周",
             "summary": "学习周刊-总第49期-2022年第14周",
             "image": "http://t.eryajf.net/imgs/2022/04/e70a42f2a49c5580.png",
             "date_modified": "2022-04-17T15:29:35.000Z"
+        },
+        {
+            "id": "https://wiki.eryajf.net/pages/5463a4/",
+            "url": "https://wiki.eryajf.net/pages/5463a4/",
+            "title": "学习周刊-总第48期-2022年第13周",
+            "summary": "学习周刊-总第48期-2022年第13周",
+            "image": "http://t.eryajf.net/imgs/2022/03/6fdb1b816feea7ce.png",
+            "date_modified": "2022-04-09T08:11:16.000Z"
         },
         {
             "id": "https://wiki.eryajf.net/pages/4c8490/",
