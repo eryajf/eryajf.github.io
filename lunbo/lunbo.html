@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二丫讲梵-轮播</title>
+    <link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/c/font_3872971_vwuw7kt2c5.css">
+    <link rel="stylesheet" type="text/css" href="https://wiki.eryajf.net/lunbo/style.css">
+</head>
+<body>
+    <!-- 轮播图容器 -->
+    <div id="carousel">
+        <!-- 图片组 -->
+        <a href="https://wiki.eryajf.net/about/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/05/5b4cb4f9b98669f7.jpg"></a>
+        <a href="https://wiki.eryajf.net/geektime/" target="_blank"><img src="http://t.eryajf.net/imgs/2023/02/11110057673e68d2.png"></a>
+        <a href="https://wiki.eryajf.net/alicloud/" target="_blank"><img src="http://t.eryajf.net/imgs/2023/02/49f78d12401da170.png"></a>
+        <a href="https://wiki.eryajf.net/qqcloud/" target="_blank"><img src="http://t.eryajf.net/imgs/2023/02/749e736da4058528.png"></a>
+        <!-- <a href="https://wiki.eryajf.net/topic/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/04/2b047abd54f8aa81.jpg"></a>
+        <a href="https://wiki.eryajf.net/life/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/05/1cab6963969618be.jpg"></a>
+        <a href="https://wiki.eryajf.net/code/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/05/1d1562505d439647.jpg"></a>
+        <a href="https://wiki.eryajf.net/weekly/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/11/4e2c50099ec9e26b.jpg"></a>
+        <a href="https://wiki.eryajf.net/about/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/12/72a0c2d9a56656a0.jpg"></a>
+        <a href="https://wiki.eryajf.net/friends/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/03/5c9f3183898546f5.jpg"></a>
+        <a href="https://wiki.eryajf.net/tags/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/01/fb6c92925a6f487c.jpeg"></a> -->
+        <a href="https://wiki.eryajf.net/about/" target="_blank"><img src="https://t.eryajf.net/imgs/2022/01/2184c189e2914537.jpg"></a>
+        <!-- 按钮组 -->
+        <div id="leftArrow" class="iconfont icon-icon_arrow_left"></div> <!-- 左箭头切换按钮 -->
+        <div id="rightArrow" class="iconfont icon-icon_arrow_right"></div> <!-- 右箭头切换按钮 -->
+        <div id="sliderBtn"></div> <!-- 切换按钮组 -->
+    </div>
+    <script>
+        var imgArr = []; // 图片数组
+        var curIndex = 0; // 当前显示图片
+        var timer = null; // 定时器
+        var btnList = []; // 右下角切换按钮组
+        function slide(targetIndex = curIndex + 1){
+            curIndex = targetIndex % imgArr.length; // 获取当前index
+            imgArr.forEach((v) => v.className = "" ); // 设置其他图片隐藏
+            imgArr[curIndex].className = "imgActive"; // 设置当前index图片显示
+            btnList.forEach(v => v.className = "unitBtn") // 设置其他按钮为灰色
+            btnList[curIndex].className = "unitBtn btnActive"; // 设置当前按钮为蓝色
+        }
+        function createBtnGroup(carousel,config){
+            document.getElementById("leftArrow").addEventListener('click',(e) => {
+                clearInterval(timer); // 清除定时器，避免手动切换时干扰
+                slide(curIndex-1); // 允许点击则切换上一张
+                timer = setInterval(() => {slide()},config.interval); // 重设定时器
+            })
+            document.getElementById("rightArrow").addEventListener('click',(e) => {
+                clearInterval(timer); // 清除定时器，避免手动切换时干扰
+                slide(curIndex+1); // 允许点击则切换下一张
+                timer = setInterval(() => {slide()},config.interval); // 重设定时器
+            })
+            var sliderBtn = document.getElementById("sliderBtn"); // 获取按钮容器的引用
+            imgArr.forEach((v,i) => {
+                let btn = document.createElement("div"); // 制作按钮
+                btn.className = i === 0 ?  "unitBtn btnActive" : "unitBtn"; // 初设蓝色与灰色按钮样式
+                btn.addEventListener('click',(e) => {
+                    clearInterval(timer); // 清除定时器，避免手动切换时干扰
+                    slide(i); // // 允许点击则切换
+                    timer = setInterval(() => {slide()},config.interval); // 重设定时器
+                })
+                btnList.push(btn); // 添加按钮到按钮组
+                sliderBtn.appendChild(btn); // 追加按钮到按钮容器
+            })
+        }
+        function eventDispose(carousel,config){
+            document.addEventListener('visibilitychange',function(){ // 浏览器切换页面会导致动画出现问题，监听页面切换
+                if(document.visibilityState=='hidden') clearInterval(timer); // 页面隐藏清除定时器
+                else timer = setInterval(() => {slide()},config.interval); // 重设定时器
+            });
+            carousel.addEventListener('mouseover',function(){ // 鼠标移动到容器则不切换动画，停止计时器
+                clearInterval(timer); // 页面隐藏清除定时器
+            });
+            carousel.addEventListener('mouseleave',function(){ // 鼠标移出容器则开始动画
+                timer = setInterval(() => {slide()},config.interval); // 重设定时器
+            });
+        }
+        (function start() {
+            var config = {
+                height: "500px", // 配置高度
+                interval: 3000 // 配置轮播时间间隔
+            }
+            var carousel = document.getElementById("carousel"); //获取容器对象的引用
+            carousel.style.height = config.height; // 将轮播容器高度设定
+            document.querySelectorAll("#carousel a").forEach((v,i) => {
+                imgArr.push(v); // 获取所有图片组成数组
+                v.className = i === 0 ?  "imgActive" : "";
+            });
+            eventDispose(carousel,config); // 对一些浏览器事件处理
+            createBtnGroup(carousel,config); // 按钮组的处理
+            timer = setInterval(() => {slide()},config.interval); // 设置定时器定时切换
+        })();
+    </script>
+</body>
+</html>
